@@ -1,0 +1,25 @@
+{
+  "show" : {
+    "projects" : [
+      "https://github.com/feedhenry/blank-project.git",
+      "https://github.com/feedhenry/appforms-project.git",
+      "https://github.com/feedhenry/welcome-project.git"
+    ],
+    "apps" : [
+      "https://github.com/feedhenry/fh-basic-hybrid-blank-app.git",
+      "https://github.com/feedhenry/fh-cloud-mbaas-instance-blank.git",
+      "https://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
+      "https://github.com/feedhenry/fh-android-sdk-blank-app.git",
+      "https://github.com/feedhenry/fh-ios-sdk-blank-app.git",
+      "https://github.com/feedhenry/fh-basic-webapp-blank-app.git",
+      "https://github.com/feedhenry/fh-advanced-webapp-blank-app.git",  
+    ],
+  },
+  "hide" : {
+    "projects" : [],
+    "apps" : []
+  }
+}
+
+
+
