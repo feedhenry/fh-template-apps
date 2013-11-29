@@ -15,7 +15,7 @@
     ]
   },
   "hide": {
-    "projects": [],
-    "apps": []
+    "projectTemplates": [],
+    "appTemplates": []
   }
 }
