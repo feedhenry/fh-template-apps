@@ -11,7 +11,8 @@
       "https://raw.github.com/feedhenry/fh-android-sdk-blank-app/master/app-template.json",
       "https://raw.github.com/feedhenry/fh-ios-sdk-blank-app/master/app-template.json",
       "https://raw.github.com/feedhenry/fh-advanced-hybrid-blank-app/master/app-template.json",
-      "https://raw.github.com/feedhenry/fh-basic-webapp-blank-app/master/app-template.json"
+      "https://raw.github.com/feedhenry/fh-basic-webapp-blank-app/master/app-template.json",
+      "https://raw.github.com/feedhenry/fh-advanced-webapp-blank-app/master/app-template.json"
     ]
   },
   "hide": {
