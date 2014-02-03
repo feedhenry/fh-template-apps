@@ -13,10 +13,18 @@
       "https://raw.github.com/feedhenry/fh-advanced-hybrid-blank-app/master/app-template.json",
       "https://raw.github.com/feedhenry/fh-basic-webapp-blank-app/master/app-template.json",
       "https://raw.github.com/feedhenry/fh-advanced-webapp-blank-app/master/app-template.json"
+    ],
+    "formTemplates": [
+      "https://raw.github.com/feedhenry/fh-appform-form-templates/testForm1/form-definition.json"
+    ],
+    "themeTemplates": [
+      "https://raw.github.com/feedhenry/fh-appform-theme-templates/testTheme1/theme-definition.json"
     ]
   },
   "hide": {
     "projectTemplates": [],
-    "appTemplates": []
+    "appTemplates": [],
+    "formTemplates": [],
+    "themeTemplates": []
   }
 }
