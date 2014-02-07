@@ -13,6 +13,11 @@
       "https://raw.github.com/feedhenry/fh-advanced-hybrid-blank-app/master/app-template.json",
       "https://raw.github.com/feedhenry/fh-basic-webapp-blank-app/master/app-template.json",
       "https://raw.github.com/feedhenry/fh-advanced-webapp-blank-app/master/app-template.json"
+    ],
+    "connectorTemplates" : [
+      "https://raw.github.com/feedhenry/fh-connector-salesforce/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-twilio/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-sendgrid/master/project-template.json"
     ]
   },
   "hide": {
