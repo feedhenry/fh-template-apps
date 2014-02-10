@@ -22,6 +22,7 @@
   },
   "hide": {
     "projectTemplates": [],
-    "appTemplates": []
+    "appTemplates": [],
+    "connectorTemplates": []
   }
 }
