@@ -30,7 +30,8 @@
       "https://raw.github.com/feedhenry/fh-connector-sendgrid/master/project-template.json",
       "https://raw.github.com/feedhenry/fh-connector-mysql/master/project-template.json",
       "https://raw.github.com/feedhenry/fh-connector-mongodb/master/project-template.json",
-      "https://raw.github.com/feedhenry/fh-connector-stripe/master/project-template.json"
+      "https://raw.github.com/feedhenry/fh-connector-stripe/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-oraclecrm/master/project-template.json"
     ]
   },
   "hide": {
