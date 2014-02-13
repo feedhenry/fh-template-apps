@@ -26,6 +26,7 @@
     "connectorTemplates" : [
       "https://raw.github.com/feedhenry/fh-connector-blank/master/project-template.json",
       "https://raw.github.com/feedhenry/fh-connector-salesforce/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-oraclecrm/master/project-template.json",
       "https://raw.github.com/feedhenry/fh-connector-twilio/master/project-template.json",
       "https://raw.github.com/feedhenry/fh-connector-sendgrid/master/project-template.json",
       "https://raw.github.com/feedhenry/fh-connector-mysql/master/project-template.json",
