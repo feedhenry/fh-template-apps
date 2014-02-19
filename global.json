@@ -20,8 +20,7 @@
       "https://raw.github.com/feedhenry/fh-appform-form-templates/master/oneOfEachField.json"
     ],
     "themeTemplates": [
-      "https://raw.github.com/feedhenry/fh-appform-theme-templates/master/testTheme1.json",
-      "https://raw.github.com/feedhenry/fh-appform-theme-templates/master/testTheme2.json"
+      "https://raw.github.com/feedhenry/fh-appform-theme-templates/master/phase2Theme.json"
     ],
     "connectorTemplates" : [
       "https://raw.github.com/feedhenry/fh-connector-blank/master/project-template.json",
