@@ -13,7 +13,8 @@
       "https://raw.github.com/feedhenry/fh-ios-sdk-blank-app/master/app-template.json",
       "https://raw.github.com/feedhenry/fh-advanced-hybrid-blank-app/master/app-template.json",
       "https://raw.github.com/feedhenry/fh-basic-webapp-blank-app/master/app-template.json",
-      "https://raw.github.com/feedhenry/fh-advanced-webapp-blank-app/master/app-template.json"
+      "https://raw.github.com/feedhenry/fh-advanced-webapp-blank-app/master/app-template.json",
+      "https://raw.github.com/feedhenry/appforms-project-client/6004_split_appforms_phase_3/app-template.json"
     ],
     "formTemplates": [
       "https://raw.github.com/feedhenry/fh-appform-form-templates/master/formTemplate1.json",
