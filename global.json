@@ -21,13 +21,24 @@
       "https://raw.github.com/feedhenry/fh-appform-form-templates/master/oneOfEachField.json"
     ],
     "themeTemplates": [
-      "https://raw.github.com/feedhenry/fh-appform-theme-templates/master/testTheme1.json",
-      "https://raw.github.com/feedhenry/fh-appform-theme-templates/master/testTheme2.json"
+      "https://raw.github.com/feedhenry/fh-appform-theme-templates/master/phase2Theme.json"
     ],
     "connectorTemplates" : [
+      "https://raw.github.com/feedhenry/fh-connector-blank/master/project-template.json",
       "https://raw.github.com/feedhenry/fh-connector-salesforce/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-oraclecrm/master/project-template.json",
       "https://raw.github.com/feedhenry/fh-connector-twilio/master/project-template.json",
-      "https://raw.github.com/feedhenry/fh-connector-sendgrid/master/project-template.json"
+      "https://raw.github.com/feedhenry/fh-connector-sendgrid/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-mysql/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-mongodb/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-stripe/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-amazon-ses/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-amazon-sqs/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-google/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-intercom/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-sap-netweaver/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-paypal/master/project-template.json",
+      "https://raw.github.com/feedhenry/fh-connector-sharepoint/master/project-template.json"
     ]
   },
   "hide": {
