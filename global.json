@@ -16,6 +16,8 @@
       "https://raw.github.com/feedhenry/appforms-project-client/6004_split_appforms_phase_3/app-template.json"
     ],
     "formTemplates": [
+      "https://raw.github.com/feedhenry/fh-appform-form-templates/master/blankForm.json",
+      "https://raw.github.com/feedhenry/fh-appform-form-templates/master/feedbackForm.json",
       "https://raw.github.com/feedhenry/fh-appform-form-templates/master/formTemplate1.json",
       "https://raw.github.com/feedhenry/fh-appform-form-templates/master/formTemplate2.json",
       "https://raw.github.com/feedhenry/fh-appform-form-templates/master/oneOfEachField.json"
