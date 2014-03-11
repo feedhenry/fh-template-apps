@@ -6,7 +6,7 @@
       "https://raw.github.com/feedhenry/welcome-project/master/project-template.json"
     ],
     "appTemplates": [
-      "https://raw.github.com/feedhenry/fh-basic-hybrid-blank-app/master/app-template.json",
+      "https://raw.github.com/feedhenry/fh-basic-hybrid-blank-app/6066-connection-bugfixing/app-template.json",
       "https://raw.github.com/feedhenry/fh-cloud-mbaas-instance-blank/master/app-template.json",
       "https://raw.github.com/feedhenry/fh-android-sdk-blank-app/master/app-template.json",
       "https://raw.github.com/feedhenry/fh-ios-sdk-blank-app/master/app-template.json",
