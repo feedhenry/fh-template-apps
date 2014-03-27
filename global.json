@@ -7,7 +7,7 @@
     ],
     "appTemplates": [
       "https://raw.github.com/feedhenry/fh-basic-hybrid-blank-app/6066-connection-bugfixing/app-template.json",
-      "https://raw.github.com/feedhenry/fh-cloud-mbaas-instance-blank/master/app-template.json",
+      "https://raw.github.com/feedhenry/fh-cloud-mbaas-instance-blank/6066-connection-bugfixing/app-template.json",
       "https://raw.github.com/feedhenry/fh-android-sdk-blank-app/6066-connection-bugfixing/app-template.json",
       "https://raw.github.com/feedhenry/fh-ios-sdk-blank-app/6066-connection-bugfixing/app-template.json",
       "https://raw.github.com/feedhenry/fh-advanced-hybrid-blank-app/6066-connection-bugfixing/app-template.json",
