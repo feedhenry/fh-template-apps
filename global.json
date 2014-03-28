@@ -2,7 +2,7 @@
   "show": {
     "projectTemplates": [
       "https://raw.github.com/feedhenry/fh-blank-project/master/project-template.json",
-      "https://raw.github.com/feedhenry/appforms-project/6004_split_appforms_phase_3/project-template.json",
+      "https://raw.githubusercontent.com/feedhenry/appforms-project/master/project-template.json",
       "https://raw.github.com/feedhenry/welcome-project/master/project-template.json"
     ],
     "appTemplates": [
