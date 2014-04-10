@@ -1,6 +1,7 @@
 {
   "show": {
     "projectTemplates": [
+      "https://raw.github.com/feedhenry-templates/bare-project/master/project-template.json",
       "https://raw.github.com/feedhenry/fh-blank-project/6066-connection-bugfixing/project-template.json",
       "https://raw.github.com/feedhenry/appforms-project/master/project-template.json",
       "https://raw.github.com/feedhenry/welcome-project/6066-connection-bugfixing/project-template.json",
