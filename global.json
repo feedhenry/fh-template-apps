@@ -2,14 +2,14 @@
   "show": {
     "projectTemplates": [
       "https://raw.github.com/feedhenry-templates/bare-project/master/project-template.json",
-      "https://raw.github.com/feedhenry/fh-blank-project/6066-connection-bugfixing/project-template.json",
+      "https://raw.github.com/feedhenry-templates/helloworld-project/6701_helloworld_renaming/project-template.json",
       "https://raw.github.com/feedhenry/appforms-project/master/project-template.json",
       "https://raw.github.com/feedhenry/welcome-project/6066-connection-bugfixing/project-template.json",
       "https://raw.github.com/feedhenry-training/team-to-do-backbone-project/master/project-template.json"
     ],
     "appTemplates": [
-      "https://raw.github.com/feedhenry/fh-basic-hybrid-blank-app/6066-connection-bugfixing/app-template.json",
-      "https://raw.github.com/feedhenry/fh-cloud-mbaas-instance-blank/6066-connection-bugfixing/app-template.json",
+      "https://raw.github.com/feedhenry-templates/helloworld-app/6701_helloworld_renaming/app-template.json",
+      "https://raw.github.com/feedhenry-templates/helloworld-mbaas/6701_helloworld_renaming/app-template.json",
       "https://raw.github.com/feedhenry/fh-android-sdk-blank-app/6066-connection-bugfixing/app-template.json",
       "https://raw.github.com/feedhenry/fh-ios-sdk-blank-app/6066-connection-bugfixing/app-template.json",
       "https://raw.github.com/feedhenry/fh-advanced-hybrid-blank-app/6066-connection-bugfixing/app-template.json",
