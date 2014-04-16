@@ -20,9 +20,9 @@
     "formTemplates": [
       "https://raw.github.com/feedhenry/fh-appform-form-templates/master/blankForm.json",
       "https://raw.github.com/feedhenry/fh-appform-form-templates/master/feedbackForm.json",
-      "https://raw.github.com/feedhenry/fh-appform-form-templates/master/formTemplate1.json",
-      "https://raw.github.com/feedhenry/fh-appform-form-templates/master/formTemplate2.json",
-      "https://raw.github.com/feedhenry/fh-appform-form-templates/master/oneOfEachField.json"
+      "https://raw.github.com/feedhenry/fh-appform-form-templates/master/oneOfEachField.json",
+      "https://raw.github.com/feedhenry/fh-appform-form-templates/master/feedbackForm.json",
+      "https://raw.github.com/feedhenry/fh-appform-form-templates/master/incidentReport.json"
     ],
     "themeTemplates": [
       "https://raw.github.com/feedhenry/fh-appform-theme-templates/master/phase2Theme.json"
