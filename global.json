@@ -22,7 +22,8 @@
       "https://raw.github.com/feedhenry/fh-appform-form-templates/master/feedbackForm.json",
       "https://raw.github.com/feedhenry/fh-appform-form-templates/master/oneOfEachField.json",
       "https://raw.github.com/feedhenry/fh-appform-form-templates/master/feedbackForm.json",
-      "https://raw.github.com/feedhenry/fh-appform-form-templates/master/incidentReport.json"
+      "https://raw.github.com/feedhenry/fh-appform-form-templates/master/incidentReport.json",
+      "https://raw.github.com/feedhenry/fh-appform-form-templates/master/citizensReport.json"
     ],
     "themeTemplates": [
       "https://raw.github.com/feedhenry/fh-appform-theme-templates/master/phase2Theme.json"
