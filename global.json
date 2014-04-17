@@ -57,6 +57,16 @@
             "repoBranch": "refs/heads/6066-connection-bugfixing",
             "icon": "icon-cloud",
             "category": "Sample Apps"
+          },
+            {
+            "id": "hello_world_mbaas_instance_cluster",
+            "name": "Hello World MBaaS Instance Cluster",
+            "type": "cloud_nodejs",
+            "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas-cluster/master/README.md",
+            "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas-cluster.git",
+            "repoBranch": "refs/heads/master",
+            "icon": "icon-cloud",
+            "category": "Sample Apps"
           }
         ]
       },
@@ -97,6 +107,16 @@
             "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
             "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
             "repoBranch": "refs/heads/6066-connection-bugfixing",
+            "icon": "icon-cloud",
+            "category": "Sample Apps"
+          },
+          {
+            "id": "hello_world_mbaas_instance_cluster",
+            "name": "Hello World MBaaS Instance Cluster",
+            "type": "cloud_nodejs",
+            "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas-cluster/master/README.md",
+            "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas-cluster.git",
+            "repoBranch": "refs/heads/master",
             "icon": "icon-cloud",
             "category": "Sample Apps"
           }
@@ -201,6 +221,16 @@
         "category": "Sample Apps"
       },
       {
+        "id": "hello_world_mbaas_instance_cluster",
+        "name": "Hello World MBaaS Instance Cluster",
+        "type": "cloud_nodejs",
+        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas-cluster/master/README.md",
+        "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas-cluster.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-cloud",
+        "category": "Sample Apps"
+      },
+      {
         "id": "blank_native_android_client",
         "name": "Blank Native Android Client",
         "type": "client_native_android",
@@ -273,6 +303,16 @@
             "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
             "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
             "repoBranch": "refs/heads/6066-connection-bugfixing",
+            "icon": "icon-cloud",
+            "category": "Sample Apps"
+          },
+          {
+            "id": "hello_world_mbaas_instance_cluster",
+            "name": "Hello World MBaaS Instance Cluster",
+            "type": "cloud_nodejs",
+            "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas-cluster/master/README.md",
+            "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas-cluster.git",
+            "repoBranch": "refs/heads/master",
             "icon": "icon-cloud",
             "category": "Sample Apps"
           }
