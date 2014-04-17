@@ -178,7 +178,7 @@
         "name": "Hello World Client",
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
-        "repoBranch": "refs/heads/6737_one_big_global",
+        "repoBranch": "refs/heads/6066-connection-bugfixing",
         "icon": "icon-html5",
         "category": "Blank Apps",
         "screenshots": [
@@ -196,7 +196,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
-        "repoBranch": "refs/heads/6737_one_big_global",
+        "repoBranch": "refs/heads/6066-connection-bugfixing",
         "icon": "icon-cloud",
         "category": "Sample Apps"
       },
@@ -205,7 +205,7 @@
         "name": "Blank Native Android Client",
         "type": "client_native_android",
         "repoUrl": "git://github.com/feedhenry/fh-android-sdk-blank-app.git",
-        "repoBranch": "refs/heads/6737_one_big_global",
+        "repoBranch": "refs/heads/6066-connection-bugfixing",
         "icon": "icon-android",
         "category": "Blank Apps"
       },
@@ -214,7 +214,7 @@
         "name": "Blank Native iOS Client",
         "type": "client_native_ios",
         "repoUrl": "git://github.com/feedhenry/fh-ios-sdk-blank-app.git",
-        "repoBranch": "refs/heads/6737_one_big_global",
+        "repoBranch": "refs/heads/6066-connection-bugfixing",
         "icon": "icon-apple",
         "category": "Blank Apps"
       },
@@ -223,7 +223,7 @@
         "name": "Blank Advanced Hybrid Client",
         "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
-        "repoBranch": "refs/heads/6737_one_big_global",
+        "repoBranch": "refs/heads/6066-connection-bugfixing",
         "icon": "icon-html5",
         "category": "Blank Apps"
       },
@@ -232,7 +232,7 @@
         "name": "Blank Basic Web App",
         "type": "webapp_basic",
         "repoUrl": "git://github.com/feedhenry/fh-basic-webapp-blank-app.git",
-        "repoBranch": "refs/heads/6737_one_big_global",
+        "repoBranch": "refs/heads/6066-connection-bugfixing",
         "icon": "icon-globe",
         "category": "Blank Apps"
       },
@@ -241,7 +241,7 @@
         "name": "Blank Advanced Web App",
         "type": "webapp_advanced",
         "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
-        "repoBranch": "refs/heads/6737_one_big_global",
+        "repoBranch": "refs/heads/6066-connection-bugfixing",
         "icon": "icon-globe",
         "category": "Blank Apps"
       },
@@ -251,7 +251,7 @@
         "icon": "icon-check",
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry/appforms-project-client.git",
-        "repoBranch": "refs/heads/6737_one_big_global",
+        "repoBranch": "refs/heads/master",
         "category": "Forms"
       }
     ],
@@ -403,201 +403,7 @@
         }
       },
       {
-        "_id": "52dfd9091234562e3f000001",
-        "description": "A small form template.",
-        "name": "Form Template 1",
-        "updatedBy": "testing-admin@example.com",
-        "pageRules": [
-
-        ],
-        "fieldRules": [
-
-        ],
-        "pages": [
-          {
-            "_id": "52dfd909a926eb2e3f000001",
-            "name": "A Page",
-            "fields": [
-              {
-                "_id": "52dfd93ee02b762d3f000001",
-                "fieldOptions": {
-                  "definition": {
-                    "defaultValue": "",
-                    "minRepeat": 1,
-                    "maxRepeat": 5,
-                    "min": "5",
-                    "max": "20"
-                  }
-                },
-                "helpText": "Text",
-                "name": "Text",
-                "required": true,
-                "type": "text",
-                "repeating": true
-              },
-              {
-                "required": true,
-                "type": "file",
-                "name": "File",
-                "helpText": "File",
-                "_id": "52dfd93ee02b762d3f000002",
-                "repeating": false
-              },
-              {
-                "fieldOptions": {
-                  "definition": {
-                    "datetimeUnit": "datetime"
-                  }
-                },
-                "required": true,
-                "type": "dateTime",
-                "name": "Some Date",
-                "helpText": "Date and time please.",
-                "_id": "52ea8adaca809f6825000002",
-                "repeating": false
-              }
-            ]
-          },
-          {
-            "name": "Page 2",
-            "_id": "52dff729e02b762d3f000004",
-            "fields": [
-              {
-                "required": true,
-                "type": "text",
-                "name": "Page 2 Text",
-                "helpText": "Page 2 Text",
-                "_id": "52dff729e02b762d3f000003",
-                "repeating": false
-              }
-            ]
-          }
-        ],
-        "lastUpdated": "2014-01-30T17:24:42.021Z",
-        "dateCreated": "2014-01-22T14:43:21.806Z",
-        "pageRef": {
-          "52dfd909a926eb2e3f000001": 0,
-          "52dff729e02b762d3f000004": 1
-        },
-        "fieldRef": {
-          "52dfd93ee02b762d3f000001": {
-            "page": 0,
-            "field": 0
-          },
-          "52dfd93ee02b762d3f000002": {
-            "page": 0,
-            "field": 1
-          },
-          "52ea8adaca809f6825000002": {
-            "page": 0,
-            "field": 2
-          },
-          "52dff729e02b762d3f000003": {
-            "page": 1,
-            "field": 0
-          }
-        },
-        "lastUpdatedTimestamp": 1391102682021
-      },
-      {
-        "_id": "52dfd9094321562e3f000001",
-        "description": "Another small form template.",
-        "name": "Form Template 2",
-        "updatedBy": "testing-admin@example.com",
-        "pageRules": [
-
-        ],
-        "fieldRules": [
-
-        ],
-        "pages": [
-          {
-            "_id": "52dfd909a926eb2e3f000001",
-            "name": "A Page",
-            "fields": [
-              {
-                "_id": "52dfd93ee02b762d3f000001",
-                "fieldOptions": {
-                  "definition": {
-                    "defaultValue": "",
-                    "minRepeat": 1,
-                    "maxRepeat": 5,
-                    "min": "5",
-                    "max": "20"
-                  }
-                },
-                "helpText": "Text",
-                "name": "Text",
-                "required": true,
-                "type": "text",
-                "repeating": true
-              },
-              {
-                "required": true,
-                "type": "file",
-                "name": "File",
-                "helpText": "File",
-                "_id": "52dfd93ee02b762d3f000002",
-                "repeating": false
-              },
-              {
-                "fieldOptions": {
-                  "definition": {
-                    "datetimeUnit": "datetime"
-                  }
-                },
-                "required": true,
-                "type": "dateTime",
-                "name": "Some Date",
-                "helpText": "Date and time please.",
-                "_id": "52ea8adaca809f6825000002",
-                "repeating": false
-              }
-            ]
-          },
-          {
-            "name": "Page 2",
-            "_id": "52dff729e02b762d3f000004",
-            "fields": [
-              {
-                "required": true,
-                "type": "text",
-                "name": "Page 2 Text",
-                "helpText": "Page 2 Text",
-                "_id": "52dff729e02b762d3f000003",
-                "repeating": false
-              }
-            ]
-          }
-        ],
-        "lastUpdated": "2014-01-30T17:24:42.021Z",
-        "dateCreated": "2014-01-22T14:43:21.806Z",
-        "pageRef": {
-          "52dfd909a926eb2e3f000001": 0,
-          "52dff729e02b762d3f000004": 1
-        },
-        "fieldRef": {
-          "52dfd93ee02b762d3f000001": {
-            "page": 0,
-            "field": 0
-          },
-          "52dfd93ee02b762d3f000002": {
-            "page": 0,
-            "field": 1
-          },
-          "52ea8adaca809f6825000002": {
-            "page": 0,
-            "field": 2
-          },
-          "52dff729e02b762d3f000003": {
-            "page": 1,
-            "field": 0
-          }
-        },
-        "lastUpdatedTimestamp": 1391102682021
-      },
-      {
-        "_id": "52f8f594b123473576000002",
+        "_id": "2",
         "description": "One Of Each Form",
         "name": "One Of Each",
         "updatedBy": "testing-admin@example.com",
@@ -624,8 +430,6 @@
               {
                 "fieldOptions": {
                   "definition": {
-                    "minRepeat": 1,
-                    "maxRepeat": 5
                   },
                   "validation": {
                     "min": "5"
@@ -636,14 +440,12 @@
                 "name": "Text",
                 "helpText": "Input Some Text",
                 "_id": "52f8f5bab279773576000003",
-                "repeating": true
+                "repeating": false
               },
               {
                 "fieldOptions": {
                   "definition": {
-                    "defaultValue": "3",
-                    "minRepeat": 1,
-                    "maxRepeat": 5
+                    "defaultValue": "3"
                   },
                   "validation": {
                     "min": "34"
@@ -654,20 +456,18 @@
                 "name": "Number",
                 "helpText": "Enter A Number",
                 "_id": "52f8f642012ae43676000005",
-                "repeating": true
+                "repeating": false
               },
               {
                 "fieldOptions": {
                   "definition": {
-                    "minRepeat": 1,
-                    "maxRepeat": 5
                   }
                 },
                 "required": true,
                 "type": "url",
                 "name": "Web URL",
                 "_id": "52f8f642012ae43676000006",
-                "repeating": true
+                "repeating": false
               },
               {
                 "fieldOptions": {
@@ -681,9 +481,7 @@
                         "label": "Radio 2",
                         "checked": true
                       }
-                    ],
-                    "minRepeat": 1,
-                    "maxRepeat": 5
+                    ]
                   }
                 },
                 "required": true,
@@ -691,7 +489,7 @@
                 "name": "Radio",
                 "helpText": "Radio Buttons",
                 "_id": "52f8f642012ae43676000007",
-                "repeating": true
+                "repeating": false
               }
             ]
           },
@@ -710,9 +508,7 @@
               {
                 "fieldOptions": {
                   "definition": {
-                    "locationUnit": "latlong",
-                    "minRepeat": 1,
-                    "maxRepeat": 5
+                    "locationUnit": "latlong"
                   }
                 },
                 "required": true,
@@ -720,13 +516,11 @@
                 "name": "Location",
                 "helpText": "Location Lat Long",
                 "_id": "52f8f642012ae43676000002",
-                "repeating": true
+                "repeating": false
               },
               {
                 "fieldOptions": {
                   "definition": {
-                    "minRepeat": 1,
-                    "maxRepeat": 5
                   }
                 },
                 "required": true,
@@ -734,14 +528,12 @@
                 "name": "Signature",
                 "helpText": "Write A Signature",
                 "_id": "52f8f6d2012ae43676000009",
-                "repeating": true
+                "repeating": false
               },
               {
                 "fieldOptions": {
                   "definition": {
-                    "defaultValue": "Paragraph",
-                    "minRepeat": 1,
-                    "maxRepeat": 5
+                    "defaultValue": "Paragraph"
                   },
                   "validation": {
                     "min": "4"
@@ -752,13 +544,11 @@
                 "name": "Paragraph",
                 "helpText": "Paragraph",
                 "_id": "52f8f6d2012ae4367600000a",
-                "repeating": true
+                "repeating": false
               },
               {
                 "fieldOptions": {
                   "definition": {
-                    "minRepeat": 1,
-                    "maxRepeat": 5
                   }
                 },
                 "required": true,
@@ -766,7 +556,7 @@
                 "name": "E-Mail",
                 "helpText": "Enter Email Address",
                 "_id": "52f8f6d2012ae4367600000b",
-                "repeating": true
+                "repeating": false
               },
               {
                 "required": true,
@@ -814,7 +604,6 @@
                     ]
                   }
                 },
-                "required": true,
                 "type": "checkboxes",
                 "name": "Checkboxes",
                 "helpText": "Checkboxes",
@@ -824,8 +613,6 @@
               {
                 "fieldOptions": {
                   "definition": {
-                    "minRepeat": 1,
-                    "maxRepeat": 5
                   }
                 },
                 "required": true,
@@ -833,13 +620,11 @@
                 "name": "Map",
                 "helpText": "Map Location",
                 "_id": "52f8f765012ae4367600000f",
-                "repeating": true
+                "repeating": false
               },
               {
                 "fieldOptions": {
                   "definition": {
-                    "minRepeat": 1,
-                    "maxRepeat": 5,
                     "photoHeight": "1000",
                     "photoWidth": "1000",
                     "photoQuality": "50"
@@ -850,14 +635,12 @@
                 "name": "Photo Capture",
                 "helpText": "Photo Capture",
                 "_id": "52f8f765012ae43676000010",
-                "repeating": true
+                "repeating": false
               },
               {
                 "fieldOptions": {
                   "definition": {
-                    "datetimeUnit": "time",
-                    "minRepeat": 1,
-                    "maxRepeat": 5
+                    "datetimeUnit": "time"
                   }
                 },
                 "required": true,
@@ -865,14 +648,12 @@
                 "name": "Date Stamp",
                 "helpText": "Time Only",
                 "_id": "52f8f7ab012ae43676000011",
-                "repeating": true
+                "repeating": false
               },
               {
                 "fieldOptions": {
                   "definition": {
-                    "datetimeUnit": "date",
-                    "minRepeat": 1,
-                    "maxRepeat": 5
+                    "datetimeUnit": "date"
                   }
                 },
                 "required": true,
@@ -880,14 +661,12 @@
                 "name": "Date Stamp",
                 "helpText": "Date Only",
                 "_id": "52f8f7ab012ae43676000012",
-                "repeating": true
+                "repeating": false
               },
               {
                 "fieldOptions": {
                   "definition": {
-                    "datetimeUnit": "datetime",
-                    "minRepeat": 1,
-                    "maxRepeat": 5
+                    "datetimeUnit": "datetime"
                   }
                 },
                 "required": true,
@@ -895,7 +674,7 @@
                 "name": "Date Stamp",
                 "helpText": "Date And Time",
                 "_id": "52f8f7ab012ae43676000013",
-                "repeating": true
+                "repeating": false
               }
             ]
           }
@@ -981,6 +760,416 @@
           }
         },
         "lastUpdatedTimestamp": 1392048043911
+      },
+      {
+        "_id": "3",
+        "lastUpdated": "2014-02-26T23:41:48.798Z",
+        "icon": "icon-user",
+        "description": "Consumer or internal form for receiving feedback",
+        "name": "Feedback Form",
+        "lastUpdatedTimestamp": 1393458005873,
+        "appsUsingForm": 0,
+        "submissionsToday": 0,
+        "submissionsTotal": 0,
+        "updatedBy": "info@feedhenry.com",
+        "subscribers": [
+
+        ],
+        "pageRules": [
+
+        ],
+        "fieldRules": [
+
+        ],
+        "dateCreated": "2014-02-26T23:25:20.618Z",
+        "pages": [
+          {
+            "_id": "530e7aeefefc780e6cb3aabe",
+            "fields": [
+              {
+                "required": true,
+                "type": "text",
+                "name": "Name",
+                "_id": "530e7aeefefc780e6cb3aabc",
+                "repeating": false
+              },
+              {
+                "fieldOptions": {
+                  "definition": {
+                    "options": [
+                      {
+                        "label": "Excellent",
+                        "checked": false
+                      },
+                      {
+                        "label": "Good",
+                        "checked": false
+                      },
+                      {
+                        "checked": false,
+                        "name": "",
+                        "label": "Average"
+                      },
+                      {
+                        "checked": false,
+                        "name": "",
+                        "label": "Fair"
+                      },
+                      {
+                        "checked": false,
+                        "name": "",
+                        "label": "Poor"
+                      }
+                    ]
+                  }
+                },
+                "required": true,
+                "type": "radio",
+                "name": "How would you rate your experience?",
+                "_id": "530e7bbcfefc780e6cb3aabf",
+                "repeating": false
+              },
+              {
+                "required": true,
+                "type": "textarea",
+                "name": "Further Comments",
+                "_id": "530e7bbcfefc780e6cb3aac0",
+                "repeating": false
+              },
+              {
+                "fieldOptions": {
+                  "definition": {
+                    "datetimeUnit": "datetime",
+                    "timeAutopopulate": true
+                  }
+                },
+                "required": true,
+                "type": "dateTime",
+                "name": "Today's Date",
+                "_id": "530e7bbcfefc780e6cb3aac1",
+                "repeating": false
+              }
+            ]
+          }
+        ],
+        "pageRef": {
+          "530e7aeefefc780e6cb3aabe": 0
+        },
+        "fieldRef": {
+          "530e7aeefefc780e6cb3aabc": {
+            "page": 0,
+            "field": 0
+          },
+          "530e7bbcfefc780e6cb3aabf": {
+            "page": 0,
+            "field": 1
+          },
+          "530e7bbcfefc780e6cb3aac0": {
+            "page": 0,
+            "field": 2
+          },
+          "530e7bbcfefc780e6cb3aac1": {
+            "page": 0,
+            "field": 3
+          }
+        }
+      },
+      {
+        "updatedBy": "testing-admin@example.com",
+        "name": "Incident Report",
+        "description": "Form for reporting incidents that have happened, including severity and optional picture.",
+        "_id": "5",
+        "icon": "icon-warning-sign",
+        "subscribers": [
+
+        ],
+        "pageRules": [
+
+        ],
+        "fieldRules": [
+
+        ],
+        "pages": [
+          {
+            "_id": "534eae0d454143b251e290c2",
+            "fields": [
+              {
+                "fieldOptions": {
+                  "validation": {
+                    "validateImmediately": true
+                  }
+                },
+                "required": true,
+                "type": "text",
+                "name": "Incident Summary",
+                "helpText": "Provide a short description for what happened",
+                "_id": "534eaf14454143b251e290c4",
+                "repeating": false
+              },
+              {
+                "fieldOptions": {
+                  "validation": {
+                    "validateImmediately": true
+                  }
+                },
+                "required": true,
+                "type": "textarea",
+                "name": "Incident details",
+                "helpText": "Provide all relevant details about this incident",
+                "_id": "534eaf14454143b251e290c5",
+                "repeating": false
+              },
+              {
+                "fieldOptions": {
+                  "validation": {
+                    "validateImmediately": true
+                  },
+                  "definition": {
+                    "options": [
+                      {
+                        "label": "Low Severity",
+                        "checked": false
+                      },
+                      {
+                        "label": "Medium Severity",
+                        "checked": false
+                      },
+                      {
+                        "checked": false,
+                        "name": "",
+                        "label": "Urgent"
+                      },
+                      {
+                        "checked": false,
+                        "name": "",
+                        "label": "Critical"
+                      }
+                    ],
+                    "include_blank_option": false
+                  }
+                },
+                "required": true,
+                "type": "dropdown",
+                "name": "Severity of this incident",
+                "helpText": "How soon",
+                "_id": "534eaf14454143b251e290c6",
+                "repeating": false
+              },
+              {
+                "fieldOptions": {
+                  "validation": {
+                    "validateImmediately": true
+                  },
+                  "definition": {
+                    "locationUnit": "latlong"
+                  }
+                },
+                "required": false,
+                "type": "location",
+                "name": "Incident Location",
+                "helpText": "Specify where this location happened",
+                "_id": "534eaf14454143b251e290c7",
+                "repeating": false
+              },
+              {
+                "fieldOptions": {
+                  "validation": {
+                    "validateImmediately": true
+                  },
+                  "definition": {
+                    "minRepeat": 1,
+                    "maxRepeat": 5
+                  }
+                },
+                "required": false,
+                "type": "photo",
+                "name": "Incident Photo(s)",
+                "helpText": "Add a photograph of this incident where relevant",
+                "_id": "534eaf14454143b251e290c8",
+                "repeating": false
+              },
+              {
+                "fieldOptions": {
+                  "validation": {
+                    "validateImmediately": true
+                  }
+                },
+                "required": true,
+                "type": "signature",
+                "name": "Signature",
+                "helpText": "I acknowledge all reported details are accurate to the best of my knowledge",
+                "_id": "534eaf14454143b251e290c9",
+                "repeating": false
+              }
+            ]
+          }
+        ],
+        "lastUpdated": "2014-04-16T16:25:56.420Z",
+        "dateCreated": "2014-04-16T16:21:33.538Z",
+        "pageRef": {
+          "534eae0d454143b251e290c2": 0
+        },
+        "fieldRef": {
+          "534eaf14454143b251e290c4": {
+            "page": 0,
+            "field": 0
+          },
+          "534eaf14454143b251e290c5": {
+            "page": 0,
+            "field": 1
+          },
+          "534eaf14454143b251e290c6": {
+            "page": 0,
+            "field": 2
+          },
+          "534eaf14454143b251e290c7": {
+            "page": 0,
+            "field": 3
+          },
+          "534eaf14454143b251e290c8": {
+            "page": 0,
+            "field": 4
+          },
+          "534eaf14454143b251e290c9": {
+            "page": 0,
+            "field": 5
+          }
+        },
+        "lastUpdatedTimestamp": 1397665556420
+      },
+      {
+        "updatedBy": "testing-admin@example.com",
+        "name": "Citizens Report",
+        "description": "App for reporting physical defects or issues within a business or community",
+        "icon": "icon-leaf",
+        "_id": "6",
+        "subscribers": [
+
+        ],
+        "pageRules": [
+
+        ],
+        "fieldRules": [
+
+        ],
+        "pages": [
+          {
+            "_id": "534eb91d6546ebb051e3fabd",
+            "fields": [
+              {
+                "fieldOptions": {
+                  "validation": {
+                    "validateImmediately": true
+                  },
+                  "definition": {
+                    "options": [
+                      {
+                        "label": "Pothole",
+                        "checked": false
+                      },
+                      {
+                        "label": "Streetlight",
+                        "checked": false
+                      },
+                      {
+                        "checked": false,
+                        "name": "",
+                        "label": "Graffiti"
+                      },
+                      {
+                        "checked": false,
+                        "name": "",
+                        "label": "Sidewalk / Footpath"
+                      },
+                      {
+                        "checked": false,
+                        "name": "",
+                        "label": "Damaged Signage"
+                      },
+                      {
+                        "checked": false,
+                        "name": "",
+                        "label": "Other"
+                      }
+                    ],
+                    "include_blank_option": false
+                  }
+                },
+                "required": true,
+                "type": "dropdown",
+                "name": "Defect Type",
+                "_id": "534eb9e1454143b251e290ca",
+                "repeating": false
+              },
+              {
+                "fieldOptions": {
+                  "validation": {
+                    "validateImmediately": true
+                  }
+                },
+                "required": true,
+                "type": "textarea",
+                "name": "Defect Description",
+                "helpText": "Enter a detailed description of the issue, e.g. Streetlight Flickering, Footpath Cracked",
+                "_id": "534eb9e1454143b251e290cb",
+                "repeating": false
+              },
+              {
+                "fieldOptions": {
+                  "validation": {
+                    "validateImmediately": true
+                  },
+                  "definition": {
+                    "locationUnit": "latlong"
+                  }
+                },
+                "required": true,
+                "type": "location",
+                "name": "Location",
+                "helpText": "Capture the location of this issue",
+                "_id": "534eb9e1454143b251e290cc",
+                "repeating": false
+              },
+              {
+                "fieldOptions": {
+                  "validation": {
+                    "validateImmediately": true
+                  }
+                },
+                "required": false,
+                "type": "photo",
+                "name": "Photo",
+                "helpText": "Capture an optional photo of this issue",
+                "_id": "534eb9e1454143b251e290cd",
+                "repeating": false
+              }
+            ]
+          }
+        ],
+        "lastUpdated": "2014-04-16T17:12:01.030Z",
+        "dateCreated": "2014-04-16T17:08:45.837Z",
+        "pageRef": {
+          "534eb91d6546ebb051e3fabd": 0
+        },
+        "fieldRef": {
+          "534eb9e1454143b251e290ca": {
+            "page": 0,
+            "field": 0
+          },
+          "534eb9e1454143b251e290cb": {
+            "page": 0,
+            "field": 1
+          },
+          "534eb9e1454143b251e290cc": {
+            "page": 0,
+            "field": 2
+          },
+          "534eb9e1454143b251e290cd": {
+            "page": 0,
+            "field": 3
+          }
+        },
+        "lastUpdatedTimestamp": 1397668321030
       }
     ],
     "themeTemplates": [
