@@ -349,6 +349,7 @@
                     ]
                   }
                 },
+                "required":false,
                 "type": "checkboxes",
                 "name": "Checkboxes",
                 "helpText": "Checkboxes",
