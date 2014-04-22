@@ -62,7 +62,7 @@
       },
       {
         "id": "appforms_project",
-        "name": "AppForms Project",
+        "name": "Forms Project",
         "type": "appforms",
         "icon": "icon-tasks",
         "category": "Forms",
@@ -83,7 +83,7 @@
         "appTemplates": [
           {
             "id": "appforms_client",
-            "name": "Hybrid Forms App",
+            "name": "Cordova Light Forms App",
             "icon": "icon-check",
             "type": "client_hybrid",
             "repoUrl": "https://github.com/feedhenry/appforms-project-client.git",
@@ -175,7 +175,7 @@
     "appTemplates": [
       {
         "id": "hello_world_hybrid_app",
-        "name": "Cordova Light",
+        "name": "Cordova Light App",
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
         "repoBranch": "refs/heads/6066-connection-bugfixing",
@@ -212,7 +212,7 @@
       },
       {
         "id": "blank_native_android_client",
-        "name": "Blank Native Android Client",
+        "name": "Blank Native Android App",
         "type": "client_native_android",
         "repoUrl": "git://github.com/feedhenry/fh-android-sdk-blank-app.git",
         "repoBranch": "refs/heads/6066-connection-bugfixing",
@@ -221,7 +221,7 @@
       },
       {
         "id": "blank_native_ios_client",
-        "name": "Blank Native iOS Client",
+        "name": "Blank Native iOS App",
         "type": "client_native_ios",
         "repoUrl": "git://github.com/feedhenry/fh-ios-sdk-blank-app.git",
         "repoBranch": "refs/heads/6066-connection-bugfixing",
@@ -230,7 +230,7 @@
       },
       {
         "id": "blank_advanced_hybrid_client",
-        "name": "Cordova",
+        "name": "Cordova App",
         "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
         "repoBranch": "refs/heads/6066-connection-bugfixing",
