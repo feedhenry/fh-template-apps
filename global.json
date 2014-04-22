@@ -57,16 +57,6 @@
             "repoBranch": "refs/heads/6066-connection-bugfixing",
             "icon": "icon-cloud",
             "category": "Sample Apps"
-          },
-            {
-            "id": "hello_world_mbaas_instance_cluster",
-            "name": "Hello World MBaaS Instance Cluster",
-            "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas-cluster/master/README.md",
-            "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas-cluster.git",
-            "repoBranch": "refs/heads/master",
-            "icon": "icon-cloud",
-            "category": "Sample Apps"
           }
         ]
       },
@@ -102,21 +92,11 @@
           },
           {
             "id": "hello_world_mbaas_instance",
-            "name": "Hello World MBaaS Instance",
+            "name": "Forms MBaaS Instance",
             "type": "cloud_nodejs",
             "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
             "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
             "repoBranch": "refs/heads/6066-connection-bugfixing",
-            "icon": "icon-cloud",
-            "category": "Sample Apps"
-          },
-          {
-            "id": "hello_world_mbaas_instance_cluster",
-            "name": "Hello World MBaaS Instance Cluster",
-            "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas-cluster/master/README.md",
-            "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas-cluster.git",
-            "repoBranch": "refs/heads/master",
             "icon": "icon-cloud",
             "category": "Sample Apps"
           }
@@ -195,7 +175,7 @@
     "appTemplates": [
       {
         "id": "hello_world_hybrid_app",
-        "name": "Hello World Client",
+        "name": "Cordova Light",
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
         "repoBranch": "refs/heads/6066-connection-bugfixing",
@@ -212,7 +192,7 @@
       },
       {
         "id": "hello_world_mbaas_instance",
-        "name": "Hello World MBaaS Instance",
+        "name": "MBaaS Instance",
         "type": "cloud_nodejs",
         "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
@@ -222,7 +202,7 @@
       },
       {
         "id": "hello_world_mbaas_instance_cluster",
-        "name": "Hello World MBaaS Instance Cluster",
+        "name": "MBaaS Instance Cluster",
         "type": "cloud_nodejs",
         "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas-cluster/master/README.md",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas-cluster.git",
@@ -250,7 +230,7 @@
       },
       {
         "id": "blank_advanced_hybrid_client",
-        "name": "Blank Advanced Hybrid Client",
+        "name": "Cordova",
         "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
         "repoBranch": "refs/heads/6066-connection-bugfixing",
@@ -277,7 +257,7 @@
       },
       {
         "id": "appforms_client",
-        "name": "Hybrid Forms App",
+        "name": "Cordova Light Forms App",
         "icon": "icon-check",
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry/appforms-project-client.git",
@@ -303,16 +283,6 @@
             "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
             "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
             "repoBranch": "refs/heads/6066-connection-bugfixing",
-            "icon": "icon-cloud",
-            "category": "Sample Apps"
-          },
-          {
-            "id": "hello_world_mbaas_instance_cluster",
-            "name": "Hello World MBaaS Instance Cluster",
-            "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas-cluster/master/README.md",
-            "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas-cluster.git",
-            "repoBranch": "refs/heads/master",
             "icon": "icon-cloud",
             "category": "Sample Apps"
           }
