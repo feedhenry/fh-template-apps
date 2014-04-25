@@ -20,6 +20,7 @@
       {
         "id": "hello_world_project",
         "name": "Hello World Project",
+        "description" : "A FeedHenry primer project with one HTML5 client instance, and a cloud instance with a single endpoint",
         "type": "default",
         "icon": "icon-globe",
         "category": "Sample Projects",
@@ -64,6 +65,7 @@
       {
         "id": "appforms_project",
         "name": "Forms Project",
+        "description" : "An AppForms project, for building Drag & Drop forms apps",
         "type": "appforms",
         "icon": "icon-tasks",
         "category": "Forms",
@@ -105,6 +107,7 @@
       },
       {
         "id": "welcome_project",
+        "description" : "Demonstrates many features of the FeedHenry platform. The HTML5 client uses Bootstrap 3 and Backbone.js, and the cloud portion of this app illustrates the use of MongoDB, Redis and third party APIs.",
         "name": "Welcome Project",
         "type": "other",
         "icon": "icon-edit",
@@ -137,6 +140,7 @@
       {
         "id": "team_todo_backbone_project",
         "name": "Team To-Do Backbone Project",
+        "description" : "A Backbone project which manages a team's To-Do list, illustrating best practices of FeedHenry development",
         "type": "other",
         "icon": "icon-ok-circle",
         "category": "Sample Projects",
