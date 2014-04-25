@@ -4,6 +4,7 @@
       {
         "id": "bare_project",
         "name": "Bare Project",
+        "description" : "An empty project into which you can add apps and cloud instances",
         "type": "default",
         "icon": "icon-circle-blank",
         "category": "Blank",
