@@ -261,6 +261,33 @@
         "category": "Blank Apps"
       },
       {
+        "id": "blank_native_windowsphone8",
+        "name": "Blank Native Windows Phone 8 App",
+        "type": "client_native_windowsphone8",
+        "repoUrl": "git://github.com/feedhenry/fh-windowsphone-sdk-blank-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-windows8",
+        "category": "Blank Apps"
+      },
+      {
+        "id": "blank_xamarin",
+        "name": "Blank Xamarin App",
+        "type": "client_xamarin",
+        "repoUrl": "git://github.com/feedhenry/fh-xamarin-sdk-blank-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "fh-icon-xamarin",
+        "category": "Blank Apps"
+      },
+      {
+        "id": "blank_appcelerator",
+        "name": "Blank Appcelerator App",
+        "type": "client_appcelerator",
+        "repoUrl": "git://github.com/feedhenry-training/fh-titanium-example.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "fh-icon-appcelerator",
+        "category": "Blank Apps"
+      },
+      {
         "id": "appforms_client",
         "name": "Cordova Light Forms App",
         "icon": "icon-check",
