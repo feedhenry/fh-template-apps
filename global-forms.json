@@ -7910,7 +7910,7 @@
   "name": "Meeting Form",
   "description": "",
   "_id": "27",
-  "icon" : "icon-lightbulb",
+  "icon" : "icon-folder-open",
   "subscribers": [],
   "pageRules": [],
   "fieldRules": [],
