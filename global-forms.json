@@ -6858,7 +6858,7 @@
   "name": "Change Request",
   "description": "",
   "_id": "25",
-  "icon" : "icon-exhange",
+  "icon" : "icon-exchange",
   "subscribers": [],
   "pageRules": [],
   "fieldRules": [],
