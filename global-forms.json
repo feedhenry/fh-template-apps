@@ -13119,7 +13119,7 @@
     "themeTemplates": [
       {
   "_id": "blackAndWhite",
-  "name": "Black & White",
+  "name": "Black & White Theme",
   "structure": {
     "logo": {
       "staticCSS": [
@@ -14556,7 +14556,7 @@
 },
   {
   "_id": "50ShadesOfTeal",
-  "name": "50ShadesOfTeal",
+  "name": "Teal Template",
   "structure": {
     "logo": {
       "staticCSS": [
@@ -15993,7 +15993,7 @@
 },
   {
   "_id": "androidTheme",
-  "name": "Android Theme",
+  "name": "Android Influenced Template",
   "structure": {
     "logo": {
       "staticCSS": [
@@ -17430,7 +17430,7 @@
 },
   {
   "_id": "feminineTheme",
-  "name": "Feminine",
+  "name": "Soft Pink Theme",
   "structure": {
     "logo": {
       "staticCSS": [
@@ -18867,7 +18867,7 @@
 },
   {
   "_id": "greyTheme",
-  "name": "Grey Theme",
+  "name": "Grey Theme Template",
   "structure": {
     "logo": {
       "staticCSS": [
@@ -20304,7 +20304,7 @@
 },
   {
   "_id": "iosTheme",
-  "name": "iosTheme",
+  "name": "iOS Influenced Template",
   "structure": {
     "logo": {
       "staticCSS": [
@@ -21741,7 +21741,7 @@
 },
   {
   "_id": "pastalTheme1",
-  "name": "FeedHenry 3 Pastal",
+  "name": "Pastel Coloured Template",
   "structure": {
     "logo": {
       "staticCSS": [
@@ -23178,7 +23178,7 @@
 },
   {
   "_id": "retroTheme",
-  "name": "RetroTerminal",
+  "name": "Retro Command Terminal Template",
   "structure": {
     "logo": {
       "staticCSS": [
@@ -24615,7 +24615,7 @@
 },
   {
   "_id": "ThickPaddingTheme",
-  "name": "ThickPadding",
+  "name": "Extra Padded Template",
   "structure": {
     "logo": {
       "staticCSS": [
@@ -26052,7 +26052,7 @@
 },
   {
   "_id": "tronTheme",
-  "name": "Tron",
+  "name": "Tron Template",
   "structure": {
     "logo": {
       "staticCSS": [
