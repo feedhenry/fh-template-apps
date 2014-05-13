@@ -14436,7 +14436,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(231,230,230,1)"
@@ -14466,7 +14466,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(42,114,217,1)"
@@ -15873,7 +15873,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(44,132,163,1)"
@@ -15903,7 +15903,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(44,132,163,1)"
@@ -17310,7 +17310,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(255,255,255,1)"
@@ -17340,7 +17340,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(98,242,96,1)"
@@ -18747,7 +18747,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(247,176,253,1)"
@@ -18777,7 +18777,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(255,251,223,1)"
@@ -20184,7 +20184,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(156,156,156,1)"
@@ -20214,7 +20214,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(200,200,200,1)"
@@ -21621,7 +21621,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(255,255,255,1)"
@@ -21651,7 +21651,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(0,0,0,1)"
@@ -23058,7 +23058,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(213,219,233,1)"
@@ -23088,7 +23088,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(236,180,227,1)"
@@ -24495,7 +24495,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(0,0,0,1)"
@@ -24525,7 +24525,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(0,210,96,1)"
@@ -25932,7 +25932,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(7,7,7,1)"
@@ -25962,7 +25962,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(255,255,255,1)"
@@ -27369,7 +27369,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(0,0,0,1)"
@@ -27399,7 +27399,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "background": {
             "background_color": "rgba(0,255,237,1)"
@@ -28648,7 +28648,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           }
         }, {
           "id": "action_active",
@@ -28671,7 +28671,7 @@
             "top": "5",
             "right": "5",
             "bottom": "5",
-            "left": "5"
+            "left": "0"
           },
           "padding": {
             "top": "5",
