@@ -4,7 +4,7 @@
       {
         "id": "bare_project",
         "name": "Bare Project",
-        "description" : "An empty project into which you can add apps and cloud instances",
+        "description": "An empty project into which you can add apps and cloud instances",
         "type": "default",
         "icon": "icon-circle-blank",
         "category": "Blank",
@@ -20,7 +20,7 @@
       {
         "id": "hello_world_project",
         "name": "Hello World Project",
-        "description" : "A FeedHenry primer project with one HTML5 client instance, and a cloud instance with a single endpoint",
+        "description": "A FeedHenry primer project with one HTML5 client instance, and a cloud instance with a single endpoint",
         "type": "default",
         "icon": "icon-globe",
         "category": "Sample Projects",
@@ -38,7 +38,7 @@
             "name": "Hello World Client",
             "type": "client_hybrid",
             "repoUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
-            "repoBranch": "refs/heads/6066-connection-bugfixing",
+            "repoBranch": "refs/heads/master",
             "icon": "icon-html5",
             "category": "Blank Apps",
             "screenshots": [
@@ -56,7 +56,7 @@
             "type": "cloud_nodejs",
             "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
             "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
-            "repoBranch": "refs/heads/6066-connection-bugfixing",
+            "repoBranch": "refs/heads/master",
             "icon": "icon-cloud",
             "category": "Sample Apps"
           }
@@ -65,7 +65,7 @@
       {
         "id": "appforms_project",
         "name": "Forms Project",
-        "description" : "An AppForms project, for building Drag & Drop forms apps",
+        "description": "An AppForms project, for building Drag & Drop forms apps",
         "type": "appforms",
         "icon": "icon-tasks",
         "category": "Forms",
@@ -77,8 +77,7 @@
             "url": "public/img/templatePreview/appforms_nocontainer.png"
           }
         ],
-        "postProcessingOptions": {
-        },
+        "postProcessingOptions": {},
         "configuration": {
           "createFinishMessage": "Now select some Forms & a Theme to associate with your new Forms App",
           "createFinishPath": "#projects/{{projectId}}/forms"
@@ -99,7 +98,7 @@
             "type": "cloud_nodejs",
             "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
             "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
-            "repoBranch": "refs/heads/6066-connection-bugfixing",
+            "repoBranch": "refs/heads/master",
             "icon": "icon-cloud",
             "category": "Sample Apps"
           }
@@ -107,7 +106,7 @@
       },
       {
         "id": "welcome_project",
-        "description" : "Demonstrates many features of the FeedHenry platform. The HTML5 client uses Bootstrap 3 and Backbone.js, and the cloud portion of this app illustrates the use of MongoDB, Redis and third party APIs.",
+        "description": "Demonstrates many features of the FeedHenry platform. The HTML5 client uses Bootstrap 3 and Backbone.js, and the cloud portion of this app illustrates the use of MongoDB, Redis and third party APIs.",
         "name": "Welcome Project",
         "type": "other",
         "icon": "icon-edit",
@@ -133,14 +132,14 @@
             "name": "Welcome Project-client",
             "type": "client_hybrid",
             "repoUrl": "git://github.com/feedhenry-sample-apps/welcome-project-client.git",
-            "repoBranch": "refs/heads/6066-connection-bugfixing"
+            "repoBranch": "refs/heads/master"
           }
         ]
       },
       {
         "id": "team_todo_backbone_project",
         "name": "Team To-Do Backbone Project",
-        "description" : "A Backbone project which manages a team's To-Do list, illustrating best practices of FeedHenry development",
+        "description": "A Backbone project which manages a team's To-Do list, illustrating best practices of FeedHenry development",
         "type": "other",
         "icon": "icon-ok-circle",
         "category": "Sample Projects",
@@ -184,7 +183,7 @@
         "type": "client_hybrid",
         "priority": 0.560,
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-html5",
         "category": "Blank Apps",
         "screenshots": [
@@ -203,7 +202,7 @@
         "priority": 0.01,
         "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
         "category": "Sample Apps"
       },
@@ -224,7 +223,7 @@
         "type": "client_native_android",
         "priority": 0.450,
         "repoUrl": "git://github.com/feedhenry/fh-android-sdk-blank-app.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-android",
         "category": "Blank Apps"
       },
@@ -234,7 +233,7 @@
         "type": "client_native_ios",
         "priority": 0.445,
         "repoUrl": "git://github.com/feedhenry/fh-ios-sdk-blank-app.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-apple",
         "category": "Blank Apps"
       },
@@ -244,7 +243,7 @@
         "type": "client_advanced_hybrid",
         "priority": 0.500,
         "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-cordova",
         "category": "Blank Apps"
       },
@@ -254,7 +253,7 @@
         "type": "webapp_basic",
         "priority": 0.495,
         "repoUrl": "git://github.com/feedhenry/fh-basic-webapp-blank-app.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-globe",
         "category": "Blank Apps"
       },
@@ -264,7 +263,7 @@
         "type": "webapp_advanced",
         "priority": 0.490,
         "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-nodejs",
         "category": "Blank Apps"
       },
@@ -313,12 +312,12 @@
       {
         "name": "New mBaaS Service",
         "id": "new-service",
-        "docs": "https://raw2.github.com/feedhenry/fh-cloud-mbaas-instance-blank/6066-connection-bugfixing/README.md",
+        "docs": "https://raw2.github.com/feedhenry/fh-cloud-mbaas-instance-blank/master/README.md",
         "type": "other",
         "image": "public/img/cloud_plugins/fh.png",
         "category": "Custom Service",
         "repoUrl": "git://github.com/feedhenry/fh-connector-blank.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "hello_world_mbaas_instance",
@@ -326,7 +325,7 @@
             "type": "cloud_nodejs",
             "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
             "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
-            "repoBranch": "refs/heads/6066-connection-bugfixing",
+            "repoBranch": "refs/heads/master",
             "icon": "icon-cloud",
             "category": "Sample Apps"
           }
@@ -339,7 +338,7 @@
         "image": "public/img/cloud_plugins/salesforce.png",
         "category": "SaaS Connectors",
         "repoUrl": "git://github.com/feedhenry/fh-connector-salesforce.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "salesforce-cloud",
@@ -369,16 +368,16 @@
             ]
           }
         ],
-        "docs": "https://raw.github.com/feedhenry/fh-connector-salesforce-cloud/6066-connection-bugfixing/README.md"
+        "docs": "https://raw.github.com/feedhenry/fh-connector-salesforce-cloud/master/README.md"
       },
       {
         "id": "oraclecrm",
         "name": "Oracle Fusion CRM",
         "type": "other",
-        "image": "https://raw.github.com/feedhenry/fh-connector-oraclecrm/6066-connection-bugfixing/icon.png",
+        "image": "https://raw.github.com/feedhenry/fh-connector-oraclecrm/master/icon.png",
         "category": "SaaS Connectors",
         "repoUrl": "git://github.com/feedhenry/fh-connector-oraclecrm.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "oraclecrm-cloud",
@@ -402,7 +401,7 @@
             ]
           }
         ],
-        "docs": "https://raw.github.com/feedhenry/fh-connector-oraclecrm-cloud/6066-connection-bugfixing/README.md"
+        "docs": "https://raw.github.com/feedhenry/fh-connector-oraclecrm-cloud/master/README.md"
       },
       {
         "id": "twilio",
@@ -411,7 +410,7 @@
         "image": "public/img/cloud_plugins/twilio.png",
         "category": "SaaS Connectors",
         "repoUrl": "git://github.com/feedhenry/fh-connector-twilio.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "twilio-cloud",
@@ -438,7 +437,7 @@
             ]
           }
         ],
-        "docs": "https://raw.github.com/feedhenry/fh-connector-twilio-cloud/6066-connection-bugfixing/README.md"
+        "docs": "https://raw.github.com/feedhenry/fh-connector-twilio-cloud/master/README.md"
       },
       {
         "id": "sendgrid",
@@ -447,7 +446,7 @@
         "image": "public/img/cloud_plugins/sendgrid.png",
         "category": "SaaS Connectors",
         "repoUrl": "git://github.com/feedhenry/fh-connector-sendgrid.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "sendgrid-cloud",
@@ -479,7 +478,7 @@
             ]
           }
         ],
-        "docs": "https://raw.github.com/feedhenry/fh-connector-sendgrid-cloud/6066-connection-bugfixing/README.md"
+        "docs": "https://raw.github.com/feedhenry/fh-connector-sendgrid-cloud/master/README.md"
       },
       {
         "id": "mysql",
@@ -488,7 +487,7 @@
         "image": "public/img/cloud_plugins/mysql.png",
         "category": "Database",
         "repoUrl": "git://github.com/feedhenry/fh-connector-mysql.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "mysql-cloud",
@@ -516,7 +515,7 @@
             ]
           }
         ],
-        "docs": "https://raw.github.com/feedhenry/fh-connector-mysql-cloud/6066-connection-bugfixing/README.md"
+        "docs": "https://raw.github.com/feedhenry/fh-connector-mysql-cloud/master/README.md"
       },
       {
         "id": "mongodb",
@@ -525,7 +524,7 @@
         "image": "public/img/cloud_plugins/mongodb.png",
         "category": "Remote Database",
         "repoUrl": "git://github.com/feedhenry/fh-connector-mongodb.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "mongodb-cloud",
@@ -566,7 +565,7 @@
         "image": "public/img/cloud_plugins/stripe.png",
         "category": "eCommerce",
         "repoUrl": "git://github.com/feedhenry/fh-connector-stripe.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "stripe-cloud",
@@ -594,7 +593,7 @@
         "image": "public/img/cloud_plugins/aws_ses.png",
         "category": "Amazon Web Services",
         "repoUrl": "git://github.com/feedhenry/fh-connector-amazon-ses.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "amazon-ses-cloud",
@@ -625,7 +624,7 @@
         "image": "public/img/cloud_plugins/aws_sqs.png",
         "category": "Amazon Web Services",
         "repoUrl": "git://github.com/feedhenry/fh-connector-amazon-sqs.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "amazon-sqs-cloud",
@@ -656,7 +655,7 @@
         "image": "public/img/cloud_plugins/google.png",
         "category": "SaaS Connectors",
         "repoUrl": "git://github.com/feedhenry/fh-connector-google.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "google-cloud",
@@ -680,7 +679,7 @@
         "image": "public/img/cloud_plugins/intercom.png",
         "category": "SaaS Connectors",
         "repoUrl": "git://github.com/feedhenry/fh-connector-intercom.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "intercom-cloud",
@@ -711,7 +710,7 @@
         "image": "public/img/cloud_plugins/netweaver.png",
         "category": "SaaS Connectors",
         "repoUrl": "git://github.com/feedhenry/fh-connector-sap-netweaver.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "sap_netweaver_cloud",
@@ -759,7 +758,7 @@
         "image": "public/img/cloud_plugins/paypal.png",
         "category": "eCommerce",
         "repoUrl": "git://github.com/feedhenry/fh-connector-paypal.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "paypal_cloud",
@@ -795,7 +794,7 @@
         "image": "public/img/cloud_plugins/sharepoint.png",
         "category": "SaaS Connectors",
         "repoUrl": "git://github.com/feedhenry/fh-connector-sharepoint.git",
-        "repoBranch": "refs/heads/6066-connection-bugfixing",
+        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "sharepoint_cloud",
