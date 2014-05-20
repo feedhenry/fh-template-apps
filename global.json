@@ -89,7 +89,7 @@
             "icon": "icon-check",
             "type": "client_hybrid",
             "repoUrl": "https://github.com/feedhenry/appforms-project-client.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/heads/feedhenry3",
             "category": "Forms"
           },
           {
