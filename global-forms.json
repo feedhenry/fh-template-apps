@@ -13119,7 +13119,7 @@
     "themeTemplates": [
       {
   "name": "Black & White Template",
-  "_id": "5379ebc9d1cb904904eb9f72",
+  "_id": "blackWhiteTemplate",
   "structure": {
     "logo": {
       "staticCSS": [
@@ -14555,7 +14555,7 @@
   "lastUpdated": "2014-05-19T11:32:25.695Z"
 },
   {
-  "_id": "50ShadesOfTeal",
+  "_id": "tealTemplate",
   "name": "Teal Template",
   "structure": {
     "logo": {
@@ -15992,7 +15992,7 @@
   "lastUpdated": "2014-05-13T10:32:12.308Z"
 },
   {
-  "_id": "5379d9ff8a657b2833d15594",
+  "_id": "androidTemplate",
   "name": "Android Influenced Template",
   "structure": {
     "logo": {
@@ -17429,7 +17429,7 @@
   "lastUpdated": "2014-05-19T10:16:31.181Z"
 },
   {
-  "_id": "feminineTheme",
+  "_id": "softPinkTemplate",
   "name": "Soft Pink Template",
   "structure": {
     "logo": {
@@ -18867,7 +18867,7 @@
 },
   {
   "name": "Grey Template",
-  "_id": "5379eb262745f5f8099b9618",
+  "_id": "greyTemplate",
   "structure": {
     "logo": {
       "staticCSS": [
@@ -20303,7 +20303,7 @@
   "lastUpdated": "2014-05-19T11:29:42.181Z"
 },
   {
-  "_id": "53727268eb1f144a06ae2aa7",
+  "_id": "brownPinkTemplate",
   "name": "Brown and Pink Template",
   "structure": {
     "logo": {
@@ -21740,7 +21740,7 @@
   "lastUpdated": "2014-05-13T19:28:40.147Z"
 },
   {
-  "_id": "5372777542458548067c79c8",
+  "_id": "lightOrangeTemplate",
   "name": "Light Orange Template",
   "structure": {
     "logo": {
@@ -23177,7 +23177,7 @@
   "lastUpdated": "2014-05-13T19:50:13.055Z"
 },
   {
-  "_id": "5379e24c29f5625146475991",
+  "_id": "vibrantOrangeTemplate",
   "name": "Vibrant Orange Template",
   "structure": {
     "logo": {
@@ -24614,7 +24614,7 @@
   "lastUpdated": "2014-05-19T10:51:56.645Z"
 },
   {
-  "_id": "5379d4d5e690245346ecc1d4",
+  "_id": "colourblindFriendly",
   "name": "Colourblind Friendly",
   "structure": {
     "logo": {
@@ -26051,7 +26051,7 @@
   "lastUpdated": "2014-05-19T09:54:29.198Z"
 },
   {
-  "_id": "537373a841a51e3557745931",
+  "_id": "easyTouchTemplate",
   "name": "Easy Touch Template",
   "structure": {
     "logo": {
@@ -27488,7 +27488,7 @@
   "lastUpdated": "2014-05-14T13:46:16.513Z"
 },
   {
-  "_id": "5373781441a51e355774594a",
+  "_id": "easyViewTemplate",
   "name": "Easy View Template",
   "structure": {
     "logo": {
@@ -28925,7 +28925,7 @@
   "lastUpdated": "2014-05-14T14:05:08.178Z"
 },
   {
-  "_id": "5379e1ed29f5625146475960",
+  "_id": "yellowTemplate",
   "name": "Yellow Template",
   "structure": {
     "logo": {
@@ -30362,7 +30362,7 @@
   "lastUpdated": "2014-05-19T10:50:21.785Z"
 },
   {
-  "_id": "5379d856e690245346ecc235",
+  "_id": "iosTemplate",
   "name": "iOS Influenced Template",
   "structure": {
     "logo": {
@@ -31799,7 +31799,7 @@
   "lastUpdated": "2014-05-19T10:09:26.422Z"
 },
   {
-  "_id": "5370b0b637a3f4a87f703b7c",
+  "_id": "pastelTemplate",
   "name": "Pastel Coloured Template",
   "structure": {
     "logo": {
@@ -34673,7 +34673,7 @@
   "lastUpdated": "2014-05-13T11:17:52.466Z"
 },
   {
-  "_id": "5379cc0729f56251464758e2",
+  "_id": "extraPaddedTheme",
   "name": "Extra Padded Theme",
   "structure": {
     "logo": {
@@ -37547,7 +37547,7 @@
   "lastUpdated": "2014-05-13T12:31:58.548Z"
 },
     {
-  "_id": "5379d5199fdbc0263326f7e3",
+  "_id": "blueTemplate",
   "name": "Blue Template",
   "structure": {
     "logo": {
@@ -38993,6 +38993,7 @@
     ]
   }
 }
+
 
 
 
