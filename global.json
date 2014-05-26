@@ -372,8 +372,6 @@
         "type": "other",
         "image": "https://raw.github.com/feedhenry/fh-connector-oraclecrm/master/icon.png",
         "category": "SaaS Connectors",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-oraclecrm.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "oraclecrm-cloud",
