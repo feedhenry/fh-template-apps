@@ -316,8 +316,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/fh.png",
         "category": "Custom Service",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-blank.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "hello_world_mbaas_instance",
@@ -337,8 +335,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/salesforce.png",
         "category": "SaaS Connectors",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-salesforce.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "salesforce-cloud",
@@ -409,8 +405,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/twilio.png",
         "category": "SaaS Connectors",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-twilio.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "twilio-cloud",
@@ -445,8 +439,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/sendgrid.png",
         "category": "SaaS Connectors",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-sendgrid.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "sendgrid-cloud",
@@ -486,8 +478,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/mysql.png",
         "category": "Database",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-mysql.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "mysql-cloud",
@@ -523,8 +513,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/mongodb.png",
         "category": "Remote Database",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-mongodb.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "mongodb-cloud",
@@ -564,8 +552,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/stripe.png",
         "category": "eCommerce",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-stripe.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "stripe-cloud",
@@ -592,8 +578,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/aws_ses.png",
         "category": "Amazon Web Services",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-amazon-ses.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "amazon-ses-cloud",
@@ -623,8 +607,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/aws_sqs.png",
         "category": "Amazon Web Services",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-amazon-sqs.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "amazon-sqs-cloud",
@@ -654,8 +636,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/google.png",
         "category": "SaaS Connectors",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-google.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "google-cloud",
@@ -678,8 +658,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/intercom.png",
         "category": "SaaS Connectors",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-intercom.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "intercom-cloud",
@@ -709,8 +687,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/netweaver.png",
         "category": "SaaS Connectors",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-sap-netweaver.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "sap_netweaver_cloud",
@@ -757,8 +733,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/paypal.png",
         "category": "eCommerce",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-paypal.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "paypal_cloud",
@@ -793,8 +767,6 @@
         "type": "other",
         "image": "public/img/cloud_plugins/sharepoint.png",
         "category": "SaaS Connectors",
-        "repoUrl": "git://github.com/feedhenry/fh-connector-sharepoint.git",
-        "repoBranch": "refs/heads/master",
         "appTemplates": [
           {
             "id": "sharepoint_cloud",
