@@ -145,10 +145,10 @@
         "category": "Sample Projects",
         "screenshots": [
           {
-            "url": "https://raw.github.com/feedhenry-training/team-to-do-backbone-project/master/project_container.png"
+            "url": "https://raw.githubusercontent.com/feedhenry-templates/team-todo-backbone-app/master/screenshots/project_container.png"
           },
           {
-            "url": "https://raw.github.com/feedhenry-training/team-to-do-backbone-project/master/project_nocontainer.png"
+            "url": "https://raw.githubusercontent.com/feedhenry-templates/team-todo-backbone-app/master/screenshots/project_nocontainer.png"
           }
         ],
         "appTemplates": [
@@ -370,7 +370,7 @@
         "id": "oraclecrm",
         "name": "Oracle Fusion CRM",
         "type": "other",
-        "image": "https://raw.github.com/feedhenry/fh-connector-oraclecrm/master/icon.png",
+        "image": "https://raw.githubusercontent.com/feedhenry/fh-connector-oraclecrm-cloud/master/icon.png",
         "category": "SaaS Connectors",
         "appTemplates": [
           {
@@ -379,7 +379,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "https://github.com/feedhenry/fh-connector-oraclecrm-cloud.git",
             "repoBranch": "refs/heads/master",
-            "image": "https://raw.github.com/feedhenry/fh-connector-oraclecrm/master/icon.png",
+            "image": "https://raw.githubusercontent.com/feedhenry/fh-connector-oraclecrm-cloud/master/icon.png",
             "docs": "https://raw2.github.com/feedhenry/fh-connector-oraclecrm-cloud/master/README.md",
             "category": "SaaS",
             "configuration": [
