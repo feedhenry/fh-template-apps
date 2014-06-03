@@ -26,10 +26,10 @@
         "category": "Sample Projects",
         "screenshots": [
           {
-            "url": "public/img/templatePreview/blankproject_container.png"
+            "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
           },
           {
-            "url": "public/img/templatePreview/blankproject_nocontainer.png"
+            "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
           }
         ],
         "appTemplates": [
