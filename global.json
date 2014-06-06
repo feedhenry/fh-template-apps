@@ -52,10 +52,10 @@
           },
           {
             "id": "hello_world_mbaas_instance",
-            "name": "Hello World MBaaS Instance",
+            "name": "Hello World Cloud App",
             "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
-            "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
+            "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
             "repoBranch": "refs/heads/master",
             "icon": "icon-cloud",
             "category": "Sample Apps"
@@ -94,10 +94,10 @@
           },
           {
             "id": "hello_world_mbaas_instance",
-            "name": "Forms MBaaS Instance",
+            "name": "Forms Cloud App",
             "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
-            "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
+            "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
             "repoBranch": "refs/heads/master",
             "icon": "icon-cloud",
             "category": "Sample Apps"
@@ -197,22 +197,22 @@
       },
       {
         "id": "hello_world_mbaas_instance",
-        "name": "MBaaS Instance",
+        "name": "Cloud App",
         "type": "cloud_nodejs",
         "priority": 0.01,
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
-        "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
+        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
         "category": "Sample Apps"
       },
       {
         "id": "hello_world_mbaas_instance_cluster",
-        "name": "MBaaS Instance Cluster",
+        "name": "Cloud App - Clustered",
         "type": "cloud_nodejs",
         "priority": 0.01,
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas-cluster/master/README.md",
-        "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas-cluster.git",
+        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud-cluster/master/README.md",
+        "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud-cluster.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
         "category": "Sample Apps"
@@ -319,10 +319,10 @@
         "appTemplates": [
           {
             "id": "hello_world_mbaas_instance",
-            "name": "Hello World MBaaS Instance",
+            "name": "Hello World Cloud App",
             "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry-templates/helloworld-mbaas/master/README.md",
-            "repoUrl": "https://github.com/feedhenry-templates/helloworld-mbaas.git",
+            "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
+            "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
             "repoBranch": "refs/heads/master",
             "icon": "icon-cloud",
             "category": "Sample Apps"
