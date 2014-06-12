@@ -29,7 +29,7 @@
         "appTemplates": [{
           "id": "sync_app",
           "name": "Sync App",
-          "type": "basic_webapp",
+          "type": "webapp_basic",
           "repoUrl": "https://github.com/feedhenry-templates/sync-app.git",
           "repoBranch": "refs/heads/master",
           "icon": "icon-web",
