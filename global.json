@@ -38,7 +38,7 @@
         }, {
           "id": "sync_app",
           "name": "Sync App",
-          "type": "webapp_basic",
+          "type": "client_hybrid",
           "repoUrl": "git://github.com/feedhenry-templates/sync-app.git",
           "repoBranch": "refs/heads/master",
           "icon": "icon-web",
