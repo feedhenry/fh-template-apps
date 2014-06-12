@@ -27,23 +27,23 @@
           "url": "https://raw.githubusercontent.com/feedhenry-templates/sync-app/master/Screenshot.png"
         }],
         "appTemplates": [{
-          "id": "sync_app",
-          "name": "Sync App",
-          "type": "webapp_basic",
-          "repoUrl": "https://github.com/feedhenry-templates/sync-app.git",
-          "repoBranch": "refs/heads/master",
-          "icon": "icon-web",
-          "category": "Sample Apps",
-          "screenshots": []
-        }, {
           "id": "sync_cloud",
           "name": "Sync Cloud App",
           "type": "cloud_nodejs",
           "docs": "https://raw.githubusercontent.com/feedhenry-templates/sync-cloud/master/README.md",
-          "repoUrl": "https://github.com/feedhenry-templates/sync-cloud.git",
+          "repoUrl": "git://github.com/feedhenry-templates/sync-cloud.git",
           "repoBranch": "refs/heads/master",
           "icon": "icon-cloud",
           "category": "Sample Apps"
+        }, {
+          "id": "sync_app",
+          "name": "Sync App",
+          "type": "webapp_basic",
+          "repoUrl": "git://github.com/feedhenry-templates/sync-app.git",
+          "repoBranch": "refs/heads/master",
+          "icon": "icon-web",
+          "category": "Sample Apps",
+          "screenshots": []
         }]
       }, {
         "id": "hello_world_project",
