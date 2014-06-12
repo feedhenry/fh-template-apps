@@ -16,8 +16,36 @@
         "appTemplates": [
 
         ]
-      },
-      {
+      }, {
+        "id": "sync_project",
+        "name": "Sync Framework Project",
+        "description": "An example Project using our Sync framework",
+        "type": "default",
+        "icon": "icon-refresh",
+        "category": "Samples",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry-templates/sync-app/master/Screenshot.png"
+        }],
+        "appTemplates": [{
+          "id": "sync_app",
+          "name": "Sync App",
+          "type": "basic_webapp",
+          "repoUrl": "https://github.com/feedhenry-templates/sync-app.git",
+          "repoBranch": "refs/heads/master",
+          "icon": "icon-web",
+          "category": "Sample Apps",
+          "screenshots": []
+        }, {
+          "id": "sync_cloud",
+          "name": "Sync Cloud App",
+          "type": "cloud_nodejs",
+          "docs": "https://raw.githubusercontent.com/feedhenry-templates/sync-cloud/master/README.md",
+          "repoUrl": "https://github.com/feedhenry-templates/sync-cloud.git",
+          "repoBranch": "refs/heads/master",
+          "icon": "icon-cloud",
+          "category": "Sample Apps"
+        }]
+      }, {
         "id": "hello_world_project",
         "name": "Hello World Project",
         "description": "A FeedHenry primer project with one HTML5 client instance, and a cloud instance with a single endpoint",
