@@ -1,829 +1,686 @@
 {
   "show": {
-    "projectTemplates": [
-      {
-        "id": "bare_project",
-        "name": "Bare Project",
-        "description": "An empty project into which you can add apps and cloud instances",
-        "type": "default",
-        "icon": "icon-circle-blank",
-        "category": "Blank",
-        "screenshots": [
-          {
-            "url": "public/img/templatePreview/blankproject_container.png"
-          }
-        ],
-        "appTemplates": [
+    "projectTemplates": [{
+      "id": "bare_project",
+      "name": "Bare Project",
+      "description": "An empty project into which you can add apps and cloud instances",
+      "type": "default",
+      "icon": "icon-circle-blank",
+      "category": "Blank",
+      "screenshots": [{
+        "url": "public/img/templatePreview/blankproject_container.png"
+      }],
+      "appTemplates": [
 
-        ]
+      ]
+    }, {
+      "id": "sync_project",
+      "name": "Sync Framework Project",
+      "description": "An example Project using our Sync framework",
+      "type": "default",
+      "icon": "icon-refresh",
+      "category": "Samples",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/sync-app/master/Screenshot.png"
+      }],
+      "appTemplates": [{
+        "id": "sync_cloud",
+        "name": "Sync Cloud App",
+        "type": "cloud_nodejs",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/sync-cloud/master/README.md",
+        "repoUrl": "git://github.com/feedhenry-templates/sync-cloud.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-cloud",
+        "category": "Sample Apps"
       }, {
-        "id": "sync_project",
-        "name": "Sync Framework Project",
-        "description": "An example Project using our Sync framework",
-        "type": "default",
-        "icon": "icon-refresh",
-        "category": "Samples",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry-templates/sync-app/master/Screenshot.png"
-        }],
-        "appTemplates": [{
-          "id": "sync_cloud",
-          "name": "Sync Cloud App",
-          "type": "cloud_nodejs",
-          "docs": "https://raw.githubusercontent.com/feedhenry-templates/sync-cloud/master/README.md",
-          "repoUrl": "git://github.com/feedhenry-templates/sync-cloud.git",
-          "repoBranch": "refs/heads/master",
-          "icon": "icon-cloud",
-          "category": "Sample Apps"
-        }, {
-          "id": "sync_app",
-          "name": "Sync App",
-          "type": "client_hybrid",
-          "repoUrl": "git://github.com/feedhenry-templates/sync-app.git",
-          "repoBranch": "refs/heads/master",
-          "icon": "icon-web",
-          "category": "Sample Apps",
-          "screenshots": []
-        }]
-      }, {
-        "id": "hello_world_project",
-        "name": "Hello World Project",
-        "description": "A FeedHenry primer project with one HTML5 client instance, and a cloud instance with a single endpoint",
-        "type": "default",
-        "icon": "icon-globe",
-        "category": "Sample Projects",
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
-          },
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
-          }
-        ],
-        "appTemplates": [
-          {
-            "id": "hello_world_hybrid_app",
-            "name": "Hello World Client",
-            "type": "client_hybrid",
-            "repoUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
-            "repoBranch": "refs/heads/master",
-            "icon": "icon-html5",
-            "category": "Blank Apps",
-            "screenshots": [
-              {
-                "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
-              },
-              {
-                "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
-              }
-            ]
-          },
-          {
-            "id": "hello_world_mbaas_instance",
-            "name": "Hello World Cloud App",
-            "type": "cloud_nodejs",
-            "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
-            "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "icon": "icon-cloud",
-            "category": "Sample Apps"
-          }
-        ]
-      },
-      {
-        "id": "appforms_project",
-        "name": "Forms Project",
-        "description": "An AppForms project, for building Drag & Drop forms apps",
-        "type": "appforms",
-        "icon": "icon-tasks",
-        "category": "Forms",
-        "screenshots": [
-          {
-            "url": "public/img/templatePreview/appforms_container.png"
-          },
-          {
-            "url": "public/img/templatePreview/appforms_nocontainer.png"
-          }
-        ],
-        "postProcessingOptions": {},
-        "configuration": {
-          "createFinishMessage": "Now select some Forms & a Theme to associate with your new Forms App",
-          "createFinishPath": "#projects/{{projectId}}/forms"
-        },
-        "appTemplates": [
-          {
-            "id": "appforms_client",
-            "name": "Cordova Light Forms App",
-            "icon": "icon-check",
-            "type": "client_hybrid",
-            "repoUrl": "https://github.com/feedhenry/appforms-project-client.git",
-            "repoBranch": "refs/heads/master",
-            "category": "Forms"
-          },
-          {
-            "id": "hello_world_mbaas_instance",
-            "name": "Forms Cloud App",
-            "type": "cloud_nodejs",
-            "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
-            "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "icon": "icon-cloud",
-            "category": "Sample Apps"
-          }
-        ]
-      },
-      {
-        "id": "welcome_project",
-        "description": "Demonstrates many features of the FeedHenry platform. The HTML5 client uses Bootstrap 3 and Backbone.js, and the cloud portion of this app illustrates the use of MongoDB, Redis and third party APIs.",
-        "name": "Welcome Project",
-        "type": "other",
-        "icon": "icon-edit",
-        "category": "Sample Projects",
-        "screenshots": [
-          {
-            "url": "public/img/templatePreview/sampleproject_container.png"
-          },
-          {
-            "url": "public/img/templatePreview/sampleproject_nocontainer.png"
-          }
-        ],
-        "appTemplates": [
-          {
-            "id": "welcome_project_cloud",
-            "name": "Welcome Project-cloud",
-            "type": "cloud_nodejs",
-            "repoUrl": "git://github.com/feedhenry-sample-apps/welcome-project-cloud.git",
-            "repoBranch": "refs/heads/master"
-          },
-          {
-            "id": "welcome_project_client",
-            "name": "Welcome Project-client",
-            "type": "client_hybrid",
-            "repoUrl": "git://github.com/feedhenry-sample-apps/welcome-project-client.git",
-            "repoBranch": "refs/heads/master"
-          }
-        ]
-      },
-      {
-        "id": "team_todo_backbone_project",
-        "name": "Team To-Do Backbone Project",
-        "description": "A Backbone project which manages a team's To-Do list, illustrating best practices of FeedHenry development",
-        "type": "other",
-        "icon": "icon-ok-circle",
-        "category": "Sample Projects",
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry-templates/team-todo-backbone-app/master/screenshots/project_container.png"
-          },
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry-templates/team-todo-backbone-app/master/screenshots/project_nocontainer.png"
-          }
-        ],
-        "appTemplates": [
-          {
-            "id": "team_todo_backbone_project_cloud",
-            "name": "Team To-Do Backbone Project-cloud",
-            "type": "cloud_nodejs",
-            "repoUrl": "git://github.com/feedhenry-sample-apps/team-to-do-backbone-project-cloud.git",
-            "repoBranch": "refs/heads/master"
-          },
-          {
-            "id": "team_todo_backbone_project_client",
-            "name": "Team To-Do Backbone Project-client",
-            "type": "client_hybrid",
-            "repoUrl": "git://github.com/feedhenry-sample-apps/team-to-do-backbone-project-client.git",
-            "repoBranch": "refs/heads/master"
-          },
-          {
-            "id": "team_todo_backbone_project_portal",
-            "name": "Team To-Do Backbone Project-portal",
-            "type": "webapp_basic",
-            "repoUrl": "git://github.com/feedhenry-sample-apps/team-to-do-backbone-project-portal.git",
-            "repoBranch": "refs/heads/master"
-          }
-        ]
-      }
-    ],
-    "appTemplates": [
-      {
-        "id": "hello_world_hybrid_app",
-        "name": "Cordova Light App",
+        "id": "sync_app",
+        "name": "Sync App",
         "type": "client_hybrid",
-        "priority": 0.560,
+        "repoUrl": "git://github.com/feedhenry-templates/sync-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-web",
+        "category": "Sample Apps",
+        "screenshots": []
+      }]
+    }, {
+      "id": "hello_world_project",
+      "name": "Hello World Project",
+      "description": "A FeedHenry primer project with one HTML5 client instance, and a cloud instance with a single endpoint",
+      "type": "default",
+      "icon": "icon-globe",
+      "category": "Sample Projects",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
+      }, {
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
+      }],
+      "appTemplates": [{
+        "id": "hello_world_hybrid_app",
+        "name": "Hello World Client",
+        "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-html5",
         "category": "Blank Apps",
-        "screenshots": [
-          {
-            "url": "public/img/templatePreview/blankproject_container.png"
-          },
-          {
-            "url": "public/img/templatePreview/blankproject_nocontainer.png"
-          }
-        ]
-      },
-      {
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
+        }, {
+          "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
+        }]
+      }, {
         "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
+        "name": "Hello World Cloud App",
         "type": "cloud_nodejs",
-        "priority": 0.01,
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-cloud",
+        "category": "Sample Apps"
+      }]
+    }, {
+      "id": "appforms_project",
+      "name": "Forms Project",
+      "description": "An AppForms project, for building Drag & Drop forms apps",
+      "type": "appforms",
+      "icon": "icon-tasks",
+      "category": "Forms",
+      "screenshots": [{
+        "url": "public/img/templatePreview/appforms_container.png"
+      }, {
+        "url": "public/img/templatePreview/appforms_nocontainer.png"
+      }],
+      "postProcessingOptions": {},
+      "configuration": {
+        "createFinishMessage": "Now select some Forms & a Theme to associate with your new Forms App",
+        "createFinishPath": "#projects/{{projectId}}/forms"
+      },
+      "appTemplates": [{
+        "id": "appforms_client",
+        "name": "Cordova Light Forms App",
+        "icon": "icon-check",
+        "type": "client_hybrid",
+        "repoUrl": "https://github.com/feedhenry/appforms-project-client.git",
+        "repoBranch": "refs/heads/master",
+        "category": "Forms"
+      }, {
+        "id": "hello_world_mbaas_instance",
+        "name": "Forms Cloud App",
+        "type": "cloud_nodejs",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-cloud",
+        "category": "Sample Apps"
+      }]
+    }, {
+      "id": "welcome_project",
+      "description": "Demonstrates many features of the FeedHenry platform. The HTML5 client uses Bootstrap 3 and Backbone.js, and the cloud portion of this app illustrates the use of MongoDB, Redis and third party APIs.",
+      "name": "Welcome Project",
+      "type": "other",
+      "icon": "icon-edit",
+      "category": "Sample Projects",
+      "screenshots": [{
+        "url": "public/img/templatePreview/sampleproject_container.png"
+      }, {
+        "url": "public/img/templatePreview/sampleproject_nocontainer.png"
+      }],
+      "appTemplates": [{
+        "id": "welcome_project_cloud",
+        "name": "Welcome Project-cloud",
+        "type": "cloud_nodejs",
+        "repoUrl": "git://github.com/feedhenry-sample-apps/welcome-project-cloud.git",
+        "repoBranch": "refs/heads/master"
+      }, {
+        "id": "welcome_project_client",
+        "name": "Welcome Project-client",
+        "type": "client_hybrid",
+        "repoUrl": "git://github.com/feedhenry-sample-apps/welcome-project-client.git",
+        "repoBranch": "refs/heads/master"
+      }]
+    }, {
+      "id": "team_todo_backbone_project",
+      "name": "Team To-Do Backbone Project",
+      "description": "A Backbone project which manages a team's To-Do list, illustrating best practices of FeedHenry development",
+      "type": "other",
+      "icon": "icon-ok-circle",
+      "category": "Sample Projects",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/team-todo-backbone-app/master/screenshots/project_container.png"
+      }, {
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/team-todo-backbone-app/master/screenshots/project_nocontainer.png"
+      }],
+      "appTemplates": [{
+        "id": "team_todo_backbone_project_cloud",
+        "name": "Team To-Do Backbone Project-cloud",
+        "type": "cloud_nodejs",
+        "repoUrl": "git://github.com/feedhenry-sample-apps/team-to-do-backbone-project-cloud.git",
+        "repoBranch": "refs/heads/master"
+      }, {
+        "id": "team_todo_backbone_project_client",
+        "name": "Team To-Do Backbone Project-client",
+        "type": "client_hybrid",
+        "repoUrl": "git://github.com/feedhenry-sample-apps/team-to-do-backbone-project-client.git",
+        "repoBranch": "refs/heads/master"
+      }, {
+        "id": "team_todo_backbone_project_portal",
+        "name": "Team To-Do Backbone Project-portal",
+        "type": "webapp_basic",
+        "repoUrl": "git://github.com/feedhenry-sample-apps/team-to-do-backbone-project-portal.git",
+        "repoBranch": "refs/heads/master"
+      }]
+    }],
+    "appTemplates": [{
+      "id": "hello_world_hybrid_app",
+      "name": "Cordova Light App",
+      "type": "client_hybrid",
+      "priority": 0.560,
+      "repoUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-html5",
+      "category": "Blank Apps",
+      "screenshots": [{
+        "url": "public/img/templatePreview/blankproject_container.png"
+      }, {
+        "url": "public/img/templatePreview/blankproject_nocontainer.png"
+      }]
+    }, {
+      "id": "hello_world_mbaas_instance",
+      "name": "Cloud App",
+      "type": "cloud_nodejs",
+      "priority": 0.01,
+      "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
+      "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-cloud",
+      "category": "Sample Apps"
+    }, {
+      "id": "hello_world_mbaas_instance_cluster",
+      "name": "Cloud App - Clustered",
+      "type": "cloud_nodejs",
+      "priority": 0.01,
+      "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud-cluster/master/README.md",
+      "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud-cluster.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-cloud",
+      "category": "Sample Apps"
+    }, {
+      "id": "blank_native_android_client",
+      "name": "Blank Native Android App",
+      "type": "client_native_android",
+      "priority": 0.450,
+      "repoUrl": "git://github.com/feedhenry/fh-android-sdk-blank-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-android",
+      "category": "Blank Apps"
+    }, {
+      "id": "blank_native_ios_client",
+      "name": "Blank Native iOS App",
+      "type": "client_native_ios",
+      "priority": 0.445,
+      "repoUrl": "git://github.com/feedhenry/fh-ios-sdk-blank-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-apple",
+      "category": "Blank Apps"
+    }, {
+      "id": "blank_advanced_hybrid_client",
+      "name": "Cordova App",
+      "type": "client_advanced_hybrid",
+      "priority": 0.500,
+      "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-cordova",
+      "category": "Blank Apps"
+    }, {
+      "id": "blank_basic_webapp",
+      "name": "Blank Basic Web App",
+      "type": "webapp_basic",
+      "priority": 0.495,
+      "repoUrl": "git://github.com/feedhenry/fh-basic-webapp-blank-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-globe",
+      "category": "Blank Apps"
+    }, {
+      "id": "blank_advanced_webapp",
+      "name": "Blank Advanced Web App",
+      "type": "webapp_advanced",
+      "priority": 0.490,
+      "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-nodejs",
+      "category": "Blank Apps"
+    }, {
+      "id": "blank_native_windowsphone8",
+      "name": "Blank Native Windows Phone 8 App",
+      "type": "client_native_windowsphone8",
+      "priority": 0.440,
+      "repoUrl": "git://github.com/feedhenry/fh-windowsphone-sdk-blank-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-windows8",
+      "category": "Blank Apps"
+    }, {
+      "id": "blank_xamarin",
+      "name": "Blank Xamarin App",
+      "type": "client_xamarin",
+      "priority": 0.01,
+      "repoUrl": "git://github.com/feedhenry/fh-xamarin-sdk-blank-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-xamarin",
+      "category": "Blank Apps"
+    }, {
+      "id": "blank_appcelerator",
+      "name": "Blank Appcelerator App",
+      "type": "client_appcelerator",
+      "priority": 0.01,
+      "repoUrl": "git://github.com/feedhenry-training/fh-titanium-example.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-appcelerator",
+      "category": "Blank Apps"
+    }, {
+      "id": "appforms_client",
+      "name": "Cordova Light Forms App",
+      "icon": "icon-check",
+      "type": "client_hybrid",
+      "priority": 0.505,
+      "repoUrl": "https://github.com/feedhenry/appforms-project-client.git",
+      "repoBranch": "refs/heads/master",
+      "category": "Forms"
+    }],
+    "connectorTemplates": [{
+      "name": "New mBaaS Service",
+      "id": "new-service",
+      "docs": "https://raw2.github.com/feedhenry/fh-cloud-mbaas-instance-blank/master/README.md",
+      "type": "other",
+      "image": "public/img/cloud_plugins/fh.png",
+      "category": "Custom Service",
+      "appTemplates": [{
+        "id": "hello_world_mbaas_instance",
+        "name": "Hello World Cloud App",
+        "type": "cloud_nodejs",
         "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
         "category": "Sample Apps"
-      },
-      {
-        "id": "hello_world_mbaas_instance_cluster",
-        "name": "Cloud App - Clustered",
-        "type": "cloud_nodejs",
-        "priority": 0.01,
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud-cluster/master/README.md",
-        "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud-cluster.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      },
-      {
-        "id": "blank_native_android_client",
-        "name": "Blank Native Android App",
-        "type": "client_native_android",
-        "priority": 0.450,
-        "repoUrl": "git://github.com/feedhenry/fh-android-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-android",
-        "category": "Blank Apps"
-      },
-      {
-        "id": "blank_native_ios_client",
-        "name": "Blank Native iOS App",
-        "type": "client_native_ios",
-        "priority": 0.445,
-        "repoUrl": "git://github.com/feedhenry/fh-ios-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-apple",
-        "category": "Blank Apps"
-      },
-      {
-        "id": "blank_advanced_hybrid_client",
-        "name": "Cordova App",
-        "type": "client_advanced_hybrid",
-        "priority": 0.500,
-        "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cordova",
-        "category": "Blank Apps"
-      },
-      {
-        "id": "blank_basic_webapp",
-        "name": "Blank Basic Web App",
-        "type": "webapp_basic",
-        "priority": 0.495,
-        "repoUrl": "git://github.com/feedhenry/fh-basic-webapp-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-globe",
-        "category": "Blank Apps"
-      },
-      {
-        "id": "blank_advanced_webapp",
-        "name": "Blank Advanced Web App",
-        "type": "webapp_advanced",
-        "priority": 0.490,
-        "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-nodejs",
-        "category": "Blank Apps"
-      },
-      {
-        "id": "blank_native_windowsphone8",
-        "name": "Blank Native Windows Phone 8 App",
-        "type": "client_native_windowsphone8",
-        "priority": 0.440,
-        "repoUrl": "git://github.com/feedhenry/fh-windowsphone-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-windows8",
-        "category": "Blank Apps"
-      },
-      {
-        "id": "blank_xamarin",
-        "name": "Blank Xamarin App",
-        "type": "client_xamarin",
-        "priority": 0.01,
-        "repoUrl": "git://github.com/feedhenry/fh-xamarin-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-xamarin",
-        "category": "Blank Apps"
-      },
-      {
-        "id": "blank_appcelerator",
-        "name": "Blank Appcelerator App",
-        "type": "client_appcelerator",
-        "priority": 0.01,
-        "repoUrl": "git://github.com/feedhenry-training/fh-titanium-example.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-appcelerator",
-        "category": "Blank Apps"
-      },
-      {
-        "id": "appforms_client",
-        "name": "Cordova Light Forms App",
-        "icon": "icon-check",
-        "type": "client_hybrid",
-        "priority": 0.505,
-        "repoUrl": "https://github.com/feedhenry/appforms-project-client.git",
-        "repoBranch": "refs/heads/master",
-        "category": "Forms"
-      }
-    ],
-    "connectorTemplates": [
-      {
-        "name": "New mBaaS Service",
-        "id": "new-service",
-        "docs": "https://raw2.github.com/feedhenry/fh-cloud-mbaas-instance-blank/master/README.md",
-        "type": "other",
-        "image": "public/img/cloud_plugins/fh.png",
-        "category": "Custom Service",
-        "appTemplates": [
-          {
-            "id": "hello_world_mbaas_instance",
-            "name": "Hello World Cloud App",
-            "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-            "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "icon": "icon-cloud",
-            "category": "Sample Apps"
-          }
-        ]
-      },
-      {
-        "id": "salesforce",
+      }]
+    }, {
+      "id": "salesforce",
+      "name": "Salesforce Connector",
+      "type": "other",
+      "image": "public/img/cloud_plugins/salesforce.png",
+      "category": "SaaS Connectors",
+      "docs": "https://raw.github.com/feedhenry/fh-connector-salesforce-cloud/master/README.md",
+      "appTemplates": [{
+        "id": "salesforce-cloud",
         "name": "Salesforce Connector",
-        "type": "other",
+        "type": "cloud_nodejs",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-salesforce-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/salesforce.png",
-        "category": "SaaS Connectors",
-        "appTemplates": [
-          {
-            "id": "salesforce-cloud",
-            "name": "Salesforce Connector",
-            "type": "cloud_nodejs",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-salesforce-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/salesforce.png",
-            "docs": "https://raw2.github.com/feedhenry/fh-connector-salesforce-cloud/master/README.md",
-            "category": "SaaS",
-            "configuration": [
-              {
-                "desc": "Your salesforce.com login",
-                "varName": "SALESFORCE_USERNAME"
-              },
-              {
-                "desc": "Your salesforce.com password",
-                "varName": "SALESFORCE_PASSWORD",
-                "type": "password"
-              },
-              {
-                "desc": "Your salesforce security token (optional - not needed if you've added our cloud to your access whitelist)",
-                "optional": true,
-                "varName": "SALESFORCE_SECURITYTOKEN",
-                "type": "password"
-              }
-            ]
-          }
-        ],
-        "docs": "https://raw.github.com/feedhenry/fh-connector-salesforce-cloud/master/README.md"
-      },
-      {
-        "id": "oraclecrm",
-        "name": "Oracle Fusion CRM",
-        "type": "other",
+        "docs": "https://raw2.github.com/feedhenry/fh-connector-salesforce-cloud/master/README.md",
+        "category": "SaaS",
+        "configuration": [{
+          "desc": "Your salesforce.com login",
+          "varName": "SALESFORCE_USERNAME"
+        }, {
+          "desc": "Your salesforce.com password",
+          "varName": "SALESFORCE_PASSWORD",
+          "type": "password"
+        }, {
+          "desc": "Your salesforce security token (optional - not needed if you've added our cloud to your access whitelist)",
+          "optional": true,
+          "varName": "SALESFORCE_SECURITYTOKEN",
+          "type": "password"
+        }]
+      }]
+    }, {
+      "id": "oraclecrm",
+      "name": "Oracle Fusion CRM",
+      "type": "other",
+      "image": "https://raw.githubusercontent.com/feedhenry/fh-connector-oraclecrm-cloud/master/icon.png",
+      "docs": "https://raw.github.com/feedhenry/fh-connector-oraclecrm-cloud/master/README.md",
+      "category": "SaaS Connectors",
+      "appTemplates": [{
+        "id": "oraclecrm-cloud",
+        "name": "Oracle Fusion CRM Connector",
+        "type": "cloud_nodejs",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-oraclecrm-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "https://raw.githubusercontent.com/feedhenry/fh-connector-oraclecrm-cloud/master/icon.png",
-        "category": "SaaS Connectors",
-        "appTemplates": [
-          {
-            "id": "oraclecrm-cloud",
-            "name": "Oracle Fusion CRM Connector",
-            "type": "cloud_nodejs",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-oraclecrm-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "https://raw.githubusercontent.com/feedhenry/fh-connector-oraclecrm-cloud/master/icon.png",
-            "docs": "https://raw2.github.com/feedhenry/fh-connector-oraclecrm-cloud/master/README.md",
-            "category": "SaaS",
-            "configuration": [
-              {
-                "desc": "Your Oracle Fusion CRM username",
-                "varName": "SOAP_USER"
-              },
-              {
-                "desc": "Your Oracle Fusion CRM password",
-                "varName": "SOAP_PASS",
-                "type": "password"
-              }
-            ]
-          }
-        ],
-        "docs": "https://raw.github.com/feedhenry/fh-connector-oraclecrm-cloud/master/README.md"
-      },
-      {
-        "id": "twilio",
+        "docs": "https://raw2.github.com/feedhenry/fh-connector-oraclecrm-cloud/master/README.md",
+        "category": "SaaS",
+        "configuration": [{
+          "desc": "Your Oracle Fusion CRM username",
+          "varName": "SOAP_USER"
+        }, {
+          "desc": "Your Oracle Fusion CRM password",
+          "varName": "SOAP_PASS",
+          "type": "password"
+        }]
+      }]
+    }, {
+      "id": "twilio",
+      "name": "Twilio Connector",
+      "type": "other",
+      "image": "public/img/cloud_plugins/twilio.png",
+      "docs": "https://raw.github.com/feedhenry/fh-connector-twilio-cloud/master/README.md",
+      "category": "SaaS Connectors",
+      "appTemplates": [{
+        "id": "twilio-cloud",
         "name": "Twilio Connector",
-        "type": "other",
+        "type": "cloud_nodejs",
+        "docs": "https://raw2.github.com/feedhenry/fh-connector-twilio-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-twilio-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/twilio.png",
-        "category": "SaaS Connectors",
-        "appTemplates": [
-          {
-            "id": "twilio-cloud",
-            "name": "Twilio Connector",
-            "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry/fh-connector-twilio-cloud/master/README.md",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-twilio-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/twilio.png",
-            "category": "SaaS",
-            "configuration": [
-              {
-                "desc": "Twilio account SID",
-                "varName": "TWILIO_SID"
-              },
-              {
-                "desc": "Twilio Auth Token",
-                "varName": "TWILIO_AUTH"
-              },
-              {
-                "desc": "Your Twilio number you\"ve been assigned",
-                "varName": "TWILIO_NUMBER"
-              }
-            ]
-          }
-        ],
-        "docs": "https://raw.github.com/feedhenry/fh-connector-twilio-cloud/master/README.md"
-      },
-      {
-        "id": "sendgrid",
+        "category": "SaaS",
+        "configuration": [{
+          "desc": "Twilio account SID",
+          "varName": "TWILIO_SID"
+        }, {
+          "desc": "Twilio Auth Token",
+          "varName": "TWILIO_AUTH"
+        }, {
+          "desc": "Your Twilio number you\"ve been assigned",
+          "varName": "TWILIO_NUMBER"
+        }]
+      }]
+    }, {
+      "id": "sendgrid",
+      "name": "SendGrid Connector",
+      "type": "other",
+      "image": "public/img/cloud_plugins/sendgrid.png",
+      "docs": "https://raw.github.com/feedhenry/fh-connector-sendgrid-cloud/master/README.md",
+      "category": "SaaS Connectors",
+      "appTemplates": [{
+        "id": "sendgrid-cloud",
         "name": "SendGrid Connector",
-        "type": "other",
+        "type": "cloud_nodejs",
+        "docs": "https://raw2.github.com/feedhenry/fh-connector-sendgrid-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-sendgrid-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/sendgrid.png",
-        "category": "SaaS Connectors",
-        "appTemplates": [
-          {
-            "id": "sendgrid-cloud",
-            "name": "SendGrid Connector",
-            "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry/fh-connector-sendgrid-cloud/master/README.md",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-sendgrid-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/sendgrid.png",
-            "category": "SaaS",
-            "configuration": [
-              {
-                "desc": "Your SendGrid username",
-                "varName": "SENDGRID_USERNAME"
-              },
-              {
-                "desc": "Your SendGrid password",
-                "varName": "SENDGRID_PASSWORD",
-                "field": "password"
-              },
-              {
-                "desc": "From email address",
-                "varName": "SENDGRID_FROM"
-              },
-              {
-                "desc": "From descriptive name",
-                "varName": "SENDGRID_FROMNAME"
-              }
-            ]
-          }
-        ],
-        "docs": "https://raw.github.com/feedhenry/fh-connector-sendgrid-cloud/master/README.md"
-      },
-      {
-        "id": "mysql",
+        "category": "SaaS",
+        "configuration": [{
+          "desc": "Your SendGrid username",
+          "varName": "SENDGRID_USERNAME"
+        }, {
+          "desc": "Your SendGrid password",
+          "varName": "SENDGRID_PASSWORD",
+          "field": "password"
+        }, {
+          "desc": "From email address",
+          "varName": "SENDGRID_FROM"
+        }, {
+          "desc": "From descriptive name",
+          "varName": "SENDGRID_FROMNAME"
+        }]
+      }]
+    }, {
+      "id": "mysql",
+      "name": "MySQL Connector",
+      "type": "other",
+      "image": "public/img/cloud_plugins/mysql.png",
+      "docs": "https://raw.github.com/feedhenry/fh-connector-mysql-cloud/master/README.md",
+      "category": "Database",
+      "appTemplates": [{
+        "id": "mysql-cloud",
         "name": "MySQL Connector",
-        "type": "other",
+        "type": "cloud_nodejs",
+        "docs": "https://raw2.github.com/feedhenry/fh-connector-mysql-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-mysql-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/mysql.png",
         "category": "Database",
-        "appTemplates": [
-          {
-            "id": "mysql-cloud",
-            "name": "MySQL Connector",
-            "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry/fh-connector-mysql-cloud/master/README.md",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-mysql-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/mysql.png",
-            "category": "Database",
-            "configuration": [
-              {
-                "desc": "MySQL Database Host",
-                "varName": "MYSQL_HOST"
-              },
-              {
-                "desc": "MySQL Username",
-                "varName": "MYSQL_USERNAME"
-              },
-              {
-                "desc": "MySQL Password",
-                "varName": "MYSQL_PASSWORD",
-                "field": "password"
-              }
-            ]
-          }
-        ],
-        "docs": "https://raw.github.com/feedhenry/fh-connector-mysql-cloud/master/README.md"
-      },
-      {
-        "id": "mongodb",
+        "configuration": [{
+          "desc": "MySQL Database Host",
+          "varName": "MYSQL_HOST"
+        }, {
+          "desc": "MySQL Username",
+          "varName": "MYSQL_USERNAME"
+        }, {
+          "desc": "MySQL Password",
+          "varName": "MYSQL_PASSWORD",
+          "field": "password"
+        }]
+      }]
+    }, {
+      "id": "mongodb",
+      "name": "MongoDB",
+      "type": "other",
+      "image": "public/img/cloud_plugins/mongodb.png",
+      "category": "Remote Database",
+      "docs": "https://raw2.github.com/feedhenry/fh-connector-mongodb-cloud/master/README.md",
+      "appTemplates": [{
+        "id": "mongodb-cloud",
         "name": "MongoDB",
-        "type": "other",
+        "type": "cloud_nodejs",
+        "docs": "https://raw2.github.com/feedhenry/fh-connector-mongodb-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-mongodb-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/mongodb.png",
         "category": "Remote Database",
-        "appTemplates": [
-          {
-            "id": "mongodb-cloud",
-            "name": "MongoDB",
-            "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry/fh-connector-mongodb-cloud/master/README.md",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-mongodb-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/mongodb.png",
-            "category": "Remote Database",
-            "configuration": [
-              {
-                "desc": "MongoDB Username",
-                "varName": "MONGODB_USER"
-              },
-              {
-                "desc": "MongoDB Password",
-                "varName": "MONGODB_PASSWORD",
-                "field": "password"
-              },
-              {
-                "desc": "MongoDB Hostname",
-                "varName": "MONGODB_HOST"
-              },
-              {
-                "desc": "MongoDB Database Name",
-                "varName": "MONGODB_DATABASE"
-              }
-            ]
-          }
-        ],
-        "docs": "https://github.com/mongodb/node-mongodb-native"
-      },
-      {
-        "id": "stripe",
+        "configuration": [{
+          "desc": "MongoDB Username",
+          "varName": "MONGODB_USER"
+        }, {
+          "desc": "MongoDB Password",
+          "varName": "MONGODB_PASSWORD",
+          "field": "password"
+        }, {
+          "desc": "MongoDB Hostname",
+          "varName": "MONGODB_HOST"
+        }, {
+          "desc": "MongoDB Database Name",
+          "varName": "MONGODB_DATABASE"
+        }]
+      }]
+    }, {
+      "id": "stripe",
+      "name": "Stripe",
+      "type": "other",
+      "image": "public/img/cloud_plugins/stripe.png",
+      "category": "eCommerce",
+      "docs": "https://raw2.github.com/feedhenry/fh-connector-stripe-cloud/master/README.md",
+      "appTemplates": [{
+        "id": "stripe-cloud",
         "name": "Stripe",
-        "type": "other",
+        "type": "cloud_nodejs",
+        "docs": "https://raw2.github.com/feedhenry/fh-connector-stripe-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-stripe-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/stripe.png",
         "category": "eCommerce",
-        "appTemplates": [
-          {
-            "id": "stripe-cloud",
-            "name": "Stripe",
-            "type": "cloud_nodejs",
-            "docs": "https://raw2.github.com/feedhenry/fh-connector-stripe-cloud/master/README.md",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-stripe-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/stripe.png",
-            "category": "eCommerce",
-            "configuration": [
-              {
-                "desc": "Your Stripe API Key",
-                "varName": "STRIPE_API_KEY"
-              }
-            ]
-          }
-        ],
-        "docs": "https://github.com/abh/node-stripe"
-      },
-      {
-        "id": "amazon-ses",
+        "configuration": [{
+          "desc": "Your Stripe API Key",
+          "varName": "STRIPE_API_KEY"
+        }]
+      }]
+    }, {
+      "id": "amazon-ses",
+      "name": "SES",
+      "type": "other",
+      "image": "public/img/cloud_plugins/aws_ses.png",
+      "category": "Amazon Web Services",
+      "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-amazon-ses-cloud/master/README.md",
+      "appTemplates": [{
+        "id": "amazon-ses-cloud",
         "name": "SES",
-        "type": "other",
+        "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-amazon-ses-cloud/master/README.md",
+        "type": "cloud_nodejs",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-amazon-ses-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/aws_ses.png",
         "category": "Amazon Web Services",
-        "appTemplates": [
-          {
-            "id": "amazon-ses-cloud",
-            "name": "SES",
-            "type": "cloud_nodejs",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-amazon-ses-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/aws_ses.png",
-            "category": "Amazon Web Services",
-            "configuration": [
-              {
-                "varName": "AWS_ACCESS_KEY_ID",
-                "desc": "Amazon Web Services Access Key Identifier"
-              },
-              {
-                "varName": "AWS_SECRET_ACCESS_KEY",
-                "desc": "Amazon Web Services Secret Access Key"
-              }
-            ]
-          }
-        ],
-        "docs": "http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SES.html"
-      },
-      {
-        "id": "amazon-sqs",
+        "configuration": [{
+          "varName": "AWS_ACCESS_KEY_ID",
+          "desc": "Amazon Web Services Access Key Identifier"
+        }, {
+          "varName": "AWS_SECRET_ACCESS_KEY",
+          "desc": "Amazon Web Services Secret Access Key"
+        }]
+      }]
+    }, {
+      "id": "amazon-sqs",
+      "name": "SQS",
+      "type": "other",
+      "image": "public/img/cloud_plugins/aws_sqs.png",
+      "category": "Amazon Web Services",
+      "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-amazon-sqs-cloud/master/README.md",
+      "appTemplates": [{
+        "id": "amazon-sqs-cloud",
         "name": "SQS",
-        "type": "other",
+        "type": "cloud_nodejs",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-amazon-sqs-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/aws_sqs.png",
         "category": "Amazon Web Services",
-        "appTemplates": [
-          {
-            "id": "amazon-sqs-cloud",
-            "name": "SQS",
-            "type": "cloud_nodejs",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-amazon-sqs-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/aws_sqs.png",
-            "category": "Amazon Web Services",
-            "configuration": [
-              {
-                "varName": "AWS_ACCESS_KEY_ID",
-                "desc": "Amazon Web Services Access Key Identifier"
-              },
-              {
-                "varName": "AWS_SECRET_ACCESS_KEY",
-                "desc": "Amazon Web Services Secret Access Key"
-              }
-            ]
-          }
-        ],
-        "docs": "http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SQS.html"
-      },
-      {
-        "id": "google",
+        "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-amazon-sqs-cloud/master/README.md",
+        "configuration": [{
+          "varName": "AWS_ACCESS_KEY_ID",
+          "desc": "Amazon Web Services Access Key Identifier"
+        }, {
+          "varName": "AWS_SECRET_ACCESS_KEY",
+          "desc": "Amazon Web Services Secret Access Key"
+        }]
+      }]
+    }, {
+      "id": "google",
+      "name": "Google",
+      "type": "other",
+      "image": "public/img/cloud_plugins/google.png",
+      "category": "SaaS Connectors",
+      "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-google-cloud/master/README.md",
+      "appTemplates": [{
+        "id": "google-cloud",
         "name": "Google",
-        "type": "other",
+        "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-google-cloud/master/README.md",
+        "type": "cloud_nodejs",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-google-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/google.png",
         "category": "SaaS Connectors",
-        "appTemplates": [
-          {
-            "id": "google-cloud",
-            "name": "Google",
-            "type": "cloud_nodejs",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-google-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/google.png",
-            "category": "SaaS Connectors",
-            "configuration": [
-
-            ]
-          }
-        ],
-        "docs": "https://github.com/google/google-api-nodejs-client"
-      },
-      {
-        "id": "intercom",
+        "configuration": []
+      }]
+    }, {
+      "id": "intercom",
+      "name": "Intercom",
+      "type": "other",
+      "image": "public/img/cloud_plugins/intercom.png",
+      "category": "SaaS Connectors",
+      "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-intercom-cloud/master/README.md",
+      "appTemplates": [{
+        "id": "intercom-cloud",
         "name": "Intercom",
-        "type": "other",
+        "type": "cloud_nodejs",
+        "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-intercom-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-intercom-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/intercom.png",
         "category": "SaaS Connectors",
-        "appTemplates": [
-          {
-            "id": "intercom-cloud",
-            "name": "Intercom",
-            "type": "cloud_nodejs",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-intercom-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/intercom.png",
-            "category": "SaaS Connectors",
-            "configuration": [
-              {
-                "desc": "Your Intercom.io API Key",
-                "varName": "INTERCOM_API_KEY"
-              },
-              {
-                "desc": "Your Intercom.io APP Key",
-                "varName": "INTERCOM_APP_KEY"
-              }
-            ]
-          }
-        ],
-        "docs": "https://github.com/silentrob/node-intercom"
-      },
-      {
-        "id": "sap-netweaver",
+        "configuration": [{
+          "desc": "Your Intercom.io API Key",
+          "varName": "INTERCOM_API_KEY"
+        }, {
+          "desc": "Your Intercom.io APP Key",
+          "varName": "INTERCOM_APP_KEY"
+        }]
+      }]
+    }, {
+      "id": "sap-netweaver",
+      "name": "SAP Netweaver",
+      "type": "other",
+      "image": "public/img/cloud_plugins/netweaver.png",
+      "category": "SaaS Connectors",
+      "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-sap-netweaver-cloud/master/README.md",
+      "appTemplates": [{
+        "id": "sap_netweaver_cloud",
         "name": "SAP Netweaver",
-        "type": "other",
+        "type": "cloud_nodejs",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-sap-netweaver-cloud.git",
+        "repoBranch": "refs/heads/master",
+        "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-sap-netweaver-cloud/master/README.md",
         "image": "public/img/cloud_plugins/netweaver.png",
         "category": "SaaS Connectors",
-        "appTemplates": [
-          {
-            "id": "sap_netweaver_cloud",
-            "name": "SAP Netweaver",
-            "type": "cloud_nodejs",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-sap-netweaver-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/netweaver.png",
-            "category": "SaaS Connectors",
-            "configuration": [
-              {
-                "desc": "Your SAP Hostname",
-                "varName": "SAP_HOST"
-              },
-              {
-                "desc": "Your SAP SysID",
-                "varName": "SAP_SYSID"
-              },
-              {
-                "desc": "Your SAP SysNR",
-                "varName": "SAP_SYSNR"
-              },
-              {
-                "desc": "Your SAP Username",
-                "varName": "SAP_USER"
-              },
-              {
-                "desc": "Your SAP Password",
-                "varName": "SAP_PASSWORD",
-                "field": "password"
-              },
-              {
-                "desc": "Your SAP Client",
-                "varName": "SAP_CLIENT"
-              }
-            ]
-          }
-        ],
-        "docs": "https://github.com/jdorner/node-sapnwrfc"
-      },
-      {
-        "id": "paypal",
+        "configuration": [{
+          "desc": "Your SAP Hostname",
+          "varName": "SAP_HOST"
+        }, {
+          "desc": "Your SAP SysID",
+          "varName": "SAP_SYSID"
+        }, {
+          "desc": "Your SAP SysNR",
+          "varName": "SAP_SYSNR"
+        }, {
+          "desc": "Your SAP Username",
+          "varName": "SAP_USER"
+        }, {
+          "desc": "Your SAP Password",
+          "varName": "SAP_PASSWORD",
+          "field": "password"
+        }, {
+          "desc": "Your SAP Client",
+          "varName": "SAP_CLIENT"
+        }]
+      }]
+    }, {
+      "id": "paypal",
+      "name": "Paypal",
+      "type": "other",
+      "image": "public/img/cloud_plugins/paypal.png",
+      "category": "eCommerce",
+      "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-paypal-cloud/master/README.md",
+      "appTemplates": [{
+        "id": "paypal_cloud",
         "name": "Paypal",
-        "type": "other",
+        "type": "cloud_nodejs",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-paypal-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/paypal.png",
         "category": "eCommerce",
-        "appTemplates": [
-          {
-            "id": "paypal_cloud",
-            "name": "Paypal",
-            "type": "cloud_nodejs",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-paypal-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/paypal.png",
-            "category": "eCommerce",
-            "configuration": [
-              {
-                "desc": "PayPal hostname to connect to (optional - assumes api.paypal.com)",
-                "optional": true,
-                "varName": "PAYPAL_HOST"
-              },
-              {
-                "desc": "Your PayPal client ID",
-                "varName": "PAYPAL_CLIENT_ID"
-              },
-              {
-                "desc": "Client Secret",
-                "varName": "PAYPAL_CLIENT_SECRET"
-              }
-            ]
-          }
-        ],
-        "docs": "https://github.com/paypal/rest-api-sdk-nodejs"
-      },
-      {
-        "id": "sharepoint",
+        "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-paypal-cloud/master/README.md",
+        "configuration": [{
+          "desc": "PayPal hostname to connect to (optional - assumes api.paypal.com)",
+          "optional": true,
+          "varName": "PAYPAL_HOST"
+        }, {
+          "desc": "Your PayPal client ID",
+          "varName": "PAYPAL_CLIENT_ID"
+        }, {
+          "desc": "Client Secret",
+          "varName": "PAYPAL_CLIENT_SECRET"
+        }]
+      }]
+    }, {
+      "id": "sharepoint",
+      "name": "Sharepoint",
+      "type": "other",
+      "image": "public/img/cloud_plugins/sharepoint.png",
+      "category": "SaaS Connectors",
+      "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-sharepoint-cloud/master/README.md",
+      "appTemplates": [{
+        "id": "sharepoint_cloud",
         "name": "Sharepoint",
-        "type": "other",
+        "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-sharepoint-cloud/master/README.md",
+        "type": "cloud_nodejs",
+        "repoUrl": "https://github.com/feedhenry/fh-connector-sharepoint-cloud.git",
+        "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/sharepoint.png",
         "category": "SaaS Connectors",
-        "appTemplates": [
-          {
-            "id": "sharepoint_cloud",
-            "name": "Sharepoint",
-            "type": "cloud_nodejs",
-            "repoUrl": "https://github.com/feedhenry/fh-connector-sharepoint-cloud.git",
-            "repoBranch": "refs/heads/master",
-            "image": "public/img/cloud_plugins/sharepoint.png",
-            "category": "SaaS Connectors",
-            "configuration": [
-              {
-                "desc": "Your Sharepoint Login",
-                "varName": "SHAREPOINT_LOGIN"
-              },
-              {
-                "desc": "Your Sharepoint password",
-                "varName": "SHAREPOINT_PASSWORD",
-                "type": "password"
-              },
-              {
-                "desc": "Your Sharepoint Hostname",
-                "optional": true,
-                "varName": "SHAREPOINT_HOSTNAME",
-                "type": "password"
-              }
-            ]
-          }
-        ],
-        "docs": "https://github.com/lstak/node-sharepoint"
-      }
-    ]
+        "configuration": [{
+          "desc": "Your Sharepoint Login",
+          "varName": "SHAREPOINT_LOGIN"
+        }, {
+          "desc": "Your Sharepoint password",
+          "varName": "SHAREPOINT_PASSWORD",
+          "type": "password"
+        }, {
+          "desc": "Your Sharepoint Hostname",
+          "optional": true,
+          "varName": "SHAREPOINT_HOSTNAME",
+          "type": "password"
+        }]
+      }]
+    }]
   },
   "hide": {
     "projectTemplates": [
