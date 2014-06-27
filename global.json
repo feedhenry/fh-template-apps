@@ -128,13 +128,19 @@
         "id": "welcome_project_cloud",
         "name": "Welcome Project-cloud",
         "type": "cloud_nodejs",
-        "repoUrl": "git://github.com/feedhenry-sample-apps/welcome-project-cloud.git",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
         "repoBranch": "refs/heads/master"
       }, {
         "id": "welcome_project_client",
         "name": "Welcome Project-client",
         "type": "client_hybrid",
-        "repoUrl": "git://github.com/feedhenry-sample-apps/welcome-project-client.git",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-app.git",
+        "repoBranch": "refs/heads/master"
+      }, {
+        "id": "welcome_project_android",
+        "name": "Welcome Project-android",
+        "type": "client_native_android",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-android.git",
         "repoBranch": "refs/heads/master"
       }]
     }, {
@@ -153,19 +159,25 @@
         "id": "team_todo_backbone_project_cloud",
         "name": "Team To-Do Backbone Project-cloud",
         "type": "cloud_nodejs",
-        "repoUrl": "git://github.com/feedhenry-sample-apps/team-to-do-backbone-project-cloud.git",
+        "repoUrl": "git://github.com/feedhenry-templates/team-todo-cloud.git",
         "repoBranch": "refs/heads/master"
       }, {
         "id": "team_todo_backbone_project_client",
         "name": "Team To-Do Backbone Project-client",
         "type": "client_hybrid",
-        "repoUrl": "git://github.com/feedhenry-sample-apps/team-to-do-backbone-project-client.git",
+        "repoUrl": "git://github.com/feedhenry-templates/team-todo-backbone-app.git",
         "repoBranch": "refs/heads/master"
       }, {
         "id": "team_todo_backbone_project_portal",
         "name": "Team To-Do Backbone Project-portal",
         "type": "webapp_basic",
-        "repoUrl": "git://github.com/feedhenry-sample-apps/team-to-do-backbone-project-portal.git",
+        "repoUrl": "git://github.com/feedhenry-templates/team-todo-webapp.git",
+        "repoBranch": "refs/heads/master"
+      }, {
+        "id": "team_todo_backbone_project_xamarin",
+        "name": "Team To-Do Backbone Project-xamarin",
+        "type": "client_xamarin",
+        "repoUrl": "git://github.com/feedhenry-templates/team-todo-xamarin.git",
         "repoBranch": "refs/heads/master"
       }]
     }],
