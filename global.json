@@ -100,7 +100,7 @@
         "icon": "icon-check",
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry/appforms-project-client.git",
-        "repoBranch": "refs/heads/feedhenry3",
+        "repoBranch": "refs/heads/master",
         "category": "Forms"
       }, {
         "id": "hello_world_mbaas_instance",
@@ -294,7 +294,7 @@
       "type": "client_hybrid",
       "priority": 0.505,
       "repoUrl": "https://github.com/feedhenry/appforms-project-client.git",
-      "repoBranch": "refs/heads/feedhenry3",
+      "repoBranch": "refs/heads/master",
       "category": "Forms"
     }],
     "connectorTemplates": [{
