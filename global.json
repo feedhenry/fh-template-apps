@@ -426,6 +426,27 @@
         }]
       }]
     }, {
+      "id": "ibeacon",
+      "name": "iBeacon Connector",
+      "type": "other",
+      "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/logo.png",
+      "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/README.md",
+      "category": "Custom Service",
+      "appTemplates": [{
+        "id": "ibeacon-cloud",
+        "name": "iBeacon Connector",
+        "type": "cloud_nodejs",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/README.md",
+        "repoUrl": "https://github.com/feedhenry-templates/fh-connector-ibeacon-manager.git",
+        "repoBranch": "refs/heads/master",
+        "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/logo.png",
+        "category": "Custom Service",
+        "configuration": [{
+          "desc": "iBeacon group UUID",
+          "varName": "IBEACON_UUID"
+        }]
+      }]
+    }, {
       "id": "sendgrid",
       "name": "SendGrid Connector",
       "type": "other",
