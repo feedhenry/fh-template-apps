@@ -45,7 +45,7 @@
         "id": "sync_ios_app",
         "name": "Sync iOS App",
         "type": "client_native_ios",
-        "repoUrl": "git@github.com:feedhenry-templates/sync-ios-app.git",
+        "repoUrl": "git://github.com/feedhenry-templates/sync-ios-app.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-apple",
         "category": "Sample Apps",
