@@ -41,6 +41,15 @@
         "icon": "icon-web",
         "category": "Sample Apps",
         "screenshots": []
+      }, {
+        "id": "sync_ios_app",
+        "name": "Sync iOS App",
+        "type": "client_native_ios",
+        "repoUrl": "git@github.com:feedhenry-templates/sync-ios-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-apple",
+        "category": "Sample Apps",
+        "screenshots": []
       }]
     }, {
       "id": "hello_world_project",
