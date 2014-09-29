@@ -10,9 +10,7 @@
       "screenshots": [{
         "url": "public/img/templatePreview/blankproject_container.png"
       }],
-      "appTemplates": [
-
-      ]
+      "appTemplates": []
     }, {
       "id": "sync_project",
       "name": "Sync Framework Project",
@@ -153,43 +151,6 @@
         "repoBranch": "refs/heads/master"
       }]
     }, {
-      "id": "team_todo_backbone_project",
-      "name": "Team To-Do Backbone Project",
-      "description": "A Backbone project which manages a team's To-Do list, illustrating best practices of FeedHenry development",
-      "type": "other",
-      "icon": "icon-ok-circle",
-      "category": "Sample Projects",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/team-todo-backbone-app/master/screenshots/project_container.png"
-      }, {
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/team-todo-backbone-app/master/screenshots/project_nocontainer.png"
-      }],
-      "appTemplates": [{
-        "id": "team_todo_backbone_project_cloud",
-        "name": "Team To-Do Backbone Project-cloud",
-        "type": "cloud_nodejs",
-        "repoUrl": "git://github.com/feedhenry-templates/team-todo-cloud.git",
-        "repoBranch": "refs/heads/master"
-      }, {
-        "id": "team_todo_backbone_project_client",
-        "name": "Team To-Do Backbone Project-client",
-        "type": "client_hybrid",
-        "repoUrl": "git://github.com/feedhenry-templates/team-todo-backbone-app.git",
-        "repoBranch": "refs/heads/master"
-      }, {
-        "id": "team_todo_backbone_project_portal",
-        "name": "Team To-Do Backbone Project-portal",
-        "type": "webapp_basic",
-        "repoUrl": "git://github.com/feedhenry-templates/team-todo-webapp.git",
-        "repoBranch": "refs/heads/master"
-      }, {
-        "id": "team_todo_backbone_project_xamarin",
-        "name": "Team To-Do Backbone Project-xamarin",
-        "type": "client_xamarin",
-        "repoUrl": "git://github.com/feedhenry-templates/team-todo-xamarin.git",
-        "repoBranch": "refs/heads/master"
-      }]
-    }, {
       "id": "mobile_spec_project",
       "name": "Mobile Spec Project",
       "description": "A project to run automated tests for Cordova APIs and show the test results in the cloud.",
@@ -197,7 +158,7 @@
       "icon": "icon-wrench",
       "category": "Developer Tools",
       "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry-templates/fh-mobile-spec-app/master/Screenshot.png"
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/fh-mobile-spec-app/master/Screenshot.png"
       }],
       "appTemplates": [{
         "id": "mobile_spec_project_cloud",
@@ -216,6 +177,27 @@
         "name": "Mobile Spec Web Portal",
         "type": "webapp_basic",
         "repoUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-portal.git",
+        "repoBranch": "refs/heads/master"
+      }]
+    }, {
+      "id": "angularjs_quickstart_project",
+      "name": "AngularJS Quickstart Project",
+      "description": "A project with a Client App powered by the powerful AngularJS framework",
+      "type": "other",
+      "icon": "icon-angular",
+      "category": "Sample Projects",
+      "screenshots": [],
+      "appTemplates": [{
+        "id": "angularjs_cloud",
+        "name": "AngularJS Quickstart Cloud App",
+        "type": "cloud_nodejs",
+        "repoUrl": "https://github.com/feedhenry-templates/quickstart-angular-cloud.git",
+        "repoBranch": "refs/heads/master"
+      }, {
+        "id": "angularjs_app",
+        "name": "AngularJS Quickstart App",
+        "type": "client_hybrid",
+        "repoUrl": "https://github.com/feedhenry-templates/quickstart-angular-app.git",
         "repoBranch": "refs/heads/master"
       }]
     }],
@@ -754,14 +736,8 @@
     }]
   },
   "hide": {
-    "projectTemplates": [
-
-    ],
-    "appTemplates": [
-
-    ],
-    "connectorTemplates": [
-
-    ]
+    "projectTemplates": [],
+    "appTemplates": [],
+    "connectorTemplates": []
   }
 }
