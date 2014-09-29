@@ -203,19 +203,19 @@
         "id": "mobile_spec_project_cloud",
         "name": "Mobile Spec Cloud App",
         "type": "cloud_nodejs",
-        "repoUrl": "git@github.com:feedhenry-templates/fh-mobile-spec-cloud.git",
+        "repoUrl": "https://github.com:feedhenry-templates/fh-mobile-spec-cloud.git",
         "repoBranch": "refs/heads/master"
       }, {
         "id": "mobile_spec_project_client",
         "name": "Mobile Spec Cordova App",
         "type": "client_hybrid",
-        "repoUrl": "git@github.com:feedhenry-templates/fh-mobile-spec-app.git",
+        "repoUrl": "https://github.com:feedhenry-templates/fh-mobile-spec-app.git",
         "repoBranch": "refs/heads/master"
       }, {
         "id": "mobile_spec_project_portal",
         "name": "Mobile Spec Web Portal",
         "type": "webapp_basic",
-        "repoUrl": "git@github.com:feedhenry-templates/fh-mobile-spec-portal.git",
+        "repoUrl": "https://github.com:feedhenry-templates/fh-mobile-spec-portal.git",
         "repoBranch": "refs/heads/master"
       }]
     }],
