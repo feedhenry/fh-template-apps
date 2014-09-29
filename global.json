@@ -179,27 +179,6 @@
         "repoUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-portal.git",
         "repoBranch": "refs/heads/master"
       }]
-    }, {
-      "id": "angularjs_quickstart_project",
-      "name": "AngularJS Quickstart Project",
-      "description": "A project with a Client App powered by the powerful AngularJS framework",
-      "type": "other",
-      "icon": "icon-angular",
-      "category": "Sample Projects",
-      "screenshots": [],
-      "appTemplates": [{
-        "id": "angularjs_cloud",
-        "name": "AngularJS Quickstart Cloud App",
-        "type": "cloud_nodejs",
-        "repoUrl": "https://github.com/feedhenry-templates/quickstart-angular-cloud.git",
-        "repoBranch": "refs/heads/master"
-      }, {
-        "id": "angularjs_app",
-        "name": "AngularJS Quickstart App",
-        "type": "client_hybrid",
-        "repoUrl": "https://github.com/feedhenry-templates/quickstart-angular-app.git",
-        "repoBranch": "refs/heads/master"
-      }]
     }],
     "appTemplates": [{
       "id": "hello_world_hybrid_app",
