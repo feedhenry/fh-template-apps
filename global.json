@@ -2,6 +2,7 @@
   "show": {
     "projectTemplates": [{
       "id": "bare_project",
+      "priority": 0.4,
       "name": "Bare Project",
       "description": "An empty project into which you can add apps and cloud instances",
       "type": "default",
@@ -13,6 +14,7 @@
       "appTemplates": []
     }, {
       "id": "sync_project",
+      "priority": 0.410,
       "name": "Sync Framework Project",
       "description": "An example Project using our Sync framework",
       "type": "default",
@@ -51,6 +53,7 @@
       }]
     }, {
       "id": "hello_world_project",
+      "priority": 0.9,
       "name": "Hello World Project",
       "description": "A FeedHenry primer project with one HTML5 client instance, and a cloud instance with a single endpoint",
       "type": "default",
@@ -86,6 +89,7 @@
       }]
     }, {
       "id": "appforms_project",
+      "priority": 0.440,
       "name": "Forms Project",
       "description": "An AppForms project, for building Drag & Drop forms apps",
       "type": "appforms",
@@ -121,6 +125,7 @@
       }]
     }, {
       "id": "welcome_project",
+      "priority": 0.450,
       "description": "Demonstrates many features of the FeedHenry platform. The HTML5 client uses Bootstrap 3 and Backbone.js, and the cloud portion of this app illustrates the use of MongoDB, Redis and third party APIs.",
       "name": "Welcome Project",
       "type": "other",
@@ -152,6 +157,7 @@
       }]
     }, {
       "id": "mobile_spec_project",
+      "priority": 0.420,
       "name": "Mobile Spec Project",
       "description": "A project to run automated tests for Cordova APIs and show the test results in the cloud.",
       "type": "other",
@@ -198,7 +204,7 @@
       "id": "hello_world_mbaas_instance",
       "name": "Cloud App",
       "type": "cloud_nodejs",
-      "priority": 0.01,
+      "priority": 0.02,
       "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
       "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
       "repoBranch": "refs/heads/master",
@@ -272,7 +278,7 @@
       "id": "blank_xamarin",
       "name": "Blank Xamarin App",
       "type": "client_xamarin",
-      "priority": 0.01,
+      "priority": 0.03,
       "repoUrl": "git://github.com/feedhenry/fh-xamarin-sdk-blank-app.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-xamarin",
@@ -281,7 +287,7 @@
       "id": "blank_appcelerator",
       "name": "Blank Appcelerator App",
       "type": "client_appcelerator",
-      "priority": 0.01,
+      "priority": 0.04,
       "repoUrl": "git://github.com/feedhenry-training/fh-titanium-example.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-appcelerator",
@@ -298,6 +304,7 @@
     }],
     "connectorTemplates": [{
       "name": "New mBaaS Service",
+      "priority": 0.900,
       "id": "new-service",
       "docs": "https://raw2.github.com/feedhenry/fh-cloud-mbaas-instance-blank/master/README.md",
       "type": "other",
@@ -315,6 +322,7 @@
       }]
     }, {
       "id": "salesforce",
+      "priority": 0.899,
       "name": "Salesforce Connector",
       "type": "other",
       "image": "public/img/cloud_plugins/salesforce.png",
@@ -345,6 +353,7 @@
       }]
     }, {
       "id": "oraclecrm",
+      "priority": 0.898,
       "name": "Oracle Fusion CRM",
       "type": "other",
       "image": "https://raw.githubusercontent.com/feedhenry/fh-connector-oraclecrm-cloud/master/icon.png",
@@ -370,6 +379,7 @@
       }]
     }, {
       "id": "twilio",
+      "priority": 0.897,
       "name": "Twilio Connector",
       "type": "other",
       "image": "public/img/cloud_plugins/twilio.png",
@@ -397,6 +407,7 @@
       }]
     }, {
       "id": "ibeacon",
+      "priority": 0.896,
       "name": "iBeacon Connector",
       "type": "other",
       "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/logo.png",
@@ -418,6 +429,7 @@
       }]
     }, {
       "id": "sendgrid",
+      "priority": 0.895,
       "name": "SendGrid Connector",
       "type": "other",
       "image": "public/img/cloud_plugins/sendgrid.png",
@@ -449,6 +461,7 @@
       }]
     }, {
       "id": "mysql",
+      "priority": 0.894,
       "name": "MySQL Connector",
       "type": "other",
       "image": "public/img/cloud_plugins/mysql.png",
@@ -477,6 +490,7 @@
       }]
     }, {
       "id": "mongodb",
+      "priority": 0.893,
       "name": "MongoDB",
       "type": "other",
       "image": "public/img/cloud_plugins/mongodb.png",
@@ -508,6 +522,7 @@
       }]
     }, {
       "id": "stripe",
+      "priority": 0.892,
       "name": "Stripe",
       "type": "other",
       "image": "public/img/cloud_plugins/stripe.png",
@@ -529,6 +544,7 @@
       }]
     }, {
       "id": "amazon-ses",
+      "priority": 0.891,
       "name": "SES",
       "type": "other",
       "image": "public/img/cloud_plugins/aws_ses.png",
@@ -553,6 +569,7 @@
       }]
     }, {
       "id": "amazon-sqs",
+      "priority": 0.890,
       "name": "SQS",
       "type": "other",
       "image": "public/img/cloud_plugins/aws_sqs.png",
@@ -577,6 +594,7 @@
       }]
     }, {
       "id": "google",
+      "priority": 0.889,
       "name": "Google",
       "type": "other",
       "image": "public/img/cloud_plugins/google.png",
@@ -595,6 +613,7 @@
       }]
     }, {
       "id": "intercom",
+      "priority": 0.888,
       "name": "Intercom",
       "type": "other",
       "image": "public/img/cloud_plugins/intercom.png",
@@ -619,6 +638,7 @@
       }]
     }, {
       "id": "sap-netweaver",
+      "priority": 0.887,
       "name": "SAP Netweaver",
       "type": "other",
       "image": "public/img/cloud_plugins/netweaver.png",
@@ -656,6 +676,7 @@
       }]
     }, {
       "id": "paypal",
+      "priority": 0.886,
       "name": "Paypal",
       "type": "other",
       "image": "public/img/cloud_plugins/paypal.png",
@@ -684,6 +705,7 @@
       }]
     }, {
       "id": "sharepoint",
+      "priority": 0.885,
       "name": "Sharepoint",
       "type": "other",
       "image": "public/img/cloud_plugins/sharepoint.png",
