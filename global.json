@@ -202,7 +202,7 @@
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry-templates/quickstart-angular-app.git",
         "repoBranch": "refs/heads/master",
-        "icon": "icon-html5",
+        "icon": "icon-angular",
         "category": "Blank Apps",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angular_project_container.png"
@@ -234,7 +234,7 @@
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry-templates/quickstart-backbone-app.git",
         "repoBranch": "refs/heads/master",
-        "icon": "icon-html5",
+        "icon": "icon-backbone",
         "category": "Blank Apps",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backbone_project_container.png"
@@ -263,6 +263,30 @@
         "url": "public/img/templatePreview/blankproject_container.png"
       }, {
         "url": "public/img/templatePreview/blankproject_nocontainer.png"
+      }]
+    },{
+      "id": "hello_world_backbone_hybrid_app",
+      "name": "Backbone Hello World Client",
+      "type": "client_hybrid",
+      "priority": 0.4,
+      "repoUrl": "https://github.com/feedhenry-templates/quickstart-backbone-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-backbone",
+      "category": "Blank Apps",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backbone_project_container.png"
+      }]
+    },{
+      "id": "hello_world_angular_hybrid_app",
+      "name": "AngularJS Hello World Client",
+      "type": "client_hybrid",
+      "priority": 0.4,
+      "repoUrl": "https://github.com/feedhenry-templates/quickstart-angular-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-angular",
+      "category": "Blank Apps",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angular_project_container.png"
       }]
     }, {
       "id": "hello_world_mbaas_instance",
