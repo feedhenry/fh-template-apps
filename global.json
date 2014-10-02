@@ -217,6 +217,38 @@
         "icon": "icon-cloud",
         "category": "Sample Apps"
       }]
+    },  {
+      "id": "backbone_hello_world_project",
+      "priority": 0.4,
+      "name": "Backbone Hello World Project",
+      "description": "An Example Project Demonstrating A Backbone App Using the Feedhenry Javascript SDK to communicate with the cloud.",
+      "type": "other",
+      "icon": "icon-globe",
+      "category": "Sample Projects",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backbone_project_container.png"
+      }],
+      "appTemplates": [{
+        "id": "hello_world_backbone_hybrid_app",
+        "name": "Backbone Hello World Client",
+        "type": "client_hybrid",
+        "repoUrl": "https://github.com/feedhenry-templates/quickstart-backbone-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-html5",
+        "category": "Blank Apps",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backbone_project_container.png"
+        }]
+      }, {
+        "id": "hello_world_backbone_mbaas_instance",
+        "name": "Backbone Hello World Cloud App",
+        "type": "cloud_nodejs",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry-templates/quickstart-backbone-cloud.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-cloud",
+        "category": "Sample Apps"
+      }]
     }],
     "appTemplates": [{
       "id": "hello_world_hybrid_app",
