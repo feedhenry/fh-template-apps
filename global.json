@@ -191,29 +191,29 @@
       "name": "AngularJS Hello World Project",
       "description": "An Example Project Demonstrating An AngularJS App Using the Feedhenry Javascript SDK to communicate with the cloud.",
       "type": "other",
-      "icon": "icon-globe",
+      "icon": "icon-angular",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/8060_refactor_angular_quickstart_guide/screenshots/angular_project_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angular_project_container.png"
       }],
       "appTemplates": [{
         "id": "hello_world_angular_hybrid_app",
         "name": "AngularJS Hello World Client",
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry-templates/quickstart-angular-app.git",
-        "repoBranch": "refs/heads/8060_refactor_angular_quickstart_guide",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-html5",
         "category": "Blank Apps",
         "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/8060_refactor_angular_quickstart_guide/screenshots/angular_project_container.png"
+          "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angular_project_container.png"
         }]
       }, {
         "id": "hello_world_angular_mbaas_instance",
         "name": "AngularJS Hello World Cloud App",
         "type": "cloud_nodejs",
-        "docs": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-cloud/8060_refactor_angular_quickstart_guide/README.md",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-cloud/master/README.md",
         "repoUrl": "https://github.com/feedhenry-templates/quickstart-angular-cloud.git",
-        "repoBranch": "refs/heads/8060_refactor_angular_quickstart_guide",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
         "category": "Sample Apps"
       }]
@@ -223,7 +223,7 @@
       "name": "Backbone Hello World Project",
       "description": "An Example Project Demonstrating A Backbone App Using the Feedhenry Javascript SDK to communicate with the cloud.",
       "type": "other",
-      "icon": "icon-globe",
+      "icon": "icon-backbone",
       "category": "Sample Projects",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backbone_project_container.png"
@@ -240,11 +240,11 @@
           "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backbone_project_container.png"
         }]
       }, {
-        "id": "hello_world_backbone_mbaas_instance",
-        "name": "Backbone Hello World Cloud App",
+        "id": "hello_world_mbaas_instance",
+        "name": "Hello World Cloud App",
         "type": "cloud_nodejs",
-        "docs": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-cloud/master/README.md",
-        "repoUrl": "https://github.com/feedhenry-templates/quickstart-backbone-cloud.git",
+        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
         "category": "Sample Apps"
