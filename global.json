@@ -249,6 +249,38 @@
         "icon": "icon-cloud",
         "category": "Sample Apps"
       }]
+    }, {
+      "id": "ionic_hello_world_project",
+      "priority": 0.4,
+      "name": "Ionic Hello World Project",
+      "description": "An Example Project Demonstrating An Ionic App Using the Feedhenry Javascript SDK to communicate with the cloud.",
+      "type": "other",
+      "icon": "icon-ionic",
+      "category": "Sample Projects",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionic_project_container.png"
+      }],
+      "appTemplates": [{
+        "id": "hello_world_ionic_hybrid_app",
+        "name": "Backbone Hello World Client",
+        "type": "client_hybrid",
+        "repoUrl": "https://github.com/feedhenry-templates/quickstart-ionic-app.git",
+        "repoBranch": "refs/heads/8085_create_ionic_hello_world_guide",
+        "icon": "icon-ionic",
+        "category": "Blank Apps",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionic_project_container.png"
+        }]
+      }, {
+        "id": "hello_world_mbaas_instance",
+        "name": "Hello World Cloud App",
+        "type": "cloud_nodejs",
+        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-cloud",
+        "category": "Sample Apps"
+      }]
     }],
     "appTemplates": [{
       "id": "hello_world_hybrid_app",
