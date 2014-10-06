@@ -420,17 +420,17 @@
       "category": "Blank Apps",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angular_project_container.png"
-      },{
-        "id": "hello_world_ionic_hybrid_app",
-        "name": "Ionic Hello World Client",
-        "type": "client_hybrid",
-        "repoUrl": "https://github.com/feedhenry-templates/quickstart-ionic-app.git",
-        "repoBranch": "refs/heads/8085_create_ionic_hello_world_guide",
-        "icon": "icon-ionic",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/8085_create_ionic_hello_world_guide/screenshots/ionic_project_container.png"
-        }]
+      }]
+    }, {
+      "id": "hello_world_ionic_hybrid_app",
+      "name": "Ionic Hello World Client",
+      "type": "client_hybrid",
+      "repoUrl": "https://github.com/feedhenry-templates/quickstart-ionic-app.git",
+      "repoBranch": "refs/heads/8085_create_ionic_hello_world_guide",
+      "icon": "icon-ionic",
+      "category": "Blank Apps",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/8085_create_ionic_hello_world_guide/screenshots/ionic_project_container.png"
       }]
     }],
     "connectorTemplates": [{
