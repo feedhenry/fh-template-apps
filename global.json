@@ -93,7 +93,7 @@
       "name": "HTML5 Hello World Project",
       "description": "A FeedHenry primer project with one HTML5 client instance, and a cloud instance with a single endpoint",
       "type": "default",
-      "icon": "icon-globe",
+      "icon": "icon-html5",
       "category": "Sample Projects",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
@@ -122,6 +122,61 @@
         "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
         "category": "Sample Apps"
+      }]
+    },{
+      "id": "basic_webapp_hello_world_project",
+      "priority": 0.9,
+      "name": "Basic Web App Hello World Project",
+      "description": "A FeedHenry primer project with one Basic Web App client instance, and a cloud instance with a single endpoint",
+      "type": "default",
+      "icon": "icon-globe",
+      "category": "Sample Projects",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
+      }, {
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
+      }],
+      "appTemplates": [{
+        "id": "blank_basic_webapp",
+        "name": "Blank Basic Web App",
+        "type": "webapp_basic",
+        "priority": 0.495,
+        "repoUrl": "git://github.com/feedhenry/fh-basic-webapp-blank-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-globe",
+        "category": "Blank Apps"
+      }, {
+        "id": "hello_world_mbaas_instance",
+        "name": "Hello World Cloud App",
+        "type": "cloud_nodejs",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-cloud",
+        "category": "Sample Apps"
+      }]
+    },{
+      "id": "advanced_webapp_hello_world_project",
+      "priority": 0.9,
+      "name": "Advanced Web App Hello World Project",
+      "description": "A FeedHenry primer project with one Advanced Web App.",
+      "type": "default",
+      "icon": "icon-nodejs",
+      "category": "Sample Projects",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
+      }, {
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
+      }],
+      "appTemplates": [{
+        "id": "blank_advanced_webapp",
+        "name": "Blank Advanced Web App",
+        "type": "webapp_advanced",
+        "priority": 0.490,
+        "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-nodejs",
+        "category": "Blank Apps"
       }]
     },{
       "id": "cordova_project",
