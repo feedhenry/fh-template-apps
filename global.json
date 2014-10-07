@@ -161,7 +161,11 @@
       "type": "default",
       "icon": "icon-nodejs",
       "category": "Sample Projects",
-      "screenshots": [],
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-webapp-blank-app/master/screenshots/blankproject_container.png"
+      },{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-webapp-blank-app/master/screenshots/blankproject_nocontainer.png"
+      }],
       "appTemplates": [{
         "id": "blank_advanced_webapp",
         "name": "Blank Advanced Web App",
@@ -189,7 +193,11 @@
       "type": "default",
       "icon": "icon-cordova",
       "category": "Sample Projects",
-      "screenshots": [],
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-hybrid-blank-app/master/screenshots/cordovaproject_container.png"
+      },{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-hybrid-blank-app/master/screenshots/cordovaproject_nocontainer.png"
+      }],
       "appTemplates": [{
         "id": "blank_advanced_hybrid_client",
         "name": "Cordova App",
@@ -217,7 +225,11 @@
       "type": "default",
       "icon": "icon-android",
       "category": "Sample Projects",
-      "screenshots": [],
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-android-sdk-blank-app/master/screenshots/androidproject_container.png"
+      },{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-android-sdk-blank-app/master/screenshots/androidproject_nocontainer.png"
+      }],
       "appTemplates": [{
         "id": "blank_native_android_client",
         "name": "Blank Native Android App",
@@ -245,7 +257,11 @@
       "type": "default",
       "icon": "icon-apple",
       "category": "Sample Projects",
-      "screenshots": [],
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-ios-sdk-blank-app/master/screenshots/iosproject_container.png"
+      },{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-ios-sdk-blank-app/master/screenshots/iosproject_nocontainer.png"
+      }],
       "appTemplates": [{
         "id": "blank_native_ios_client",
         "name": "Blank Native iOS App",
@@ -273,7 +289,11 @@
       "type": "default",
       "icon": "icon-windows8",
       "category": "Sample Projects",
-      "screenshots": [],
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-windowsphone-sdk-blank-app/master/screenshots/wp8project_container.png"
+      },{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-windowsphone-sdk-blank-app/master/screenshots/wp8project_nocontainer.png"
+      }],
       "appTemplates": [{
         "id": "blank_native_windowsphone8",
         "name": "Blank Native Windows Phone 8 App",
@@ -301,7 +321,11 @@
       "type": "default",
       "icon": "icon-appcelerator",
       "category": "Sample Projects",
-      "screenshots": [],
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-training/fh-titanium-example/master/screenshots/appceleratorproject_container.png"
+      },{
+        "url": "https://raw.githubusercontent.com/feedhenry-training/fh-titanium-example/master/screenshots/appceleratorproject_nocontainer.png"
+      }],
       "appTemplates": [{
         "id": "blank_appcelerator",
         "name": "Blank Appcelerator App",
@@ -329,7 +353,11 @@
       "type": "default",
       "icon": "icon-appcelerator",
       "category": "Sample Projects",
-      "screenshots": [],
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-xamarin-sdk-blank-app/master/screenshots/xamarinproject_container.png"
+      },{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-xamarin-sdk-blank-app/master/screenshots/xamarinproject_nocontainer.png"
+      }],
       "appTemplates": [{
         "id": "blank_xamarin",
         "name": "Blank Xamarin App",
