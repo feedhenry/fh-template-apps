@@ -131,7 +131,9 @@
       "type": "default",
       "icon": "icon-globe",
       "category": "Sample Projects",
-      "screenshots": [],
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-basic-webapp-blank-app/master/screenshots/blankproject_container.png"
+      }],
       "appTemplates": [{
         "id": "blank_basic_webapp",
         "name": "Blank Basic Web App",
@@ -169,6 +171,15 @@
         "repoBranch": "refs/heads/master",
         "icon": "icon-nodejs",
         "category": "Blank Apps"
+      }, {
+        "id": "hello_world_mbaas_instance",
+        "name": "Hello World Cloud App",
+        "type": "cloud_nodejs",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
+        "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-cloud",
+        "category": "Sample Apps"
       }]
     },{
       "id": "cordova_project",
