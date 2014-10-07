@@ -69,7 +69,7 @@
         "name": "Hello World Client",
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
-        "repoBranch": "refs/heads/fhlint_fixes",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-html5",
         "category": "Blank Apps",
         "screenshots": [{
@@ -83,7 +83,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/fhlint_fixes",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
         "category": "Sample Apps"
       }]
@@ -119,7 +119,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/fhlint_fixes",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
         "category": "Sample Apps"
       }]
@@ -192,7 +192,7 @@
       "type": "client_hybrid",
       "priority": 0.560,
       "repoUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
-      "repoBranch": "refs/heads/fhlint_fixes",
+      "repoBranch": "refs/heads/master",
       "icon": "icon-html5",
       "category": "Blank Apps",
       "screenshots": [{
@@ -207,7 +207,7 @@
       "priority": 0.02,
       "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
       "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-      "repoBranch": "refs/heads/fhlint_fixes",
+      "repoBranch": "refs/heads/master",
       "icon": "icon-cloud",
       "category": "Sample Apps"
     }, {
@@ -316,7 +316,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
         "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/fhlint_fixes",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
         "category": "Sample Apps"
       }]
