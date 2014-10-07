@@ -29,7 +29,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/sync-cloud/master/README.md",
         "repoUrl": "git://github.com/feedhenry-templates/sync-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/fhlint_fixes",
         "icon": "icon-cloud",
         "category": "Sample Apps"
       }, {
@@ -37,7 +37,7 @@
         "name": "Sync App",
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/sync-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/fhlint_fixes",
         "icon": "icon-web",
         "category": "Sample Apps",
         "screenshots": []
@@ -111,7 +111,7 @@
         "icon": "icon-check",
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry/appforms-project-client.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/fhlint_fixes",
         "category": "Forms"
       }, {
         "id": "hello_world_mbaas_instance",
@@ -141,13 +141,13 @@
         "name": "Welcome Project-cloud",
         "type": "cloud_nodejs",
         "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
-        "repoBranch": "refs/heads/master"
+        "repoBranch": "refs/heads/fhlint_fixes"
       }, {
         "id": "welcome_project_client",
         "name": "Welcome Project-client",
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/welcome-app.git",
-        "repoBranch": "refs/heads/master"
+        "repoBranch": "refs/heads/fhlint_fixes"
       }, {
         "id": "welcome_project_android",
         "name": "Welcome Project-android",
@@ -177,13 +177,13 @@
         "name": "Mobile Spec Cordova App",
         "type": "client_hybrid",
         "repoUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-app.git",
-        "repoBranch": "refs/heads/master"
+        "repoBranch": "refs/heads/fhlint_fixes"
       }, {
         "id": "mobile_spec_project_portal",
         "name": "Mobile Spec Web Portal",
         "type": "webapp_basic",
         "repoUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-portal.git",
-        "repoBranch": "refs/heads/master"
+        "repoBranch": "refs/heads/fhlint_fixes"
       }]
     }],
     "appTemplates": [{
@@ -192,7 +192,7 @@
       "type": "client_hybrid",
       "priority": 0.560,
       "repoUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/fhlint_fixes",
       "icon": "icon-html5",
       "category": "Blank Apps",
       "screenshots": [{
@@ -207,7 +207,7 @@
       "priority": 0.02,
       "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
       "repoUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/fhlint_fixes",
       "icon": "icon-cloud",
       "category": "Sample Apps"
     }, {
@@ -244,7 +244,7 @@
       "type": "client_advanced_hybrid",
       "priority": 0.500,
       "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/fhlint_fixes",
       "icon": "icon-cordova",
       "category": "Blank Apps"
     }, {
@@ -253,7 +253,7 @@
       "type": "webapp_basic",
       "priority": 0.495,
       "repoUrl": "git://github.com/feedhenry/fh-basic-webapp-blank-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/fhlint_fixes",
       "icon": "icon-globe",
       "category": "Blank Apps"
     }, {
@@ -262,7 +262,7 @@
       "type": "webapp_advanced",
       "priority": 0.490,
       "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/fhlint_fixes",
       "icon": "icon-nodejs",
       "category": "Blank Apps"
     }, {
@@ -333,7 +333,7 @@
         "name": "Salesforce Connector",
         "type": "cloud_nodejs",
         "repoUrl": "https://github.com/feedhenry/fh-connector-salesforce-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "public/img/cloud_plugins/salesforce.png",
         "docs": "https://raw2.github.com/feedhenry/fh-connector-salesforce-cloud/master/README.md",
         "category": "SaaS",
@@ -364,7 +364,7 @@
         "name": "Oracle Fusion CRM Connector",
         "type": "cloud_nodejs",
         "repoUrl": "https://github.com/feedhenry/fh-connector-oraclecrm-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "https://raw.githubusercontent.com/feedhenry/fh-connector-oraclecrm-cloud/master/icon.png",
         "docs": "https://raw2.github.com/feedhenry/fh-connector-oraclecrm-cloud/master/README.md",
         "category": "SaaS",
@@ -391,7 +391,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw2.github.com/feedhenry/fh-connector-twilio-cloud/master/README.md",
         "repoUrl": "https://github.com/feedhenry/fh-connector-twilio-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "public/img/cloud_plugins/twilio.png",
         "category": "SaaS",
         "configuration": [{
@@ -419,7 +419,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/README.md",
         "repoUrl": "https://github.com/feedhenry-templates/fh-connector-ibeacon-manager.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/logo.png",
         "category": "Custom Service",
         "configuration": [{
@@ -441,7 +441,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw2.github.com/feedhenry/fh-connector-sendgrid-cloud/master/README.md",
         "repoUrl": "https://github.com/feedhenry/fh-connector-sendgrid-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "public/img/cloud_plugins/sendgrid.png",
         "category": "SaaS",
         "configuration": [{
@@ -473,7 +473,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw2.github.com/feedhenry/fh-connector-mysql-cloud/master/README.md",
         "repoUrl": "https://github.com/feedhenry/fh-connector-mysql-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "public/img/cloud_plugins/mysql.png",
         "category": "Database",
         "configuration": [{
@@ -502,7 +502,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw2.github.com/feedhenry/fh-connector-mongodb-cloud/master/README.md",
         "repoUrl": "https://github.com/feedhenry/fh-connector-mongodb-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "public/img/cloud_plugins/mongodb.png",
         "category": "Remote Database",
         "configuration": [{
@@ -534,7 +534,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw2.github.com/feedhenry/fh-connector-stripe-cloud/master/README.md",
         "repoUrl": "https://github.com/feedhenry/fh-connector-stripe-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "public/img/cloud_plugins/stripe.png",
         "category": "eCommerce",
         "configuration": [{
@@ -556,7 +556,7 @@
         "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-amazon-ses-cloud/master/README.md",
         "type": "cloud_nodejs",
         "repoUrl": "https://github.com/feedhenry/fh-connector-amazon-ses-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/fhlint_fixes",
         "image": "public/img/cloud_plugins/aws_ses.png",
         "category": "Amazon Web Services",
         "configuration": [{
@@ -580,7 +580,7 @@
         "name": "SQS",
         "type": "cloud_nodejs",
         "repoUrl": "https://github.com/feedhenry/fh-connector-amazon-sqs-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/fhlint_fixes",
         "image": "public/img/cloud_plugins/aws_sqs.png",
         "category": "Amazon Web Services",
         "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-amazon-sqs-cloud/master/README.md",
@@ -606,7 +606,7 @@
         "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-google-cloud/master/README.md",
         "type": "cloud_nodejs",
         "repoUrl": "https://github.com/feedhenry/fh-connector-google-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "public/img/cloud_plugins/google.png",
         "category": "SaaS Connectors",
         "configuration": []
@@ -625,7 +625,7 @@
         "type": "cloud_nodejs",
         "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-intercom-cloud/master/README.md",
         "repoUrl": "https://github.com/feedhenry/fh-connector-intercom-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "public/img/cloud_plugins/intercom.png",
         "category": "SaaS Connectors",
         "configuration": [{
@@ -649,7 +649,7 @@
         "name": "SAP Netweaver",
         "type": "cloud_nodejs",
         "repoUrl": "https://github.com/feedhenry/fh-connector-sap-netweaver-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-sap-netweaver-cloud/master/README.md",
         "image": "public/img/cloud_plugins/netweaver.png",
         "category": "SaaS Connectors",
@@ -687,7 +687,7 @@
         "name": "Paypal",
         "type": "cloud_nodejs",
         "repoUrl": "https://github.com/feedhenry/fh-connector-paypal-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "public/img/cloud_plugins/paypal.png",
         "category": "eCommerce",
         "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-paypal-cloud/master/README.md",
@@ -717,7 +717,7 @@
         "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-sharepoint-cloud/master/README.md",
         "type": "cloud_nodejs",
         "repoUrl": "https://github.com/feedhenry/fh-connector-sharepoint-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/8091_fhlint_fixes",
         "image": "public/img/cloud_plugins/sharepoint.png",
         "category": "SaaS Connectors",
         "configuration": [{
