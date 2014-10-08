@@ -8,7 +8,9 @@
       "type": "default",
       "icon": "icon-circle-blank",
       "category": "Blank",
-      "screenshots": [],
+      "screenshots": [{
+          "url": "public/img/templatePreview/blankproject_container.png"
+      }],
       "appTemplates": []
     }, {
       "id": "sync_project",
