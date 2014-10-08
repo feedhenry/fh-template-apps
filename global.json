@@ -130,7 +130,9 @@
       "icon": "icon-globe",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-basic-webapp-blank-app/master/screenshots/blankproject_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-basic-webapp-blank-app/master/screenshots/basic_webappproject_container.png"
+      },{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-basic-webapp-blank-app/master/screenshots/basic_webappproject_nocontainer.png"
       }],
       "appTemplates": [{
         "id": "blank_basic_webapp",
@@ -160,9 +162,9 @@
       "icon": "icon-nodejs",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-webapp-blank-app/master/screenshots/blankproject_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-webapp-blank-app/master/screenshots/advanced_webappproject_container.png"
       },{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-webapp-blank-app/master/screenshots/blankproject_nocontainer.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-webapp-blank-app/master/screenshots/advanced_webappproject_nocontainer.png"
       }],
       "appTemplates": [{
         "id": "blank_advanced_webapp",
@@ -225,8 +227,6 @@
       "category": "Sample Projects",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-android-sdk-blank-app/master/screenshots/androidproject_container.png"
-      },{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-android-sdk-blank-app/master/screenshots/androidproject_nocontainer.png"
       }],
       "appTemplates": [{
         "id": "blank_native_android_client",
@@ -257,8 +257,6 @@
       "category": "Sample Projects",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-ios-sdk-blank-app/master/screenshots/iosproject_container.png"
-      },{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-ios-sdk-blank-app/master/screenshots/iosproject_nocontainer.png"
       }],
       "appTemplates": [{
         "id": "blank_native_ios_client",
@@ -321,8 +319,6 @@
       "category": "Sample Projects",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-training/fh-titanium-example/master/screenshots/appceleratorproject_container.png"
-      },{
-        "url": "https://raw.githubusercontent.com/feedhenry-training/fh-titanium-example/master/screenshots/appceleratorproject_nocontainer.png"
       }],
       "appTemplates": [{
         "id": "blank_appcelerator",
@@ -353,8 +349,6 @@
       "category": "Sample Projects",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-xamarin-sdk-blank-app/master/screenshots/xamarinproject_container.png"
-      },{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-xamarin-sdk-blank-app/master/screenshots/xamarinproject_nocontainer.png"
       }],
       "appTemplates": [{
         "id": "blank_xamarin",
@@ -384,9 +378,9 @@
       "icon": "icon-tasks",
       "category": "Forms",
       "screenshots": [{
-        "url": "public/img/templatePreview/appforms_container.png"
+        "url": "https://github.com/feedhenry/appforms-project-client/master/screenshots/appformsproject_container.png"
       }, {
-        "url": "public/img/templatePreview/appforms_nocontainer.png"
+        "url": "https://github.com/feedhenry/appforms-project-client/master/screenshots/appformsproject_nocontainer.png"
       }],
       "postProcessingOptions": {},
       "configuration": {
@@ -482,7 +476,9 @@
       "icon": "icon-angular",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angular_project_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angularproject_container.png"
+      }, {
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angularproject_nocontainer.png"
       }],
       "appTemplates": [{
         "id": "hello_world_angular_hybrid_app",
@@ -514,7 +510,9 @@
       "icon": "icon-backbone",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backbone_project_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backboneproject_container.png"
+      },{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backboneproject_nocontainer.png"
       }],
       "appTemplates": [{
         "id": "hello_world_backbone_hybrid_app",
@@ -546,7 +544,9 @@
       "icon": "icon-ionic",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionic_project_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionicproject_container.png"
+      },{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionicproject_nocontainer.png"
       }],
       "appTemplates": [{
         "id": "hello_world_ionic_hybrid_app",
