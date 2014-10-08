@@ -715,6 +715,7 @@
       "id": "hello_world_ionic_hybrid_app",
       "name": "Ionic Hello World Client",
       "type": "client_hybrid",
+      "priority": 0.4,
       "repoUrl": "https://github.com/feedhenry-templates/quickstart-ionic-app.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-ionic",
