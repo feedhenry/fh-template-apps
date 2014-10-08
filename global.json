@@ -378,9 +378,9 @@
       "icon": "icon-tasks",
       "category": "Forms",
       "screenshots": [{
-        "url": "https://github.com/feedhenry/appforms-project-client/blob/master/screenshots/appformsproject_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/appforms-project-client/master/screenshots/appformsproject_container.png"
       }, {
-        "url": "https://github.com/feedhenry/appforms-project-client/blob/master/screenshots/appformsproject_nocontainer.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/appforms-project-client/master/screenshots/appformsproject_nocontainer.png"
       }],
       "postProcessingOptions": {},
       "configuration": {
