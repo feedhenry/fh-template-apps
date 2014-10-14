@@ -20,9 +20,7 @@
       "type": "default",
       "icon": "icon-refresh",
       "category": "Samples",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/sync-app/master/Screenshot.png"
-      }],
+      "screenshots": [],
       "appTemplates": [{
         "id": "sync_cloud",
         "name": "Sync Cloud App",
@@ -40,7 +38,9 @@
         "repoBranch": "refs/heads/master",
         "icon": "icon-web",
         "category": "Sample Apps",
-        "screenshots": []
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/sync_app/1.png"
+        }]
       }, {
         "id": "sync_ios_app",
         "name": "Sync iOS App",
