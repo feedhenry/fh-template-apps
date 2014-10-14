@@ -559,7 +559,7 @@
         "icon": "icon-ionic",
         "category": "Blank Apps",
         "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionic_project_container.png"
+          "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionicproject_nocontainer.png"
         }]
       }, {
         "id": "hello_world_mbaas_instance",
