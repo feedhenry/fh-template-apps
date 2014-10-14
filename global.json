@@ -60,8 +60,6 @@
       "icon": "icon-globe",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
-      }, {
         "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
       }],
       "appTemplates": [{
@@ -73,8 +71,6 @@
         "icon": "icon-html5",
         "category": "Blank Apps",
         "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
-        }, {
           "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
         }]
       }, {
@@ -96,8 +92,6 @@
       "icon": "icon-html5",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
-      }, {
         "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
       }],
       "appTemplates": [{
@@ -109,8 +103,6 @@
         "icon": "icon-html5",
         "category": "Blank Apps",
         "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_container.png"
-        }, {
           "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
         }]
       }, {
@@ -132,8 +124,6 @@
       "icon": "icon-globe",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-basic-webapp-blank-app/master/screenshots/basic_webappproject_container.png"
-      }, {
         "url": "https://raw.githubusercontent.com/feedhenry/fh-basic-webapp-blank-app/master/screenshots/basic_webappproject_nocontainer.png"
       }],
       "appTemplates": [{
@@ -164,8 +154,6 @@
       "icon": "icon-nodejs",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-webapp-blank-app/master/screenshots/advanced_webappproject_container.png"
-      }, {
         "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-webapp-blank-app/master/screenshots/advanced_webappproject_nocontainer.png"
       }],
       "appTemplates": [{
@@ -196,8 +184,6 @@
       "icon": "icon-cordova",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-hybrid-blank-app/master/screenshots/cordovaproject_container.png"
-      }, {
         "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-hybrid-blank-app/master/screenshots/cordovaproject_nocontainer.png"
       }],
       "appTemplates": [{
@@ -288,8 +274,6 @@
       "icon": "icon-windows8",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-windowsphone-sdk-blank-app/master/screenshots/wp8project_container.png"
-      }, {
         "url": "https://raw.githubusercontent.com/feedhenry/fh-windowsphone-sdk-blank-app/master/screenshots/wp8project_nocontainer.png"
       }],
       "appTemplates": [{
@@ -380,8 +364,6 @@
       "icon": "icon-tasks",
       "category": "Forms",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/appforms-project-client/master/screenshots/appformsproject_container.png"
-      }, {
         "url": "https://raw.githubusercontent.com/feedhenry/appforms-project-client/master/screenshots/appformsproject_nocontainer.png"
       }],
       "postProcessingOptions": {},
@@ -416,8 +398,6 @@
       "icon": "icon-edit",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "public/img/templatePreview/sampleproject_container.png"
-      }, {
         "url": "public/img/templatePreview/sampleproject_nocontainer.png"
       }],
       "appTemplates": [{
@@ -478,8 +458,6 @@
       "icon": "icon-angular",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angularproject_container.png"
-      }, {
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angularproject_nocontainer.png"
       }],
       "appTemplates": [{
@@ -512,8 +490,6 @@
       "icon": "icon-backbone",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backboneproject_container.png"
-      }, {
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backboneproject_nocontainer.png"
       }],
       "appTemplates": [{
@@ -546,8 +522,6 @@
       "icon": "icon-ionic",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionicproject_container.png"
-      }, {
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionicproject_nocontainer.png"
       }],
       "appTemplates": [{
@@ -582,8 +556,6 @@
       "icon": "icon-html5",
       "category": "Blank Apps",
       "screenshots": [{
-        "url": "public/img/templatePreview/blankproject_container.png"
-      }, {
         "url": "public/img/templatePreview/blankproject_nocontainer.png"
       }]
     }, {
@@ -721,7 +693,7 @@
       "icon": "icon-ionic",
       "category": "Blank Apps",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionic_project_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionicproject_nocontainer.png"
       }]
     }],
     "connectorTemplates": [{
