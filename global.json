@@ -36,7 +36,7 @@
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/sync-app.git",
         "repoBranch": "refs/heads/master",
-        "icon": "icon-web",
+        "icon": "icon-globe",
         "category": "Sample Apps",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/sync_app/1.png"
