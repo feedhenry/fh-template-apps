@@ -861,6 +861,40 @@
         "category": "Sample Apps"
       }]
     }, {
+      "id": "aerogear",
+      "priority": 0.899,
+      "name": "AeroGear Push Service",
+      "type": "other",
+      "image": "https://raw.githubusercontent.com/feedhenry/feedhenry-templates/aerogear-service/master/icon.jpeg",
+      "category": "SaaS Connectors",
+      "docs": "https://raw.github.com/feedhenry-templates/aerogear-service/master/README.md",
+      "description": "A service for integrating AeroGear Push server & sending push notifications.",
+      "appTemplates": [{
+        "id": "aerogear-service-cloud",
+        "name": "AeroGear Push Service",
+        "type": "cloud_nodejs",
+        "repoUrl": "git://github.com/feedhenry-templates/aerogear-service.git",
+        "githubUrl": "https://github.com/feedhenry-templates/aerogear-service.git",
+        "repoBranch": "refs/heads/master",
+        "image": "https://raw.githubusercontent.com/feedhenry/feedhenry-templates/aerogear-service/master/icon.jpeg",
+        "docs": "https://raw2.github.com/feedhenry-templates/aerogear-service/master/README.md",
+        "category": "SaaS Connectors",
+        "configuration": [{
+          "desc": "The URL of the AeroGear instance to use",
+          "varName": "AEROGEAR_SERVER_URL"
+        }, {
+          "desc": "The Unique Application Id of the AeroGear app",
+          "varName": "AEROGEAR_APPLICATION_ID"
+        }, {
+          "desc": "The Master Secret Key of the AeroGear app",
+          "varName": "AEROGEAR_MASTER_SECRET"
+        },{
+          "desc": "The Time to Live value for the submitted notification - default value = 3600",
+          "optional": true,
+          "varName": "AEROGEAR_TTL"
+        }]
+      }]
+    }, {
       "id": "salesforce",
       "priority": 0.899,
       "name": "Salesforce Connector",
