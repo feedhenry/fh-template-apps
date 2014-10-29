@@ -861,8 +861,42 @@
         "category": "Sample Apps"
       }]
     }, {
+      "id": "aerogear",
+      "priority": 0.890,
+      "name": "AeroGear Push Service",
+      "type": "other",
+      "image": "https://raw.githubusercontent.com/feedhenry-templates/aerogear-service/master/icon.jpeg",
+      "category": "SaaS Connectors",
+      "docs": "https://raw.github.com/feedhenry-templates/aerogear-service/master/README.md",
+      "description": "A service for integrating AeroGear Push server & sending push notifications.",
+      "appTemplates": [{
+        "id": "aerogear-service-cloud",
+        "name": "AeroGear Push Service",
+        "type": "cloud_nodejs",
+        "repoUrl": "git://github.com/feedhenry-templates/aerogear-service.git",
+        "githubUrl": "https://github.com/feedhenry-templates/aerogear-service.git",
+        "repoBranch": "refs/heads/master",
+        "image": "https://raw.githubusercontent.com/feedhenry-templates/aerogear-service/master/icon.jpeg",
+        "docs": "https://raw2.github.com/feedhenry-templates/aerogear-service/master/README.md",
+        "category": "SaaS Connectors",
+        "configuration": [{
+          "desc": "The URL of the AeroGear instance to use",
+          "varName": "AEROGEAR_SERVER_URL"
+        }, {
+          "desc": "The Unique Application Id of the AeroGear app",
+          "varName": "AEROGEAR_APPLICATION_ID"
+        }, {
+          "desc": "The Master Secret Key of the AeroGear app",
+          "varName": "AEROGEAR_MASTER_SECRET"
+        },{
+          "desc": "The Time to Live value for the submitted notification - default value = 3600",
+          "optional": true,
+          "varName": "AEROGEAR_TTL"
+        }]
+      }]
+    }, {
       "id": "salesforce",
-      "priority": 0.899,
+      "priority": 0.880,
       "name": "Salesforce Connector",
       "type": "other",
       "image": "public/img/cloud_plugins/salesforce.png",
@@ -895,7 +929,7 @@
       }]
     }, {
       "id": "oraclecrm",
-      "priority": 0.898,
+      "priority": 0.870,
       "name": "Oracle Fusion CRM",
       "type": "other",
       "image": "https://raw.githubusercontent.com/feedhenry/fh-connector-oraclecrm-cloud/master/icon.png",
@@ -923,7 +957,7 @@
       }]
     }, {
       "id": "twilio",
-      "priority": 0.897,
+      "priority": 0.860,
       "name": "Twilio Connector",
       "type": "other",
       "image": "public/img/cloud_plugins/twilio.png",
@@ -953,7 +987,7 @@
       }]
     }, {
       "id": "ibeacon",
-      "priority": 0.896,
+      "priority": 0.850,
       "name": "iBeacon Connector",
       "type": "other",
       "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/logo.png",
@@ -977,7 +1011,7 @@
       }]
     }, {
       "id": "sendgrid",
-      "priority": 0.895,
+      "priority": 0.840,
       "name": "SendGrid Connector",
       "type": "other",
       "image": "public/img/cloud_plugins/sendgrid.png",
@@ -1011,7 +1045,7 @@
       }]
     }, {
       "id": "mysql",
-      "priority": 0.894,
+      "priority": 0.830,
       "name": "MySQL Connector",
       "type": "other",
       "image": "public/img/cloud_plugins/mysql.png",
@@ -1042,7 +1076,7 @@
       }]
     }, {
       "id": "mongodb",
-      "priority": 0.893,
+      "priority": 0.820,
       "name": "MongoDB",
       "type": "other",
       "image": "public/img/cloud_plugins/mongodb.png",
@@ -1076,7 +1110,7 @@
       }]
     }, {
       "id": "stripe",
-      "priority": 0.892,
+      "priority": 0.810,
       "name": "Stripe",
       "type": "other",
       "image": "public/img/cloud_plugins/stripe.png",
@@ -1100,7 +1134,7 @@
       }]
     }, {
       "id": "amazon-ses",
-      "priority": 0.891,
+      "priority": 0.800,
       "name": "SES",
       "type": "other",
       "image": "public/img/cloud_plugins/aws_ses.png",
@@ -1127,7 +1161,7 @@
       }]
     }, {
       "id": "amazon-sqs",
-      "priority": 0.890,
+      "priority": 0.790,
       "name": "SQS",
       "type": "other",
       "image": "public/img/cloud_plugins/aws_sqs.png",
@@ -1154,7 +1188,7 @@
       }]
     }, {
       "id": "google",
-      "priority": 0.889,
+      "priority": 0.780,
       "name": "Google",
       "type": "other",
       "image": "public/img/cloud_plugins/google.png",
@@ -1175,7 +1209,7 @@
       }]
     }, {
       "id": "intercom",
-      "priority": 0.888,
+      "priority": 0.770,
       "name": "Intercom",
       "type": "other",
       "image": "public/img/cloud_plugins/intercom.png",
@@ -1202,7 +1236,7 @@
       }]
     }, {
       "id": "sap-netweaver",
-      "priority": 0.887,
+      "priority": 0.760,
       "name": "SAP Netweaver",
       "type": "other",
       "image": "public/img/cloud_plugins/netweaver.png",
@@ -1242,7 +1276,7 @@
       }]
     }, {
       "id": "paypal",
-      "priority": 0.886,
+      "priority": 0.750,
       "name": "Paypal",
       "type": "other",
       "image": "public/img/cloud_plugins/paypal.png",
@@ -1273,7 +1307,7 @@
       }]
     }, {
       "id": "sharepoint",
-      "priority": 0.885,
+      "priority": 0.740,
       "name": "Sharepoint",
       "type": "other",
       "image": "public/img/cloud_plugins/sharepoint.png",
