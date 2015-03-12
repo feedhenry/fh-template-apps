@@ -69,8 +69,8 @@
     }, {
       "id": "advanced_webapp_hello_world_project",
       "priority": 0.87,
-      "name": "Advanced Web App Hello World Project",
-      "description": "A FeedHenry primer project with one Advanced Web App.",
+      "name": "Hello World Web App Project",
+      "description": "A FeedHenry primer project with one Web App.",
       "type": "default",
       "icon": "icon-nodejs",
       "category": "Sample Projects",
