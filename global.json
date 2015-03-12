@@ -65,35 +65,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
       }],
-      "appTemplates": [{
-        "id": "hello_world_hybrid_app",
-        "name": "Cordova Light App",
-        "type": "client_hybrid",
-        "priority": 0.560,
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-html5",
-        "category": "Blank Apps",
-        "description": "An HTML5 Cordova Light App which echos your name via the Cloud",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/hello_world_hybrid_app/1.png"
-        }, {
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/hello_world_hybrid_app/2.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["hello_world_hybrid_app", "hello_world_mbaas_instance"]
     }, {
       "id": "basic_webapp_hello_world_project",
       "priority": 0.88,
@@ -105,33 +77,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-basic-webapp-blank-app/master/screenshots/basic_webappproject_nocontainer.png"
       }],
-      "appTemplates": [{
-        "id": "blank_basic_webapp",
-        "name": "Blank Basic Web App",
-        "type": "webapp_basic",
-        "priority": 0.495,
-        "description": "Basic Hello World Web App",
-        "repoUrl": "git://github.com/feedhenry/fh-basic-webapp-blank-app.git",
-        "githubUrl": "https://github.com/feedhenry/fh-basic-webapp-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-globe",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_basic_webapp/1.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["blank_basic_webapp", "hello_world_mbaas_instance"]
     }, {
       "id": "advanced_webapp_hello_world_project",
       "priority": 0.87,
@@ -143,33 +89,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-webapp-blank-app/master/screenshots/advanced_webappproject_nocontainer.png"
       }],
-      "appTemplates": [{
-        "id": "blank_advanced_webapp",
-        "name": "Blank Advanced Web App",
-        "type": "webapp_advanced",
-        "priority": 0.490,
-        "description": "Advanced Hello World Web App",
-        "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
-        "githubUrl": "https://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-nodejs",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_advanced_webapp/1.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["blank_advanced_webapp", "hello_world_mbaas_instance"]
     }, {
       "id": "cordova_project",
       "priority": 0.86,
@@ -181,33 +101,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-hybrid-blank-app/master/screenshots/cordovaproject_nocontainer.png"
       }],
-      "appTemplates": [{
-        "id": "blank_advanced_hybrid_client",
-        "name": "Cordova App",
-        "type": "client_advanced_hybrid",
-        "priority": 0.500,
-        "description": "Cordova App App which echos your name via the Cloud",
-        "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
-        "githubUrl": "https://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cordova",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_advanced_hybrid_client/1.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["blank_advanced_hybrid_client", "hello_world_mbaas_instance"]
     }, {
       "id": "android_project",
       "priority": 0.85,
@@ -219,33 +113,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-android-sdk-blank-app/master/screenshots/androidproject_container.png"
       }],
-      "appTemplates": [{
-        "id": "blank_native_android_client",
-        "name": "Blank Native Android App",
-        "type": "client_native_android",
-        "priority": 0.450,
-        "description": "Native Android Hello World App which echos your name via the Cloud",
-        "repoUrl": "git://github.com/feedhenry/fh-android-sdk-blank-app.git",
-        "githubUrl": "https://github.com/feedhenry/fh-android-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-android",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_android_client/1.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["blank_native_android_client", "hello_world_mbaas_instance"]
     }, {
       "id": "ios_project",
       "priority": 0.84,
@@ -257,33 +125,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-ios-sdk-blank-app/master/screenshots/iosproject_container.png"
       }],
-      "appTemplates": [{
-        "id": "blank_native_ios_client",
-        "name": "Blank Native iOS App",
-        "type": "client_native_ios",
-        "priority": 0.445,
-        "description": "Native iOS Hello World App which echos your name via the Cloud",
-        "repoUrl": "git://github.com/feedhenry/fh-ios-sdk-blank-app.git",
-        "githubUrl": "https://github.com/feedhenry/fh-ios-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-apple",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_ios_client/1.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["blank_native_ios_client", "hello_world_mbaas_instance"]
     }, {
       "id": "wp8_project",
       "priority": 0.83,
@@ -295,33 +137,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-windowsphone-sdk-blank-app/master/screenshots/wp8project_nocontainer.png"
       }],
-      "appTemplates": [{
-        "id": "blank_native_windowsphone8",
-        "name": "Blank Native Windows Phone 8 App",
-        "type": "client_native_windowsphone8",
-        "priority": 0.440,
-        "description": "Native Windows Phone 8 Hello World App which echos your name via the Cloud",
-        "repoUrl": "git://github.com/feedhenry/fh-windowsphone-sdk-blank-app.git",
-        "githubUrl": "https://github.com/feedhenry/fh-windowsphone-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-windows8",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windowsphone8/1.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["blank_native_windowsphone8", "hello_world_mbaas_instance"]
     }, {
       "id": "appcelerator_project",
       "priority": 0.82,
@@ -333,33 +149,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-training/fh-titanium-example/master/screenshots/appceleratorproject_container.png"
       }],
-      "appTemplates": [{
-        "id": "blank_appcelerator",
-        "name": "Blank Appcelerator App",
-        "type": "client_appcelerator",
-        "description": "Hello World Appcelerator App",
-        "priority": 0.04,
-        "repoUrl": "git://github.com/feedhenry-training/fh-titanium-example.git",
-        "githubUrl": "https://github.com/feedhenry-training/fh-titanium-example.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-appcelerator",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_appcelerator/1.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["blank_appcelerator", "hello_world_mbaas_instance"]
     }, {
       "id": "xamarin_project",
       "priority": 0.81,
@@ -371,33 +161,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-xamarin-sdk-blank-app/master/screenshots/xamarinproject_container.png"
       }],
-      "appTemplates": [{
-        "id": "blank_xamarin",
-        "name": "Blank Xamarin App",
-        "type": "client_xamarin",
-        "description": "Hello World Xamarin App",
-        "priority": 0.03,
-        "repoUrl": "git://github.com/feedhenry/fh-xamarin-sdk-blank-app.git",
-        "githubUrl": "https://github.com/feedhenry/fh-xamarin-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-xamarin",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_xamarin/1.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["blank_xamarin", "hello_world_mbaas_instance"]
     }, {
       "id": "appforms_project",
       "priority": 0.440,
@@ -427,19 +191,7 @@
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/appforms_client/1.png"
         }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      }, "hello_world_mbaas_instance"]
     }, {
       "id": "welcome_project",
       "priority": 0.95,
@@ -525,33 +277,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angularproject_nocontainer.png"
       }],
-      "appTemplates": [{
-        "id": "hello_world_angular_hybrid_app",
-        "name": "AngularJS Hello World Client",
-        "description": "Hello World AngularJS App",
-        "type": "client_hybrid",
-        "priority": 0.4,
-        "repoUrl": "git://github.com/feedhenry-templates/quickstart-angular-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/quickstart-angular-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-angular",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angularproject_nocontainer.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["hello_world_angular_hybrid_app", "hello_world_mbaas_instance"]
     }, {
       "id": "backbone_hello_world_project",
       "priority": 0.39,
@@ -563,33 +289,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backboneproject_nocontainer.png"
       }],
-      "appTemplates": [{
-        "id": "hello_world_backbone_hybrid_app",
-        "name": "Backbone Hello World Client",
-        "description": "Hello World Backbone.js App",
-        "type": "client_hybrid",
-        "priority": 0.4,
-        "repoUrl": "git://github.com/feedhenry-templates/quickstart-backbone-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/quickstart-backbone-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-backbone",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backboneproject_nocontainer.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["hello_world_backbone_hybrid_app", "hello_world_mbaas_instance"]
     }, {
       "id": "ionic_hello_world_project",
       "priority": 0.37,
@@ -601,33 +301,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionicproject_nocontainer.png"
       }],
-      "appTemplates": [{
-        "id": "hello_world_ionic_hybrid_app",
-        "name": "Ionic Hello World Client",
-        "description": "Hello World Ionic & AngularJS App",
-        "type": "client_hybrid",
-        "priority": 0.4,
-        "repoUrl": "git://github.com/feedhenry-templates/quickstart-ionic-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/quickstart-ionic-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-ionic",
-        "category": "Blank Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionicproject_nocontainer.png"
-        }]
-      }, {
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["hello_world_ionic_hybrid_app", "hello_world_mbaas_instance"]
     }],
     "appTemplates": [{
       "id": "hello_world_hybrid_app",
@@ -651,7 +325,7 @@
       "type": "cloud_nodejs",
       "priority": 0.02,
       "description": "Hello World Node.js Express App which echos a username",
-      "docs": "https://raw2.github.com/feedhenry-templates/helloworld-cloud/master/README.md",
+      "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
       "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
       "repoBranch": "refs/heads/master",
@@ -847,19 +521,7 @@
       "image": "public/img/cloud_plugins/fh.png",
       "category": "Custom Service",
       "description": "This is a blank FeedHenry Service for you to customise",
-      "appTemplates": [{
-        "id": "hello_world_mbaas_instance",
-        "name": "Cloud App",
-        "type": "cloud_nodejs",
-        "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
-        "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }]
+      "appTemplates": ["hello_world_mbaas_instance"]
     }, {
       "id": "aerogear",
       "priority": 0.890,
@@ -888,7 +550,7 @@
         }, {
           "desc": "The Master Secret Key of the AeroGear app",
           "varName": "AEROGEAR_MASTER_SECRET"
-        },{
+        }, {
           "desc": "The Time to Live value for the submitted notification - default value = 3600",
           "optional": true,
           "varName": "AEROGEAR_TTL"
