@@ -67,18 +67,6 @@
       }],
       "appTemplates": ["hello_world_hybrid_app", "hello_world_mbaas_instance"]
     }, {
-      "id": "basic_webapp_hello_world_project",
-      "priority": 0.88,
-      "name": "Basic Web App Hello World Project",
-      "description": "A FeedHenry primer project with one Basic Web App client instance, and a cloud instance with a single endpoint",
-      "type": "default",
-      "icon": "icon-globe",
-      "category": "Sample Projects",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-basic-webapp-blank-app/master/screenshots/basic_webappproject_nocontainer.png"
-      }],
-      "appTemplates": ["blank_basic_webapp", "hello_world_mbaas_instance"]
-    }, {
       "id": "advanced_webapp_hello_world_project",
       "priority": 0.87,
       "name": "Advanced Web App Hello World Project",
@@ -386,25 +374,11 @@
         "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_advanced_hybrid_client/1.png"
       }]
     }, {
-      "id": "blank_basic_webapp",
-      "name": "Blank Basic Web App",
-      "type": "webapp_basic",
-      "priority": 0.495,
-      "description": "Basic Hello World Web App",
-      "repoUrl": "git://github.com/feedhenry/fh-basic-webapp-blank-app.git",
-      "githubUrl": "https://github.com/feedhenry/fh-basic-webapp-blank-app.git",
-      "repoBranch": "refs/heads/master",
-      "icon": "icon-globe",
-      "category": "Blank Apps",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_basic_webapp/1.png"
-      }]
-    }, {
       "id": "blank_advanced_webapp",
-      "name": "Blank Advanced Web App",
+      "name": "Blank Web App",
       "type": "webapp_advanced",
       "priority": 0.490,
-      "description": "Advanced Hello World Web App",
+      "description": "Blank Hello World Web App",
       "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
       "githubUrl": "https://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
       "repoBranch": "refs/heads/master",
