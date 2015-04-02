@@ -135,7 +135,7 @@
       "icon": "icon-appcelerator",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-training/fh-titanium-example/master/screenshots/appceleratorproject_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_appcelerator/1.png"
       }],
       "appTemplates": ["blank_appcelerator", "hello_world_mbaas_instance"]
     }, {
@@ -421,8 +421,8 @@
       "type": "client_appcelerator",
       "description": "Hello World Appcelerator App",
       "priority": 0.04,
-      "repoUrl": "git://github.com/feedhenry-training/fh-titanium-example.git",
-      "githubUrl": "https://github.com/feedhenry-training/fh-titanium-example.git",
+      "repoUrl": "git://github.com/feedhenry-templates/fh-titanium-helloworld.git",
+      "githubUrl": "https://github.com/feedhenry-templates/fh-titanium-helloworld.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-appcelerator",
       "category": "Blank Apps",
