@@ -135,7 +135,7 @@
       "icon": "icon-appcelerator",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-training/fh-titanium-example/master/screenshots/appceleratorproject_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_appcelerator/1.png"
       }],
       "appTemplates": ["blank_appcelerator", "hello_world_mbaas_instance"]
     }, {
