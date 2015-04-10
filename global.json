@@ -531,6 +531,38 @@
         }]
       }]
     }, {
+      "name": "LDAP Authentication Connector",
+      "priority": 0.885,
+      "id": "ldapauthenticate",
+      "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ldap-cloud/master/README.md",
+      "type": "other",
+      "image": "public/img/cloud_plugins/fh.png",
+      "category": "Authentication",
+      "description": "Authenticate users via LDAP",
+      "appTemplates": [{
+        "id": "ldap-connector-cloud",
+        "name": "LDAP Authentication Connector",
+        "type": "cloud_nodejs",
+        "repoUrl": "git://github.com/feedhenry-templates/fh-connector-ldap-cloud.git",
+        "githubUrl": "https://github.com/feedhenry-templates/fh-connector-ldap-cloud.git",
+        "repoBranch": "refs/heads/master",
+        "image": "public/img/cloud_plugins/fh.png",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ldap-cloud/master/README.md",
+        "category": "Authentication",
+        "configuration": [{
+          "desc": "The URL of the LDAP server (including 'ldap://')",
+          "varName": "LDAP_URL"
+        }, {
+          "desc": "The prefix to be added before the username when building the full Distinguished Name",
+          "optional": true,
+          "varName": "DN_PREFIX"
+        }, {
+          "desc": "The suffix to be added after the username when building the full Distinguished Name",
+          "optional": true,
+          "varName": "DN"
+        }]
+      }]
+    },{
       "id": "salesforce",
       "priority": 0.880,
       "name": "Salesforce Connector",
