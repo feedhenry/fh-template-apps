@@ -55,6 +55,49 @@
         "screenshots": []
       }]
     }, {
+      "id": "ups_project",
+      "priority": 0.410,
+      "name": "Push Hello World",
+      "description": "An example Project using our Unified Push Server",
+      "type": "default",
+      "icon": "icon-refresh",
+      "category": "Samples",
+      "screenshots": [],
+      "appTemplates": [{
+        "id": "ups_cloud",
+        "name": "PUsh Cloud App",
+        "type": "cloud_nodejs",
+        "repoUrl": "git@redhat-demos-t.sandbox.feedhenry.com:redhat-demos-t/Push-Hello-World-Cloud-App.git",
+        "githubUrl": "https://redhat-demos-t.sandbox.feedhenry.com:redhat-demos-t/Push-Hello-World-Cloud-App.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-cloud",
+        "category": "Sample Apps"
+      }, {
+        "id": "push_app",
+        "name": "Push Cordova Light Client",
+        "type": "client_hybrid",
+        "repoUrl": "git@redhat-demos-t.sandbox.feedhenry.com:redhat-demos-t/Push-Hello-World-Cordova-Light-Client.git",
+        "githubUrl": "https://redhat-demos-t.sandbox.feedhenry.com:redhat-demos-t/Push-Hello-World-Cordova-Light-Client.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-html5",
+        "category": "Sample Apps",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/edewit/aerogear.org/feedhery-blog/img/news/2015-04-20-feedhenry-push-templates/9.png"
+        }]
+      }, {
+        "id": "push_console",
+        "name": "Push Console App",
+        "type": "webapp_advanced",
+        "repoUrl": "git@redhat-demos-t.sandbox.feedhenry.com:redhat-demos-t/Push-Hello-World-Console.git",
+        "githubUrl": "https://redhat-demos-t.sandbox.feedhenry.com:redhat-demos-t/Push-Hello-World-Console.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-nodejs",
+        "category": "Sample Apps",
+        "screenshots": [
+          "url": "https://raw.githubusercontent.com/edewit/aerogear.org/feedhery-blog/img/news/2015-04-20-feedhenry-push-templates/8.png"
+        ]
+      }]      
+    }, {
       "id": "hello_world_project",
       "priority": 1,
       "name": "Hello World Project",
