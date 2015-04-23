@@ -60,12 +60,12 @@
       "name": "Push Hello World",
       "description": "An example Project using our Unified Push Server",
       "type": "default",
-      "icon": "icon-refresh",
+      "icon": "fa-paper-plane",
       "category": "Samples",
       "screenshots": [],
       "appTemplates": [{
         "id": "ups_cloud",
-        "name": "PUsh Cloud App",
+        "name": "Push Cloud App",
         "type": "cloud_nodejs",
         "repoUrl": "git://github.com/feedhenry-templates/Push-Hello-World-Cloud-App.git",
         "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Cloud-App.git",
@@ -74,7 +74,7 @@
         "category": "Sample Apps"
       }, {
         "id": "push_app",
-        "name": "Push Cordova Light Client",
+        "name": "Push Notifications Mobile Client",
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
         "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
@@ -93,9 +93,9 @@
         "repoBranch": "refs/heads/master",
         "icon": "icon-nodejs",
         "category": "Sample Apps",
-        "screenshots": [
+        "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/push_hello_world/console.png"
-        ]
+        }]
       }]      
     }, {
       "id": "hello_world_project",
