@@ -60,7 +60,7 @@
       "name": "Push Hello World",
       "description": "An example Project using our Unified Push Server",
       "type": "default",
-      "icon": "fa-paper-plane",
+      "icon": "icon-plane",
       "category": "Samples",
       "screenshots": [],
       "appTemplates": [{
