@@ -1,4 +1,3 @@
-var _ = require('underscore');
 
 module.exports = function (grunt) {
   grunt.initConfig({
@@ -7,7 +6,7 @@ module.exports = function (grunt) {
     copy: {
       main: {
         expand: true,
-        src: ['screenshots/**', 'global.json', 'global-forms.json'],
+        src: ['global.json', 'global-forms.json', 'CHANGELOG.md'],
         dest: 'tmp/'}
     },
     compress: {
@@ -21,59 +20,26 @@ module.exports = function (grunt) {
         src: ['**/*']
       }
     },
-    clone: ["global.json", 'global-forms.json']
+    clone: ["tmp/global.json", 'tmp/global-forms.json'],
+    download: ["tmp/global.json", 'tmp/global-forms.json'],
+    format: ["global.json", 'global-forms.json']
   });
 
   grunt.loadNpmTasks('grunt-git');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-compress');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-curl');
+  grunt.loadTasks('tasks');
 
-  function cloneAppTemplates(filepath) {
-    grunt.config.set('gitclone', {});
-    var globalJson = grunt.file.readJSON(filepath);
-    var appTemplates = globalJson.show.appTemplates;
-
-    _.each(globalJson.show.projectTemplates, function (projTemplate) {
-      _.each(projTemplate.appTemplates, function (appTemplate) {
-        if (appTemplate.repoUrl !== undefined) {
-          appTemplates.push(appTemplate);
-        }
-      });
-    });
-
-    _.each(globalJson.show.connectorTemplates, function (connectorTemplates) {
-      _.each(connectorTemplates.appTemplates, function (appTemplate) {
-        if (appTemplate.repoUrl !== undefined) {
-          appTemplates.push(appTemplate);
-        }
-      });
-    });
-
-    _.each(appTemplates, function (appTemplate) {
-      prefix = 'gitclone.' + appTemplate.id + '.options';
-      grunt.config.set(prefix + '.directory', 'tmp/' + appTemplate.id);
-      grunt.config.set(prefix + '.repository', appTemplate.repoUrl);
-      grunt.config.set(prefix + '.branch', appTemplate.repoBranch.split('/').pop());
-      grunt.config.set(prefix + '.depth', 1);
-    });
-
-    var totalRepos = _.keys(grunt.config.get('gitclone')).length;
-    if (totalRepos > 0) {
-      grunt.log.ok('Cloning ' + totalRepos + ' ' + grunt.util.pluralize(totalRepos, 'repo/repos') + ' from ' + appTemplates.length + ' ' + grunt.util.pluralize(appTemplates.length, 'app/apps') + ' defined in ' + filepath);
-      grunt.task.run('gitclone')
-    } else {
-      grunt.log.ok('No apps defined in ' + filepath);
-    }
-  }
-
-  grunt.registerMultiTask('clone', 'Clone all defined app repos', function () {
+  grunt.registerMultiTask('format', 'Correctly format json config files', function () {
     this.filesSrc.forEach(function (filepath) {
-      cloneAppTemplates(filepath);
+      var globalJson = grunt.file.readJSON(filepath);
+      grunt.file.write(filepath, JSON.stringify(globalJson, null, '  '));
     });
   });
 
-  grunt.registerTask('archive', ['clean', 'clone', 'copy', 'compress']);
+  grunt.registerTask('archive', ['clean', 'copy', 'clone', 'download', 'compress']);
   grunt.registerTask('default', ['archive']);
 
 };

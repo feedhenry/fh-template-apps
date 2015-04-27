@@ -23,3 +23,11 @@ To create an archive of all configured templates
 ```
 grunt archive
 ```
+
+### Format Templates
+
+Format all .json template config files (You should run this after you update anything and before you check it in)
+
+```
+grunt format
+```
