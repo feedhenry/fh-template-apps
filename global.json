@@ -697,6 +697,30 @@
         ]
       },
       {
+        "id": "status-monitor",
+        "priority": 0.891,
+        "name": "Status Monitor Service",
+        "type": "other",
+        "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-health-monitor/master/files/icon.png",
+        "category": "Monitoring",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-health-monitor/master/README.md",
+        "description": "A service for monitoring the status of connectivity from Feed Henry to your remote end-points.",
+        "appTemplates": [
+          {
+            "id": "fh-status-monitor",
+            "name": "Status Monitor",
+            "type": "cloud_nodejs",
+            "repoUrl": "git://github.com/feedhenry-templates/fh-health-monitor.git",
+            "githubUrl": "https://github.com/feedhenry-templates/fh-health-monitor.git",
+            "repoBranch": "refs/heads/master",
+            "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-health-monitor/master/files/icon.png",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-health-monitor/master/README.md",
+            "category": "Monitoring",
+            "configuration": []
+          }
+        ]
+      },
+      {
         "id": "aerogear",
         "priority": 0.89,
         "name": "AeroGear Push Service",
