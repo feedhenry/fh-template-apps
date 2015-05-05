@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 1.3.0 - Michael Nairn
+* Updated archive task to include app template dotfiles
+
 ## 1.2.0 - Phil Brookes
 * Added a new service template for FH Status Monitor
 
