@@ -17,7 +17,7 @@ module.exports = function (grunt) {
         },
         expand: true,
         cwd: 'tmp/',
-        src: ['**/*']
+        src: ['**/*', '**/.*']
       }
     },
     clone: ["tmp/global.json", 'tmp/global-forms.json'],
