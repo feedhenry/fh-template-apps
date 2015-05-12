@@ -1,5 +1,9 @@
 # Changelog - template-config
 
+## 1.2.1 - Michael Nairn
+* Updated archive task to include app template dotfiles
+* Bump fh-mbaas-api version to ~4.11.0
+
 ## 1.2.0 - Phil Brookes
 * Added a new service template for FH Status Monitor
 
