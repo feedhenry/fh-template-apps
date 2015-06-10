@@ -598,7 +598,7 @@
     }, {
       "id": "blank_vs_universal",
       "name": "Blank Visual Studio C# Universal App",
-      "type": "client_native_windows",
+      "type": "client_native_windowsuniversal",
       "description": "Blank Universal C# Hello world app",
       "priority": 0.03,
       "repoUrl": "git://github.com/feedhenry-templates/fh-csharp-universal-sdk-blank-app.git",
