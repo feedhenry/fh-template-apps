@@ -477,7 +477,7 @@
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
         "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
         "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/FH42_Appforms_LCM",
         "icon": "icon-cloud",
         "category": "Sample Apps"
       },
