@@ -66,9 +66,32 @@
         ]
       },
       {
+        "id": "pushstarter_project",
+        "priority": 1,
+        "name": "Simple Push Project",
+        "description": "An example Project using our Push framework",
+        "type": "default",
+        "icon": "icon-plane",
+        "category": "Samples",
+        "screenshots": [],
+        "appTemplates": [
+          {
+            "id": "pushstarter_ios_app",
+            "name": "Push iOS App",
+            "type": "client_native_ios",
+            "repoUrl": "git://github.com/corinnekrych/pushstarter-ios-app.git",
+            "githubUrl": "https://github.com/corinnekrych/pushstarter-ios-app.git",
+            "repoBranch": "refs/heads/master",
+            "icon": "icon-apple",
+            "category": "Sample Apps",
+            "screenshots": []
+          }
+        ]
+      },
+      {
         "id": "ups_project",
         "priority": 0.41,
-        "name": "Push Hello World",
+        "name": "Push Hello World!!!!!",
         "description": "An example Project using our Unified Push Server",
         "type": "default",
         "icon": "icon-plane",
