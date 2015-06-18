@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 1.4.0 - John Frizelle
+* Adding Barcode Reader service
+
 ## 1.3.0 - Michael Nairn
 * Updated archive task to include app template dotfiles
 * Bump fh-mbaas-api version to ~4.11.0
