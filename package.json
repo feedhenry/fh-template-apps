@@ -1,6 +1,6 @@
 {
   "name": "template-config",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "FeedHenry Template Applications",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
