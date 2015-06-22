@@ -99,7 +99,7 @@
       {
         "id": "ups_project",
         "priority": 0.41,
-        "name": "Push Hello World!!!!!",
+        "name": "Push Hello World",
         "description": "An example Project using our Unified Push Server",
         "type": "default",
         "icon": "icon-plane",
