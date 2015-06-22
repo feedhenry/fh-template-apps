@@ -87,7 +87,7 @@
             "screenshots": []
           },
           {
-            "id": "welcome_project_cloud",
+            "id": "pushstarter_cloud",
             "name": "Simple Push Cloud App",
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
