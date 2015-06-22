@@ -93,7 +93,7 @@
             "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
             "githubUrl": "https://github.com/feedhenry-templates/welcome-cloud.git",
             "repoBranch": "refs/heads/master"
-          },
+          }
         ]
       },
       {
