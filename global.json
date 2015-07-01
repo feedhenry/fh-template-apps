@@ -66,6 +66,30 @@
         ]
       },
       {
+        "id": "pushstarter_project",
+        "priority": 1,
+        "name": "Simple Push Project",
+        "description": "An example Project using Push notification framework",
+        "type": "default",
+        "icon": "icon-plane",
+        "category": "Samples",
+        "screenshots": [],
+        "appTemplates": [
+          {
+            "id": "pushstarter_ios_app",
+            "name": "Simple Push iOS App",
+            "type": "client_native_ios",
+            "repoUrl": "https://github.com/feedhenry-templates/pushstarter-ios-app.git",
+            "githubUrl": "https://github.com/feedhenry-templates/pushstarter-ios-app.git",
+            "repoBranch": "refs/heads/master",
+            "icon": "icon-apple",
+            "category": "Sample Apps",
+            "screenshots": []
+          },
+          "hello_world_mbaas_instance"
+        ]
+      },
+      {
         "id": "ups_project",
         "priority": 0.41,
         "name": "Push Hello World",
