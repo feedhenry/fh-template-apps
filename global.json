@@ -86,6 +86,17 @@
             "category": "Sample Apps",
             "screenshots": []
           },
+          {
+            "id": "pushstarter_windows_app",
+            "name": "Simple Push Windows App",
+            "type": "client_native_windows",
+            "repoUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
+            "githubUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
+            "repoBranch": "refs/heads/master",
+            "icon": "icon-windows8",
+            "category": "Sample Apps",
+            "screenshots": []
+          }
           "hello_world_mbaas_instance"
         ]
       },
