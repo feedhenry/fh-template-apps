@@ -86,6 +86,17 @@
             "category": "Sample Apps",
             "screenshots": []
           },
+          {
+            "id": "pushstarter_windows_app",
+            "name": "Simple Push Windows App",
+            "type": "client_native_windows",
+            "repoUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
+            "githubUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
+            "repoBranch": "refs/heads/master",
+            "icon": "icon-windows8",
+            "category": "Sample Apps",
+            "screenshots": []
+          }
           "hello_world_mbaas_instance"
         ]
       },
@@ -820,6 +831,35 @@
                 "desc": "The suffix to be added after the username when building the full Distinguished Name",
                 "optional": true,
                 "varName": "DN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Barcode Reader",
+        "priority": 0.883,
+        "id": "barcodereader",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/README.md",
+        "type": "other",
+        "image": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/barcode.jpg",
+        "category": "SaaS Connectors",
+        "description": "Looks up a barcode by UPC id",
+        "appTemplates": [
+          {
+            "id": "barcode-reader-service",
+            "name": "Barcode Reader",
+            "type": "cloud_nodejs",
+            "repoUrl": "git://github.com/feedhenry-templates/barcode-reader-service.git",
+            "githubUrl": "https://github.com/feedhenry-templates/barcode-reader-service.git",
+            "repoBranch": "refs/heads/master",
+            "image": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/barcode.jpg",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/README.md",
+            "category": "SaaS Connectors",
+            "configuration": [
+              {
+                "desc": "An access token for http://www.searchupc.com",
+                "varName": "ACCESS_TOKEN"
               }
             ]
           }
