@@ -96,6 +96,17 @@
             "icon": "icon-windows8",
             "category": "Sample Apps",
             "screenshots": []
+          }, 
+          {
+            "id": "pushstarter_android_app",
+            "name": "Simple Push Android App",
+            "type": "client_native_android",
+            "repoUrl": "git@github.com:danielpassos/pushstarter-android-app.git",
+            "githubUrl": "git@github.com:danielpassos/pushstarter-android-app.git",
+            "repoBranch": "refs/heads/master",
+            "icon": "icon-android",
+            "category": "Sample Apps",
+            "screenshots": []
           },
           "hello_world_mbaas_instance"
         ]
