@@ -89,7 +89,7 @@
           {
             "id": "pushstarter_windows_app",
             "name": "Simple Push Windows App",
-            "type": "client_native_windows",
+            "type": "client_native_windowsuniversal",
             "repoUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
             "repoBranch": "refs/heads/master",
