@@ -108,6 +108,17 @@
             "category": "Sample Apps",
             "screenshots": []
           },
+          {
+            "id": "pushstarter_cordova_app",
+            "name": "Simple Push Cordova App",
+            "type": "client_hybrid",
+            "repoUrl": "git@github.com:danielpassos/pushstarter-cordova-app.git",
+            "githubUrl": "git@github.com:danielpassos/pushstarter-cordova-app.git",
+            "repoBranch": "refs/heads/master",
+            "icon": "icon-html5",
+            "category": "Sample Apps",
+            "screenshots": []
+          },
           "hello_world_mbaas_instance"
         ]
       },
