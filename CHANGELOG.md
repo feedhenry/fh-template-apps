@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 1.5.0 - David Martin
+* Add OpenShfit MBaaS Service
+
 ## 1.4.0 - John Frizelle
 * Adding Barcode Reader service
 
