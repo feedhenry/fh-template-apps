@@ -1,5 +1,12 @@
 # Changelog - template-config
 
+## 1.7.0 - Niall Donnelly
+
+* FH-42 - Updated All Cloud Templates To fh-mbaas-api v5.0.0
+
+## 1.6.0 - David Martin
+* Add OpenShfit MBaaS Service
+
 ## 1.5.1 - Martin Murphy
 
 * FH-1576 - Include appforms client template with updated Cordova plugin versions
