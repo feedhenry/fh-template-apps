@@ -1,5 +1,9 @@
 # Changelog - template-config
 
+## 1.5.0 - Niall Donnelly
+
+* FH-1518 Updated Appforms Template Client To Use Cordova Alerts Where Available
+
 ## 1.4.0 - John Frizelle
 * Adding Barcode Reader service
 
