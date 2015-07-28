@@ -802,6 +802,35 @@
         ]
       },
       {
+        "name": "Barcode Reader",
+        "priority": 0.883,
+        "id": "barcodereader",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/README.md",
+        "type": "other",
+        "image": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/barcode.jpg",
+        "category": "SaaS Connectors",
+        "description": "Looks up a barcode by UPC id",
+        "appTemplates": [
+          {
+            "id": "barcode-reader-service",
+            "name": "Barcode Reader",
+            "type": "cloud_nodejs",
+            "repoUrl": "git://github.com/feedhenry-templates/barcode-reader-service.git",
+            "githubUrl": "https://github.com/feedhenry-templates/barcode-reader-service.git",
+            "repoBranch": "refs/heads/master",
+            "image": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/barcode.jpg",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/README.md",
+            "category": "SaaS Connectors",
+            "configuration": [
+              {
+                "desc": "An access token for http://www.searchupc.com",
+                "varName": "ACCESS_TOKEN"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "salesforce",
         "priority": 0.88,
         "name": "Salesforce Connector",
