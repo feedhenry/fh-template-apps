@@ -1,5 +1,9 @@
 # Changelog - template-config
 
+## 1.5.1 - Martin Murphy
+
+* FH-1576 - Include appforms client template with updated Cordova plugin versions
+
 ## 1.5.0 - Niall Donnelly
 
 * FH-1518 Updated Appforms Template Client To Use Cordova Alerts Where Available
