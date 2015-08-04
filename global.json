@@ -595,8 +595,21 @@
             "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_xamarin/1.png"
           }
         ]
-      },
-      {
+    }, {
+      "id": "blank_vs_universal",
+      "name": "Blank Visual Studio C# Universal App",
+      "type": "client_native_windowsuniversal",
+      "description": "Blank Universal C# Hello world app",
+      "priority": 0.03,
+      "repoUrl": "git://github.com/feedhenry-templates/fh-csharp-universal-sdk-blank-app.git",
+      "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-universal-sdk-blank-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-windows8",
+      "category": "Blank Apps",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windows_universal/1.png"
+      }]
+    }, {
         "id": "blank_appcelerator",
         "name": "Blank Appcelerator App",
         "type": "client_appcelerator",
