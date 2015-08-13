@@ -118,6 +118,37 @@
         ]
       },
       {
+        "id": "saml_project",
+        "priority": 0.45,
+        "name": "SAML Example Project",
+        "description": "An example SAML Project to be used in conjuction with a SAML Service",
+        "type": "default",
+        "icon": "icon-lock",
+        "category": "Samples",
+        "screenshots": [],
+        "appTemplates": [{
+          "id": "saml_cloud",
+          "name": "SAML Cloud",
+          "type": "cloud_nodejs",
+          "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-cloud-app/master/README.md",
+          "repoUrl": "git://github.com/feedhenry-templates/saml-cloud-app.git",
+          "githubUrl": "https://github.com/feedhenry-templates/saml-cloud-app.git",
+          "repoBranch": "refs/heads/master",
+          "icon": "icon-cloud",
+          "category": "Sample Apps"
+        }, {
+          "id": "saml_app",
+          "name": "SAML Client",
+          "type": "client_advanced_hybrid",
+          "repoUrl": "git://github.com/feedhenry-templates/saml-client-app.git",
+          "githubUrl": "https://github.com/feedhenry-templates/saml-client-app.git",
+          "repoBranch": "refs/heads/master",
+          "icon": "icon-html5",
+          "category": "Sample Apps",
+          "screenshots": []
+        }]
+      },
+      {
         "id": "hello_world_project",
         "priority": 1,
         "name": "Hello World Project",
@@ -708,6 +739,46 @@
         "appTemplates": [
           "hello_world_mbaas_instance"
         ]
+      },
+      {
+        "id": "saml-service",
+        "priority": 0.892,
+        "name": "SAML Service",
+        "type": "other",
+        "image": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/files/icon.png",
+        "category": "Authentication",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/README.md",
+        "description": "Sample SAML Authentication service for connecting to your IdP",
+        "appTemplates": [{
+          "id": "saml-service",
+          "name": "SAML Service",
+          "type": "cloud_nodejs",
+          "repoUrl": "git://github.com/feedhenry-templates/saml-service.git",
+          "githubUrl": "https://github.com/feedhenry-templates/saml-service.git",
+          "repoBranch": "refs/heads/master",
+          "image": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/files/icon.png",
+          "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/README.md",
+          "category": "Authentication",
+          "configuration": [{
+            "desc": "Issuer string to supply to identity provider (Defaults to: https://MBaaS_Service_Host/login/callback)",
+            "varName": "SAML_ISSUER",
+            "optional": true
+          }, {
+            "desc": "Full callback URL for IdP to send assertions back to (Defaults to: https://MBaaS_Service_Host/login/callback)",
+            "varName": "SAML_CALLBACK_URL",
+            "optional": true
+          }, {
+            "desc": "Identity provider entrypoint (e.g. https://my-adfs.example.com/adfs/ls/)",
+            "varName": "SAML_ENTRY_POINT"
+          }, {
+            "desc": "Name identifier format to request auth context - defaults to 'urn:federation:authentication:windows' (for AD FS)",
+            "varName": "SAML_AUTHN_CONTEXT"
+          }, {
+            "desc": "Validate incoming SAML responses with your IdP's public certificate",
+            "varName": "SAML_CERT",
+            "optional": true
+          }]
+        }]
       },
       {
         "id": "status-monitor",
