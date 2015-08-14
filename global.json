@@ -611,6 +611,23 @@
         ]
       },
       {
+        "id": "blank_native_windows10",
+        "name": "Blank Native Universal Windows 10 App",
+        "type": "client_native_windowsuniversal",
+        "priority": 0.44,
+        "description": "Blank Hello World Web App",
+        "repoUrl": "git@github.com:feedhenry-templates/fh-csharp-window-10-blank-app.git",
+        "githubUrl": "https://github.com:feedhenry-templates/fh-csharp-window-10-blank-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-windows8",
+        "category": "Blank Apps",
+        "screenshots": [
+          {
+            "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windows_universal/2.png"
+          }
+        ]
+      },
+      {
         "id": "blank_xamarin",
         "name": "Blank Xamarin App",
         "type": "client_xamarin",
