@@ -372,6 +372,14 @@
             "repoUrl": "git://github.com/feedhenry-templates/welcome-android.git",
             "githubUrl": "https://github.com/feedhenry-templates/welcome-android.git",
             "repoBranch": "refs/heads/master"
+          },
+          {
+            "id": "welcome_project_windows",
+            "name": "Welcome Project-windows",
+            "type": "client_native_windowsuniversal",
+            "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
+            "githubUrl": "https://github.com/feedhenry-templates/welcome-windows.git",
+            "repoBranch": "refs/heads/master"
           }
         ]
       },
