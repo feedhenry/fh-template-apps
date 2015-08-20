@@ -747,6 +747,29 @@
         "appTemplates": [
           "hello_world_mbaas_instance"
         ]
+      }, {
+        "name": "OpenShift mBaaS Service",
+        "priority": 0.895,
+        "id": "openshift-mbaas-service",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-mbaas-service/master/README.md",
+        "type": "other",
+        "image": "public/img/cloud_plugins/fh.png",
+        "category": "Platform Service",
+        "description": "fh-mbaas service for use in OpenShift MBaaS Targets. Required for fh.forms API.",
+        "appTemplates": [
+          {
+            "id": "openshift-mbaas-service-instance",
+            "name": "OpenShift mBaaS Service",
+            "type": "cloud_nodejs",
+            "repoUrl": "git://github.com/feedhenry-templates/fh-mbaas-service.git",
+            "githubUrl": "https://github.com/feedhenry-templates/fh-mbaas-service.git",
+            "repoBranch": "refs/heads/master",
+            "image": "public/img/cloud_plugins/fh.png",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-mbaas-service/master/README.md",
+            "category": "Platform Service",
+            "configuration": []
+          }
+        ]
       },
       {
         "id": "saml-service",
