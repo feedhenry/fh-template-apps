@@ -68,8 +68,8 @@
       {
         "id": "pushstarter_project",
         "priority": 1,
-        "name": "Simple Push Project",
-        "description": "An example Project using Push notification framework",
+        "name": "Push Notification Hello World",
+        "description": "An example project using the Unified Push Service built-into the platform",
         "type": "default",
         "icon": "icon-plane",
         "category": "Samples",
@@ -96,7 +96,7 @@
             "icon": "icon-windows8",
             "category": "Sample Apps",
             "screenshots": []
-          }, 
+          },
           {
             "id": "pushstarter_android_app",
             "name": "Simple Push Android App",
@@ -125,8 +125,8 @@
       {
         "id": "ups_project",
         "priority": 0.41,
-        "name": "Push Hello World",
-        "description": "An example Project using our Unified Push Server",
+        "name": "AeroGear Community Push",
+        "description": "An example project which can use an external instance of the AeroGear Push Server",
         "type": "default",
         "icon": "icon-plane",
         "category": "Samples",
@@ -780,7 +780,7 @@
       {
         "id": "aerogear",
         "priority": 0.89,
-        "name": "AeroGear Push Service",
+        "name": "AeroGear Community Push Connector",
         "type": "other",
         "image": "https://raw.githubusercontent.com/feedhenry-templates/aerogear-service/master/icon.jpeg",
         "category": "SaaS Connectors",
