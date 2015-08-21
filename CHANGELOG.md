@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 1.8.0 - Niall Donnelly
+FH-1707_Add-Page-Description
+
 ## 1.7.0 - Niall Donnelly
 
 * FH-42 - Updated All Cloud Templates To fh-mbaas-api v5.0.0
