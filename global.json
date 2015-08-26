@@ -1469,19 +1469,34 @@
             "category": "SaaS Connectors",
             "configuration": [
               {
-                "desc": "Your Sharepoint Login",
-                "varName": "SHAREPOINT_LOGIN"
+                "desc": "Your Sharepoint Hostname",
+                "varName": "SHAREPOINT_HOSTNAME"
               },
               {
-                "desc": "Your Sharepoint password",
+                "desc": "Your Sharepoint username - omit if you don't plan on using a service account for this service",
+                "optional": true,
+                "varName": "SHAREPOINT_USERNAME"
+              },
+              {
+                "desc": "Your Sharepoint password - omit if you don't plan on using a service account for this service",
+                "optional": true,
                 "varName": "SHAREPOINT_PASSWORD",
                 "type": "password"
               },
               {
-                "desc": "Your Sharepoint Hostname",
+                "desc": "Authentication type in use - optional, defaults to `basic`",
                 "optional": true,
-                "varName": "SHAREPOINT_HOSTNAME",
-                "type": "password"
+                "varName": "AUTH_TYPE"
+              },
+              {
+                "desc": "Disable strict SSL - optional, defaults to `true`. Set to `false` to allow connecting to self-signed instances of Sharepoint.",
+                "optional": true,
+                "varName": "STRICT_SSL"
+              },
+              {
+                "desc": "Session Timeout - optional - defaults to 3,600 seconds (1hr). Sets the default duration a session is held for in the mobile cloud.",
+                "optional": true,
+                "varName": "SESSION_TIMEOUT"
               }
             ]
           }
