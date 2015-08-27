@@ -1,5 +1,10 @@
 # Changelog - template-config
 
+## 2.4.2 - David Martin
+* Removed push template for 3.5.3
+* Removed sync android template from sync_project for 3.5.3 
+* RHMAP-2596 update fh-csharp-window-10-blank-app 
+
 ## 2.4.1 - Jason Madigan
 * Re-build to include template updates for RHMAP-1622 & RHMAP-1285
 
@@ -23,6 +28,9 @@
 
 ## 2.0.0 - Sebastien Blanc
 * (undocumented)
+
+## 1.8.0 - Niall Donnelly
+* FH-1089 Increase Body Parser Limit For fh-mbaas-service
 
 ## 1.9.0 - Jason Madigan
 * FH-1887 - Bumping build, added new npm start to a bunch of cloud templates
