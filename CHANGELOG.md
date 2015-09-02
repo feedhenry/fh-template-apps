@@ -1,22 +1,21 @@
 # Changelog - template-config
 
-## 1.8.0 - Cian Clarke
+## 1.9.0 - Jason Madigan
+* FH-1887 - Bumping build, added new npm start to a bunch of cloud templates
 
+## 1.8.0 - Cian Clarke
 * FH-1851 - Sharepoint Template Update
 
 ## 1.7.0 - Niall Donnelly
-
 * FH-42 - Updated All Cloud Templates To fh-mbaas-api v5.0.0
 
 ## 1.6.0 - David Martin
 * Add OpenShfit MBaaS Service
 
 ## 1.5.1 - Martin Murphy
-
 * FH-1576 - Include appforms client template with updated Cordova plugin versions
 
 ## 1.5.0 - Niall Donnelly
-
 * FH-1518 Updated Appforms Template Client To Use Cordova Alerts Where Available
 
 ## 1.4.0 - John Frizelle
