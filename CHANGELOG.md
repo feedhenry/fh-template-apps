@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 2.1.0 - Daniel Passos
+* FH-491 - Move fh-android-sdk-blank-app to feedhenry-templates
+
 ## 2.0.1 - Cian Clarke
 * FH-1851 - Sharepoint Template minor env var fix
 
