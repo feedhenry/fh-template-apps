@@ -57,7 +57,7 @@
             "name": "Sync iOS App",
             "type": "client_native_ios",
             "repoUrl": "git://github.com/corinnekrych/sync-ios-app.git",
-            "githubUrl": "https://github.com/corinekrych/sync-ios-app.git",
+            "githubUrl": "https://github.com/corinnekrych/sync-ios-app.git",
             "repoBranch": "refs/heads/FHMOBSDK-24.use.cocoapods",
             "icon": "icon-apple",
             "category": "Sample Apps",
@@ -547,6 +547,40 @@
         "screenshots": [
           {
             "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-android-app/master/screenshots/androidproject_container.png"
+          }
+        ]
+      },
+      {
+        "id": "helloworld_ios",
+        "name": "Helloworld iOS App",
+        "type": "client_native_ios",
+        "priority": 0.445,
+        "description": "Native iOS Hello World App which echos your name via the Cloud",
+        "repoUrl": "git://github.com/corinnekrych/helloworld-ios.git",
+        "githubUrl": "https://github.com/corinnekrych/helloworld-ios.git",
+        "repoBranch": "refs/heads/FHMOBSDK-76.cocoapods.support",
+        "icon": "icon-apple",
+        "category": "Blank Apps",
+        "screenshots": [
+          {
+            "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_ios_client/1.png"
+          }
+        ]
+      },
+      {
+        "id": "saml_ios_app",
+        "name": "SAML iOS App",
+        "type": "client_native_ios",
+        "priority": 0.445,
+        "description": "Native iOS Hello World App which echos your name via the Cloud",
+        "repoUrl": "git://github.com/corinnekrych/saml-ios-app.git",
+        "githubUrl": "https://github.com/corinnekrych/saml-ios-app.git",
+        "repoBranch": "refs/heads/FHMOBSDK-76.cocoapods.support",
+        "icon": "icon-apple",
+        "category": "Blank Apps",
+        "screenshots": [
+          {
+            "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_ios_client/1.png"
           }
         ]
       },
