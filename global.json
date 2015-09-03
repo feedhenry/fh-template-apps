@@ -575,7 +575,7 @@
         "description": "Native iOS Hello World App which echos your name via the Cloud",
         "repoUrl": "git://github.com/corinnekrych/saml-ios-app.git",
         "githubUrl": "https://github.com/corinnekrych/saml-ios-app.git",
-        "repoBranch": "refs/heads/FHMOBSDK-76.cocoapods.support",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-apple",
         "category": "Blank Apps",
         "screenshots": [
