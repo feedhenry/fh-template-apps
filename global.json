@@ -56,9 +56,9 @@
             "id": "sync_ios_app",
             "name": "Sync iOS App",
             "type": "client_native_ios",
-            "repoUrl": "git://github.com/feedhenry-templates/sync-ios-app.git",
-            "githubUrl": "https://github.com/feedhenry-templates/sync-ios-app.git",
-            "repoBranch": "refs/heads/master",
+            "repoUrl": "git://github.com/corinnekrych/sync-ios-app.git",
+            "githubUrl": "https://github.com/corinnekrych/sync-ios-app.git",
+            "repoBranch": "refs/heads/FHMOBSDK-24.use.cocoapods",
             "icon": "icon-apple",
             "category": "Sample Apps",
             "screenshots": []
@@ -551,14 +551,48 @@
         ]
       },
       {
+        "id": "helloworld_ios",
+        "name": "Helloworld iOS App",
+        "type": "client_native_ios",
+        "priority": 0.445,
+        "description": "Native iOS Hello World App which echos your name via the Cloud",
+        "repoUrl": "git://github.com/corinnekrych/helloworld-ios.git",
+        "githubUrl": "https://github.com/corinnekrych/helloworld-ios.git",
+        "repoBranch": "refs/heads/FHMOBSDK-76.cocoapods.support",
+        "icon": "icon-apple",
+        "category": "Blank Apps",
+        "screenshots": [
+          {
+            "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_ios_client/1.png"
+          }
+        ]
+      },
+      {
+        "id": "saml_ios_app",
+        "name": "SAML iOS App",
+        "type": "client_native_ios",
+        "priority": 0.445,
+        "description": "Native iOS Hello World App which echos your name via the Cloud",
+        "repoUrl": "git://github.com/corinnekrych/saml-ios-app.git",
+        "githubUrl": "https://github.com/corinnekrych/saml-ios-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-apple",
+        "category": "Blank Apps",
+        "screenshots": [
+          {
+            "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_ios_client/1.png"
+          }
+        ]
+      },
+      {
         "id": "blank_native_ios_client",
         "name": "Blank Native iOS App",
         "type": "client_native_ios",
         "priority": 0.445,
         "description": "Native iOS Hello World App which echos your name via the Cloud",
-        "repoUrl": "git://github.com/feedhenry/fh-ios-sdk-blank-app.git",
-        "githubUrl": "https://github.com/feedhenry/fh-ios-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoUrl": "git://github.com/corinnekrych/fh-ios-sdk-blank-app.git",
+        "githubUrl": "https://github.com/corinnekrych/fh-ios-sdk-blank-app.git",
+        "repoBranch": "refs/heads/FHMOBSDK-19.use.cocoapods",
         "icon": "icon-apple",
         "category": "Blank Apps",
         "screenshots": [
