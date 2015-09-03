@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 1.10.0 - Daniel Passos
+* FH-491 - Move fh-android-sdk-blank-app to feedhenry-templates
+
 ## 1.9.0 - Jason Madigan
 * FH-1887 - Bumping build, added new npm start to a bunch of cloud templates
 
