@@ -617,7 +617,7 @@
         "priority": 0.44,
         "description": "Blank Hello World Web App",
         "repoUrl": "git@github.com:feedhenry-templates/fh-csharp-window-10-blank-app.git",
-        "githubUrl": "https://github.com:feedhenry-templates/fh-csharp-window-10-blank-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-windows8",
         "category": "Blank Apps",
