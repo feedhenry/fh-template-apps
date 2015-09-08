@@ -1486,17 +1486,17 @@
               {
                 "desc": "Authentication type in use - optional, defaults to `basic`",
                 "optional": true,
-                "varName": "AUTH_TYPE"
+                "varName": "SHAREPOINT_AUTH_TYPE"
               },
               {
                 "desc": "Disable strict SSL - optional, defaults to `true`. Set to `false` to allow connecting to self-signed instances of Sharepoint.",
                 "optional": true,
-                "varName": "STRICT_SSL"
+                "varName": "SHAREPOINT_STRICT_SSL"
               },
               {
                 "desc": "Session Timeout - optional - defaults to 3,600 seconds (1hr). Sets the default duration a session is held for in the mobile cloud.",
                 "optional": true,
-                "varName": "SESSION_TIMEOUT"
+                "varName": "SHAREPOINT_SESSION_TIMEOUT"
               }
             ]
           }
