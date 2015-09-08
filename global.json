@@ -1133,7 +1133,7 @@
         "name": "HTTP Development Proxy",
         "type": "other",
         "image": "public/img/cloud_plugins/fh.png",
-        "docs": "https://github.com/feedhenry-staff/fh-dev-proxy",
+        "docs": "https://github.com/feedhenry-staff/fh-dev-proxy/blob/master/README.md",
         "category": "Custom Service",
         "description": "Enables local development requests to reach private development hosts.",
         "appTemplates": [
@@ -1141,14 +1141,14 @@
             "id": "fh-development-proxy",
             "name": "HTTP Development Proxy",
             "type": "cloud_nodejs",
-            "docs": "https://github.com/feedhenry-staff/fh-dev-proxy",
+            "docs": "https://github.com/feedhenry-staff/fh-dev-proxy/blob/master/README.md",
             "repoUrl": "git@github.com:feedhenry-staff/fh-proxy-service-template.git",
             "repoBranch": "refs/heads/master",
             "image": "public/img/cloud_plugins/fh.png",
             "category": "Custom Service",
             "configuration": [
               {
-                "desc": "Comma separated hosts that the proxy will expose e.g dev.yourdomain.com",
+                "desc": "Comma separated list of hosts that the proxy will allow users to access e.g dev.yourdomain.com",
                 "varName": "PROXY_VALID_HOSTS"
               }
             ]
