@@ -1,7 +1,15 @@
 # Changelog - template-config
 
+## 2.0.1 - Cian Clarke
+* FH-1851 - Sharepoint Template minor env var fix
+
+## 2.0.0 - Sebastien Blanc
+* (undocumented)
+
 ## 1.9.0 - Jason Madigan
 * FH-1887 - Bumping build, added new npm start to a bunch of cloud templates
+
+## 1.8.0 - Cian Clarke
 
 ## 1.8.0 - Cian Clarke
 * FH-1851 - Sharepoint Template Update
