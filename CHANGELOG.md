@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 2.2.0 - Cian Clarke
+* Add REST Client service
+
 ## 2.1.0 - Daniel Passos
 * FH-491 - Move fh-android-sdk-blank-app to feedhenry-templates
 
