@@ -1,5 +1,11 @@
 # Changelog - template-config
 
+## 2.6.0 - Luke Holmquist
+
+* RHMAP-2456 - Added Hard-Coded Data Source Service
+* RHMAP-2457 - Added MongoDb-based Data Source Service
+* RHMAP-2458 - Added Internet Parsing Data Source Service
+
 ## 2.5.0 - Niall Donnelly, Daniel Passos
 * FH-1089 Increase Body Parser Limit For fh-mbaas-service
 * RHMAP-2698 - Include sync template in 3.5.4 release
