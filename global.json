@@ -838,7 +838,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-templates/fh-mbaas-service.git",
             "githubUrl": "https://github.com/feedhenry-templates/fh-mbaas-service.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/heads/FH-1067-disconnect-core-mbaas",
             "image": "public/img/cloud_plugins/fh.png",
             "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-mbaas-service/master/README.md",
             "category": "Platform Service",
