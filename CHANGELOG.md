@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 2.3.0 - Daniel Passos
+* Add Sync Android app
+
 ## 2.2.0 - Cian Clarke
 * Add REST Client service
 
