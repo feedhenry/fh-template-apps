@@ -69,7 +69,7 @@
         "id": "ups_project",
         "priority": 0.41,
         "name": "AeroGear Community Push",
-        "description": "An example project which can use an external instance of the AeroGear Push Server",
+        "description": "An example project which can use an external instance of the AeroGear UnifiedPush Server",
         "type": "default",
         "icon": "icon-plane",
         "category": "Samples",
@@ -152,7 +152,7 @@
         "id": "pushstarter_project",
         "priority": 1,
         "name": "Push Notification Hello World",
-        "description": "An example project using the Unified Push Service built-into the platform",
+        "description": "An example project using the push server integrated in the Platform",
         "type": "default",
         "icon": "icon-plane",
         "category": "Samples",
@@ -160,7 +160,7 @@
         "appTemplates": [
           {
             "id": "pushstarter_windows_app",
-            "name": "Simple Push Windows App",
+            "name": "Simple Windows Push App",
             "type": "client_native_windowsuniversal",
             "repoUrl": "git://github.com/feedhenry-templates/pushstarter-windows-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
@@ -171,7 +171,7 @@
           },
           {
             "id": "pushstarter_android_app",
-            "name": "Simple Push Android App",
+            "name": "Simple Android Push App",
             "type": "client_native_android",
             "repoUrl": "git://github.com/feedhenry-templates/pushstarter-android-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/pushstarter-android-app.git",
@@ -182,7 +182,7 @@
           },
           {
             "id": "pushstarter_cordova_app",
-            "name": "Simple Push Cordova App",
+            "name": "Simple Cordova Push App",
             "type": "client_hybrid",
             "repoUrl": "git://github.com/feedhenry-templates/pushstarter-cordova-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/pushstarter-cordova-app.git",
@@ -193,7 +193,7 @@
           },
           {
             "id": "pushstarter_ios_app",
-            "name": "Simple Push iOS App",
+            "name": "Simple iOS Push App",
             "type": "client_native_ios",
             "repoUrl": "git://github.com/feedhenry-templates/pushstarter-ios-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/pushstarter-ios-app.git",
