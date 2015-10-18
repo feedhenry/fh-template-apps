@@ -157,6 +157,16 @@
           "icon": "icon-html5",
           "category": "Sample Apps",
           "screenshots": []
+        }, {
+          "id": "saml_windows",
+          "name": "SAML Windows",
+          "type": "client_native_windowsuniversal",
+          "repoUrl": "git@github.com:feedhenry-templates/saml-windows-app.git",
+          "githubUrl": "https://github.com/feedhenry-templates/saml-windows-app.git",
+          "repoBranch": "refs/heads/master",
+          "icon": "icon-windows8",
+          "category": "Sample Apps",
+          "screenshots": []
         }]
       },
      {
