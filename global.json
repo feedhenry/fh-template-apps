@@ -158,6 +158,16 @@
           "category": "Sample Apps",
           "screenshots": []
         }, {
+          "id": "saml_android",
+          "name": "SAML Android",
+          "type": "client_native_android",
+          "repoUrl": "git@github.com:feedhenry-templates/saml-android-app.git",
+          "githubUrl": "https://github.com/feedhenry-templates/saml-android-app.git",
+          "repoBranch": "refs/heads/master",
+          "icon": "icon-android",
+          "category": "Sample Apps",
+          "screenshots": []
+        }, {
           "id": "saml_windows",
           "name": "SAML Windows",
           "type": "client_native_windowsuniversal",
