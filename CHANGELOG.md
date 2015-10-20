@@ -1,4 +1,51 @@
 # Changelog - template-config
+## 2.4.0 - David Martin
+* Add latest sdks to each template
+** fh-dotnet-sdk 1.3.3
+*** fh-windowsphone-sdk-blank-app
+*** fh-csharp-window-10-blank-app
+*** fh-csharp-universal-sdk-blank-app
+*** pushstarter-windows-app
+*** welcome-windows
+** fh-ios-sdk 2.2.19
+*** fh-ios-sdk-blank-app
+*** sync-ios-app
+*** pushstarter-ios-app
+** fh-android-sdk 2.5.0
+*** sync-android-app
+*** pushstarter-android-app
+*** blank-android-app
+*** welcome-android
+** fh-mbaas-api 5.3.5
+*** helloworld-cloud
+*** helloworld-cloud-cluster
+*** sync-cloud
+*** Push-Hello-World-Cloud-App
+*** saml-cloud-app
+*** welcome-cloud
+*** fh-mobile-spec-cloud
+*** fh-mbaas-service
+*** saml-service
+*** fh-health-monitor
+*** aerogear-service
+*** fh-connector-ldap-cloud
+*** barcode-reader-service
+*** fh-api-mapper
+*** fh-connector-salesforce-cloud
+*** fh-connector-oraclecrm-cloud
+*** fh-connector-twilio-cloud
+*** fh-connector-ibeacon-manager
+*** fh-connector-sendgrid-cloud
+*** fh-connector-mysql-cloud
+*** fh-connector-mongodb-cloud
+*** fh-connector-stripe-cloud
+*** fh-connector-amazon-ses-cloud
+*** fh-connector-amazon-sqs-cloud
+*** fh-connector-google-cloud
+*** fh-connector-intercom-cloud
+*** fh-connector-sap-netweaver-cloud
+*** fh-connector-paypal-cloud
+*** fh-connector-sharepoint-cloud
 
 ## 2.3.0 - Daniel Passos
 * Add Sync Android app
