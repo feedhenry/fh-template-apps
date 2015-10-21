@@ -47,6 +47,11 @@
 *** fh-connector-paypal-cloud
 *** fh-connector-sharepoint-cloud
 
+## 2.4.0 - Daniel Passos
+* Add SAML Android app
+* Add SAML iOS app
+* Add SAML Windows app
+
 ## 2.3.0 - Daniel Passos
 * Add Sync Android app
 
