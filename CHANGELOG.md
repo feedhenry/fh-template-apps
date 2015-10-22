@@ -1,4 +1,7 @@
 # Changelog - template-config
+## 2.4.1 - Cian Clarke
+* Bump rest client to 1.0.2
+
 ## 2.4.0 - David Martin
 * Add latest sdks to each template
 ** fh-dotnet-sdk 1.3.3
