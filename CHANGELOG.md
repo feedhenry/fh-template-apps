@@ -1,4 +1,8 @@
 # Changelog - template-config
+## 2.4.1 - David Martin
+* Removed push template for 3.5.3
+* Removed sync android template from sync_project for 3.5.3 
+
 ## 2.4.0 - David Martin
 * Add latest sdks to each template
 ** fh-dotnet-sdk 1.3.3
