@@ -1617,7 +1617,7 @@
         "priority": 0.73,
         "name": "Static Data DataSource",
         "type": "other",
-        "image": "",
+        "image": "public/img/cloud_plugins/fh.png",
         "category": "DataSources",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/appforms-datasources-static/master/README.md",
         "description": "A service for integrating with DataSources",
@@ -1630,9 +1630,8 @@
             "repoUrl": "git://github.com/feedhenry-templates/appforms-datasources-static.git",
             "githubUrl": "https://github.com/feedhenry-templates/appforms-datasources-static.git",
             "repoBranch": "refs/heads/master",
-            "image": "",
-            "category": "DataSources",
-            "configuration": []
+            "image": "public/img/cloud_plugins/fh.png",
+            "category": "DataSources"
           }
         ]
       }
