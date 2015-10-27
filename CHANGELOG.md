@@ -1,9 +1,10 @@
 # Changelog - template-config
 
-## 2.4.2 - David Martin
+## 2.4.2 - David Martin, Daniel Passos
 * Removed push template for 3.5.3
 * Removed sync android template from sync_project for 3.5.3 
-* RHMAP-2596 update fh-csharp-window-10-blank-app 
+* RHMAP-2596 update fh-csharp-window-10-blank-app
+* RHMAP-2698 - Include sync template in 3.5.4 release
 
 ## 2.4.1 - Jason Madigan
 * Re-build to include template updates for RHMAP-1622 & RHMAP-1285
