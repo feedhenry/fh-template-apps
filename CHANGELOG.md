@@ -1,7 +1,8 @@
 # Changelog - template-config
 
-## 2.5.0 - Niall Donnelly
+## 2.5.0 - Niall Donnelly, Daniel Passos
 * FH-1089 Increase Body Parser Limit For fh-mbaas-service
+* RHMAP-2698 - Include sync template in 3.5.4 release
 
 ## 2.4.1 - David Martin
 * Removed push template for 3.5.3
