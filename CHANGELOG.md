@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 2.4.2 - Daniel Passos
+* RHMAP-2698 - Include sync template in 3.5.4 release
+
 ## 2.4.1 - David Martin
 * Removed push template for 3.5.3
 * Removed sync android template from sync_project for 3.5.3 

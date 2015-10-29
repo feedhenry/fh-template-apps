@@ -62,6 +62,17 @@
             "icon": "icon-apple",
             "category": "Sample Apps",
             "screenshots": []
+          },
+          {
+            "id": "sync_android_app",
+            "name": "Sync Android App",
+            "type": "client_native_android",
+            "repoUrl": "git://github.com/feedhenry-templates/sync-android-app.git",
+            "githubUrl": "https://github.com/feedhenry-templates/sync-android-app.git",
+            "repoBranch": "refs/heads/master",
+            "icon": "icon-android",
+            "category": "Sample Apps",
+            "screenshots": []
           }
         ]
       },
