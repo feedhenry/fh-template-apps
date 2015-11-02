@@ -1646,6 +1646,29 @@
             "category": "DataSources"
           }
         ]
+      },
+      {
+        "id": "datasource_internet",
+        "priority": 0.71,
+        "name": "Internet Data DataSource",
+        "type": "other",
+        "image": "public/img/cloud_plugins/fh.png",
+        "category": "DataSources",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/appforms-datasources-internet/master/README.md",
+        "description": "A service for integrating with DataSources backed by data from the Internet",
+        "appTemplates": [
+          {
+            "id": "internet_datasource_cloud",
+            "name": "Internet DataSources",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/appforms-datasources-internet/master/README.md",
+            "type": "cloud_nodejs",
+            "repoUrl": "git://github.com/feedhenry-templates/appforms-datasources-internet.git",
+            "githubUrl": "https://github.com/feedhenry-templates/appforms-datasources-internet.git",
+            "repoBranch": "refs/heads/master",
+            "image": "public/img/cloud_plugins/fh.png",
+            "category": "DataSources"
+          }
+        ]
       }
     ]
   },
