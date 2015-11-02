@@ -1611,6 +1611,75 @@
             ]
           }
         ]
+      },
+      {
+        "id": "datasource_static",
+        "priority": 0.73,
+        "name": "Static Data DataSource",
+        "type": "other",
+        "image": "public/img/cloud_plugins/fh.png",
+        "category": "DataSources",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/appforms-datasources-static/master/README.md",
+        "description": "A service for integrating with DataSources",
+        "appTemplates": [
+          {
+            "id": "static_datasource_cloud",
+            "name": "Static DataSources",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/appforms-datasources-static/master/README.md",
+            "type": "cloud_nodejs",
+            "repoUrl": "git://github.com/feedhenry-templates/appforms-datasources-static.git",
+            "githubUrl": "https://github.com/feedhenry-templates/appforms-datasources-static.git",
+            "repoBranch": "refs/heads/master",
+            "image": "public/img/cloud_plugins/fh.png",
+            "category": "DataSources"
+          }
+        ]
+      },
+      {
+        "id": "datasource_mongodb",
+        "priority": 0.72,
+        "name": "MongoDB Data DataSource",
+        "type": "other",
+        "image": "public/img/cloud_plugins/fh.png",
+        "category": "DataSources",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/appforms-datasources-mongodb/master/README.md",
+        "description": "A service for integrating with DataSources backed by MongoDB",
+        "appTemplates": [
+          {
+            "id": "mongodb_datasource_cloud",
+            "name": "MongoDB DataSources",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/appforms-datasources-mongodb/master/README.md",
+            "type": "cloud_nodejs",
+            "repoUrl": "git://github.com/feedhenry-templates/appforms-datasources-mongodb.git",
+            "githubUrl": "https://github.com/feedhenry-templates/appforms-datasources-mongodb.git",
+            "repoBranch": "refs/heads/master",
+            "image": "public/img/cloud_plugins/fh.png",
+            "category": "DataSources"
+          }
+        ]
+      },
+      {
+        "id": "datasource_internet",
+        "priority": 0.71,
+        "name": "Internet Data DataSource",
+        "type": "other",
+        "image": "public/img/cloud_plugins/fh.png",
+        "category": "DataSources",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/appforms-datasources-internet/master/README.md",
+        "description": "A service for integrating with DataSources backed by data from the Internet",
+        "appTemplates": [
+          {
+            "id": "internet_datasource_cloud",
+            "name": "Internet DataSources",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/appforms-datasources-internet/master/README.md",
+            "type": "cloud_nodejs",
+            "repoUrl": "git://github.com/feedhenry-templates/appforms-datasources-internet.git",
+            "githubUrl": "https://github.com/feedhenry-templates/appforms-datasources-internet.git",
+            "repoBranch": "refs/heads/master",
+            "image": "public/img/cloud_plugins/fh.png",
+            "category": "DataSources"
+          }
+        ]
       }
     ]
   },
