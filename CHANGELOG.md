@@ -1,4 +1,7 @@
 # Changelog - template-config
+## 2.4.1 - Wei Li
+* Update some of the templates to use the correct github org
+
 ## 2.4.0 - David Martin
 * Add latest sdks to each template
 ** fh-dotnet-sdk 1.3.3
