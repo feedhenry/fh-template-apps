@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 2.4.1 - Jason Madigan
+* Re-build to include template updates for RHMAP-1622 & RHMAP-1285
+
 ## 2.4.0 - Jason Madigan
 * Re-build to include template updates
 
