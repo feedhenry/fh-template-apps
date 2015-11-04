@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 2.4.0 - Jason Madigan
+* Re-build to include template updates
+
 ## 2.3.1 - Ron Smeral
 * RHMAP-1471 UPS integration docs
 
