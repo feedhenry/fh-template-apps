@@ -1,4 +1,8 @@
 # Changelog - template-config
+
+## 2.4.1 - Luigi Zuccarelli
+* Updated all cloud_nodejs git url from feedhenry to feedhenry-templates
+
 ## 2.4.0 - David Martin
 * Add latest sdks to each template
 ** fh-dotnet-sdk 1.3.3
