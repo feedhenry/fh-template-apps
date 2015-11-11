@@ -1,4 +1,8 @@
 # Changelog - template-config
+
+## 2.5.0 - David Martin
+* RHMAP-2768 - Regenerate cloud app templates to use version of fh-mbaas-api with JDG support
+
 ## 2.4.0 - David Martin
 * Add latest sdks to each template
 ** fh-dotnet-sdk 1.3.3
