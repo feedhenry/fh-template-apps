@@ -1,5 +1,10 @@
 # Changelog - template-config
 
+## 2.6.0 - Daniel Passos
+* RHMAP-2631 - Add SAML Android template app in studio
+* RHMAP-2632 - Add SAML iOS template app in studio
+* RHMAP-2633 - Add SAML Windows template app in studio
+
 ## 2.5.0 - Niall Donnelly, Daniel Passos
 * FH-1089 Increase Body Parser Limit For fh-mbaas-service
 * RHMAP-2698 - Include sync template in 3.5.4 release
