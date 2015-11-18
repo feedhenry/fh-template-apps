@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 2.4.3 - Matthias Wessendorf
+* RHMAP-2969 - Wrong application name
+
 ## 2.4.2 - David Martin, Daniel Passos
 * Removed push template for 3.5.3
 * Removed sync android template from sync_project for 3.5.3 
