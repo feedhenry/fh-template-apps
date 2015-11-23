@@ -33,7 +33,7 @@
             "docs": "https://raw.githubusercontent.com/feedhenry-templates/sync-cloud/master/README.md",
             "repoUrl": "git://github.com/feedhenry-templates/sync-cloud.git",
             "githubUrl": "https://github.com/feedhenry-templates/sync-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "icon": "icon-cloud",
             "category": "Sample Apps"
           },
@@ -43,7 +43,7 @@
             "type": "client_hybrid",
             "repoUrl": "git://github.com/feedhenry-templates/sync-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/sync-app.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
             "icon": "icon-html5",
             "category": "Sample Apps",
             "screenshots": [
@@ -58,7 +58,7 @@
             "type": "client_native_ios",
             "repoUrl": "git://github.com/feedhenry-templates/sync-ios-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/sync-ios-app.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
             "icon": "icon-apple",
             "category": "Sample Apps",
             "screenshots": []
@@ -69,7 +69,7 @@
             "type": "client_native_android",
             "repoUrl": "git://github.com/feedhenry-templates/sync-android-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/sync-android-app.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
             "icon": "icon-android",
             "category": "Sample Apps",
             "screenshots": []
@@ -92,7 +92,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-templates/Push-Hello-World-Cloud-App.git",
             "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Cloud-App.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "icon": "icon-cloud",
             "category": "Sample Apps"
           },
@@ -102,7 +102,7 @@
             "type": "client_hybrid",
             "repoUrl": "git://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
             "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
             "icon": "icon-html5",
             "category": "Sample Apps",
             "screenshots": [
@@ -117,7 +117,7 @@
             "type": "webapp_advanced",
             "repoUrl": "git://github.com/feedhenry-templates/Push-Hello-World-Console.git",
             "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Console.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
             "icon": "icon-nodejs",
             "category": "Sample Apps",
             "screenshots": [
@@ -137,31 +137,34 @@
         "icon": "icon-lock",
         "category": "Samples",
         "screenshots": [],
-        "appTemplates": [{
-          "id": "saml_cloud",
-          "name": "SAML Cloud",
-          "type": "cloud_nodejs",
-          "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-cloud-app/master/README.md",
-          "repoUrl": "git://github.com/feedhenry-templates/saml-cloud-app.git",
-          "githubUrl": "https://github.com/feedhenry-templates/saml-cloud-app.git",
-          "repoBranch": "refs/heads/master",
-          "icon": "icon-cloud",
-          "category": "Sample Apps"
-        }, {
-          "id": "saml_app",
-          "name": "SAML Client",
-          "type": "client_advanced_hybrid",
-          "repoUrl": "git://github.com/feedhenry-templates/saml-client-app.git",
-          "githubUrl": "https://github.com/feedhenry-templates/saml-client-app.git",
-          "repoBranch": "refs/heads/master",
-          "icon": "icon-html5",
-          "category": "Sample Apps",
-          "screenshots": []
-        }]
+        "appTemplates": [
+          {
+            "id": "saml_cloud",
+            "name": "SAML Cloud",
+            "type": "cloud_nodejs",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-cloud-app/master/README.md",
+            "repoUrl": "git://github.com/feedhenry-templates/saml-cloud-app.git",
+            "githubUrl": "https://github.com/feedhenry-templates/saml-cloud-app.git",
+            "repoBranch": "refs/head/RHMAP-2822",
+            "icon": "icon-cloud",
+            "category": "Sample Apps"
+          },
+          {
+            "id": "saml_app",
+            "name": "SAML Client",
+            "type": "client_advanced_hybrid",
+            "repoUrl": "git://github.com/feedhenry-templates/saml-client-app.git",
+            "githubUrl": "https://github.com/feedhenry-templates/saml-client-app.git",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
+            "icon": "icon-html5",
+            "category": "Sample Apps",
+            "screenshots": []
+          }
+        ]
       },
-     {
+      {
         "id": "pushstarter_project",
-        "priority": 1,
+        "priority": 0.96,
         "name": "Push Notification Hello World",
         "description": "An example project using the push server integrated in the Platform",
         "type": "default",
@@ -175,7 +178,7 @@
             "type": "client_native_windowsuniversal",
             "repoUrl": "git://github.com/feedhenry-templates/pushstarter-windows-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
             "icon": "icon-windows8",
             "category": "Sample Apps",
             "screenshots": []
@@ -186,7 +189,7 @@
             "type": "client_native_android",
             "repoUrl": "git://github.com/feedhenry-templates/pushstarter-android-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/pushstarter-android-app.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
             "icon": "icon-android",
             "category": "Sample Apps",
             "screenshots": []
@@ -197,7 +200,7 @@
             "type": "client_hybrid",
             "repoUrl": "git://github.com/feedhenry-templates/pushstarter-cordova-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/pushstarter-cordova-app.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc6",
             "icon": "icon-html5",
             "category": "Sample Apps",
             "screenshots": []
@@ -208,7 +211,7 @@
             "type": "client_native_ios",
             "repoUrl": "git://github.com/feedhenry-templates/pushstarter-ios-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/pushstarter-ios-app.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
             "icon": "icon-apple",
             "category": "Sample Apps",
             "screenshots": []
@@ -216,7 +219,6 @@
           "hello_world_mbaas_instance"
         ]
       },
-
       {
         "id": "hello_world_project",
         "priority": 1,
@@ -315,11 +317,7 @@
         "type": "default",
         "icon": "icon-windows8",
         "category": "Sample Projects",
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry/fh-windowsphone-sdk-blank-app/master/screenshots/wp8project_nocontainer.png"
-          }
-        ],
+        "screenshots": [],
         "appTemplates": [
           "blank_native_windowsphone8",
           "hello_world_mbaas_instance"
@@ -387,7 +385,7 @@
             "type": "client_hybrid",
             "repoUrl": "git://github.com/feedhenry/appforms-project-client.git",
             "githubUrl": "https://github.com/feedhenry/appforms-project-client.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
             "category": "Forms",
             "description": "A template App for displaying Forms",
             "screenshots": [
@@ -419,7 +417,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
             "githubUrl": "https://github.com/feedhenry-templates/welcome-cloud.git",
-            "repoBranch": "refs/heads/master"
+            "repoBranch": "refs/head/RHMAP-2822"
           },
           {
             "id": "welcome_project_client",
@@ -427,7 +425,7 @@
             "type": "client_hybrid",
             "repoUrl": "git://github.com/feedhenry-templates/welcome-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/welcome-app.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
             "screenshots": [
               {
                 "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/welcome_project_client/1.png"
@@ -440,7 +438,7 @@
             "type": "client_native_android",
             "repoUrl": "git://github.com/feedhenry-templates/welcome-android.git",
             "githubUrl": "https://github.com/feedhenry-templates/welcome-android.git",
-            "repoBranch": "refs/heads/master"
+            "repoBranch": "refs/head/release-3.6.0-rc5"
           },
           {
             "id": "welcome_project_windows",
@@ -448,7 +446,7 @@
             "type": "client_native_windowsuniversal",
             "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
             "githubUrl": "https://github.com/feedhenry-templates/welcome-windows.git",
-            "repoBranch": "refs/heads/master"
+            "repoBranch": "refs/head/release-3.6.0-rc5"
           }
         ]
       },
@@ -472,7 +470,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-templates/fh-mobile-spec-cloud.git",
             "githubUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-cloud.git",
-            "repoBranch": "refs/heads/master"
+            "repoBranch": "refs/head/RHMAP-2822"
           },
           {
             "id": "mobile_spec_project_client",
@@ -480,7 +478,7 @@
             "type": "client_hybrid",
             "repoUrl": "git://github.com/feedhenry-templates/fh-mobile-spec-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-app.git",
-            "repoBranch": "refs/heads/master"
+            "repoBranch": "refs/head/release-3.6.0-rc5"
           },
           {
             "id": "mobile_spec_project_portal",
@@ -488,7 +486,7 @@
             "type": "webapp_basic",
             "repoUrl": "git://github.com/feedhenry-templates/fh-mobile-spec-portal.git",
             "githubUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-portal.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/release-3.6.0-rc5",
             "screenshots": [
               {
                 "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/mobile_spec_project_portal/1.png"
@@ -563,7 +561,7 @@
         "priority": 0.56,
         "repoUrl": "git://github.com/feedhenry-templates/helloworld-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-html5",
         "category": "Blank Apps",
         "description": "An HTML5 Cordova Light App which echos your name via the Cloud",
@@ -585,7 +583,7 @@
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
         "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
         "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/RHMAP-2822",
         "icon": "icon-cloud",
         "category": "Sample Apps"
       },
@@ -598,7 +596,7 @@
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud-cluster/master/README.md",
         "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud-cluster.git",
         "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud-cluster.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/RHMAP-2822",
         "icon": "icon-cloud",
         "category": "Sample Apps"
       },
@@ -610,7 +608,7 @@
         "description": "Native Android Blank App which echos your name via the Cloud",
         "repoUrl": "git://github.com/feedhenry-templates/blank-android-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/blank-android-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-android",
         "category": "Blank Apps",
         "screenshots": [
@@ -627,7 +625,7 @@
         "description": "Native iOS Hello World App which echos your name via the Cloud",
         "repoUrl": "git://github.com/feedhenry/fh-ios-sdk-blank-app.git",
         "githubUrl": "https://github.com/feedhenry/fh-ios-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-apple",
         "category": "Blank Apps",
         "screenshots": [
@@ -644,7 +642,7 @@
         "description": "Cordova App App which echos your name via the Cloud",
         "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
         "githubUrl": "https://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-cordova",
         "category": "Blank Apps",
         "screenshots": [
@@ -661,7 +659,7 @@
         "description": "Blank Hello World Web App",
         "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
         "githubUrl": "https://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-nodejs",
         "category": "Blank Apps",
         "screenshots": [
@@ -678,7 +676,7 @@
         "description": "Native Windows Phone 8 Hello World App which echos your name via the Cloud",
         "repoUrl": "git://github.com/feedhenry/fh-windowsphone-sdk-blank-app.git",
         "githubUrl": "https://github.com/feedhenry/fh-windowsphone-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-windows8",
         "category": "Blank Apps",
         "screenshots": [
@@ -693,9 +691,9 @@
         "type": "client_native_windowsuniversal",
         "priority": 0.44,
         "description": "Blank Hello World Web App",
-        "repoUrl": "git@github.com:feedhenry-templates/fh-csharp-window-10-blank-app.git",
+        "repoUrl": "git://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-windows8",
         "category": "Blank Apps",
         "screenshots": [
@@ -712,7 +710,7 @@
         "priority": 0.03,
         "repoUrl": "git://github.com/feedhenry/fh-xamarin-sdk-blank-app.git",
         "githubUrl": "https://github.com/feedhenry/fh-xamarin-sdk-blank-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-xamarin",
         "category": "Blank Apps",
         "screenshots": [
@@ -720,21 +718,25 @@
             "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_xamarin/1.png"
           }
         ]
-    }, {
-      "id": "blank_vs_universal",
-      "name": "Blank Visual Studio C# Universal App",
-      "type": "client_native_windowsuniversal",
-      "description": "Blank Universal C# Hello world app",
-      "priority": 0.03,
-      "repoUrl": "git://github.com/feedhenry-templates/fh-csharp-universal-sdk-blank-app.git",
-      "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-universal-sdk-blank-app.git",
-      "repoBranch": "refs/heads/master",
-      "icon": "icon-windows8",
-      "category": "Blank Apps",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windows_universal/1.png"
-      }]
-    }, {
+      },
+      {
+        "id": "blank_vs_universal",
+        "name": "Blank Visual Studio C# Universal App",
+        "type": "client_native_windowsuniversal",
+        "description": "Blank Universal C# Hello world app",
+        "priority": 0.03,
+        "repoUrl": "git://github.com/feedhenry-templates/fh-csharp-universal-sdk-blank-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-universal-sdk-blank-app.git",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
+        "icon": "icon-windows8",
+        "category": "Blank Apps",
+        "screenshots": [
+          {
+            "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windows_universal/1.png"
+          }
+        ]
+      },
+      {
         "id": "blank_appcelerator",
         "name": "Blank Appcelerator App",
         "type": "client_appcelerator",
@@ -742,7 +744,7 @@
         "priority": 0.04,
         "repoUrl": "git://github.com/feedhenry-training/fh-titanium-example.git",
         "githubUrl": "https://github.com/feedhenry-training/fh-titanium-example.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-appcelerator",
         "category": "Blank Apps",
         "screenshots": [
@@ -776,7 +778,7 @@
         "priority": 0.4,
         "repoUrl": "git://github.com/feedhenry-templates/quickstart-backbone-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/quickstart-backbone-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-backbone",
         "category": "Blank Apps",
         "screenshots": [
@@ -793,7 +795,7 @@
         "priority": 0.4,
         "repoUrl": "git://github.com/feedhenry-templates/quickstart-angular-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/quickstart-angular-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-angular",
         "category": "Blank Apps",
         "screenshots": [
@@ -810,7 +812,7 @@
         "priority": 0.4,
         "repoUrl": "git://github.com/feedhenry-templates/quickstart-ionic-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/quickstart-ionic-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/head/release-3.6.0-rc5",
         "icon": "icon-ionic",
         "category": "Blank Apps",
         "screenshots": [
@@ -833,7 +835,8 @@
         "appTemplates": [
           "hello_world_mbaas_instance"
         ]
-      }, {
+      },
+      {
         "name": "OpenShift mBaaS Service",
         "priority": 0.895,
         "id": "openshift-mbaas-service",
@@ -849,7 +852,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-templates/fh-mbaas-service.git",
             "githubUrl": "https://github.com/feedhenry-templates/fh-mbaas-service.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/fh.png",
             "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-mbaas-service/master/README.md",
             "category": "Platform Service",
@@ -866,36 +869,44 @@
         "category": "Authentication",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/README.md",
         "description": "Sample SAML Authentication service for connecting to your IdP",
-        "appTemplates": [{
-          "id": "saml-service",
-          "name": "SAML Service",
-          "type": "cloud_nodejs",
-          "repoUrl": "git://github.com/feedhenry-templates/saml-service.git",
-          "githubUrl": "https://github.com/feedhenry-templates/saml-service.git",
-          "repoBranch": "refs/heads/master",
-          "image": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/files/icon.png",
-          "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/README.md",
-          "category": "Authentication",
-          "configuration": [{
-            "desc": "Issuer string to supply to identity provider (Defaults to: https://MBaaS_Service_Host/login/callback)",
-            "varName": "SAML_ISSUER",
-            "optional": true
-          }, {
-            "desc": "Full callback URL for IdP to send assertions back to (Defaults to: https://MBaaS_Service_Host/login/callback)",
-            "varName": "SAML_CALLBACK_URL",
-            "optional": true
-          }, {
-            "desc": "Identity provider entrypoint (e.g. https://my-adfs.example.com/adfs/ls/)",
-            "varName": "SAML_ENTRY_POINT"
-          }, {
-            "desc": "Name identifier format to request auth context - defaults to 'urn:federation:authentication:windows' (for AD FS)",
-            "varName": "SAML_AUTHN_CONTEXT"
-          }, {
-            "desc": "Validate incoming SAML responses with your IdP's public certificate",
-            "varName": "SAML_CERT",
-            "optional": true
-          }]
-        }]
+        "appTemplates": [
+          {
+            "id": "saml-service",
+            "name": "SAML Service",
+            "type": "cloud_nodejs",
+            "repoUrl": "git://github.com/feedhenry-templates/saml-service.git",
+            "githubUrl": "https://github.com/feedhenry-templates/saml-service.git",
+            "repoBranch": "refs/head/RHMAP-2822",
+            "image": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/files/icon.png",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/README.md",
+            "category": "Authentication",
+            "configuration": [
+              {
+                "desc": "Issuer string to supply to identity provider (Defaults to: https://MBaaS_Service_Host/login/callback)",
+                "varName": "SAML_ISSUER",
+                "optional": true
+              },
+              {
+                "desc": "Full callback URL for IdP to send assertions back to (Defaults to: https://MBaaS_Service_Host/login/callback)",
+                "varName": "SAML_CALLBACK_URL",
+                "optional": true
+              },
+              {
+                "desc": "Identity provider entrypoint (e.g. https://my-adfs.example.com/adfs/ls/)",
+                "varName": "SAML_ENTRY_POINT"
+              },
+              {
+                "desc": "Name identifier format to request auth context - defaults to 'urn:federation:authentication:windows' (for AD FS)",
+                "varName": "SAML_AUTHN_CONTEXT"
+              },
+              {
+                "desc": "Validate incoming SAML responses with your IdP's public certificate",
+                "varName": "SAML_CERT",
+                "optional": true
+              }
+            ]
+          }
+        ]
       },
       {
         "id": "status-monitor",
@@ -913,7 +924,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-templates/fh-health-monitor.git",
             "githubUrl": "https://github.com/feedhenry-templates/fh-health-monitor.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-health-monitor/master/files/icon.png",
             "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-health-monitor/master/README.md",
             "category": "Monitoring",
@@ -937,7 +948,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-templates/aerogear-service.git",
             "githubUrl": "https://github.com/feedhenry-templates/aerogear-service.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "https://raw.githubusercontent.com/feedhenry-templates/aerogear-service/master/icon.jpeg",
             "docs": "https://raw.githubusercontent.com/feedhenry-templates/aerogear-service/master/README.md",
             "category": "SaaS Connectors",
@@ -979,7 +990,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-templates/fh-connector-ldap-cloud.git",
             "githubUrl": "https://github.com/feedhenry-templates/fh-connector-ldap-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/fh.png",
             "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ldap-cloud/master/README.md",
             "category": "Authentication",
@@ -1018,7 +1029,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-templates/barcode-reader-service.git",
             "githubUrl": "https://github.com/feedhenry-templates/barcode-reader-service.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/barcode.jpg",
             "docs": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/README.md",
             "category": "SaaS Connectors",
@@ -1028,30 +1039,6 @@
                 "varName": "ACCESS_TOKEN"
               }
             ]
-          }
-        ]
-      },
-      {
-        "name": "REST Client",
-        "priority": 0.883,
-        "id": "rest-client",
-        "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-api-mapper/master/README.md",
-        "type": "other",
-        "image": "public/img/cloud_plugins/fh.png",
-        "category": "Platform Service",
-        "description": "Explore APIs which may be protected by a firewall, or only accessible to the cloud via VPN. Supports saving requests, and generates useful code snippets.",
-        "appTemplates": [
-          {
-            "id": "rest-client-service",
-            "name": "REST Client",
-            "type": "cloud_nodejs",
-            "repoUrl": "git://github.com/feedhenry-templates/fh-api-mapper.git",
-            "githubUrl": "git://github.com/feedhenry-templates/fh-api-mapper.git",
-            "repoBranch": "refs/tags/1.0.1",
-            "image": "public/img/cloud_plugins/fh.png",
-            "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-api-mapper/master/README.md",
-            "category": "Platform Service",
-            "configuration": []
           }
         ]
       },
@@ -1071,7 +1058,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry/fh-connector-salesforce-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-salesforce-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/salesforce.png",
             "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-salesforce-cloud/master/README.md",
             "category": "SaaS",
@@ -1111,7 +1098,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry/fh-connector-oraclecrm-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-oraclecrm-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "https://raw.githubusercontent.com/feedhenry/fh-connector-oraclecrm-cloud/master/icon.png",
             "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-oraclecrm-cloud/master/README.md",
             "category": "SaaS",
@@ -1146,7 +1133,7 @@
             "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-twilio-cloud/master/README.md",
             "repoUrl": "git://github.com/feedhenry/fh-connector-twilio-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-twilio-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/twilio.png",
             "category": "SaaS",
             "configuration": [
@@ -1183,7 +1170,7 @@
             "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/README.md",
             "repoUrl": "git://github.com/feedhenry-templates/fh-connector-ibeacon-manager.git",
             "githubUrl": "https://github.com/feedhenry-templates/fh-connector-ibeacon-manager.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/logo.png",
             "category": "Custom Service",
             "configuration": [
@@ -1212,7 +1199,7 @@
             "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-sendgrid-cloud/master/README.md",
             "repoUrl": "git://github.com/feedhenry/fh-connector-sendgrid-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-sendgrid-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/sendgrid.png",
             "category": "SaaS",
             "configuration": [
@@ -1254,7 +1241,7 @@
             "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-mysql-cloud/master/README.md",
             "repoUrl": "git://github.com/feedhenry/fh-connector-mysql-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-mysql-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/mysql.png",
             "category": "Database",
             "configuration": [
@@ -1292,7 +1279,7 @@
             "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-mongodb-cloud/master/README.md",
             "repoUrl": "git://github.com/feedhenry/fh-connector-mongodb-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-mongodb-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/mongodb.png",
             "category": "Remote Database",
             "configuration": [
@@ -1334,7 +1321,7 @@
             "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-stripe-cloud/master/README.md",
             "repoUrl": "git://github.com/feedhenry/fh-connector-stripe-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-stripe-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/stripe.png",
             "category": "eCommerce",
             "configuration": [
@@ -1363,7 +1350,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry/fh-connector-amazon-ses-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-amazon-ses-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/aws_ses.png",
             "category": "Amazon Web Services",
             "configuration": [
@@ -1395,7 +1382,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry/fh-connector-amazon-sqs-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-amazon-sqs-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/aws_sqs.png",
             "category": "Amazon Web Services",
             "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-amazon-sqs-cloud/master/README.md",
@@ -1429,7 +1416,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry/fh-connector-google-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-google-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/google.png",
             "category": "SaaS Connectors",
             "configuration": []
@@ -1453,7 +1440,7 @@
             "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-intercom-cloud/master/README.md",
             "repoUrl": "git://github.com/feedhenry/fh-connector-intercom-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-intercom-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/intercom.png",
             "category": "SaaS Connectors",
             "configuration": [
@@ -1485,7 +1472,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry/fh-connector-sap-netweaver-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-sap-netweaver-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-sap-netweaver-cloud/master/README.md",
             "image": "public/img/cloud_plugins/netweaver.png",
             "category": "SaaS Connectors",
@@ -1535,7 +1522,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry/fh-connector-paypal-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-paypal-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/paypal.png",
             "category": "eCommerce",
             "docs": "https://raw.githubusercontent.com/feedhenry/fh-connector-paypal-cloud/master/README.md",
@@ -1574,7 +1561,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry/fh-connector-sharepoint-cloud.git",
             "githubUrl": "https://github.com/feedhenry/fh-connector-sharepoint-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/head/RHMAP-2822",
             "image": "public/img/cloud_plugins/sharepoint.png",
             "category": "SaaS Connectors",
             "configuration": [
