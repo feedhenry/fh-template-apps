@@ -1,4 +1,6 @@
 # Changelog - template-config
+## 2.4.5 - Wei Li
+* RHMAP-2820 - Update cloud templates
 
 ## 2.4.4 - Jason Madigan / David Martin
 * RHMAP-3064 - Rebuilding to pickup latest helloworld-cloud
