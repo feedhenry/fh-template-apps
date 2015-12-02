@@ -680,12 +680,7 @@
         "githubUrl": "https://github.com/feedhenry/fh-windowsphone-sdk-blank-app.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-windows8",
-        "category": "Blank Apps",
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windowsphone8/1.png"
-          }
-        ]
+        "category": "Blank Apps"
       },
       {
         "id": "blank_native_windows10",
