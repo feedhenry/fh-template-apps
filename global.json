@@ -315,11 +315,6 @@
         "type": "default",
         "icon": "icon-windows8",
         "category": "Sample Projects",
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry/fh-windowsphone-sdk-blank-app/master/screenshots/wp8project_nocontainer.png"
-          }
-        ],
         "appTemplates": [
           "blank_native_windowsphone8",
           "hello_world_mbaas_instance"
