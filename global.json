@@ -317,7 +317,7 @@
         "category": "Sample Projects",
         "screenshots": [
           {
-            "url": "https://raw.githubusercontent.com/feedhenry/fh-windowsphone-sdk-blank-app/master/screenshots/wp8project_nocontainer.png"
+            "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windowsphone8/1.png"
           }
         ],
         "appTemplates": [
