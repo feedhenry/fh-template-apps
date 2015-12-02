@@ -315,11 +315,6 @@
         "type": "default",
         "icon": "icon-windows8",
         "category": "Sample Projects",
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry/fh-windowsphone-sdk-blank-app/master/screenshots/wp8project_nocontainer.png"
-          }
-        ],
         "appTemplates": [
           "blank_native_windowsphone8",
           "hello_world_mbaas_instance"
@@ -680,12 +675,7 @@
         "githubUrl": "https://github.com/feedhenry/fh-windowsphone-sdk-blank-app.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-windows8",
-        "category": "Blank Apps",
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windowsphone8/1.png"
-          }
-        ]
+        "category": "Blank Apps"
       },
       {
         "id": "blank_native_windows10",
