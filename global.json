@@ -68,7 +68,7 @@
       "id": "ups_project",
       "priority": 0.41,
       "name": "AeroGear Community Push",
-      "description": "An example project which can use an external instance of the AeroGear Push Server",
+      "description": "An example project which can use an external instance of the AeroGear UnifiedPush Server",
       "type": "default",
       "icon": "icon-plane",
       "category": "Samples",
@@ -130,8 +130,8 @@
         "id": "saml_app",
         "name": "SAML Client",
         "type": "client_advanced_hybrid",
-        "repoUrl": "git://github.com/feedhenry-templates/saml-cordova-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/saml-cordova-app.git",
+        "repoUrl": "git://github.com/feedhenry-templates/saml-client-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/saml-client-app.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-html5",
         "category": "Sample Apps",
@@ -139,16 +139,16 @@
       }]
     }, {
       "id": "pushstarter_project",
-      "priority": 1,
+      "priority": 0.96,
       "name": "Push Notification Hello World",
-      "description": "An example project using the Unified Push Service built-into the platform",
+      "description": "An example project using the push server integrated in the Platform",
       "type": "default",
       "icon": "icon-plane",
       "category": "Samples",
       "screenshots": [],
       "appTemplates": [{
         "id": "pushstarter_windows_app",
-        "name": "Simple Push Windows App",
+        "name": "Simple Windows Push App",
         "type": "client_native_windowsuniversal",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-windows-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
@@ -158,7 +158,7 @@
         "screenshots": []
       }, {
         "id": "pushstarter_android_app",
-        "name": "Simple Push Android App",
+        "name": "Simple Android Push App",
         "type": "client_native_android",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-android-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-android-app.git",
@@ -168,7 +168,7 @@
         "screenshots": []
       }, {
         "id": "pushstarter_cordova_app",
-        "name": "Simple Push Cordova App",
+        "name": "Simple Cordova Push App",
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-cordova-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-cordova-app.git",
@@ -178,7 +178,7 @@
         "screenshots": []
       }, {
         "id": "pushstarter_ios_app",
-        "name": "Simple Push iOS App",
+        "name": "Simple iOS Push App",
         "type": "client_native_ios",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-ios-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-ios-app.git",
@@ -255,9 +255,7 @@
       "type": "default",
       "icon": "icon-windows8",
       "category": "Sample Projects",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-windowsphone-sdk-blank-app/master/screenshots/wp8project_nocontainer.png"
-      }],
+      "screenshots": [],
       "appTemplates": ["blank_native_windowsphone8", "hello_world_mbaas_instance"]
     }, {
       "id": "appcelerator_project",
@@ -352,7 +350,7 @@
         "id": "welcome_project_windows",
         "name": "Welcome Project-windows",
         "type": "client_native_windowsuniversal",
-        "repoUrl": "git://github.com/feedhenry-templates/welcome-windows.git",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
         "githubUrl": "https://github.com/feedhenry-templates/welcome-windows.git",
         "repoBranch": "refs/heads/master"
       }]
@@ -547,7 +545,7 @@
       "type": "client_native_windowsuniversal",
       "priority": 0.44,
       "description": "Blank Hello World Web App",
-      "repoUrl": "git@github.com:feedhenry-templates/fh-csharp-window-10-blank-app.git",
+      "repoUrl": "git://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-windows8",
@@ -834,27 +832,6 @@
           "desc": "An access token for http://www.searchupc.com",
           "varName": "ACCESS_TOKEN"
         }]
-      }]
-    }, {
-      "name": "REST Client",
-      "priority": 0.883,
-      "id": "rest-client",
-      "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-api-mapper/master/README.md",
-      "type": "other",
-      "image": "public/img/cloud_plugins/fh.png",
-      "category": "Platform Service",
-      "description": "Explore APIs which may be protected by a firewall, or only accessible to the cloud via VPN. Supports saving requests, and generates useful code snippets.",
-      "appTemplates": [{
-        "id": "rest-client-service",
-        "name": "REST Client",
-        "type": "cloud_nodejs",
-        "repoUrl": "git://github.com/feedhenry-templates/fh-api-mapper.git",
-        "githubUrl": "git://github.com/feedhenry-templates/fh-api-mapper.git",
-        "repoBranch": "refs/tags/1.0.1",
-        "image": "public/img/cloud_plugins/fh.png",
-        "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-api-mapper/master/README.md",
-        "category": "Platform Service",
-        "configuration": []
       }]
     }, {
       "id": "salesforce",

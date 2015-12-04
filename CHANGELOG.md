@@ -1,5 +1,16 @@
 # Changelog - template-config
 
+## 2.6.0
+* RHMAP-3064 - Rebuilding to pickup latest helloworld-cloud
+* RHMAP-2969 - Wrong application name
+* Removed push template for 3.5.3
+* Removed sync android template from sync_project for 3.5.3 
+* RHMAP-2596 update fh-csharp-window-10-blank-app
+* RHMAP-2698 - Include sync template in 3.5.4 release
+* Re-build to include template updates for RHMAP-1622 & RHMAP-1285
+* Re-build to include template updates
+* RHMAP-1471 UPS integration docs
+
 ## 2.5.0 - Niall Donnelly, Daniel Passos
 * FH-1089 Increase Body Parser Limit For fh-mbaas-service
 * RHMAP-2698 - Include sync template in 3.5.4 release
@@ -71,6 +82,9 @@
 
 ## 2.0.0 - Sebastien Blanc
 * (undocumented)
+
+## 1.8.0 - Niall Donnelly
+* FH-1089 Increase Body Parser Limit For fh-mbaas-service
 
 ## 1.9.0 - Jason Madigan
 * FH-1887 - Bumping build, added new npm start to a bunch of cloud templates
