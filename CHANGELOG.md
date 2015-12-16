@@ -1,5 +1,8 @@
 # Changelog - template-config
 
+## 3.0.0 - David Martin
+* RHMAP-2768 - Regenerate cloud app templates to use version of fh-mbaas-api with JDG support
+* RHMAP-2144 - updates to the reporting client
 ## 2.6.0
 * RHMAP-3064 - Rebuilding to pickup latest helloworld-cloud
 * RHMAP-2969 - Wrong application name
