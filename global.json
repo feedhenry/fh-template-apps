@@ -950,6 +950,27 @@
         }]
       }]
     }, {
+      "name": "REST Client",
+      "priority": 0.883,
+      "id": "rest-client",
+      "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-api-mapper/master/README.md",
+      "type": "other",
+      "image": "public/img/cloud_plugins/fh.png",
+      "category": "Platform Service",
+      "description": "Explore APIs which may be protected by a firewall, or only accessible to the cloud via VPN. Supports saving requests, and generates useful code snippets.",
+      "appTemplates": [{
+        "id": "rest-client-service",
+        "name": "REST Client",
+        "type": "cloud_nodejs",
+        "repoUrl": "git://github.com/feedhenry-templates/fh-api-mapper.git",
+        "githubUrl": "git://github.com/feedhenry-templates/fh-api-mapper.git",
+        "repoBranch": "refs/heads/master",
+        "image": "public/img/cloud_plugins/fh.png",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-api-mapper/master/README.md",
+        "category": "Platform Service",
+        "configuration": []
+      }]
+    }, {
       "id": "salesforce",
       "priority": 0.88,
       "name": "Salesforce Connector",
