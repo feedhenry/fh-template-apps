@@ -310,7 +310,7 @@
       "name": "Native Windows Hello World Project",
       "description": "A FeedHenry primer project with one iOS Client App and a cloud instance with a single endpoint",
       "type": "default",
-      "icon": "icon-apple",
+      "icon": "icon-windows8",
       "category": "Sample Projects",
       "appTemplates": ["helloworld_native_windows_client", "hello_world_mbaas_instance"]
     }, {
