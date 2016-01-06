@@ -35,13 +35,13 @@
         "id": "sync_app",
         "name": "Sync App",
         "type": "client_hybrid",
-        "repoUrl": "git://github.com/feedhenry-templates/sync-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/sync-app.git",
+        "repoUrl": "git://github.com/feedhenry-templates/sync-cordova-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/sync-cordova-app.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-html5",
         "category": "Sample Apps",
         "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/sync_app/1.png"
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/sync_app/cordova-sync.png"
         }]
       }, {
         "id": "sync_ios_app",
@@ -52,7 +52,9 @@
         "repoBranch": "refs/heads/master",
         "icon": "icon-apple",
         "category": "Sample Apps",
-        "screenshots": []
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/sync_app/ios-sync.png"
+        }]
       }, {
         "id": "sync_android_app",
         "name": "Sync Android App",
@@ -62,7 +64,21 @@
         "repoBranch": "refs/heads/master",
         "icon": "icon-android",
         "category": "Sample Apps",
-        "screenshots": []
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/sync_app/android-sync.png"
+        }]
+      }, {
+        "id": "sync_windows_app",
+        "name": "Sync Windows App",
+        "type": "client_native_windowsuniversal",
+        "repoUrl": "git://github.com/feedhenry-templates/sync-windows-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/sync-windows-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-windows8",
+        "category": "Sample Apps",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/sync_app/windows-sync.png"
+        }]
       }]
     }, {
       "id": "ups_project",
@@ -155,7 +171,9 @@
         "repoBranch": "refs/heads/master",
         "icon": "icon-windows8",
         "category": "Sample Apps",
-        "screenshots": []
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/windows-push.png"
+        }]
       }, {
         "id": "pushstarter_android_app",
         "name": "Simple Android Push App",
@@ -165,7 +183,9 @@
         "repoBranch": "refs/heads/master",
         "icon": "icon-android",
         "category": "Sample Apps",
-        "screenshots": []
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/android-push.png"
+        }]
       }, {
         "id": "pushstarter_cordova_app",
         "name": "Simple Cordova Push App",
@@ -175,7 +195,9 @@
         "repoBranch": "refs/heads/master",
         "icon": "icon-html5",
         "category": "Sample Apps",
-        "screenshots": []
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/cordova-push.png"
+        }]
       }, {
         "id": "pushstarter_ios_app",
         "name": "Simple iOS Push App",
@@ -185,7 +207,9 @@
         "repoBranch": "refs/heads/master",
         "icon": "icon-apple",
         "category": "Sample Apps",
-        "screenshots": []
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/ios-push.png"
+        }]
       }, "hello_world_mbaas_instance"]
     }, {
       "id": "hello_world_project",
@@ -238,15 +262,57 @@
     }, {
       "id": "ios_project",
       "priority": 0.84,
+      "name": "Native iOS Blank Project",
+      "description": "A FeedHenry blank project with one iOS Client App and a cloud instance with a single endpoint",
+      "type": "default",
+      "icon": "icon-apple",
+      "category": "Sample Projects",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
+      }],
+      "appTemplates": ["blank_native_ios_client", "hello_world_mbaas_instance"]
+    },{
+      "id": "ios_blank_cocoapods_project",
+      "priority": 0.846,
+      "name": "Native iOS Blank Project with cocoapods",
+      "description": "A FeedHenry blank project pointing",
+      "type": "default",
+      "icon": "icon-apple",
+      "category": "Sample Projects",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/cocoapods/screenshots/iosproject_container.png"
+      }],
+      "appTemplates": ["blank_native_ios_cocoapods_client", "hello_world_mbaas_instance"]
+    }, {
+      "id": "ios_helloworld_project",
+      "priority": 0.845,
       "name": "Native iOS Hello World Project",
       "description": "A FeedHenry primer project with one iOS Client App and a cloud instance with a single endpoint",
       "type": "default",
       "icon": "icon-apple",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-ios-sdk-blank-app/master/screenshots/iosproject_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-ios/master/screenshots/iosproject_container.png"
       }],
-      "appTemplates": ["blank_native_ios_client", "hello_world_mbaas_instance"]
+      "appTemplates": ["helloworld_native_ios_client", "hello_world_mbaas_instance"]
+    },{
+      "id": "android_helloworld_project",
+      "priority": 0.845,
+      "name": "Native Android Hello World Project",
+      "description": "A FeedHenry primer project with one Android Client App and a cloud instance with a single endpoint",
+      "type": "default",
+      "icon": "icon-apple",
+      "category": "Sample Projects",
+      "appTemplates": ["helloworld_native_android_gradle_client", "hello_world_mbaas_instance"]
+    }, {
+      "id": "windows_helloworld_project",
+      "priority": 0.845,
+      "name": "Native Windows Hello World Project",
+      "description": "A FeedHenry primer project with one iOS Client App and a cloud instance with a single endpoint",
+      "type": "default",
+      "icon": "icon-windows8",
+      "category": "Sample Projects",
+      "appTemplates": ["helloworld_native_windows_client", "hello_world_mbaas_instance"]
     }, {
       "id": "wp8_project",
       "priority": 0.83,
@@ -483,19 +549,69 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-android-app/master/screenshots/androidproject_container.png"
       }]
-    }, {
-      "id": "blank_native_ios_client",
+    },{
+      "id": "helloworld_native_ios_client",
       "name": "Blank Native iOS App",
       "type": "client_native_ios",
       "priority": 0.445,
       "description": "Native iOS Hello World App which echos your name via the Cloud",
-      "repoUrl": "git://github.com/feedhenry/fh-ios-sdk-blank-app.git",
-      "githubUrl": "https://github.com/feedhenry/fh-ios-sdk-blank-app.git",
+      "repoUrl": "git://github.com/feedhenry-templates/helloworld-ios.git",
+      "githubUrl": "https://github.com/feedhenry-templates/helloworld-ios.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-apple",
       "category": "Blank Apps",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_ios_client/1.png"
+      }]
+    }, {
+      "id": "helloworld_native_android_gradle_client",
+      "name": "Blank Native Android Gradle App",
+      "type": "client_native_android",
+      "priority": 0.445,
+      "description": "Native Android Hello World App using Gradle which echos your name via the Cloud",
+      "repoUrl": "git://github.com/feedhenry-templates/helloworld-android-gradle.git",
+      "githubUrl": "https://github.com/feedhenry-templates/helloworld-android-gradle.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-android",
+      "category": "Blank Apps"
+    }, {
+      "id": "helloworld_native_windows_client",
+      "name": "Blank Native Windows App",
+      "type": "client_native_windowsuniversal",
+      "priority": 0.445,
+      "description": "Native Windows Hello World App which echos your name via the Cloud",
+      "repoUrl": "git://github.com/feedhenry-templates/helloworld-windows.git",
+      "githubUrl": "https://github.com/feedhenry-templates/helloworld-windows.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-windows8",
+      "category": "Blank Apps"
+    }, {
+      "id": "blank_native_ios_client",
+      "name": "Blank Native iOS App",
+      "type": "client_native_ios",
+      "priority": 0.445,
+      "description": "Native iOS Blank App which does FH initialization",
+      "repoUrl": "git://github.com/feedhenry-templates/blank-ios-app.git",
+      "githubUrl": "https://github.com/feedhenry-templates/blank-ios-app.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-apple",
+      "category": "Blank Apps",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
+      }]
+    }, {
+      "id": "blank_native_ios_cocoapods_client",
+      "name": "Blank Native iOS App",
+      "type": "client_native_ios",
+      "priority": 0.445,
+      "description": "Native iOS Blank App using cocoapods",
+      "repoUrl": "git://github.com/feedhenry-templates/blank-ios-app.git",
+      "githubUrl": "https://github.com/feedhenry-templates/blank-ios-app.git",
+      "repoBranch": "refs/heads/cocoapods",
+      "icon": "icon-apple",
+      "category": "Blank Apps",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
       }]
     }, {
       "id": "blank_advanced_hybrid_client",
