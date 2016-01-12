@@ -980,7 +980,7 @@
         }]
       }]
     }, {
-      "name": "REST Client",
+      "name": "API Mapper",
       "priority": 0.883,
       "id": "rest-client",
       "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-api-mapper/master/README.md",
@@ -989,8 +989,8 @@
       "category": "Platform Service",
       "description": "Explore APIs which may be protected by a firewall, or only accessible to the cloud via VPN. Supports saving requests, and generates useful code snippets.",
       "appTemplates": [{
-        "id": "rest-client-service",
-        "name": "REST Client",
+        "id": "api-mapper-service",
+        "name": "API Mapper",
         "type": "cloud_nodejs",
         "repoUrl": "git://github.com/feedhenry-templates/fh-api-mapper.git",
         "githubUrl": "git://github.com/feedhenry-templates/fh-api-mapper.git",
