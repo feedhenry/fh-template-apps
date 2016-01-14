@@ -354,7 +354,7 @@
       "name": "Native Android Hello World Project",
       "description": "A FeedHenry primer project with one Android Client App and a cloud instance with a single endpoint",
       "type": "default",
-      "icon": "icon-apple",
+      "icon": "icon-android",
       "category": "Sample Projects",
       "appTemplates": [
         "helloworld_native_android_gradle_client",
