@@ -686,7 +686,7 @@
       "description": "Native iOS Blank App using cocoapods",
       "repoUrl": "git://github.com/feedhenry-templates/blank-ios-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/blank-ios-app.git",
-      "repoBranch": "refs/head/release-3.7.0-rc1",
+      "repoBranch": "refs/head/release-3.7.0-rc3-cocoapods",
       "icon": "icon-apple",
       "category": "Blank Apps",
       "screenshots": [{
