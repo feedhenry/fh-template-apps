@@ -168,7 +168,7 @@
         "type": "client_native_ios",
         "repoUrl": "git@github.com:feedhenry-templates/saml-ios-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/saml-ios-app.git",
-        "repoBranch": "refs/head/release-3.7.0-rc2",
+        "repoBranch": "refs/head/release-3.7.0-rc3",
         "icon": "icon-ios",
         "category": "Sample Apps",
         "screenshots": []
@@ -636,7 +636,7 @@
       "description": "Native iOS Hello World App which echos your name via the Cloud",
       "repoUrl": "git://github.com/feedhenry-templates/helloworld-ios.git",
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-ios.git",
-      "repoBranch": "refs/head/release-3.7.0-rc2",
+      "repoBranch": "refs/head/release-3.7.0-rc3",
       "icon": "icon-apple",
       "category": "Blank Apps",
       "screenshots": [{
