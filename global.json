@@ -49,7 +49,7 @@
         "type": "client_native_ios",
         "repoUrl": "git://github.com/feedhenry-templates/sync-ios-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/sync-ios-app.git",
-        "repoBranch": "refs/head/release-3.7.0-rc2",
+        "repoBranch": "refs/head/release-3.7.0-rc4",
         "icon": "icon-apple",
         "category": "Sample Apps",
         "screenshots": [{
@@ -168,7 +168,7 @@
         "type": "client_native_ios",
         "repoUrl": "git@github.com:feedhenry-templates/saml-ios-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/saml-ios-app.git",
-        "repoBranch": "refs/head/release-3.7.0-rc3",
+        "repoBranch": "refs/head/release-3.7.0-rc4",
         "icon": "icon-ios",
         "category": "Sample Apps",
         "screenshots": []
@@ -234,7 +234,7 @@
           "type": "client_native_ios",
           "repoUrl": "git://github.com/feedhenry-templates/pushstarter-ios-app.git",
           "githubUrl": "https://github.com/feedhenry-templates/pushstarter-ios-app.git",
-          "repoBranch": "refs/head/release-3.7.0-rc2",
+          "repoBranch": "refs/head/release-3.7.0-rc4",
           "icon": "icon-apple",
           "category": "Sample Apps",
           "screenshots": [{
@@ -636,7 +636,7 @@
       "description": "Native iOS Hello World App which echos your name via the Cloud",
       "repoUrl": "git://github.com/feedhenry-templates/helloworld-ios.git",
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-ios.git",
-      "repoBranch": "refs/head/release-3.7.0-rc3",
+      "repoBranch": "refs/head/release-3.7.0-rc4",
       "icon": "icon-apple",
       "category": "Blank Apps",
       "screenshots": [{
@@ -672,7 +672,7 @@
       "description": "Native iOS Blank App which does FH initialization",
       "repoUrl": "git://github.com/feedhenry-templates/blank-ios-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/blank-ios-app.git",
-      "repoBranch": "refs/head/release-3.7.0-rc2",
+      "repoBranch": "refs/head/release-3.7.0-rc4",
       "icon": "icon-apple",
       "category": "Blank Apps",
       "screenshots": [{
@@ -686,7 +686,7 @@
       "description": "Native iOS Blank App using cocoapods",
       "repoUrl": "git://github.com/feedhenry-templates/blank-ios-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/blank-ios-app.git",
-      "repoBranch": "refs/head/release-3.7.0-rc3-cocoapods",
+      "repoBranch": "refs/head/release-3.7.0-rc4-cocoapods",
       "icon": "icon-apple",
       "category": "Blank Apps",
       "screenshots": [{
