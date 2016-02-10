@@ -169,7 +169,7 @@
         "repoUrl": "git@github.com:feedhenry-templates/saml-ios-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/saml-ios-app.git",
         "repoBranch": "refs/heads/cocoapods",
-        "icon": "icon-ios",
+        "icon": "icon-apple",
         "category": "Sample Apps",
         "screenshots": []
       }, {
