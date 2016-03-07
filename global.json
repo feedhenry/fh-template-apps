@@ -240,7 +240,19 @@
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/ios-push.png"
         }]
-      }, "hello_world_mbaas_instance"]
+      }, {
+        "id": "hello_push_mbaas_instance",
+        "name": "Cloud App",
+        "type": "cloud_nodejs",
+        "priority": 0.02,
+        "description": "Hello World Push Notification example",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/hello-push-cloud/master/README.md",
+        "repoUrl": "git://github.com/feedhenry-templates/hello-push-cloud.git",
+        "githubUrl": "https://github.com/feedhenry-templates/hello-push-cloud.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-cloud",
+        "category": "Sample Apps"
+      }]
     }, {
       "id": "hello_world_project",
       "priority": 1,
