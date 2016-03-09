@@ -302,7 +302,7 @@
       }],
       "appTemplates": ["blank_native_android_client", "hello_world_mbaas_instance"]
     }, {
-      "id": "android_project",
+      "id": "android_gradle_project",
       "priority": 0.85,
       "name": "Native Gradle Android Blank Project",
       "description": "A FeedHenry primer project with one Android Client App and a cloud instance with a single endpoint",
