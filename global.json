@@ -302,6 +302,16 @@
       }],
       "appTemplates": ["blank_native_android_client", "hello_world_mbaas_instance"]
     }, {
+      "id": "android_gradle_project",
+      "priority": 0.85,
+      "name": "Native Gradle Android Blank Project",
+      "description": "A FeedHenry primer project with one Android Client App and a cloud instance with a single endpoint",
+      "type": "default",
+      "icon": "icon-android",
+      "category": "Sample Projects",
+      "screenshots": [],
+      "appTemplates": ["blank_native_android_gradle_client", "hello_world_mbaas_instance"]
+    }, {
       "id": "ios_blank_cocoapods_project",
       "priority": 0.846,
       "name": "Native iOS Blank Project",
@@ -443,6 +453,13 @@
         "githubUrl": "https://github.com/feedhenry-templates/welcome-android.git",
         "repoBranch": "refs/heads/master"
       }, {
+        "id": "welcome_project_android_gradle",
+        "name": "Welcome Project Android Gradle",
+        "type": "client_native_android",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-android-gradle.git",
+        "githubUrl": "https://github.com/feedhenry-templates/welcome-android-gradle.git",
+        "repoBranch": "refs/heads/master"
+      }, {
         "id": "welcome_project_windows",
         "name": "Welcome Project-windows",
         "type": "client_native_windowsuniversal",
@@ -579,6 +596,18 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-android-app/master/screenshots/androidproject_container.png"
       }]
+    }, {
+      "id": "blank_native_android_gradle_client",
+      "name": "Blank Native Android Gradle App",
+      "type": "client_native_android",
+      "priority": 0.45,
+      "description": "Native Android Gradle Blank App which echos your name via the Cloud",
+      "repoUrl": "git://github.com/feedhenry-templates/blank-android-gradle.git",
+      "githubUrl": "https://github.com/feedhenry-templates/blank-android-gradle.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-android",
+      "category": "Blank Apps",
+      "screenshots": []
     }, {
       "id": "helloworld_native_ios_client",
       "name": "Helloworld Native iOS App",
