@@ -312,9 +312,9 @@
       "screenshots": [],
       "appTemplates": ["blank_native_android_gradle_client", "hello_world_mbaas_instance"]
     }, {
-      "id": "ios_blank_cocoapods_project",
+      "id": "native_ios_blank_project",
       "priority": 0.846,
-      "name": "Native iOS Blank Project",
+      "name": "Native iOS blank project",
       "description": "A FeedHenry blank project pointing",
       "type": "default",
       "icon": "icon-apple",
@@ -322,11 +322,11 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/cocoapods/screenshots/iosproject_container.png"
       }],
-      "appTemplates": ["blank_native_ios_cocoapods_client", "hello_world_mbaas_instance"]
+      "appTemplates": ["native_ios_objectivec_blank_app", "native_ios_swift_blank_app", "hello_world_mbaas_instance"]
     }, {
-      "id": "ios_helloworld_project",
+      "id": "native_ios_helloworld_project",
       "priority": 0.845,
-      "name": "Native iOS Hello World Project",
+      "name": "Native iOS hello world project",
       "description": "A FeedHenry primer project with one iOS Client App and a cloud instance with a single endpoint",
       "type": "default",
       "icon": "icon-apple",
@@ -334,7 +334,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-ios/master/screenshots/iosproject_container.png"
       }],
-      "appTemplates": ["helloworld_native_ios_client", "hello_world_mbaas_instance"]
+      "appTemplates": ["native_ios_objectivec_helloworld_app", "native_ios_swift_helloworld_app", "hello_world_mbaas_instance"]
     }, {
       "id": "android_helloworld_project",
       "priority": 0.845,
@@ -609,19 +609,29 @@
       "category": "Blank Apps",
       "screenshots": []
     }, {
-      "id": "helloworld_native_ios_client",
-      "name": "Helloworld Native iOS App",
+      "id": "native_ios_objectivec_helloworld_app",
+      "name": "Native iOS (Objective-C) hello world app",
       "type": "client_native_ios",
       "priority": 0.445,
-      "description": "Native iOS Hello World App which echos your name via the Cloud",
+      "description": "Native iOS (Objective-C) hello world app which echos your name via the Cloud",
       "repoUrl": "git://github.com/feedhenry-templates/helloworld-ios.git",
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-ios.git",
       "repoBranch": "refs/heads/cocoapods",
       "icon": "icon-apple",
       "category": "Blank Apps",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_ios_client/1.png"
-      }]
+      "screenshots": []
+    }, {
+      "id": "native_ios_swift_helloworld_app",
+      "name": "Native iOS (Swift) hello world app",
+      "type": "client_native_ios",
+      "priority": 0.445,
+      "description": "Native iOS (Swift) hello world app which echos your name via the Cloud",
+      "repoUrl": "git://github.com/feedhenry-templates/helloworld-ios-swift.git",
+      "githubUrl": "https://github.com/feedhenry-templates/helloworld-ios-swift.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-apple",
+      "category": "Blank Apps",
+      "screenshots": []
     }, {
       "id": "helloworld_native_android_gradle_client",
       "name": "Helloworld Native Android Gradle App",
@@ -645,14 +655,28 @@
       "icon": "icon-windows8",
       "category": "Blank Apps"
     }, {
-      "id": "blank_native_ios_cocoapods_client",
-      "name": "Blank Native iOS App",
+      "id": "native_ios_objectivec_blank_app",
+      "name": "Native iOS (Objective-C) blank app",
       "type": "client_native_ios",
       "priority": 0.445,
-      "description": "Native iOS Blank App",
+      "description": "Native iOS (Objective-C) blank app",
       "repoUrl": "git://github.com/feedhenry-templates/blank-ios-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/blank-ios-app.git",
       "repoBranch": "refs/heads/cocoapods",
+      "icon": "icon-apple",
+      "category": "Blank Apps",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
+      }]
+    }, {
+      "id": "native_ios_swift_blank_app",
+      "name": "Native iOS (Swift) blank app",
+      "type": "client_native_ios",
+      "priority": 0.445,
+      "description": "Native iOS (Swift) blank app",
+      "repoUrl": "git://github.com/feedhenry-templates/blank-ios-swift.git",
+      "githubUrl": "https://github.com/feedhenry-templates/blank-ios-swift.git",
+      "repoBranch": "refs/heads/master",
       "icon": "icon-apple",
       "category": "Blank Apps",
       "screenshots": [{
