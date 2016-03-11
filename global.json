@@ -186,7 +186,7 @@
     }, {
       "id": "pushstarter_project",
       "priority": 0.96,
-      "name": "Push Notification Hello World",
+      "name": "Push Notification Starter",
       "description": "An example project using the push server integrated in the Platform",
       "type": "default",
       "icon": "icon-plane",
