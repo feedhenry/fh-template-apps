@@ -290,18 +290,6 @@
       }],
       "appTemplates": ["blank_advanced_hybrid_client", "hello_world_mbaas_instance"]
     }, {
-      "id": "android_project",
-      "priority": 0.85,
-      "name": "Native Android Blank Project",
-      "description": "A FeedHenry primer project with one Android Client App and a cloud instance with a single endpoint",
-      "type": "default",
-      "icon": "icon-android",
-      "category": "Sample Projects",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-android-app/master/screenshots/androidproject_container.png"
-      }],
-      "appTemplates": ["blank_native_android_client", "hello_world_mbaas_instance"]
-    }, {
       "id": "android_gradle_project",
       "priority": 0.85,
       "name": "Native Gradle Android Blank Project",
@@ -575,20 +563,6 @@
       "repoBranch": "refs/heads/master",
       "icon": "icon-cloud",
       "category": "Sample Apps"
-    }, {
-      "id": "blank_native_android_client",
-      "name": "Blank Native Android App",
-      "type": "client_native_android",
-      "priority": 0.45,
-      "description": "Native Android Blank App which echos your name via the Cloud",
-      "repoUrl": "git://github.com/feedhenry-templates/blank-android-app.git",
-      "githubUrl": "https://github.com/feedhenry-templates/blank-android-app.git",
-      "repoBranch": "refs/heads/master",
-      "icon": "icon-android",
-      "category": "Blank Apps",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-android-app/master/screenshots/androidproject_container.png"
-      }]
     }, {
       "id": "blank_native_android_gradle_client",
       "name": "Blank Native Android Gradle App",
