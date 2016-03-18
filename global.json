@@ -447,6 +447,13 @@
         "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
         "githubUrl": "https://github.com/feedhenry-templates/welcome-windows.git",
         "repoBranch": "refs/heads/master"
+      }, {
+        "id": "welcome_project_ios_objectivec",
+        "name": "Welcome Project iOS",
+        "type": "client_native_ios",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-ios.git",
+        "githubUrl": "https://github.com/feedhenry-templates/welcome-ios.git",
+        "repoBranch": "refs/heads/master"
       }]
     }, {
       "id": "mobile_spec_project",
