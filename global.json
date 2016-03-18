@@ -446,13 +446,6 @@
           "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/welcome_project_client/1.png"
         }]
       }, {
-        "id": "welcome_project_android",
-        "name": "Welcome Project-android",
-        "type": "client_native_android",
-        "repoUrl": "git://github.com/feedhenry-templates/welcome-android.git",
-        "githubUrl": "https://github.com/feedhenry-templates/welcome-android.git",
-        "repoBranch": "refs/heads/master"
-      }, {
         "id": "welcome_project_android_gradle",
         "name": "Welcome Project Android Gradle",
         "type": "client_native_android",
