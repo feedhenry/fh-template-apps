@@ -44,12 +44,24 @@
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/sync_app/cordova-sync.png"
         }]
       }, {
-        "id": "sync_ios_app",
-        "name": "Sync iOS App",
+        "id": "sync_ios_objectivec_app",
+        "name": "Sync iOS (Objective-C) App",
         "type": "client_native_ios",
         "repoUrl": "git://github.com/feedhenry-templates/sync-ios-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/sync-ios-app.git",
         "repoBranch": "refs/heads/cocoapods",
+        "icon": "icon-apple",
+        "category": "Sample Apps",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/sync_app/ios-sync.png"
+        }]
+      }, {
+        "id": "sync_ios_swift_app",
+        "name": "Sync iOS (Swift) App",
+        "type": "client_native_ios",
+        "repoUrl": "git://github.com/feedhenry-templates/sync-ios-swift.git",
+        "githubUrl": "https://github.com/feedhenry-templates/sync-ios-swift.git",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-apple",
         "category": "Sample Apps",
         "screenshots": [{
