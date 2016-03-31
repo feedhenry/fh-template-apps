@@ -382,7 +382,7 @@
       "priority": 0.845,
       "name": "Native Xamarin Hello World Project",
       "description": "A FeedHenry primer project with a Android and iOS Client and a cloud instance with a single endpoint",
-      "type": "client_xamarin",
+      "type": "default",
       "icon": "icon-xamarin",
       "category": "Sample Projects",
       "appTemplates": ["helloworld_native_xamarin_client", "hello_world_mbaas_instance"]
