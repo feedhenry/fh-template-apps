@@ -94,7 +94,7 @@
       }, {
         "id": "sync_xamarin_app",
         "name": "Sync Xamarin App",
-        "type": "default",
+        "type": "client_xamarin",
         "repoUrl": "git://github.com/feedhenry-templates/sync-xamarin-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/sync-xamarin-app.git",
         "repoBranch": "refs/heads/master",
@@ -231,7 +231,7 @@
       }, {
         "id": "pushstarter_xamarin_app",
         "name": "Simple Xamarin Push App",
-        "type": "default",
+        "type": "client_xamarin",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-xamarin-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-xamarin-app.git",
         "repoBranch": "refs/heads/master",
@@ -382,7 +382,7 @@
       "priority": 0.845,
       "name": "Native Xamarin Hello World Project",
       "description": "A FeedHenry primer project with a Android and iOS Client and a cloud instance with a single endpoint",
-      "type": "default",
+      "type": "client_xamarin",
       "icon": "icon-xamarin",
       "category": "Sample Projects",
       "appTemplates": ["helloworld_native_xamarin_client", "hello_world_mbaas_instance"]
@@ -676,7 +676,7 @@
     }, {
       "id": "helloworld_native_xamarin_client",
       "name": "Helloworld Native Xamarin App",
-      "type": "default",
+      "type": "client_xamarin",
       "priority": 0.445,
       "description": "Native Windows Hello World App which echos your name via the Cloud",
       "repoUrl": "git://github.com/feedhenry-templates/helloworld-xamarin.git",
