@@ -91,6 +91,18 @@
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/sync_app/windows-sync.png"
         }]
+      }, {
+        "id": "sync_xamarin_app",
+        "name": "Sync Xamarin App",
+        "type": "client_xamarin",
+        "repoUrl": "git://github.com/feedhenry-templates/sync-xamarin-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/sync-xamarin-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-xamarin",
+        "category": "Sample Apps",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/sync_app/android-sync.png"
+        }]
       }]
     }, {
       "id": "ups_project",
@@ -215,6 +227,18 @@
         "category": "Sample Apps",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/windows-push.png"
+        }]
+      }, {
+        "id": "pushstarter_xamarin_app",
+        "name": "Simple Xamarin Push App",
+        "type": "client_xamarin",
+        "repoUrl": "git://github.com/feedhenry-templates/pushstarter-xamarin-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/pushstarter-xamarin-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-xamarin",
+        "category": "Sample Apps",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/android-push.png"
         }]
       }, {
         "id": "pushstarter_android_app",
@@ -353,6 +377,15 @@
       "icon": "icon-windows8",
       "category": "Sample Projects",
       "appTemplates": ["helloworld_native_windows_client", "hello_world_mbaas_instance"]
+    }, {
+      "id": "xamarin_helloworld_project",
+      "priority": 0.845,
+      "name": "Native Xamarin Hello World Project",
+      "description": "A FeedHenry primer project with a Android and iOS Client and a cloud instance with a single endpoint",
+      "type": "default",
+      "icon": "icon-xamarin",
+      "category": "Sample Projects",
+      "appTemplates": ["helloworld_native_xamarin_client", "hello_world_mbaas_instance"]
     }, {
       "id": "wp8_project",
       "priority": 0.83,
@@ -641,6 +674,17 @@
       "icon": "icon-windows8",
       "category": "Blank Apps"
     }, {
+      "id": "helloworld_native_xamarin_client",
+      "name": "Helloworld Native Xamarin App",
+      "type": "client_xamarin",
+      "priority": 0.445,
+      "description": "Native Windows Hello World App which echos your name via the Cloud",
+      "repoUrl": "git://github.com/feedhenry-templates/helloworld-xamarin.git",
+      "githubUrl": "https://github.com/feedhenry-templates/helloworld-xamarin.git",
+      "repoBranch": "refs/heads/master",
+      "icon": "icon-xamarin",
+      "category": "Blank Apps"
+    }, {
       "id": "native_ios_objectivec_blank_app",
       "name": "Native iOS (Objective-C) blank app",
       "type": "client_native_ios",
@@ -728,10 +772,10 @@
       "id": "blank_xamarin",
       "name": "Blank Xamarin App",
       "type": "client_xamarin",
-      "description": "Hello World Xamarin App",
+      "description": "Blank Xamarin App",
       "priority": 0.03,
-      "repoUrl": "git://github.com/feedhenry/fh-xamarin-sdk-blank-app.git",
-      "githubUrl": "https://github.com/feedhenry/fh-xamarin-sdk-blank-app.git",
+      "repoUrl": "git://github.com/feedhenry-templates/blank-xamarin.git",
+      "githubUrl": "https://github.com/feedhenry-templates/blank-xamarin.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-xamarin",
       "category": "Blank Apps",
