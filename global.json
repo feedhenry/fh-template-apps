@@ -265,12 +265,24 @@
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/cordova-push.png"
         }]
       }, {
-        "id": "pushstarter_ios_app",
-        "name": "Simple iOS Push App",
+        "id": "pushstarter_ios_objc-app",
+        "name": "Simple iOS (Objective-C) Push App",
         "type": "client_native_ios",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-ios-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-ios-app.git",
         "repoBranch": "refs/heads/cocoapods",
+        "icon": "icon-apple",
+        "category": "Sample Apps",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/ios-push.png"
+        }]
+      },  {
+        "id": "pushstarter_ios_swift_app",
+        "name": "Simple iOS (Swift) Push App",
+        "type": "client_native_ios",
+        "repoUrl": "git://github.com/feedhenry-templates/pushstarter-ios-swift.git",
+        "githubUrl": "https://github.com/feedhenry-templates/pushstarter-ios-swift.git",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-apple",
         "category": "Sample Apps",
         "screenshots": [{
