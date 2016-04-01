@@ -187,12 +187,22 @@
         "category": "Sample Apps",
         "screenshots": []
       }, {
-        "id": "saml_ios",
-        "name": "SAML iOS",
+        "id": "saml_ios_objc",
+        "name": "SAML iOS (Objective-C)",
         "type": "client_native_ios",
         "repoUrl": "git@github.com:feedhenry-templates/saml-ios-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/saml-ios-app.git",
         "repoBranch": "refs/heads/cocoapods",
+        "icon": "icon-apple",
+        "category": "Sample Apps",
+        "screenshots": []
+      }, {
+        "id": "saml_ios_swift",
+        "name": "SAML iOS (Swift)",
+        "type": "client_native_ios",
+        "repoUrl": "git@github.com:feedhenry-templates/saml-ios-swift.git",
+        "githubUrl": "https://github.com/feedhenry-templates/saml-ios-swift.git",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-apple",
         "category": "Sample Apps",
         "screenshots": []
