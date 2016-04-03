@@ -596,6 +596,49 @@
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionicproject_nocontainer.png"
       }],
       "appTemplates": ["hello_world_ionic_hybrid_app", "hello_world_mbaas_instance"]
+    },{
+      "id": "wfm_project",
+      "priority": 0.30,
+      "name": "WFM Demo Project",
+      "description": "A demo project showcasing the reusable WFM modules",
+      "type": "default",
+      "icon": "icon-globe",
+      "category": "Tech Preview",
+      "screenshots": [{
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-mobile.png"
+      }],
+      "appTemplates": [{
+        "id": "wfm_mobile_demo_app",
+        "name": "WFM Demo Mobile App",
+        "type": "client_hybrid",
+        "repoUrl": "git://github.com/feedhenry-staff/wfm-mobile.git",
+        "githubUrl": "https://github.com/feedhenry-staff/wfm-mobile.git",
+        "repoBranch": "refs/heads/deploy",
+        "icon": "icon-cordova",
+        "category": "Sample Apps",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-mobile.png"
+        }]
+      },{
+        "id": "wfm_portal_demo_app",
+        "name": "WFM Demo Portal App",
+        "type": "webapp_advanced",
+        "repoUrl": "git://github.com/feedhenry-staff/wfm-portal.git",
+        "githubUrl": "https://github.com/feedhenry-staff/wfm-portal.git",
+        "repoBranch": "refs/heads/deploy",
+        "category": "Sample Apps",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-portal.png"
+        }]
+      },{
+        "id": "wfm_cloud_demo_app",
+        "name": "WFM Demo Cloud App",
+        "type": "cloud_nodejs",
+        "repoUrl": "git://github.com/feedhenry-staff/wfm-cloud.git",
+        "githubUrl": "https://github.com/feedhenry-staff/wfm-cloud.git",
+        "repoBranch": "refs/heads/deploy",
+        "category": "Sample Apps"
+      }]
     }],
     "appTemplates": [{
       "id": "hello_world_hybrid_app",
@@ -1616,6 +1659,23 @@
             "category": "Data Sources"
           }
         ]
+      },{
+        "id": "wfm_auth_service",
+        "priority": 0.50,
+        "name": "WFM Auth Service",
+        "type": "other",
+        "image": "public/img/cloud_plugins/fh.png",
+        "category": "Authentication",
+        "description": "A service providing authentication for WFM.",
+        "appTemplates": [{
+          "id": "wfm_auth_service_app",
+          "name": "WFM Demo Custom Auth mBaaS Service",
+          "type": "cloud_nodejs",
+          "repoUrl": "git://github.com/feedhenry-staff/wfm-auth.git",
+          "githubUrl": "https://github.com/feedhenry-staff/wfm-auth.git",
+          "repoBranch": "refs/heads/deploy",
+          "category": "Custom Service"
+        }]
       }]
   },
   "hide": {
