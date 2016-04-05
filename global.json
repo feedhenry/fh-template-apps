@@ -1,8 +1,58 @@
 {
   "show": {
     "projectTemplates": [{
+      "id": "welcome_project",
+      "priority": 999,
+      "description": "Demonstrates many features of the FeedHenry platform. The HTML5 client uses Bootstrap 3 and Backbone.js, and the cloud portion of this app illustrates the use of MongoDB, Redis and third party APIs.",
+      "name": "Welcome Project",
+      "type": "other",
+      "icon": "icon-edit",
+      "category": "Samples",
+      "screenshots": [{
+        "url": "public/img/templatePreview/sampleproject_nocontainer.png"
+      }],
+      "appTemplates": [{
+        "id": "welcome_project_cloud",
+        "name": "Welcome Project-cloud",
+        "type": "cloud_nodejs",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
+        "githubUrl": "https://github.com/feedhenry-templates/welcome-cloud.git",
+        "repoBranch": "refs/heads/master"
+      }, {
+        "id": "welcome_project_client",
+        "name": "Welcome Project-client",
+        "type": "client_hybrid",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/welcome-app.git",
+        "repoBranch": "refs/heads/master",
+        "screenshots": [{
+          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/welcome_project_client/1.png"
+        }]
+      }, {
+        "id": "welcome_project_android_gradle",
+        "name": "Welcome Project Android Gradle",
+        "type": "client_native_android",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-android-gradle.git",
+        "githubUrl": "https://github.com/feedhenry-templates/welcome-android-gradle.git",
+        "repoBranch": "refs/heads/master"
+      }, {
+        "id": "welcome_project_windows",
+        "name": "Welcome Project-windows",
+        "type": "client_native_windowsuniversal",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
+        "githubUrl": "https://github.com/feedhenry-templates/welcome-windows.git",
+        "repoBranch": "refs/heads/master"
+      }, {
+        "id": "welcome_project_ios_objectivec",
+        "name": "Welcome Project iOS",
+        "type": "client_native_ios",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-ios.git",
+        "githubUrl": "https://github.com/feedhenry-templates/welcome-ios.git",
+        "repoBranch": "refs/heads/master"
+      }]
+    }, {
       "id": "bare_project",
-      "priority": 0.4,
+      "priority": 998,
       "name": "Bare Project",
       "description": "An empty project into which you can add apps and cloud instances",
       "type": "default",
@@ -14,7 +64,7 @@
       "appTemplates": []
     }, {
       "id": "blank_project",
-      "priority": 0.85,
+      "priority": 997,
       "name": "An blank sample project",
       "description": "A FeedHenry blank project pointing",
       "type": "default",
@@ -89,7 +139,7 @@
       ]
     }, {
       "id": "hello_world_project",
-      "priority": 1,
+      "priority": 996,
       "name": "Hello World Project",
       "description": "A FeedHenry primer project with one HTML5 client instance, and a cloud instance with a single endpoint",
       "type": "default",
@@ -264,7 +314,7 @@
       ]
     }, {
       "id": "sync_project",
-      "priority": 0.41,
+      "priority": 995,
       "name": "Sync Framework Project",
       "description": "An example Project using our Sync framework",
       "type": "default",
@@ -356,7 +406,7 @@
       }]
     }, {
       "id": "ups_project",
-      "priority": 0.41,
+      "priority": 994,
       "name": "AeroGear Community Push",
       "description": "An example project which can use an external instance of the AeroGear UnifiedPush Server",
       "type": "default",
@@ -398,78 +448,8 @@
         }]
       }]
     }, {
-      "id": "saml_project",
-      "priority": 0.45,
-      "name": "SAML Example Project",
-      "description": "An example SAML Project to be used in conjuction with a SAML Service",
-      "type": "default",
-      "icon": "icon-lock",
-      "category": "Samples",
-      "screenshots": [],
-      "appTemplates": [{
-        "id": "saml_cloud",
-        "name": "SAML Cloud",
-        "type": "cloud_nodejs",
-        "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-cloud-app/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/saml-cloud-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/saml-cloud-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps"
-      }, {
-        "id": "saml_app",
-        "name": "SAML Client",
-        "type": "client_advanced_hybrid",
-        "repoUrl": "git://github.com/feedhenry-templates/saml-cordova-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/saml-cordova-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-html5",
-        "category": "Sample Apps",
-        "screenshots": []
-      }, {
-        "id": "saml_android",
-        "name": "SAML Android",
-        "type": "client_native_android",
-        "repoUrl": "git@github.com:feedhenry-templates/saml-android-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/saml-android-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-android",
-        "category": "Sample Apps",
-        "screenshots": []
-      }, {
-        "id": "saml_ios_objc",
-        "name": "SAML iOS (Objective-C)",
-        "type": "client_native_ios",
-        "repoUrl": "git@github.com:feedhenry-templates/saml-ios-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/saml-ios-app.git",
-        "repoBranch": "refs/heads/cocoapods",
-        "icon": "icon-apple",
-        "category": "Sample Apps",
-        "screenshots": []
-      }, {
-        "id": "saml_ios_swift",
-        "name": "SAML iOS (Swift)",
-        "type": "client_native_ios",
-        "repoUrl": "git@github.com:feedhenry-templates/saml-ios-swift.git",
-        "githubUrl": "https://github.com/feedhenry-templates/saml-ios-swift.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-apple",
-        "category": "Sample Apps",
-        "screenshots": []
-      }, {
-        "id": "saml_windows",
-        "name": "SAML Windows",
-        "type": "client_native_windowsuniversal",
-        "repoUrl": "git@github.com:feedhenry-templates/saml-windows-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/saml-windows-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-windows8",
-        "category": "Sample Apps",
-        "screenshots": []
-      }]
-    }, {
       "id": "pushstarter_project",
-      "priority": 0.96,
+      "priority": 993,
       "name": "Push Notification Starter",
       "description": "An example project using the push server integrated in the Platform",
       "type": "default",
@@ -552,7 +532,6 @@
         "id": "hello_push_mbaas_instance",
         "name": "Cloud App",
         "type": "cloud_nodejs",
-        "priority": 0.02,
         "description": "Hello World Push Notification example",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/hello-push-cloud/master/README.md",
         "repoUrl": "git://github.com/feedhenry-templates/hello-push-cloud.git",
@@ -562,8 +541,78 @@
         "category": "Sample Apps"
       }]
     }, {
+      "id": "saml_project",
+      "priority": 992,
+      "name": "SAML Example Project",
+      "description": "An example SAML Project to be used in conjuction with a SAML Service",
+      "type": "default",
+      "icon": "icon-lock",
+      "category": "Samples",
+      "screenshots": [],
+      "appTemplates": [{
+        "id": "saml_cloud",
+        "name": "SAML Cloud",
+        "type": "cloud_nodejs",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-cloud-app/master/README.md",
+        "repoUrl": "git://github.com/feedhenry-templates/saml-cloud-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/saml-cloud-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-cloud",
+        "category": "Sample Apps"
+      }, {
+        "id": "saml_app",
+        "name": "SAML Client",
+        "type": "client_advanced_hybrid",
+        "repoUrl": "git://github.com/feedhenry-templates/saml-cordova-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/saml-cordova-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-html5",
+        "category": "Sample Apps",
+        "screenshots": []
+      }, {
+        "id": "saml_android",
+        "name": "SAML Android",
+        "type": "client_native_android",
+        "repoUrl": "git@github.com:feedhenry-templates/saml-android-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/saml-android-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-android",
+        "category": "Sample Apps",
+        "screenshots": []
+      }, {
+        "id": "saml_ios_objc",
+        "name": "SAML iOS (Objective-C)",
+        "type": "client_native_ios",
+        "repoUrl": "git@github.com:feedhenry-templates/saml-ios-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/saml-ios-app.git",
+        "repoBranch": "refs/heads/cocoapods",
+        "icon": "icon-apple",
+        "category": "Sample Apps",
+        "screenshots": []
+      }, {
+        "id": "saml_ios_swift",
+        "name": "SAML iOS (Swift)",
+        "type": "client_native_ios",
+        "repoUrl": "git@github.com:feedhenry-templates/saml-ios-swift.git",
+        "githubUrl": "https://github.com/feedhenry-templates/saml-ios-swift.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-apple",
+        "category": "Sample Apps",
+        "screenshots": []
+      }, {
+        "id": "saml_windows",
+        "name": "SAML Windows",
+        "type": "client_native_windowsuniversal",
+        "repoUrl": "git@github.com:feedhenry-templates/saml-windows-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/saml-windows-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-windows8",
+        "category": "Sample Apps",
+        "screenshots": []
+      }]
+    }, {
       "id": "appforms_project",
-      "priority": 0.44,
+      "priority": 991,
       "name": "Forms Project",
       "description": "An AppForms project, for building Drag & Drop forms apps",
       "type": "appforms",
@@ -592,58 +641,8 @@
         }]
       }, "hello_world_mbaas_instance"]
     }, {
-      "id": "welcome_project",
-      "priority": 0.95,
-      "description": "Demonstrates many features of the FeedHenry platform. The HTML5 client uses Bootstrap 3 and Backbone.js, and the cloud portion of this app illustrates the use of MongoDB, Redis and third party APIs.",
-      "name": "Welcome Project",
-      "type": "other",
-      "icon": "icon-edit",
-      "category": "Samples",
-      "screenshots": [{
-        "url": "public/img/templatePreview/sampleproject_nocontainer.png"
-      }],
-      "appTemplates": [{
-        "id": "welcome_project_cloud",
-        "name": "Welcome Project-cloud",
-        "type": "cloud_nodejs",
-        "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/welcome-cloud.git",
-        "repoBranch": "refs/heads/master"
-      }, {
-        "id": "welcome_project_client",
-        "name": "Welcome Project-client",
-        "type": "client_hybrid",
-        "repoUrl": "git://github.com/feedhenry-templates/welcome-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/welcome-app.git",
-        "repoBranch": "refs/heads/master",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/welcome_project_client/1.png"
-        }]
-      }, {
-        "id": "welcome_project_android_gradle",
-        "name": "Welcome Project Android Gradle",
-        "type": "client_native_android",
-        "repoUrl": "git://github.com/feedhenry-templates/welcome-android-gradle.git",
-        "githubUrl": "https://github.com/feedhenry-templates/welcome-android-gradle.git",
-        "repoBranch": "refs/heads/master"
-      }, {
-        "id": "welcome_project_windows",
-        "name": "Welcome Project-windows",
-        "type": "client_native_windowsuniversal",
-        "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/welcome-windows.git",
-        "repoBranch": "refs/heads/master"
-      }, {
-        "id": "welcome_project_ios_objectivec",
-        "name": "Welcome Project iOS",
-        "type": "client_native_ios",
-        "repoUrl": "git://github.com/feedhenry-templates/welcome-ios.git",
-        "githubUrl": "https://github.com/feedhenry-templates/welcome-ios.git",
-        "repoBranch": "refs/heads/master"
-      }]
-    }, {
       "id": "mobile_spec_project",
-      "priority": 0.42,
+      "priority": 990,
       "name": "Mobile Spec Project",
       "description": "A project to run automated tests for Cordova APIs and show the test results in the cloud.",
       "type": "other",
