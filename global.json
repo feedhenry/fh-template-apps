@@ -13,6 +13,81 @@
       }],
       "appTemplates": []
     }, {
+      "id": "blank_project",
+      "priority": 0.85,
+      "name": "An blank sample project",
+      "description": "A FeedHenry blank project pointing",
+      "type": "default",
+      "icon": "icon-android",
+      "category": "Blank",
+      "screenshots": [],
+      "appTemplates": [{
+          "id": "blank_native_android_gradle_client",
+          "name": "Blank Native Android Gradle App",
+          "type": "client_native_android",
+          "description": "Native Android Gradle Blank App which echos your name via the Cloud",
+          "repoUrl": "git://github.com/feedhenry-templates/blank-android-gradle.git",
+          "githubUrl": "https://github.com/feedhenry-templates/blank-android-gradle.git",
+          "repoBranch": "refs/heads/master",
+          "icon": "icon-android",
+          "category": "Blank Apps",
+          "screenshots": []
+        }, {
+          "id": "native_ios_objectivec_blank_app",
+          "name": "Native iOS (Objective-C) blank app",
+          "type": "client_native_ios",
+          "description": "Native iOS (Objective-C) blank app",
+          "repoUrl": "git://github.com/feedhenry-templates/blank-ios-app.git",
+          "githubUrl": "https://github.com/feedhenry-templates/blank-ios-app.git",
+          "repoBranch": "refs/heads/cocoapods",
+          "icon": "icon-apple",
+          "category": "Blank Apps",
+          "screenshots": [{
+            "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
+          }]
+        }, {
+          "id": "native_ios_swift_blank_app",
+          "name": "Native iOS (Swift) blank app",
+          "type": "client_native_ios",
+          "description": "Native iOS (Swift) blank app",
+          "repoUrl": "git://github.com/feedhenry-templates/blank-ios-swift.git",
+          "githubUrl": "https://github.com/feedhenry-templates/blank-ios-swift.git",
+          "repoBranch": "refs/heads/master",
+          "icon": "icon-apple",
+          "category": "Blank Apps",
+          "screenshots": [{
+            "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
+          }]
+        }, {
+          "id": "blank_native_windows10",
+          "name": "Blank Native Universal Windows 10 App",
+          "type": "client_native_windowsuniversal",
+          "description": "Blank Native Universal Windows 10 App",
+          "repoUrl": "git://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
+          "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
+          "repoBranch": "refs/heads/master",
+          "icon": "icon-windows8",
+          "category": "Blank Apps",
+          "screenshots": [{
+            "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windows_universal/2.png"
+          }]
+        }, {
+          "id": "helloworld_xamarin_client",
+          "name": "Blank Xamarin App",
+          "type": "client_xamarin",
+          "description": "Blank Xamarin App",
+          "repoUrl": "git://github.com/feedhenry-templates/blank-xamarin.git",
+          "githubUrl": "https://github.com/feedhenry-templates/blank-xamarin.git",
+          "repoBranch": "refs/heads/master",
+          "icon": "icon-xamarin",
+          "category": "Blank Apps",
+          "screenshots": [{
+            "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_xamarin/1.png"
+          }]
+        },
+        "hello_world_mbaas_instance"
+      ]
+    }, {
       "id": "hello_world_project",
       "priority": 1,
       "name": "Hello World Project",
@@ -487,28 +562,6 @@
         "category": "Sample Apps"
       }]
     }, {
-      "id": "android_gradle_project",
-      "priority": 0.85,
-      "name": "Native Gradle Android Blank Project",
-      "description": "A FeedHenry primer project with one Android Client App and a cloud instance with a single endpoint",
-      "type": "default",
-      "icon": "icon-android",
-      "category": "Samples",
-      "screenshots": [],
-      "appTemplates": ["blank_native_android_gradle_client", "hello_world_mbaas_instance"]
-    }, {
-      "id": "native_ios_blank_project",
-      "priority": 0.846,
-      "name": "Native iOS blank project",
-      "description": "A FeedHenry blank project pointing",
-      "type": "default",
-      "icon": "icon-apple",
-      "category": "Samples",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/cocoapods/screenshots/iosproject_container.png"
-      }],
-      "appTemplates": ["native_ios_objectivec_blank_app", "native_ios_swift_blank_app", "hello_world_mbaas_instance"]
-    }, {
       "id": "appforms_project",
       "priority": 0.44,
       "name": "Forms Project",
@@ -651,74 +704,6 @@
       "repoBranch": "refs/heads/master",
       "icon": "icon-cloud",
       "category": "Sample Apps"
-    }, {
-      "id": "blank_native_android_gradle_client",
-      "name": "Blank Native Android Gradle App",
-      "type": "client_native_android",
-      "priority": 0.45,
-      "description": "Native Android Gradle Blank App which echos your name via the Cloud",
-      "repoUrl": "git://github.com/feedhenry-templates/blank-android-gradle.git",
-      "githubUrl": "https://github.com/feedhenry-templates/blank-android-gradle.git",
-      "repoBranch": "refs/heads/master",
-      "icon": "icon-android",
-      "category": "Blank Apps",
-      "screenshots": []
-    }, {
-      "id": "native_ios_objectivec_blank_app",
-      "name": "Native iOS (Objective-C) blank app",
-      "type": "client_native_ios",
-      "priority": 0.445,
-      "description": "Native iOS (Objective-C) blank app",
-      "repoUrl": "git://github.com/feedhenry-templates/blank-ios-app.git",
-      "githubUrl": "https://github.com/feedhenry-templates/blank-ios-app.git",
-      "repoBranch": "refs/heads/cocoapods",
-      "icon": "icon-apple",
-      "category": "Blank Apps",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
-      }]
-    }, {
-      "id": "native_ios_swift_blank_app",
-      "name": "Native iOS (Swift) blank app",
-      "type": "client_native_ios",
-      "priority": 0.445,
-      "description": "Native iOS (Swift) blank app",
-      "repoUrl": "git://github.com/feedhenry-templates/blank-ios-swift.git",
-      "githubUrl": "https://github.com/feedhenry-templates/blank-ios-swift.git",
-      "repoBranch": "refs/heads/master",
-      "icon": "icon-apple",
-      "category": "Blank Apps",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
-      }]
-    }, {
-      "id": "blank_native_windows10",
-      "name": "Blank Native Universal Windows 10 App",
-      "type": "client_native_windowsuniversal",
-      "priority": 0.44,
-      "description": "Blank Hello World Web App",
-      "repoUrl": "git://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
-      "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
-      "repoBranch": "refs/heads/master",
-      "icon": "icon-windows8",
-      "category": "Blank Apps",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windows_universal/2.png"
-      }]
-    }, {
-      "id": "helloworld_xamarin_client",
-      "name": "Blank Xamarin App",
-      "type": "client_xamarin",
-      "description": "Blank Xamarin App",
-      "priority": 0.03,
-      "repoUrl": "git://github.com/feedhenry-templates/blank-xamarin.git",
-      "githubUrl": "https://github.com/feedhenry-templates/blank-xamarin.git",
-      "repoBranch": "refs/heads/master",
-      "icon": "icon-xamarin",
-      "category": "Blank Apps",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_xamarin/1.png"
-      }]
     }, {
       "id": "blank_vs_universal",
       "name": "Blank Visual Studio C# Universal App",
