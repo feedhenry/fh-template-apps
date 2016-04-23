@@ -1121,7 +1121,7 @@
       "type": "other",
       "image": "public/img/cloud_plugins/fh.png",
       "category": "Platform Service",
-      "description": "Explore APIs which may be protected by a firewall, or only accessible to the cloud via VPN. Supports saving requests, and generates useful code snippets.",
+      "description": "Explore APIs which may be protected by a firewall, or only accessible to the cloud via VPN. Supports saving requests, and generates useful code snippets. (Tech Preview)",
       "appTemplates": [{
         "id": "api-mapper-service",
         "name": "API Mapper",
@@ -1666,7 +1666,7 @@
         "type": "other",
         "image": "public/img/cloud_plugins/fh.png",
         "category": "Authentication",
-        "description": "A service providing authentication for WFM.",
+        "description": "A service providing authentication for WFM. (Tech Preview)",
         "appTemplates": [{
           "id": "wfm_auth_service_app",
           "name": "WFM Demo Custom Auth mBaaS Service",
