@@ -613,7 +613,7 @@
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-staff/wfm-mobile.git",
         "githubUrl": "https://github.com/feedhenry-staff/wfm-mobile.git",
-        "repoBranch": "refs/heads/v2.0.0-alpha.3",
+        "repoBranch": "refs/heads/v2.0.0-alpha.2",
         "icon": "icon-cordova",
         "category": "Sample Apps",
         "screenshots": [{
@@ -625,7 +625,7 @@
         "type": "webapp_advanced",
         "repoUrl": "git://github.com/feedhenry-staff/wfm-portal.git",
         "githubUrl": "https://github.com/feedhenry-staff/wfm-portal.git",
-        "repoBranch": "refs/heads/v2.0.0-alpha.3",
+        "repoBranch": "refs/heads/v2.0.0-alpha.2",
         "category": "Sample Apps",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-portal.png"
@@ -636,7 +636,7 @@
         "type": "cloud_nodejs",
         "repoUrl": "git://github.com/feedhenry-staff/wfm-cloud.git",
         "githubUrl": "https://github.com/feedhenry-staff/wfm-cloud.git",
-        "repoBranch": "refs/heads/v2.0.0-alpha.3",
+        "repoBranch": "refs/heads/v2.0.0-alpha.2",
         "category": "Sample Apps"
       }]
     }],
@@ -1673,7 +1673,7 @@
           "type": "cloud_nodejs",
           "repoUrl": "git://github.com/feedhenry-staff/wfm-auth.git",
           "githubUrl": "https://github.com/feedhenry-staff/wfm-auth.git",
-          "repoBranch": "refs/heads/v2.0.0-alpha.3",
+          "repoBranch": "refs/heads/v2.0.0-alpha.2",
           "category": "Custom Service"
         }]
       }]
