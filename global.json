@@ -465,7 +465,7 @@
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry/appforms-project-client.git",
         "githubUrl": "https://github.com/feedhenry/appforms-project-client.git",
-        "repoBranch": "refs/heads/FH-v3.10.0",
+        "repoBranch": "refs/heads/master",
         "category": "Forms",
         "description": "A template App for displaying Forms",
         "screenshots": [{
@@ -884,7 +884,7 @@
       "priority": 0.505,
       "repoUrl": "git://github.com/feedhenry/appforms-project-client.git",
       "githubUrl": "https://github.com/feedhenry/appforms-project-client.git",
-      "repoBranch": "refs/heads/FH-v3.10.0",
+      "repoBranch": "refs/heads/master",
       "category": "Forms",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/appforms_client/1.png"
