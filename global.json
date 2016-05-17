@@ -516,10 +516,18 @@
         "repoBranch": "refs/heads/master"
       }, {
         "id": "welcome_project_ios_objectivec",
-        "name": "Welcome Project iOS",
+        "name": "Welcome Project iOS (Objective-C)",
         "type": "client_native_ios",
         "repoUrl": "git://github.com/feedhenry-templates/welcome-ios.git",
         "githubUrl": "https://github.com/feedhenry-templates/welcome-ios.git",
+        "repoBranch": "refs/heads/master"
+      },
+      {
+        "id": "welcome_project_ios_swift",
+        "name": "Welcome Project iOS (Swift)",
+        "type": "client_native_ios",
+        "repoUrl": "git://github.com/feedhenry-templates/welcome-ios-swift.git",
+        "githubUrl": "https://github.com/feedhenry-templates/welcome-ios-swift.git",
         "repoBranch": "refs/heads/master"
       }]
     }, {
