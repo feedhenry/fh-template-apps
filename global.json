@@ -608,7 +608,7 @@
       "id": "wfm_project",
       "priority": 0.30,
       "name": "WFM Demo Project",
-      "description": "A demo project showcasing the reusable WFM modules",
+      "description": "A demo project showcasing the reusable WFM modules. Note: Using openshift.feedhenry.com access via your OpenShift account is limited to using the small OpenShift Gear. Due to WFM template's non-trivial functionality you may have stability issues using the small gear.",
       "type": "default",
       "icon": "icon-globe",
       "category": "Tech Preview",
@@ -621,7 +621,7 @@
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-staff/wfm-mobile.git",
         "githubUrl": "https://github.com/feedhenry-staff/wfm-mobile.git",
-        "repoBranch": "refs/heads/v2.0.0-alpha.4",
+        "repoBranch": "refs/heads/v2.0.0-alpha.5",
         "icon": "icon-cordova",
         "category": "Sample Apps",
         "screenshots": [{
@@ -633,7 +633,7 @@
         "type": "webapp_advanced",
         "repoUrl": "git://github.com/feedhenry-staff/wfm-portal.git",
         "githubUrl": "https://github.com/feedhenry-staff/wfm-portal.git",
-        "repoBranch": "refs/heads/v2.0.0-alpha.4",
+        "repoBranch": "refs/heads/v2.0.0-alpha.5",
         "category": "Sample Apps",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-portal.png"
@@ -644,7 +644,7 @@
         "type": "cloud_nodejs",
         "repoUrl": "git://github.com/feedhenry-staff/wfm-cloud.git",
         "githubUrl": "https://github.com/feedhenry-staff/wfm-cloud.git",
-        "repoBranch": "refs/heads/v2.0.0-alpha.4",
+        "repoBranch": "refs/heads/v2.0.0-alpha.5",
         "category": "Sample Apps"
       }]
     }],
@@ -1681,7 +1681,7 @@
           "type": "cloud_nodejs",
           "repoUrl": "git://github.com/feedhenry-staff/wfm-auth.git",
           "githubUrl": "https://github.com/feedhenry-staff/wfm-auth.git",
-          "repoBranch": "refs/heads/v2.0.0-alpha.4",
+          "repoBranch": "refs/heads/v2.0.0-alpha.5",
           "category": "Custom Service"
         }]
       }]
