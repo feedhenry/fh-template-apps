@@ -216,6 +216,16 @@
         "icon": "icon-windows8",
         "category": "Sample Apps",
         "screenshots": []
+      }, {
+        "id": "saml_xamarin",
+        "name": "SAML Xamarin",
+        "type": "client_xamarin",
+        "repoUrl": "git@github.com:feedhenry-templates/saml-xamarin-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/saml-xamarin-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-xamarin",
+        "category": "Sample Apps",
+        "screenshots": []
       }]
     }, {
       "id": "pushstarter_project",
@@ -751,7 +761,7 @@
       "name": "Helloworld Native Xamarin App",
       "type": "client_xamarin",
       "priority": 0.445,
-      "description": "Native Windows Hello World App which echos your name via the Cloud",
+      "description": "Android and iOS Hello World App which echos your name via the Cloud",
       "repoUrl": "git://github.com/feedhenry-templates/helloworld-xamarin.git",
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-xamarin.git",
       "repoBranch": "refs/heads/master",
