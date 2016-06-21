@@ -1176,34 +1176,6 @@
         }]
       }]
     }, {
-      "id": "oraclecrm",
-      "priority": 0.87,
-      "name": "Oracle Fusion CRM",
-      "type": "other",
-      "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-oraclecrm-cloud/master/icon.png",
-      "docs": "https://raw.github.com/feedhenry-templates/fh-connector-oraclecrm-cloud/master/README.md",
-      "category": "SaaS Connectors",
-      "description": "A service for integrating with Oracle Fusion CRM",
-      "appTemplates": [{
-        "id": "oraclecrm-cloud",
-        "name": "Oracle Fusion CRM Connector",
-        "type": "cloud_nodejs",
-        "repoUrl": "git://github.com/feedhenry-templates/fh-connector-oraclecrm-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/fh-connector-oraclecrm-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-oraclecrm-cloud/master/icon.png",
-        "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-oraclecrm-cloud/master/README.md",
-        "category": "SaaS",
-        "configuration": [{
-          "desc": "Your Oracle Fusion CRM username",
-          "varName": "SOAP_USER"
-        }, {
-          "desc": "Your Oracle Fusion CRM password",
-          "varName": "SOAP_PASS",
-          "type": "password"
-        }]
-      }]
-    }, {
       "id": "twilio",
       "priority": 0.86,
       "name": "Twilio Connector",
