@@ -216,6 +216,16 @@
         "icon": "icon-windows8",
         "category": "Sample Apps",
         "screenshots": []
+      }, {
+        "id": "saml_xamarin_app",
+        "name": "SAML Xamarin App",
+        "type": "client_xamarin",
+        "repoUrl": "git://github.com/feedhenry-templates/saml-xamarin-app.git",
+        "githubUrl": "https://github.com/feedhenry-templates/saml-xamarin-app.git",
+        "repoBranch": "refs/heads/master",
+        "icon": "icon-xamarin",
+        "category": "Sample Apps",
+        "screenshots": []
       }]
     }, {
       "id": "pushstarter_project",
