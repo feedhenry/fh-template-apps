@@ -132,7 +132,7 @@
         "icon": "icon-html5",
         "category": "Sample Apps",
         "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/push_hello_world/hybrid.png"
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/push_hello_world/hybrid.png"
         }]
       }, {
         "id": "push_console",
@@ -144,7 +144,7 @@
         "icon": "icon-nodejs",
         "category": "Sample Apps",
         "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/push_hello_world/console.png"
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/push_hello_world/console.png"
         }]
       }]
     }, {
@@ -437,7 +437,7 @@
       "icon": "icon-appcelerator",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_appcelerator/1.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_appcelerator/1.png"
       }],
       "appTemplates": ["blank_appcelerator", "hello_world_mbaas_instance"]
     }, {
@@ -479,7 +479,7 @@
         "category": "Forms",
         "description": "A template App for displaying Forms",
         "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/appforms_client/1.png"
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/appforms_client/1.png"
         }]
       }, "hello_world_mbaas_instance"]
     }, {
@@ -508,7 +508,7 @@
         "githubUrl": "https://github.com/feedhenry-templates/welcome-app.git",
         "repoBranch": "refs/heads/master",
         "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/welcome_project_client/1.png"
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/welcome_project_client/1.png"
         }]
       }, {
         "id": "welcome_project_android_gradle",
@@ -573,9 +573,9 @@
         "githubUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-portal.git",
         "repoBranch": "refs/heads/master",
         "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/mobile_spec_project_portal/1.png"
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/mobile_spec_project_portal/1.png"
         }, {
-          "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/mobile_spec_project_portal/2.png"
+          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/mobile_spec_project_portal/2.png"
         }]
       }]
     }, {
@@ -670,9 +670,9 @@
       "category": "Blank Apps",
       "description": "An HTML5 Cordova Light App which echos your name via the Cloud",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/hello_world_hybrid_app/1.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/hello_world_hybrid_app/1.png"
       }, {
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/hello_world_hybrid_app/2.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/hello_world_hybrid_app/2.png"
       }]
     }, {
       "id": "hello_world_mbaas_instance",
@@ -807,7 +807,7 @@
       "icon": "icon-cordova",
       "category": "Blank Apps",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_advanced_hybrid_client/1.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_advanced_hybrid_client/1.png"
       }]
     }, {
       "id": "blank_advanced_webapp",
@@ -821,7 +821,7 @@
       "icon": "icon-nodejs",
       "category": "Blank Apps",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_advanced_webapp/1.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_advanced_webapp/1.png"
       }]
     }, {
       "id": "blank_native_windowsphone8",
@@ -835,7 +835,7 @@
       "icon": "icon-windows8",
       "category": "Blank Apps",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windowsphone8/1.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_native_windowsphone8/1.png"
       }]
     }, {
       "id": "blank_native_windows10",
@@ -849,7 +849,7 @@
       "icon": "icon-windows8",
       "category": "Blank Apps",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windows_universal/2.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_native_windows_universal/2.png"
       }]
     }, {
       "id": "blank_xamarin",
@@ -863,7 +863,7 @@
       "icon": "icon-xamarin",
       "category": "Blank Apps",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_xamarin/1.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_xamarin/1.png"
       }]
     }, {
       "id": "blank_vs_universal",
@@ -877,7 +877,7 @@
       "icon": "icon-windows8",
       "category": "Blank Apps",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_native_windows_universal/1.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_native_windows_universal/1.png"
       }]
     }, {
       "id": "blank_appcelerator",
@@ -891,7 +891,7 @@
       "icon": "icon-appcelerator",
       "category": "Blank Apps",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/blank_appcelerator/1.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_appcelerator/1.png"
       }]
     }, {
       "id": "appforms_client",
@@ -905,7 +905,7 @@
       "repoBranch": "refs/heads/master",
       "category": "Forms",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/template-config/master/screenshots/apps/appforms_client/1.png"
+        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/appforms_client/1.png"
       }]
     }, {
       "id": "hello_world_backbone_hybrid_app",

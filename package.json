@@ -1,5 +1,5 @@
 {
-  "name": "template-config",
+  "name": "fh-template-apps",
   "version": "3.29.0",
   "description": "FeedHenry Template Applications",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/feedhenry/template-config.git"
+    "url": "git://github.com/feedhenry/fh-template-apps.git"
   },
   "author": "FeedHenry",
   "license": "Copyright (c) 2015 FeedHenry Ltd, All Rights Reserved.",
   "bugs": {
-    "url": "https://github.com/feedhenry/template-config/issues"
+    "url": "https://github.com/feedhenry/fh-template-apps/issues"
   },
-  "homepage": "https://github.com/feedhenry/template-config",
+  "homepage": "https://github.com/feedhenry/fh-template-apps",
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-clean": "^0.6.0",
