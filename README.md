@@ -1,7 +1,7 @@
 template-config
 ===============
 
-Repo for configuration of project, app, form, theme and connector templates.
+Repo for configuration of project, app, form, theme and connector templates.  
 
 ### global.json
 
