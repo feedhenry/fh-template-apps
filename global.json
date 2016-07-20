@@ -249,18 +249,6 @@
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/windows-push.png"
         }]
       }, {
-        "id": "pushstarter_xamarin_app",
-        "name": "Simple Xamarin Push App",
-        "type": "client_xamarin",
-        "repoUrl": "git://github.com/feedhenry-templates/pushstarter-xamarin-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/pushstarter-xamarin-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-xamarin",
-        "category": "Sample Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/android-push.png"
-        }]
-      }, {
         "id": "pushstarter_android_app",
         "name": "Simple Android Push App",
         "type": "client_native_android",
