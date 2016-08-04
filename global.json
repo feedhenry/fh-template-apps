@@ -37,7 +37,7 @@
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/sync-cordova-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/sync-cordova-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/FH-v3.12.0",
         "icon": "icon-html5",
         "category": "Sample Apps",
         "screenshots": [{
@@ -915,7 +915,7 @@
       "priority": 0.4,
       "repoUrl": "git://github.com/feedhenry-templates/quickstart-backbone-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/quickstart-backbone-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/FH-v3.12.0",
       "icon": "icon-backbone",
       "category": "Blank Apps",
       "screenshots": [{
@@ -929,7 +929,7 @@
       "priority": 0.4,
       "repoUrl": "git://github.com/feedhenry-templates/quickstart-angular-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/quickstart-angular-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/FH-v3.12.0",
       "icon": "icon-angular",
       "category": "Blank Apps",
       "screenshots": [{
@@ -943,7 +943,7 @@
       "priority": 0.4,
       "repoUrl": "git://github.com/feedhenry-templates/quickstart-ionic-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/quickstart-ionic-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/FH-v3.12.0",
       "icon": "icon-ionic",
       "category": "Blank Apps",
       "screenshots": [{
