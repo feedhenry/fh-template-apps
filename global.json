@@ -128,7 +128,7 @@
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
         "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/FH-v3.12.0",
         "icon": "icon-html5",
         "category": "Sample Apps",
         "screenshots": [{
@@ -278,7 +278,7 @@
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-cordova-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-cordova-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/FH-v3.12.0",
         "icon": "icon-html5",
         "category": "Sample Apps",
         "screenshots": [{
@@ -475,7 +475,7 @@
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry/appforms-project-client.git",
         "githubUrl": "https://github.com/feedhenry/appforms-project-client.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/FH-v3.12.0",
         "category": "Forms",
         "description": "A template App for displaying Forms",
         "screenshots": [{
@@ -506,7 +506,7 @@
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/welcome-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/welcome-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/FH-v3.12.0",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/welcome_project_client/1.png"
         }]
@@ -564,7 +564,7 @@
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/fh-mobile-spec-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-app.git",
-        "repoBranch": "refs/heads/master"
+        "repoBranch": "refs/heads/FH-v3.12.0"
       }, {
         "id": "mobile_spec_project_portal",
         "name": "Mobile Spec Web Portal",
@@ -665,7 +665,7 @@
       "priority": 0.56,
       "repoUrl": "git://github.com/feedhenry-templates/helloworld-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/FH-v3.12.0",
       "icon": "icon-html5",
       "category": "Blank Apps",
       "description": "An HTML5 Cordova Light App which echos your name via the Cloud",
@@ -803,7 +803,7 @@
       "description": "Cordova App App which echos your name via the Cloud",
       "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
       "githubUrl": "https://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/FH-v3.12.0",
       "icon": "icon-cordova",
       "category": "Blank Apps",
       "screenshots": [{
