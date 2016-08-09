@@ -803,7 +803,7 @@
       "description": "Cordova App App which echos your name via the Cloud",
       "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
       "githubUrl": "https://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/RHMAP-7026",
       "icon": "icon-cordova",
       "category": "Blank Apps",
       "screenshots": [{
@@ -817,7 +817,7 @@
       "description": "Blank Hello World Web App",
       "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
       "githubUrl": "https://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/RHMAP-7028",
       "icon": "icon-nodejs",
       "category": "Blank Apps",
       "screenshots": [{
