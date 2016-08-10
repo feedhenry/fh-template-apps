@@ -470,7 +470,7 @@
       },
       "appTemplates": [{
         "id": "appforms_client",
-        "name": "Cordova Light Forms App",
+        "name": "Cordova Forms App",
         "icon": "icon-check",
         "type": "client_hybrid",
         "repoUrl": "git://github.com/feedhenry/appforms-project-client.git",
@@ -660,7 +660,7 @@
     }],
     "appTemplates": [{
       "id": "hello_world_hybrid_app",
-      "name": "Cordova Light App",
+      "name": "Cordova App",
       "type": "client_hybrid",
       "priority": 0.56,
       "repoUrl": "git://github.com/feedhenry-templates/helloworld-app.git",
@@ -668,7 +668,7 @@
       "repoBranch": "refs/heads/master",
       "icon": "icon-html5",
       "category": "Blank Apps",
-      "description": "An HTML5 Cordova Light App which echos your name via the Cloud",
+      "description": "An HTML5 Cordova App which echos your name via the Cloud",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/hello_world_hybrid_app/1.png"
       }, {
@@ -896,7 +896,7 @@
     }, {
       "id": "appforms_client",
       "description": "A template App for displaying Forms",
-      "name": "Cordova Light Forms App",
+      "name": "Cordova Forms App",
       "icon": "icon-check",
       "type": "client_hybrid",
       "priority": 0.505,
