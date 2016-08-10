@@ -1,6 +1,10 @@
 {
   "name": "template-config",
+<<<<<<< af9d6c3ac9ec331e0e4c1c0bd5f50df22a653a21
   "version": "3.33.3",
+=======
+  "version": "4.0.0",
+>>>>>>> Major bump for NodeJS 4.4
   "description": "FeedHenry Template Applications",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +19,9 @@
     "url": "https://github.com/feedhenry/fh-template-apps/issues"
   },
   "homepage": "https://github.com/feedhenry/fh-template-apps",
+  "engines": {
+    "node": "4.4"
+  },
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-clean": "^0.6.0",
