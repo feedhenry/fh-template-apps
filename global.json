@@ -242,7 +242,7 @@
         "type": "client_native_windowsuniversal",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-windows-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
-        "repoBranch": "refs/heads/RHMAP-7726",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-windows8",
         "category": "Sample Apps",
         "screenshots": [{
@@ -275,10 +275,10 @@
       }, {
         "id": "pushstarter_cordova_app",
         "name": "Simple Cordova Push App",
-        "type": "client_hybrid",
+        "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-cordova-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-cordova-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/RHMAP-7726",
         "icon": "icon-html5",
         "category": "Sample Apps",
         "screenshots": [{
