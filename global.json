@@ -34,10 +34,10 @@
       }, {
         "id": "sync_app",
         "name": "Sync App",
-        "type": "client_hybrid",
+        "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/sync-cordova-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/sync-cordova-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/RHMAP-7733",
         "icon": "icon-html5",
         "category": "Sample Apps",
         "screenshots": [{
@@ -125,10 +125,10 @@
       }, {
         "id": "push_app",
         "name": "Push Notifications Mobile Client",
-        "type": "client_hybrid",
+        "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
         "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/RHMAP-7725",
         "icon": "icon-html5",
         "category": "Sample Apps",
         "screenshots": [{
@@ -242,7 +242,7 @@
         "type": "client_native_windowsuniversal",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-windows-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/RHMAP-7726",
         "icon": "icon-windows8",
         "category": "Sample Apps",
         "screenshots": [{
@@ -503,10 +503,10 @@
       }, {
         "id": "welcome_project_client",
         "name": "Welcome Project-client",
-        "type": "client_hybrid",
+        "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/welcome-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/welcome-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/RHMAP-7727",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/welcome_project_client/1.png"
         }]
@@ -661,11 +661,11 @@
     "appTemplates": [{
       "id": "hello_world_hybrid_app",
       "name": "Cordova App",
-      "type": "client_hybrid",
+      "type": "client_advanced_hybrid",
       "priority": 0.56,
       "repoUrl": "git://github.com/feedhenry-templates/helloworld-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/RHMAP-7729",
       "icon": "icon-html5",
       "category": "Blank Apps",
       "description": "An HTML5 Cordova App which echos your name via the Cloud",
@@ -911,11 +911,11 @@
       "id": "hello_world_backbone_hybrid_app",
       "name": "Backbone Hello World Client",
       "description": "Hello World Backbone.js App",
-      "type": "client_hybrid",
+      "type": "client_advanced_hybrid",
       "priority": 0.4,
       "repoUrl": "git://github.com/feedhenry-templates/quickstart-backbone-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/quickstart-backbone-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/RHMAP-7730",
       "icon": "icon-backbone",
       "category": "Blank Apps",
       "screenshots": [{
@@ -925,11 +925,11 @@
       "id": "hello_world_angular_hybrid_app",
       "name": "AngularJS Hello World Client",
       "description": "Hello World AngularJS App",
-      "type": "client_hybrid",
+      "type": "client_advanced_hybrid",
       "priority": 0.4,
       "repoUrl": "git://github.com/feedhenry-templates/quickstart-angular-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/quickstart-angular-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/RHMAP-7731",
       "icon": "icon-angular",
       "category": "Blank Apps",
       "screenshots": [{
@@ -939,11 +939,11 @@
       "id": "hello_world_ionic_hybrid_app",
       "name": "Ionic Hello World Client",
       "description": "Hello World Ionic & AngularJS App",
-      "type": "client_hybrid",
+      "type": "client_advanced_hybrid",
       "priority": 0.4,
       "repoUrl": "git://github.com/feedhenry-templates/quickstart-ionic-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/quickstart-ionic-app.git",
-      "repoBranch": "refs/heads/master",
+      "repoBranch": "refs/heads/RHMAP-7732",
       "icon": "icon-ionic",
       "category": "Blank Apps",
       "screenshots": [{
