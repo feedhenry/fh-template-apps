@@ -180,7 +180,7 @@
         "id": "saml_android",
         "name": "SAML Android",
         "type": "client_native_android",
-        "repoUrl": "git://github.com/feedhenry-templates/saml-android-app",
+        "repoUrl": "git://github.com/feedhenry-templates/saml-android-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/saml-android-app.git",
         "repoBranch": "refs/heads/FH-v3.13.0",
         "icon": "icon-android",
