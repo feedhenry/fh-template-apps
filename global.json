@@ -172,7 +172,7 @@
         "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/saml-cordova-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/saml-cordova-app.git",
-        "repoBranch": "refs/heads/master",
+        "repoBranch": "refs/heads/cleanup",
         "icon": "icon-html5",
         "category": "Sample Apps",
         "screenshots": []
