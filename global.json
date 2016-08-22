@@ -354,7 +354,7 @@
       "icon": "icon-cordova",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-hybrid-blank-app/master/screenshots/cordovaproject_nocontainer.png"
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-cordova-app/master/screenshots/cordovaproject_nocontainer.png"
       }],
       "appTemplates": ["blank_advanced_hybrid_client", "hello_world_mbaas_instance"]
     }, {
@@ -801,8 +801,8 @@
       "type": "client_advanced_hybrid",
       "priority": 0.5,
       "description": "Cordova App App which echos your name via the Cloud",
-      "repoUrl": "git://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
-      "githubUrl": "https://github.com/feedhenry/fh-advanced-hybrid-blank-app.git",
+      "repoUrl": "git://github.com/feedhenry-templates/blank-cordova-app.git",
+      "githubUrl": "https://github.com/feedhenry-templates/blank-cordova-app.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-cordova",
       "category": "Blank Apps",
