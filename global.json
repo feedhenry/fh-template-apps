@@ -334,18 +334,6 @@
       }],
       "appTemplates": ["hello_world_hybrid_app", "hello_world_mbaas_instance"]
     }, {
-      "id": "advanced_webapp_hello_world_project",
-      "priority": 0.87,
-      "name": "Hello World Web App Project",
-      "description": "A FeedHenry primer project with one Web App.",
-      "type": "default",
-      "icon": "icon-nodejs",
-      "category": "Sample Projects",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-advanced-webapp-blank-app/master/screenshots/advanced_webappproject_nocontainer.png"
-      }],
-      "appTemplates": ["blank_advanced_webapp", "hello_world_mbaas_instance"]
-    }, {
       "id": "cordova_project",
       "priority": 0.86,
       "name": "Cordova Hello World Project",
@@ -808,20 +796,6 @@
       "category": "Blank Apps",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_advanced_hybrid_client/1.png"
-      }]
-    }, {
-      "id": "blank_advanced_webapp",
-      "name": "Blank Web App",
-      "type": "webapp_advanced",
-      "priority": 0.49,
-      "description": "Blank Hello World Web App",
-      "repoUrl": "git://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
-      "githubUrl": "https://github.com/feedhenry/fh-advanced-webapp-blank-app.git",
-      "repoBranch": "refs/heads/master",
-      "icon": "icon-nodejs",
-      "category": "Blank Apps",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_advanced_webapp/1.png"
       }]
     }, {
       "id": "blank_native_windowsphone8",
