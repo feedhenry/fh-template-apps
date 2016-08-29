@@ -59,9 +59,9 @@
         "id": "sync_ios_swift_app",
         "name": "Sync iOS (Swift) App",
         "type": "client_native_ios",
-        "repoUrl": "git://github.com/feedhenry-templates/sync-ios-swift.git",
-        "githubUrl": "https://github.com/feedhenry-templates/sync-ios-swift.git",
-        "repoBranch": "refs/heads/master",
+        "repoUrl": "git://github.com/corinnekrych/sync-ios-swift.git",
+        "githubUrl": "https://github.com/corinnekrych/sync-ios-swift.git",
+        "repoBranch": "refs/heads/RHMAP-9821.bump.version",
         "icon": "icon-apple",
         "category": "Sample Apps",
         "screenshots": [{
@@ -200,9 +200,9 @@
         "id": "saml_ios_swift",
         "name": "SAML iOS (Swift)",
         "type": "client_native_ios",
-        "repoUrl": "git://github.com/feedhenry-templates/saml-ios-swift.git",
-        "githubUrl": "https://github.com/feedhenry-templates/saml-ios-swift.git",
-        "repoBranch": "refs/heads/master",
+        "repoUrl": "git://github.com/corinnekrych/saml-ios-swift.git",
+        "githubUrl": "https://github.com/corinnekrych/saml-ios-swift.git",
+        "repoBranch": "refs/heads/RHMAP-9821",
         "icon": "icon-apple",
         "category": "Sample Apps",
         "screenshots": []
@@ -300,9 +300,9 @@
         "id": "pushstarter_ios_swift_app",
         "name": "Simple iOS (Swift) Push App",
         "type": "client_native_ios",
-        "repoUrl": "git://github.com/feedhenry-templates/pushstarter-ios-swift.git",
-        "githubUrl": "https://github.com/feedhenry-templates/pushstarter-ios-swift.git",
-        "repoBranch": "refs/heads/master",
+        "repoUrl": "git://github.com/corinnekrych/pushstarter-ios-swift.git",
+        "githubUrl": "https://github.com/corinnekrych/pushstarter-ios-swift.git",
+        "repoBranch": "refs/heads/RHMAP-9821",
         "icon": "icon-apple",
         "category": "Sample Apps",
         "screenshots": [{
@@ -524,9 +524,9 @@
         "id": "welcome_project_ios_swift",
         "name": "Welcome Project iOS (Swift)",
         "type": "client_native_ios",
-        "repoUrl": "git://github.com/feedhenry-templates/welcome-ios-swift.git",
-        "githubUrl": "https://github.com/feedhenry-templates/welcome-ios-swift.git",
-        "repoBranch": "refs/heads/master"
+        "repoUrl": "git://github.com/corinnekrych/welcome-ios-swift.git",
+        "githubUrl": "https://github.com/corinnekrych/welcome-ios-swift.git",
+        "repoBranch": "refs/heads/RHMAP-9821.bump.version"
       }]
     }, {
       "id": "mobile_spec_project",
@@ -716,9 +716,9 @@
       "type": "client_native_ios",
       "priority": 0.445,
       "description": "Native iOS (Swift) hello world app which echos your name via the Cloud",
-      "repoUrl": "git://github.com/feedhenry-templates/helloworld-ios-swift.git",
-      "githubUrl": "https://github.com/feedhenry-templates/helloworld-ios-swift.git",
-      "repoBranch": "refs/heads/master",
+      "repoUrl": "git://github.com/corinnekrych/helloworld-ios-swift.git",
+      "githubUrl": "https://github.com/corinnekrych/helloworld-ios-swift.git",
+      "repoBranch": "refs/heads/RHMAP-9821.bump.version",
       "icon": "icon-apple",
       "category": "Blank Apps",
       "screenshots": []
@@ -775,9 +775,9 @@
       "type": "client_native_ios",
       "priority": 0.445,
       "description": "Native iOS (Swift) blank app",
-      "repoUrl": "git://github.com/feedhenry-templates/blank-ios-swift.git",
-      "githubUrl": "https://github.com/feedhenry-templates/blank-ios-swift.git",
-      "repoBranch": "refs/heads/master",
+      "repoUrl": "git://github.com/corinnekrych/blank-ios-swift.git",
+      "githubUrl": "https://github.com/corinnekrych/blank-ios-swift.git",
+      "repoBranch": "refs/heads/RHMAP-9821.podspec.with.fixed.version",
       "icon": "icon-apple",
       "category": "Blank Apps",
       "screenshots": [{
