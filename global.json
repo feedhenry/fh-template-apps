@@ -49,7 +49,7 @@
         "type": "client_native_ios",
         "repoUrl": "git://github.com/feedhenry-templates/sync-ios-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/sync-ios-app.git",
-        "repoBranch": "refs/heads/cocoapods",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-apple",
         "category": "Sample Apps",
         "screenshots": [{
@@ -192,7 +192,7 @@
         "type": "client_native_ios",
         "repoUrl": "git://github.com/feedhenry-templates/saml-ios-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/saml-ios-app.git",
-        "repoBranch": "refs/heads/cocoapods",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-apple",
         "category": "Sample Apps",
         "screenshots": []
@@ -290,7 +290,7 @@
         "type": "client_native_ios",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-ios-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-ios-app.git",
-        "repoBranch": "refs/heads/cocoapods",
+        "repoBranch": "refs/heads/master",
         "icon": "icon-apple",
         "category": "Sample Apps",
         "screenshots": [{
@@ -364,7 +364,7 @@
       "icon": "icon-apple",
       "category": "Sample Projects",
       "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/cocoapods/screenshots/iosproject_container.png"
+        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
       }],
       "appTemplates": ["native_ios_objectivec_blank_app", "native_ios_swift_blank_app", "hello_world_mbaas_instance"]
     }, {
@@ -706,7 +706,7 @@
       "description": "Native iOS (Objective-C) hello world app which echos your name via the Cloud",
       "repoUrl": "git://github.com/feedhenry-templates/helloworld-ios.git",
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-ios.git",
-      "repoBranch": "refs/heads/cocoapods",
+      "repoBranch": "refs/heads/master",
       "icon": "icon-apple",
       "category": "Blank Apps",
       "screenshots": []
@@ -763,7 +763,7 @@
       "description": "Native iOS (Objective-C) blank app",
       "repoUrl": "git://github.com/feedhenry-templates/blank-ios-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/blank-ios-app.git",
-      "repoBranch": "refs/heads/cocoapods",
+      "repoBranch": "refs/heads/master",
       "icon": "icon-apple",
       "category": "Blank Apps",
       "screenshots": [{
