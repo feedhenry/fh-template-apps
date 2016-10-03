@@ -34,11 +34,11 @@
       }, {
         "id": "sync_app",
         "name": "Sync App",
-        "type": "client_hybrid",
+        "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/sync-cordova-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/sync-cordova-app.git",
         "repoBranch": "refs/heads/master",
-        "icon": "icon-html5",
+        "icon": "icon-cordova",
         "category": "Sample Apps",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/sync_app/cordova-sync.png"
@@ -125,11 +125,11 @@
       }, {
         "id": "push_app",
         "name": "Push Notifications Mobile Client",
-        "type": "client_hybrid",
+        "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
         "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
         "repoBranch": "refs/heads/master",
-        "icon": "icon-html5",
+        "icon": "icon-cordova",
         "category": "Sample Apps",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/push_hello_world/hybrid.png"
@@ -173,7 +173,7 @@
         "repoUrl": "git://github.com/feedhenry-templates/saml-cordova-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/saml-cordova-app.git",
         "repoBranch": "refs/heads/master",
-        "icon": "icon-html5",
+        "icon": "icon-cordova",
         "category": "Sample Apps",
         "screenshots": []
       }, {
@@ -275,11 +275,11 @@
       }, {
         "id": "pushstarter_cordova_app",
         "name": "Simple Cordova Push App",
-        "type": "client_hybrid",
+        "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/pushstarter-cordova-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/pushstarter-cordova-app.git",
         "repoBranch": "refs/heads/master",
-        "icon": "icon-html5",
+        "icon": "icon-cordova",
         "category": "Sample Apps",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/cordova-push.png"
@@ -491,7 +491,7 @@
       }, {
         "id": "welcome_project_client",
         "name": "Welcome Project-client",
-        "type": "client_hybrid",
+        "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/welcome-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/welcome-app.git",
         "repoBranch": "refs/heads/master",
@@ -549,7 +549,7 @@
       }, {
         "id": "mobile_spec_project_client",
         "name": "Mobile Spec Cordova App",
-        "type": "client_hybrid",
+        "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-templates/fh-mobile-spec-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-app.git",
         "repoBranch": "refs/heads/master"
@@ -616,7 +616,7 @@
       "appTemplates": [{
         "id": "wfm_mobile_demo_app",
         "name": "WFM Demo Mobile App",
-        "type": "client_hybrid",
+        "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-mobile.git",
         "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-mobile.git",
         "repoBranch": "refs/heads/v2.0.0-alpha.8",
@@ -649,12 +649,12 @@
     "appTemplates": [{
       "id": "hello_world_hybrid_app",
       "name": "Cordova App",
-      "type": "client_hybrid",
+      "type": "client_advanced_hybrid",
       "priority": 0.56,
       "repoUrl": "git://github.com/feedhenry-templates/helloworld-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
       "repoBranch": "refs/heads/master",
-      "icon": "icon-html5",
+      "icon": "icon-cordova",
       "category": "Blank Apps",
       "description": "An HTML5 Cordova App which echos your name via the Cloud",
       "screenshots": [{
@@ -885,7 +885,7 @@
       "id": "hello_world_backbone_hybrid_app",
       "name": "Backbone Hello World Client",
       "description": "Hello World Backbone.js App",
-      "type": "client_hybrid",
+      "type": "client_advanced_hybrid",
       "priority": 0.4,
       "repoUrl": "git://github.com/feedhenry-templates/quickstart-backbone-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/quickstart-backbone-app.git",
@@ -899,7 +899,7 @@
       "id": "hello_world_angular_hybrid_app",
       "name": "AngularJS Hello World Client",
       "description": "Hello World AngularJS App",
-      "type": "client_hybrid",
+      "type": "client_advanced_hybrid",
       "priority": 0.4,
       "repoUrl": "git://github.com/feedhenry-templates/quickstart-angular-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/quickstart-angular-app.git",
@@ -913,7 +913,7 @@
       "id": "hello_world_ionic_hybrid_app",
       "name": "Ionic Hello World Client",
       "description": "Hello World Ionic & AngularJS App",
-      "type": "client_hybrid",
+      "type": "client_advanced_hybrid",
       "priority": 0.4,
       "repoUrl": "git://github.com/feedhenry-templates/quickstart-ionic-app.git",
       "githubUrl": "https://github.com/feedhenry-templates/quickstart-ionic-app.git",
