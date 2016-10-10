@@ -31,5 +31,3 @@ Format all .json template config files (You should run this after you update any
 ```
 grunt format
 ```
-
-
