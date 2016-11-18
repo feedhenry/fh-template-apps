@@ -618,7 +618,7 @@
       "id": "wfm_project",
       "priority": 0.30,
       "name": "WFM Demo Project",
-      "description": "A demo project showcasing the reusable WFM modules. Note: Using openshift.feedhenry.com access via your OpenShift account is limited to using the small OpenShift Gear. Due to WFM template's non-trivial functionality you may have stability issues using the small gear. Get Started: https://github.com/feedhenry-staff/wfm-doc/blob/master/Getting-Started.md",
+      "description": "A demo project showcasing the reusable WFM modules. Note: Using openshift.feedhenry.com access via your OpenShift account is limited to using the small OpenShift Gear. Due to WFM template's non-trivial functionality you may have stability issues using the small gear. Get Started: https://github.com/feedhenry-raincatcher/raincatcher-documentation/blob/master/Getting-Started.md",
       "type": "default",
       "icon": "icon-globe",
       "category": "Tech Preview",
