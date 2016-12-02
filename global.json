@@ -30,7 +30,8 @@
         "githubUrl": "https://github.com/feedhenry-templates/sync-cloud.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
-        "category": "Sample Apps"
+        "category": "Sample Apps",
+        "forcedSelection": true
       }, {
         "id": "sync_app",
         "name": "Sync App",
@@ -121,7 +122,8 @@
         "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Cloud-App.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
-        "category": "Sample Apps"
+        "category": "Sample Apps",
+        "forcedSelection": true
       }, {
         "id": "push_app",
         "name": "Push Notifications Mobile Client",
@@ -165,7 +167,8 @@
         "githubUrl": "https://github.com/feedhenry-templates/saml-cloud-app.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
-        "category": "Sample Apps"
+        "category": "Sample Apps",
+        "forcedSelection": true
       }, {
         "id": "saml_app",
         "name": "SAML Client",
@@ -319,7 +322,8 @@
         "githubUrl": "https://github.com/feedhenry-templates/hello-push-cloud.git",
         "repoBranch": "refs/heads/master",
         "icon": "icon-cloud",
-        "category": "Sample Apps"
+        "category": "Sample Apps",
+        "forcedSelection": true
       }]
     }, {
       "id": "hello_world_project",
@@ -476,6 +480,7 @@
         "repoUrl": "git://github.com/feedhenry/appforms-project-client.git",
         "githubUrl": "https://github.com/feedhenry/appforms-project-client.git",
         "repoBranch": "refs/heads/master",
+        "forcedSelection": true,
         "category": "Forms",
         "description": "A template App for displaying Forms",
         "screenshots": [{
@@ -499,7 +504,8 @@
         "type": "cloud_nodejs",
         "repoUrl": "git://github.com/feedhenry-templates/welcome-cloud.git",
         "githubUrl": "https://github.com/feedhenry-templates/welcome-cloud.git",
-        "repoBranch": "refs/heads/master"
+        "repoBranch": "refs/heads/master",
+        "forcedSelection": true
       }, {
         "id": "welcome_project_client",
         "name": "Welcome Project-client",
@@ -557,7 +563,8 @@
         "type": "cloud_nodejs",
         "repoUrl": "git://github.com/feedhenry-templates/fh-mobile-spec-cloud.git",
         "githubUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-cloud.git",
-        "repoBranch": "refs/heads/master"
+        "repoBranch": "refs/heads/master",
+        "forcedSelection": true
       }, {
         "id": "mobile_spec_project_client",
         "name": "Mobile Spec Cordova App",
@@ -655,7 +662,8 @@
         "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
         "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
         "repoBranch": "refs/heads/v2.0.0-alpha.11",
-        "category": "Sample Apps"
+        "category": "Sample Apps",
+        "forcedSelection": true
       }]
     }],
     "appTemplates": [{
@@ -685,7 +693,8 @@
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-cloud",
-      "category": "Sample Apps"
+      "category": "Sample Apps",
+      "forcedSelection": true
     }, {
       "id": "hello_world_mbaas_instance_cluster",
       "name": "Cloud App - Clustered",
@@ -697,7 +706,8 @@
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud-cluster.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-cloud",
-      "category": "Sample Apps"
+      "category": "Sample Apps",
+        "forcedSelection": true
     }, {
       "id": "blank_native_android_gradle_client",
       "name": "Blank Native Android Gradle App",
@@ -900,9 +910,11 @@
       "icon": "icon-check",
       "type": "client_advanced_hybrid",
       "priority": 0.505,
+      "selected": false,
       "repoUrl": "git://github.com/feedhenry/appforms-project-client.git",
       "githubUrl": "https://github.com/feedhenry/appforms-project-client.git",
       "repoBranch": "refs/heads/master",
+      "forcedSelection": true,
       "category": "Forms",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/appforms_client/1.png"
@@ -979,7 +991,8 @@
         "image": "public/img/cloud_plugins/fh.png",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-mbaas-service/master/README.md",
         "category": "Platform Service",
-        "configuration": []
+        "configuration": [],
+        "forcedSelection": true
       }]
     }, {
       "id": "saml-service",
@@ -1000,6 +1013,7 @@
         "image": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/files/icon.png",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/README.md",
         "category": "Authentication",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "Issuer string to supply to identity provider (Defaults to: https://MBaaS_Service_Host/login/callback)",
           "varName": "SAML_ISSUER",
@@ -1039,6 +1053,7 @@
         "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-health-monitor/master/files/icon.png",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-health-monitor/master/README.md",
         "category": "Monitoring",
+        "forcedSelection": true,
         "configuration": []
       }]
     }, {
@@ -1060,6 +1075,7 @@
         "image": "https://raw.githubusercontent.com/feedhenry-templates/aerogear-service/master/icon.jpeg",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/aerogear-service/master/README.md",
         "category": "SaaS Connectors",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "The URL of the AeroGear instance to use",
           "varName": "AEROGEAR_SERVER_URL"
@@ -1094,6 +1110,7 @@
         "image": "public/img/cloud_plugins/fh.png",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ldap-cloud/master/README.md",
         "category": "Authentication",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "The URL of the LDAP server (including 'ldap://')",
           "varName": "LDAP_URL"
@@ -1126,6 +1143,7 @@
         "image": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/barcode.jpg",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/README.md",
         "category": "SaaS Connectors",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "An access token for http://www.searchupc.com",
           "varName": "ACCESS_TOKEN"
@@ -1150,7 +1168,8 @@
         "image": "public/img/cloud_plugins/fh.png",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-api-mapper/master/README.md",
         "category": "Platform Service",
-        "configuration": []
+        "configuration": [],
+        "forcedSelection": true
       }]
     }, {
       "id": "salesforce",
@@ -1171,6 +1190,7 @@
         "image": "public/img/cloud_plugins/salesforce.png",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-salesforce-cloud/master/README.md",
         "category": "SaaS",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "Your salesforce.com login",
           "varName": "SALESFORCE_USERNAME"
@@ -1204,6 +1224,7 @@
         "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/twilio.png",
         "category": "SaaS",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "Twilio account SID",
           "varName": "TWILIO_SID"
@@ -1234,6 +1255,7 @@
         "repoBranch": "refs/heads/master",
         "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/logo.png",
         "category": "Custom Service",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "iBeacon group UUID",
           "varName": "IBEACON_UUID"
@@ -1258,6 +1280,7 @@
         "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/sendgrid.png",
         "category": "SaaS",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "Your SendGrid username",
           "varName": "SENDGRID_USERNAME"
@@ -1292,6 +1315,7 @@
         "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/mysql.png",
         "category": "Database",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "MySQL Database Host",
           "varName": "MYSQL_HOST"
@@ -1323,6 +1347,7 @@
         "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/mongodb.png",
         "category": "Remote Database",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "MongoDB Username",
           "varName": "MONGODB_USER"
@@ -1357,6 +1382,7 @@
         "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/stripe.png",
         "category": "eCommerce",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "Your Stripe API Key",
           "varName": "STRIPE_API_KEY"
@@ -1381,6 +1407,7 @@
         "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/aws_ses.png",
         "category": "Amazon Web Services",
+        "forcedSelection": true,
         "configuration": [{
           "varName": "AWS_ACCESS_KEY_ID",
           "desc": "Amazon Web Services Access Key Identifier"
@@ -1408,6 +1435,7 @@
         "image": "public/img/cloud_plugins/aws_sqs.png",
         "category": "Amazon Web Services",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-amazon-sqs-cloud/master/README.md",
+        "forcedSelection": true,
         "configuration": [{
           "varName": "AWS_ACCESS_KEY_ID",
           "desc": "Amazon Web Services Access Key Identifier"
@@ -1435,7 +1463,8 @@
         "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/google.png",
         "category": "SaaS Connectors",
-        "configuration": []
+        "configuration": [],
+        "forcedSelection": true
       }]
     }, {
       "id": "intercom",
@@ -1456,6 +1485,7 @@
         "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/intercom.png",
         "category": "SaaS Connectors",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "Your Intercom.io API Key",
           "varName": "INTERCOM_API_KEY"
@@ -1483,6 +1513,7 @@
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-sap-netweaver-cloud/master/README.md",
         "image": "public/img/cloud_plugins/netweaver.png",
         "category": "SaaS Connectors",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "Your SAP Hostname",
           "varName": "SAP_HOST"
@@ -1523,6 +1554,7 @@
         "image": "public/img/cloud_plugins/paypal.png",
         "category": "eCommerce",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-paypal-cloud/master/README.md",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "PayPal hostname to connect to (optional - assumes api.paypal.com)",
           "optional": true,
@@ -1554,6 +1586,7 @@
         "repoBranch": "refs/heads/master",
         "image": "public/img/cloud_plugins/sharepoint.png",
         "category": "SaaS Connectors",
+        "forcedSelection": true,
         "configuration": [{
           "desc": "Your Sharepoint Hostname",
           "varName": "SHAREPOINT_HOSTNAME"
@@ -1600,7 +1633,8 @@
             "githubUrl": "https://github.com/feedhenry-templates/appforms-datasources-static.git",
             "repoBranch": "refs/heads/master",
             "image": "public/img/cloud_plugins/fh.png",
-            "category": "Data Sources"
+            "category": "Data Sources",
+            "forcedSelection": true
           }
         ]
       },
@@ -1623,7 +1657,8 @@
             "githubUrl": "https://github.com/feedhenry-templates/appforms-datasources-mongodb.git",
             "repoBranch": "refs/heads/master",
             "image": "public/img/cloud_plugins/fh.png",
-            "category": "Data Sources"
+            "category": "Data Sources",
+            "forcedSelection": true
           }
         ]
       },
@@ -1646,7 +1681,8 @@
             "githubUrl": "https://github.com/feedhenry-templates/appforms-datasources-internet.git",
             "repoBranch": "refs/heads/master",
             "image": "public/img/cloud_plugins/fh.png",
-            "category": "Data Sources"
+            "category": "Data Sources",
+            "forcedSelection": true
           }
         ]
       },{
@@ -1664,7 +1700,8 @@
           "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-auth.git",
           "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-auth.git",
           "repoBranch": "refs/heads/v2.0.0-alpha.11",
-          "category": "Custom Service"
+          "category": "Custom Service",
+          "forcedSelection": true
         }]
       }]
   },
