@@ -106,50 +106,6 @@
         }]
       }]
     }, {
-      "id": "ups_project",
-      "priority": 0.41,
-      "name": "AeroGear Community Push",
-      "description": "An example project which can use an external instance of the AeroGear UnifiedPush Server",
-      "type": "default",
-      "icon": "icon-plane",
-      "category": "Samples",
-      "screenshots": [],
-      "appTemplates": [{
-        "id": "ups_cloud",
-        "name": "Push Cloud App",
-        "type": "cloud_nodejs",
-        "repoUrl": "git://github.com/feedhenry-templates/Push-Hello-World-Cloud-App.git",
-        "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Cloud-App.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cloud",
-        "category": "Sample Apps",
-        "forcedSelection": true
-      }, {
-        "id": "push_app",
-        "name": "Push Notifications Mobile Client",
-        "type": "client_advanced_hybrid",
-        "repoUrl": "git://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
-        "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Cordova-Light-Client.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cordova",
-        "category": "Sample Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/push_hello_world/hybrid.png"
-        }]
-      }, {
-        "id": "push_console",
-        "name": "Push Console App",
-        "type": "webapp_advanced",
-        "repoUrl": "git://github.com/feedhenry-templates/Push-Hello-World-Console.git",
-        "githubUrl": "https://github.com/feedhenry-templates/Push-Hello-World-Console.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-nodejs",
-        "category": "Sample Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/push_hello_world/console.png"
-        }]
-      }]
-    }, {
       "id": "saml_project",
       "priority": 0.45,
       "name": "SAML Example Project",
@@ -372,18 +328,6 @@
       "screenshots": [],
       "appTemplates": ["blank_native_android_gradle_client", "hello_world_mbaas_instance"]
     }, {
-      "id": "native_ios_blank_project",
-      "priority": 0.846,
-      "name": "Native iOS blank project",
-      "description": "A FeedHenry blank project pointing",
-      "type": "default",
-      "icon": "icon-apple",
-      "category": "Sample Projects",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
-      }],
-      "appTemplates": ["native_ios_objectivec_blank_app", "native_ios_swift_blank_app", "hello_world_mbaas_instance"]
-    }, {
       "id": "native_ios_helloworld_project",
       "priority": 0.845,
       "name": "Native iOS hello world project",
@@ -422,16 +366,6 @@
       "icon": "icon-xamarin",
       "category": "Sample Projects",
       "appTemplates": ["helloworld_native_xamarin_client", "hello_world_mbaas_instance"]
-    }, {
-      "id": "wp8_project",
-      "priority": 0.83,
-      "name": "Native Windows Phone 8 Hello World Project",
-      "description": "A FeedHenry primer project with one Windows Phone 8 Client App and a cloud instance with a single endpoint",
-      "type": "default",
-      "icon": "icon-windows8",
-      "category": "Sample Projects",
-      "screenshots": [],
-      "appTemplates": ["blank_native_windowsphone8", "hello_world_mbaas_instance"]
     }, {
       "id": "appcelerator_project",
       "priority": 0.82,
@@ -778,20 +712,6 @@
       "icon": "icon-xamarin",
       "category": "Blank Apps"
     }, {
-      "id": "native_ios_objectivec_blank_app",
-      "name": "Native iOS (Objective-C) blank app",
-      "type": "client_native_ios",
-      "priority": 0.445,
-      "description": "Native iOS (Objective-C) blank app",
-      "repoUrl": "git://github.com/feedhenry-templates/blank-ios-app.git",
-      "githubUrl": "https://github.com/feedhenry-templates/blank-ios-app.git",
-      "repoBranch": "refs/heads/master",
-      "icon": "icon-apple",
-      "category": "Blank Apps",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
-      }]
-    }, {
       "id": "native_ios_swift_blank_app",
       "name": "Native iOS (Swift) blank app",
       "type": "client_native_ios",
@@ -832,20 +752,6 @@
       "category": "Blank Apps",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_advanced_webapp/1.png"
-      }]
-    }, {
-      "id": "blank_native_windowsphone8",
-      "name": "Blank Native Windows Phone 8 App",
-      "type": "client_native_windowsphone8",
-      "priority": 0.44,
-      "description": "Native Windows Phone 8 Hello World App which echos your name via the Cloud",
-      "repoUrl": "git://github.com/feedhenry/fh-windowsphone-sdk-blank-app.git",
-      "githubUrl": "https://github.com/feedhenry/fh-windowsphone-sdk-blank-app.git",
-      "repoBranch": "refs/heads/master",
-      "icon": "icon-windows8",
-      "category": "Blank Apps",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_native_windowsphone8/1.png"
       }]
     }, {
       "id": "blank_native_windows10",
@@ -1055,41 +961,6 @@
         "category": "Monitoring",
         "forcedSelection": true,
         "configuration": []
-      }]
-    }, {
-      "id": "aerogear",
-      "priority": 0.89,
-      "name": "AeroGear Community Push Connector",
-      "type": "other",
-      "image": "https://raw.githubusercontent.com/feedhenry-templates/aerogear-service/master/icon.jpeg",
-      "category": "SaaS Connectors",
-      "docs": "https://raw.github.com/feedhenry-templates/aerogear-service/master/README.md",
-      "description": "A service for integrating AeroGear Push server & sending push notifications.",
-      "appTemplates": [{
-        "id": "aerogear-service-cloud",
-        "name": "AeroGear Push Service",
-        "type": "cloud_nodejs",
-        "repoUrl": "git://github.com/feedhenry-templates/aerogear-service.git",
-        "githubUrl": "https://github.com/feedhenry-templates/aerogear-service.git",
-        "repoBranch": "refs/heads/master",
-        "image": "https://raw.githubusercontent.com/feedhenry-templates/aerogear-service/master/icon.jpeg",
-        "docs": "https://raw.githubusercontent.com/feedhenry-templates/aerogear-service/master/README.md",
-        "category": "SaaS Connectors",
-        "forcedSelection": true,
-        "configuration": [{
-          "desc": "The URL of the AeroGear instance to use",
-          "varName": "AEROGEAR_SERVER_URL"
-        }, {
-          "desc": "The Unique Application Id of the AeroGear app",
-          "varName": "AEROGEAR_APPLICATION_ID"
-        }, {
-          "desc": "The Master Secret Key of the AeroGear app",
-          "varName": "AEROGEAR_MASTER_SECRET"
-        }, {
-          "desc": "The Time to Live value for the submitted notification - default value = 3600",
-          "optional": true,
-          "varName": "AEROGEAR_TTL"
-        }]
       }]
     }, {
       "name": "LDAP Authentication Connector",
