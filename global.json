@@ -572,7 +572,7 @@
         "type": "client_advanced_hybrid",
         "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-mobile.git",
         "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-mobile.git",
-        "repoBranch": "refs/heads/v2.0.0-alpha.11",
+        "repoBranch": "refs/heads/v2.1.0-alpha",
         "icon": "icon-cordova",
         "category": "Sample Apps",
         "screenshots": [{
@@ -584,7 +584,7 @@
         "type": "webapp_advanced",
         "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-portal.git",
         "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-portal.git",
-        "repoBranch": "refs/heads/v2.0.0-alpha.11",
+        "repoBranch": "refs/heads/v2.1.0-alpha",
         "category": "Sample Apps",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-portal.png"
@@ -595,7 +595,7 @@
         "type": "cloud_nodejs",
         "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
         "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
-        "repoBranch": "refs/heads/v2.0.0-alpha.11",
+        "repoBranch": "refs/heads/v2.1.0-alpha",
         "category": "Sample Apps",
         "forcedSelection": true
       }]
@@ -1570,7 +1570,7 @@
           "type": "cloud_nodejs",
           "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-auth.git",
           "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-auth.git",
-          "repoBranch": "refs/heads/v2.0.0-alpha.11",
+          "repoBranch": "refs/heads/v2.1.0-alpha",
           "category": "Custom Service",
           "forcedSelection": true
         }]
