@@ -292,7 +292,7 @@
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-app/master/screenshots/blankproject_nocontainer.png"
       }],
-      "appTemplates": ["hello_world_hybrid_app", "hello_world_mbaas_instance"]
+      "appTemplates": ["blank_advanced_webapp", "hello_world_hybrid_app", "hello_world_mbaas_instance"]
     }, {
       "id": "advanced_webapp_hello_world_project",
       "priority": 0.87,
