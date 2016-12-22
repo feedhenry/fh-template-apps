@@ -294,18 +294,6 @@
       }],
       "appTemplates": ["hello_world_ionic_hybrid_app", "hello_world_angular_hybrid_app", "hello_world_backbone_hybrid_app", "blank_appcelerator", "helloworld_native_windows_client", "native_ios_swift_helloworld_app", "native_ios_objectivec_helloworld_app", "helloworld_native_xamarin_client", "helloworld_native_android_gradle_client", "blank_advanced_webapp", "hello_world_hybrid_app", "hello_world_mbaas_instance"]
     }, {
-      "id": "cordova_project",
-      "priority": 0.86,
-      "name": "Cordova Hello World Project",
-      "description": "A FeedHenry primer project with one Cordova Client App and a cloud instance with a single endpoint",
-      "type": "default",
-      "icon": "icon-cordova",
-      "category": "Sample Projects",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-cordova-app/master/screenshots/cordovaproject_nocontainer.png"
-      }],
-      "appTemplates": ["blank_advanced_hybrid_client", "hello_world_mbaas_instance"]
-    }, {
       "id": "android_gradle_project",
       "priority": 0.85,
       "name": "Native Gradle Android Blank Project",
@@ -315,18 +303,6 @@
       "category": "Sample Projects",
       "screenshots": [],
       "appTemplates": ["blank_native_android_gradle_client", "hello_world_mbaas_instance"]
-    }, {
-      "id": "xamarin_project",
-      "priority": 0.81,
-      "name": "Xamarin Hello World Project",
-      "description": "A FeedHenry primer project with one Xamarin Client App and a cloud instance with a single endpoint",
-      "type": "default",
-      "icon": "icon-xamarin",
-      "category": "Sample Projects",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry/fh-xamarin-sdk-blank-app/master/screenshots/xamarinproject_container.png"
-      }],
-      "appTemplates": ["blank_xamarin", "hello_world_mbaas_instance"]
     }, {
       "id": "appforms_project",
       "priority": 0.44,
