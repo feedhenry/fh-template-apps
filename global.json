@@ -1112,31 +1112,6 @@
         }]
       }]
     }, {
-      "id": "stripe",
-      "priority": 0.81,
-      "name": "Stripe",
-      "type": "other",
-      "image": "public/img/cloud_plugins/stripe.png",
-      "category": "eCommerce",
-      "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-stripe-cloud/master/README.md",
-      "description": "A service for integrating with Stripe",
-      "appTemplates": [{
-        "id": "stripe-cloud",
-        "name": "Stripe",
-        "type": "cloud_nodejs",
-        "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-stripe-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/fh-connector-stripe-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/fh-connector-stripe-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "image": "public/img/cloud_plugins/stripe.png",
-        "category": "eCommerce",
-        "forcedSelection": true,
-        "configuration": [{
-          "desc": "Your Stripe API Key",
-          "varName": "STRIPE_API_KEY"
-        }]
-      }]
-    }, {
       "id": "amazon-ses",
       "priority": 0.8,
       "name": "SES",
