@@ -1190,34 +1190,6 @@
         "forcedSelection": true
       }]
     }, {
-      "id": "intercom",
-      "priority": 0.77,
-      "name": "Intercom",
-      "type": "other",
-      "image": "public/img/cloud_plugins/intercom.png",
-      "category": "SaaS Connectors",
-      "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-intercom-cloud/master/README.md",
-      "description": "A service for integrating with Intercom",
-      "appTemplates": [{
-        "id": "intercom-cloud",
-        "name": "Intercom",
-        "type": "cloud_nodejs",
-        "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-intercom-cloud/master/README.md",
-        "repoUrl": "git://github.com/feedhenry-templates/fh-connector-intercom-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/fh-connector-intercom-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "image": "public/img/cloud_plugins/intercom.png",
-        "category": "SaaS Connectors",
-        "forcedSelection": true,
-        "configuration": [{
-          "desc": "Your Intercom.io API Key",
-          "varName": "INTERCOM_API_KEY"
-        }, {
-          "desc": "Your Intercom.io APP Key",
-          "varName": "INTERCOM_APP_KEY"
-        }]
-      }]
-    }, {
       "id": "sap-netweaver",
       "priority": 0.76,
       "name": "SAP Netweaver",
