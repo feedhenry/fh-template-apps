@@ -2,7 +2,7 @@
   "show": {
     "projectTemplates": [{
       "id": "bare_project",
-      "priority": 0.4,
+      "priority": 0.97,
       "name": "Bare Project",
       "description": "An empty project into which you can add apps and cloud instances",
       "type": "default",
@@ -295,7 +295,7 @@
       "appTemplates": ["hello_world_ionic_hybrid_app", "hello_world_angular_hybrid_app", "hello_world_backbone_hybrid_app", "blank_appcelerator", "helloworld_native_windows_client", "native_ios_swift_helloworld_app", "native_ios_objectivec_helloworld_app", "helloworld_native_xamarin_client", "helloworld_native_android_gradle_client", "blank_advanced_webapp", "hello_world_hybrid_app", "hello_world_mbaas_instance"]
     }, {
       "id": "appforms_project",
-      "priority": 0.44,
+      "priority": 0.98,
       "name": "Forms Project",
       "description": "An AppForms project, for building Drag & Drop forms apps",
       "type": "appforms",
@@ -326,7 +326,7 @@
       }, "hello_world_mbaas_instance"]
     }, {
       "id": "welcome_project",
-      "priority": 0.95,
+      "priority": 0.99,
       "description": "Demonstrates many features of the FeedHenry platform. The HTML5 client uses Bootstrap 3 and Backbone.js, and the cloud portion of this app illustrates the use of MongoDB, Redis and third party APIs.",
       "name": "Welcome Project",
       "type": "other",
