@@ -3,7 +3,7 @@
     "projectTemplates": [{
       "id": "bare_project",
       "priority": 0.97,
-      "name": "Bare Project",
+      "name": "Empty Project",
       "description": "An empty project into which you can add apps and cloud instances",
       "type": "default",
       "icon": "icon-circle-blank",
