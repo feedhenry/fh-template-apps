@@ -757,7 +757,7 @@
       "appTemplates": ["hello_world_mbaas_instance"]
     }, {
       "name": "OpenShift mBaaS Service",
-      "priority": 0.895,
+      "priority": 0.899,
       "id": "openshift-mbaas-service",
       "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-mbaas-service/master/README.md",
       "type": "other",
@@ -899,7 +899,7 @@
       }]
     }, {
       "name": "API Mapper",
-      "priority": 0.883,
+      "priority": 0.898,
       "id": "rest-client",
       "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-api-mapper/master/README.md",
       "type": "other",
@@ -1046,7 +1046,7 @@
       }]
     }, {
       "id": "mysql",
-      "priority": 0.83,
+      "priority": 0.897,
       "name": "MySQL Connector",
       "type": "other",
       "image": "public/img/cloud_plugins/mysql.png",
@@ -1382,7 +1382,7 @@
         ]
       },{
         "id": "wfm_auth_service",
-        "priority": 0.50,
+        "priority": 0.896,
         "name": "WFM Auth Service",
         "type": "other",
         "image": "public/img/cloud_plugins/fh.png",
