@@ -196,18 +196,6 @@
       "category": "Samples",
       "screenshots": [],
       "appTemplates": [{
-        "id": "pushstarter_windows_app",
-        "name": "Simple Windows Push App",
-        "type": "client_native_windowsuniversal",
-        "repoUrl": "git://github.com/feedhenry-templates/pushstarter-windows-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/pushstarter-windows-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-windows8",
-        "category": "Sample Apps",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/pushstarter_app/windows-push.png"
-        }]
-      }, {
         "id": "pushstarter_xamarin_app",
         "name": "Simple Xamarin Push App",
         "type": "client_xamarin",
