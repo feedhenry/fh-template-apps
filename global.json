@@ -306,7 +306,7 @@
         "githubUrl": "https://github.com/feedhenry/appforms-project-client.git",
         "repoBranch": "refs/heads/master",
         "forcedSelection": true,
-        "category": "Forms",
+        "category": "Cordova",
         "description": "A template App for displaying Forms",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/appforms_client/1.png"
@@ -464,7 +464,7 @@
       "githubUrl": "https://github.com/feedhenry-templates/helloworld-app.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-cordova",
-      "category": "Blank Apps",
+      "category": "Cordova",
       "description": "An HTML5 Cordova App which echos your name via the Cloud",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/hello_world_hybrid_app/1.png"
@@ -507,7 +507,7 @@
       "githubUrl": "https://github.com/feedhenry-templates/blank-android-gradle.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-android",
-      "category": "Blank Apps",
+      "category": "Android",
       "screenshots": []
     }, {
       "id": "native_ios_objectivec_helloworld_app",
@@ -520,7 +520,7 @@
       "repoBranch": "refs/heads/master",
       "icon": "icon-apple",
       "selected": false,
-      "category": "Blank Apps",
+      "category": "iOS",
       "screenshots": []
     }, {
       "id": "native_ios_swift_helloworld_app",
@@ -533,7 +533,7 @@
       "repoBranch": "refs/heads/master",
       "icon": "icon-apple",
       "selected": false,
-      "category": "Blank Apps",
+      "category": "iOS",
       "screenshots": []
     }, {
       "id": "helloworld_native_android_gradle_client",
@@ -546,7 +546,7 @@
       "repoBranch": "refs/heads/master",
       "icon": "icon-android",
       "selected": false,
-      "category": "Blank Apps"
+      "category": "Android"
     }, {
       "id": "helloworld_native_windows_client",
       "name": "Helloworld Native Windows App",
@@ -558,7 +558,7 @@
       "repoBranch": "refs/heads/master",
       "icon": "icon-windows8",
       "selected": false,
-      "category": "Blank Apps"
+      "category": "Windows"
     }, {
       "id": "helloworld_native_xamarin_client",
       "name": "Helloworld Native Xamarin App",
@@ -570,7 +570,7 @@
       "repoBranch": "refs/heads/master",
       "icon": "icon-xamarin",
       "selected": false,
-      "category": "Blank Apps"
+      "category": "Xamarin"
     }, {
       "id": "native_ios_swift_blank_app",
       "name": "Native iOS (Swift) blank app",
@@ -581,7 +581,7 @@
       "githubUrl": "https://github.com/feedhenry-templates/blank-ios-swift.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-apple",
-      "category": "Blank Apps",
+      "category": "iOS",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/blank-ios-app/master/screenshots/iosproject_container.png"
       }]
@@ -595,7 +595,7 @@
       "githubUrl": "https://github.com/feedhenry-templates/blank-cordova-app.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-cordova",
-      "category": "Blank Apps",
+      "category": "Cordova",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_advanced_hybrid_client/1.png"
       }]
@@ -624,7 +624,7 @@
       "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-windows8",
-      "category": "Blank Apps",
+      "category": "Windows",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_native_windows_universal/2.png"
       }]
@@ -638,7 +638,7 @@
       "githubUrl": "https://github.com/feedhenry-templates/blank-xamarin.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-xamarin",
-      "category": "Blank Apps",
+      "category": "Xamarin",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_xamarin/1.png"
       }]
@@ -652,7 +652,7 @@
       "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-universal-sdk-blank-app.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-windows8",
-      "category": "Blank Apps",
+      "category": "Windows",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_native_windows_universal/1.png"
       }]
@@ -666,7 +666,7 @@
       "githubUrl": "https://github.com/feedhenry-training/fh-titanium-example.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-appcelerator",
-      "category": "Blank Apps",
+      "category": "Appcelerator",
       "selected": false,
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_appcelerator/1.png"
@@ -683,7 +683,7 @@
       "githubUrl": "https://github.com/feedhenry/appforms-project-client.git",
       "repoBranch": "refs/heads/master",
       "forcedSelection": true,
-      "category": "Forms",
+      "category": "Cordova",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/appforms_client/1.png"
       }]
@@ -697,7 +697,7 @@
       "githubUrl": "https://github.com/feedhenry-templates/quickstart-backbone-app.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-backbone",
-      "category": "Blank Apps",
+      "category": "Backbone",
       "selected": false,
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-backbone-app/master/screenshots/backboneproject_nocontainer.png"
@@ -713,7 +713,7 @@
       "repoBranch": "refs/heads/master",
       "icon": "icon-angular",
       "selected": false,
-      "category": "Blank Apps",
+      "category": "AngularJS",
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-angular-app/master/screenshots/angularproject_nocontainer.png"
       }]
@@ -727,7 +727,7 @@
       "githubUrl": "https://github.com/feedhenry-templates/quickstart-ionic-app.git",
       "repoBranch": "refs/heads/master",
       "icon": "icon-ionic",
-      "category": "Blank Apps",
+      "category": "Ionic",
       "selected": false,
       "screenshots": [{
         "url": "https://raw.githubusercontent.com/feedhenry-templates/quickstart-ionic-app/master/screenshots/ionicproject_nocontainer.png"
