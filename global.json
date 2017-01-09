@@ -306,7 +306,7 @@
         "githubUrl": "https://github.com/feedhenry/appforms-project-client.git",
         "repoBranch": "refs/heads/master",
         "forcedSelection": true,
-        "category": "Cordova",
+        "category": "Forms",
         "description": "A template App for displaying Forms",
         "screenshots": [{
           "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/appforms_client/1.png"
