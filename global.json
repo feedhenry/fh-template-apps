@@ -1382,7 +1382,7 @@
           "type": "cloud_nodejs",
           "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-auth.git",
           "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-auth.git",
-          "repoBranch": "refs/tags/v2.2.4",
+          "repoBranch": "refs/tags/v2.2.5",
           "category": "Custom Service",
           "forcedSelection": true
         }]
