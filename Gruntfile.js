@@ -35,7 +35,7 @@ module.exports = function (grunt) {
   grunt.registerMultiTask('format', 'Correctly format json config files', function () {
     this.filesSrc.forEach(function (filepath) {
       var globalJson = grunt.file.readJSON(filepath);
-      grunt.file.write(filepath, JSON.stringify(globalJson, null, '  '));
+      grunt.file.write(filepath, JSON.stringify(globalJson, null, '  ') + '\n');
     });
   });
 

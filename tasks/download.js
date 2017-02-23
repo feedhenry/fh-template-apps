@@ -49,7 +49,7 @@ module.exports = function(grunt) {
     } else {
       grunt.task.run('curl-dir')
     }
-    grunt.file.write(filepath, JSON.stringify(globalJson, null, '  '));
+    grunt.file.write(filepath, JSON.stringify(globalJson, null, '  ') + '\n');
   }
 
   grunt.registerMultiTask('download', 'Download static files', function () {
