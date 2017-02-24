@@ -372,45 +372,6 @@
         "repoBranch": "refs/heads/master"
       }]
     }, {
-      "id": "mobile_spec_project",
-      "priority": 0.42,
-      "name": "Mobile Spec Project",
-      "description": "A project to run automated tests for Cordova APIs and show the test results in the cloud.",
-      "type": "other",
-      "icon": "icon-wrench",
-      "category": "Developer Tools",
-      "screenshots": [{
-        "url": "https://raw.githubusercontent.com/feedhenry-templates/fh-mobile-spec-app/master/Screenshot.png"
-      }],
-      "appTemplates": [{
-        "id": "mobile_spec_project_cloud",
-        "name": "Mobile Spec Cloud App",
-        "type": "cloud_nodejs",
-        "repoUrl": "git://github.com/feedhenry-templates/fh-mobile-spec-cloud.git",
-        "githubUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-cloud.git",
-        "repoBranch": "refs/heads/master",
-        "forcedSelection": true
-      }, {
-        "id": "mobile_spec_project_client",
-        "name": "Mobile Spec Cordova App",
-        "type": "client_advanced_hybrid",
-        "repoUrl": "git://github.com/feedhenry-templates/fh-mobile-spec-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-app.git",
-        "repoBranch": "refs/heads/master"
-      }, {
-        "id": "mobile_spec_project_portal",
-        "name": "Mobile Spec Web Portal",
-        "type": "webapp_basic",
-        "repoUrl": "git://github.com/feedhenry-templates/fh-mobile-spec-portal.git",
-        "githubUrl": "https://github.com/feedhenry-templates/fh-mobile-spec-portal.git",
-        "repoBranch": "refs/heads/master",
-        "screenshots": [{
-          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/mobile_spec_project_portal/1.png"
-        }, {
-          "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/mobile_spec_project_portal/2.png"
-        }]
-      }]
-    }, {
       "id": "wfm_project",
       "priority": 0.30,
       "name": "WFM Demo Project",
