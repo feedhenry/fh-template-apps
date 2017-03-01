@@ -20,7 +20,11 @@ module.exports = function (grunt) {
         src: ['**/*', '**/.*']
       }
     },
-    clone: ["tmp/global.json", 'tmp/global-forms.json'],
+    clone: ["global.json", 'global-forms.json'],
+    tag: ["global.json", 'global-forms.json'],
+    branch: ["global.json", 'global-forms.json'],
+    push: ["global.json", 'global-forms.json'],
+    gitrefs: ["global.json", 'global-forms.json'],
     download: ["tmp/global.json", 'tmp/global-forms.json'],
     format: ["global.json", 'global-forms.json']
   });
@@ -41,5 +45,4 @@ module.exports = function (grunt) {
 
   grunt.registerTask('archive', ['clean', 'copy', 'clone', 'download', 'compress']);
   grunt.registerTask('default', ['archive']);
-
 };
