@@ -26,7 +26,6 @@ module.exports = function(grunt) {
   }
 
   grunt.registerMultiTask('tag', 'Tag all defined app repos', function () {
-    grunt.task.requires('clone');
     var tag = grunt.option('git-tag');
     this.filesSrc.forEach(function (filepath) {
       tagAppTemplates(filepath, tag);

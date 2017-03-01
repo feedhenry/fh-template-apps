@@ -27,7 +27,6 @@ module.exports = function(grunt) {
   }
 
   grunt.registerMultiTask('push', 'Push branch and tags on all defined app repos', function () {
-    grunt.task.requires('clone');
     var branch = grunt.option('git-branch') || null;
     this.filesSrc.forEach(function (filepath) {
       pushAppTemplates(filepath, branch);
