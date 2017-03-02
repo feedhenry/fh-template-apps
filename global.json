@@ -411,7 +411,7 @@
         "type": "cloud_nodejs",
         "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
         "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
-        "repoBranch": "refs/tags/v2.2.4",
+        "repoBranch": "refs/tags/v2.2.5",
         "category": "Sample Apps",
         "forcedSelection": true
       }]
