@@ -33,7 +33,7 @@
             "docs": "https://raw.githubusercontent.com/feedhenry-templates/sync-cloud/master/README.md",
             "repoUrl": "git://github.com/feedhenry-templates/sync-cloud.git",
             "githubUrl": "https://github.com/feedhenry-templates/sync-cloud.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/tags/rh-release-9.9.1-rc1",
             "icon": "icon-cloud",
             "category": "Sample Apps",
             "forcedSelection": true
@@ -44,7 +44,7 @@
             "type": "client_advanced_hybrid",
             "repoUrl": "git://github.com/feedhenry-templates/sync-cordova-app.git",
             "githubUrl": "https://github.com/feedhenry-templates/sync-cordova-app.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/tags/rh-release-9.9.1-rc1",
             "icon": "icon-cordova",
             "category": "Sample Apps",
             "screenshots": [
