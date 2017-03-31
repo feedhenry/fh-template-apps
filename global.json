@@ -1163,6 +1163,49 @@
         ]
       },
       {
+        "id": "jbpm",
+        "priority": 0.897,
+        "name": "jBPM Connector",
+        "type": "other",
+        "image": "",
+        "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-jbpm/master/README.md",
+        "category": "Business Process Management ",
+        "description": "A service for integrating with jBPM",
+        "appTemplates": [
+          {
+            "id": "jbpm-cloud",
+            "name": "jBPM Connector",
+            "type": "cloud_nodejs",
+            "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-jbpm/master/README.md",
+            "repoUrl": "git://github.com/feedhenry-templates/fh-connector-jbpm.git",
+            "githubUrl": "https://github.com/feedhenry-templates/fh-connector-jbpm.git",
+            "repoBranch": "refs/heads/master",
+            "image": "",
+            "category": "Business Process Management",
+            "forcedSelection": true,
+            "configuration": [
+              {
+                "desc": "jBPM Host",
+                "varName": "JBPM_IP"
+              },
+              {
+                "desc": "jBPM Port",
+                "varName": "JBPM_PORT"
+              },
+              {
+                "desc": "jBPM Username",
+                "varName": "JBPM_USERNAME"
+              },
+              {
+                "desc": "jBPM Password",
+                "varName": "JBPM_PASSWORD",
+                "field": "password"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "mysql",
         "priority": 0.897,
         "name": "MySQL Connector",
