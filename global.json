@@ -5,7 +5,7 @@
         "id": "bare_project",
         "priority": 0.97,
         "name": "Empty Project",
-        "description": "An empty project into which you can add apps and cloud instances",
+        "description": "An empty project. Add Client and Cloud Apps as required. You can also add MBaaS Services.",
         "type": "default",
         "icon": "icon-circle-blank",
         "category": "Blank",
@@ -20,7 +20,7 @@
         "id": "sync_project",
         "priority": 0.41,
         "name": "Sync Framework Project",
-        "description": "An example Project using our Sync framework",
+        "description": "An example project using the Sync framework.",
         "type": "default",
         "icon": "icon-refresh",
         "category": "Samples",
@@ -134,7 +134,7 @@
         "id": "saml_project",
         "priority": 0.45,
         "name": "SAML Example Project",
-        "description": "An example SAML Project to be used in conjuction with a SAML Service",
+        "description": "An example SAML project that you can use with a SAML Service.",
         "type": "default",
         "icon": "icon-lock",
         "category": "Samples",
@@ -224,7 +224,7 @@
         "id": "pushstarter_project",
         "priority": 0.96,
         "name": "Push Notification Starter",
-        "description": "An example project using the push server integrated in the Platform",
+        "description": "An example project using the Platform’s built-in push notification server.",
         "type": "default",
         "icon": "icon-plane",
         "category": "Samples",
@@ -310,7 +310,7 @@
             "name": "Cloud App",
             "type": "cloud_nodejs",
             "priority": 0.02,
-            "description": "Hello World Push Notification example",
+            "description": "Hello World Push Notification example.",
             "docs": "https://raw.githubusercontent.com/feedhenry-templates/hello-push-cloud/master/README.md",
             "repoUrl": "git://github.com/feedhenry-templates/hello-push-cloud.git",
             "githubUrl": "https://github.com/feedhenry-templates/hello-push-cloud.git",
@@ -325,7 +325,7 @@
         "id": "hello_world_project",
         "priority": 1,
         "name": "Hello World Project",
-        "description": "A FeedHenry primer project with various client instances, and a cloud instance with a single endpoint",
+        "description": "A primer project with various Client Apps, and a Cloud App with a single endpoint.",
         "type": "default",
         "icon": "icon-globe",
         "category": "Sample Projects",
@@ -353,7 +353,7 @@
         "id": "appforms_project",
         "priority": 0.98,
         "name": "Forms Project",
-        "description": "An AppForms project, for building Drag & Drop forms apps",
+        "description": "A Forms project, for developing Drag & Drop forms apps.",
         "type": "appforms",
         "icon": "icon-tasks",
         "category": "Forms",
@@ -378,7 +378,7 @@
             "repoBranch": "refs/heads/master",
             "forcedSelection": true,
             "category": "Forms",
-            "description": "A template App for displaying Forms",
+            "description": "A template Client App for creating Forms apps.",
             "screenshots": [
               {
                 "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/appforms_client/1.png"
@@ -391,7 +391,7 @@
       {
         "id": "welcome_project",
         "priority": 0.99,
-        "description": "Demonstrates many features of the FeedHenry platform. The HTML5 client uses Bootstrap 3 and Backbone.js, and the cloud portion of this app illustrates the use of MongoDB, Redis and third party APIs.",
+        "description": " A project that demonstrates many features of the Platform. The HTML5 client uses Bootstrap 3 and Backbone.js, and the Cloud App demonstrates how to use MongoDB, Redis and third party APIs.",
         "name": "Welcome Project",
         "type": "other",
         "icon": "icon-edit",
@@ -462,7 +462,7 @@
         "id": "wfm_project",
         "priority": 0.3,
         "name": "WFM Demo Project",
-        "description": "A demo project showcasing the reusable WFM modules. Note: Using openshift.feedhenry.com access via your OpenShift account is limited to using the small OpenShift Gear. Due to WFM template's non-trivial functionality you may have stability issues using the small gear. Get Started: https://github.com/feedhenry-raincatcher/raincatcher-documentation/blob/master/Getting-Started.md",
+        "description": "A demo project showcasing the reusable WFM modules. Note: Using openshift.feedhenry.com access with your OpenShift account is limited to using the small OpenShift Gear. Due to WFM template's non-trivial functionality, using the small OpenShift Gear might cause system stability issues. Get Started: https://github.com/feedhenry-raincatcher/raincatcher-documentation/blob/master/Getting-Started.md",
         "type": "default",
         "icon": "icon-globe",
         "category": "Tech Preview",
@@ -525,7 +525,7 @@
         "repoBranch": "refs/heads/master",
         "icon": "icon-cordova",
         "category": "Cordova",
-        "description": "An HTML5 Cordova App which echos your name via the Cloud",
+        "description": "An HTML5 Cordova App that prompts for your name, sends it to the Cloud App, which echoes it back to the Client App.",
         "screenshots": [
           {
             "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/hello_world_hybrid_app/1.png"
@@ -540,7 +540,7 @@
         "name": "Cloud App",
         "type": "cloud_nodejs",
         "priority": 0.02,
-        "description": "Hello World Node.js Express App which echos a username",
+        "description": "Hello World Node.js Express App that prompts for your name, sends it to the Cloud App, which echoes it back to the Client App.",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud/master/README.md",
         "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud.git",
         "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud.git",
@@ -554,7 +554,7 @@
         "name": "Cloud App - Clustered",
         "type": "cloud_nodejs",
         "priority": 0.01,
-        "description": "Clustered Hello World Node.js Express App which echos a username",
+        "description": "Clustered Hello World Node.js Express App that prompts for your name, sends it to the Cloud App, which echoes it back to the Client App.",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/helloworld-cloud-cluster/master/README.md",
         "repoUrl": "git://github.com/feedhenry-templates/helloworld-cloud-cluster.git",
         "githubUrl": "https://github.com/feedhenry-templates/helloworld-cloud-cluster.git",
@@ -568,7 +568,7 @@
         "name": "Blank Native Android Gradle App",
         "type": "client_native_android",
         "priority": 0.45,
-        "description": "Native Android Gradle Blank App which echos your name via the Cloud",
+        "description": "Native Android Gradle Blank App that prompts for your name, sends it to the Cloud App, which echoes it back to the Client App.",
         "repoUrl": "git://github.com/feedhenry-templates/blank-android-gradle.git",
         "githubUrl": "https://github.com/feedhenry-templates/blank-android-gradle.git",
         "repoBranch": "refs/heads/master",
@@ -581,7 +581,7 @@
         "name": "Native iOS (Objective-C) hello world app",
         "type": "client_native_ios",
         "priority": 0.445,
-        "description": "Native iOS (Objective-C) hello world app which echos your name via the Cloud",
+        "description": "Native iOS (Objective-C) hello world app that prompts for your name, sends it to the Cloud App, which echoes it back to the Client App.",
         "repoUrl": "git://github.com/feedhenry-templates/helloworld-ios.git",
         "githubUrl": "https://github.com/feedhenry-templates/helloworld-ios.git",
         "repoBranch": "refs/heads/master",
@@ -595,7 +595,7 @@
         "name": "Native iOS (Swift) hello world app",
         "type": "client_native_ios",
         "priority": 0.445,
-        "description": "Native iOS (Swift) hello world app which echos your name via the Cloud",
+        "description": "Native iOS (Swift) hello world app that prompts for your name, sends it to the Cloud App, which echoes it back to the Client App.",
         "repoUrl": "git://github.com/feedhenry-templates/helloworld-ios-swift.git",
         "githubUrl": "https://github.com/feedhenry-templates/helloworld-ios-swift.git",
         "repoBranch": "refs/heads/master",
@@ -609,7 +609,7 @@
         "name": "Helloworld Native Android Gradle App",
         "type": "client_native_android",
         "priority": 0.445,
-        "description": "Native Android Hello World App using Gradle which echos your name via the Cloud",
+        "description": "Native Android Hello World App using Gradle that prompts for your name, sends it to the Cloud App, which echoes it back to the Client App.",
         "repoUrl": "git://github.com/feedhenry-templates/helloworld-android-gradle.git",
         "githubUrl": "https://github.com/feedhenry-templates/helloworld-android-gradle.git",
         "repoBranch": "refs/heads/master",
@@ -622,7 +622,7 @@
         "name": "Helloworld Native Windows App",
         "type": "client_native_windowsuniversal",
         "priority": 0.445,
-        "description": "Native Windows Hello World App which echos your name via the Cloud",
+        "description": "Native Windows Hello World App that prompts for your name, sends it to the Cloud App, which echoes it back to the Client App.",
         "repoUrl": "git://github.com/feedhenry-templates/helloworld-windows.git",
         "githubUrl": "https://github.com/feedhenry-templates/helloworld-windows.git",
         "repoBranch": "refs/heads/master",
@@ -635,7 +635,7 @@
         "name": "Helloworld Native Xamarin App",
         "type": "client_xamarin",
         "priority": 0.445,
-        "description": "Native Windows Hello World App which echos your name via the Cloud",
+        "description": "Native Windows Hello World App that prompts for your name, sends it to the Cloud App, which echoes it back to the Client App.",
         "repoUrl": "git://github.com/feedhenry-templates/helloworld-xamarin.git",
         "githubUrl": "https://github.com/feedhenry-templates/helloworld-xamarin.git",
         "repoBranch": "refs/heads/master",
@@ -665,7 +665,7 @@
         "name": "Cordova App",
         "type": "client_advanced_hybrid",
         "priority": 0.5,
-        "description": "Cordova App App which echos your name via the Cloud",
+        "description": "Cordova App App that prompts for your name, sends it to the Cloud App, which echoes it back to the Client App.",
         "repoUrl": "git://github.com/feedhenry-templates/blank-cordova-app.git",
         "githubUrl": "https://github.com/feedhenry-templates/blank-cordova-app.git",
         "repoBranch": "refs/heads/master",
@@ -766,7 +766,7 @@
       },
       {
         "id": "appforms_client",
-        "description": "A template App for displaying Forms",
+        "description": "A template App for developing Forms",
         "name": "Cordova Forms App",
         "icon": "icon-check",
         "type": "client_advanced_hybrid",
@@ -847,7 +847,7 @@
         "type": "other",
         "image": "public/img/cloud_plugins/fh.png",
         "category": "Custom Service",
-        "description": "This is a blank FeedHenry Service for you to customise",
+        "description": "A blank FeedHenry Service. Customise this to your requirements.",
         "appTemplates": [
           "hello_world_mbaas_instance"
         ]
@@ -885,7 +885,7 @@
         "image": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/files/icon.png",
         "category": "Authentication",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/saml-service/master/README.md",
-        "description": "Sample SAML Authentication service for connecting to your IdP",
+        "description": "Sample SAML Authentication service for connecting to your IdP.",
         "appTemplates": [
           {
             "id": "saml-service",
@@ -934,7 +934,7 @@
         "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-health-monitor/master/files/icon.png",
         "category": "Monitoring",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-health-monitor/master/README.md",
-        "description": "A service for monitoring the status of connectivity from Feed Henry to your remote end-points.",
+        "description": "A service for monitoring the status of connectivity to your remote end-points.",
         "appTemplates": [
           {
             "id": "fh-status-monitor",
@@ -959,7 +959,7 @@
         "type": "other",
         "image": "public/img/cloud_plugins/fh.png",
         "category": "Authentication",
-        "description": "Authenticate users via LDAP",
+        "description": "Authenticate users using LDAP",
         "appTemplates": [
           {
             "id": "ldap-connector-cloud",
@@ -999,7 +999,7 @@
         "type": "other",
         "image": "https://raw.githubusercontent.com/feedhenry-templates/barcode-reader-service/master/barcode.jpg",
         "category": "SaaS Connectors",
-        "description": "Looks up a barcode by UPC id",
+        "description": "Retrieves information about a barcode using the UPC id.",
         "appTemplates": [
           {
             "id": "barcode-reader-service",
@@ -1029,7 +1029,7 @@
         "type": "other",
         "image": "public/img/cloud_plugins/fh.png",
         "category": "Platform Service",
-        "description": "Explore APIs which may be protected by a firewall, or only accessible to the cloud via VPN. Supports saving requests, and generates useful code snippets. (Tech Preview)",
+        "description": "A service that allows you explore APIs which may be protected by a firewall, or only accessible to the cloud via VPN. Supports saving requests, and generates useful code snippets. (Tech Preview)",
         "appTemplates": [
           {
             "id": "api-mapper-service",
@@ -1054,7 +1054,7 @@
         "image": "public/img/cloud_plugins/salesforce.png",
         "category": "SaaS Connectors",
         "docs": "https://raw.github.com/feedhenry-templates/fh-connector-salesforce-cloud/master/README.md",
-        "description": "A service for integrating with Salesforce",
+        "description": "A service for integrating with Salesforce.",
         "appTemplates": [
           {
             "id": "salesforce-cloud",
@@ -1095,7 +1095,7 @@
         "image": "public/img/cloud_plugins/twilio.png",
         "docs": "https://raw.github.com/feedhenry-templates/fh-connector-twilio-cloud/master/README.md",
         "category": "SaaS Connectors",
-        "description": "A service for integrating with Twilio",
+        "description": "A service for integrating with Twilio.",
         "appTemplates": [
           {
             "id": "twilio-cloud",
@@ -1133,7 +1133,7 @@
         "image": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/logo.png",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-ibeacon-manager/master/README.md",
         "category": "Custom Service",
-        "description": "Management API for iBeacons within the platform",
+        "description": "Management API for iBeacons.",
         "appTemplates": [
           {
             "id": "ibeacon-cloud",
@@ -1163,7 +1163,7 @@
         "image": "public/img/cloud_plugins/sendgrid.png",
         "docs": "https://raw.github.com/feedhenry-templates/fh-connector-sendgrid-cloud/master/README.md",
         "category": "SaaS Connectors",
-        "description": "A service for integrating with Sendgrid",
+        "description": "A service for integrating with Sendgrid.",
         "appTemplates": [
           {
             "id": "sendgrid-cloud",
@@ -1206,7 +1206,7 @@
         "image": "public/img/cloud_plugins/mysql.png",
         "docs": "https://raw.github.com/feedhenry-templates/fh-connector-mysql-cloud/master/README.md",
         "category": "Database",
-        "description": "A service for integrating with MySQL",
+        "description": "A service for integrating with MySQL.",
         "appTemplates": [
           {
             "id": "mysql-cloud",
@@ -1245,7 +1245,7 @@
         "image": "public/img/cloud_plugins/mongodb.png",
         "category": "Remote Database",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-mongodb-cloud/master/README.md",
-        "description": "A service for integrating with MongoDB",
+        "description": "A service for integrating with MongoDB.",
         "appTemplates": [
           {
             "id": "mongodb-cloud",
@@ -1288,7 +1288,7 @@
         "image": "public/img/cloud_plugins/aws_ses.png",
         "category": "Amazon Web Services",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-amazon-ses-cloud/master/README.md",
-        "description": "A service for integrating with Amazon SES",
+        "description": "A service for integrating with Amazon SES.",
         "appTemplates": [
           {
             "id": "amazon-ses-cloud",
@@ -1322,7 +1322,7 @@
         "image": "public/img/cloud_plugins/aws_sqs.png",
         "category": "Amazon Web Services",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-amazon-sqs-cloud/master/README.md",
-        "description": "A service for integrating with Amazon SQS",
+        "description": "A service for integrating with Amazon SQS.",
         "appTemplates": [
           {
             "id": "amazon-sqs-cloud",
@@ -1356,7 +1356,7 @@
         "image": "public/img/cloud_plugins/google.png",
         "category": "SaaS Connectors",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-google-cloud/master/README.md",
-        "description": "A service for integrating with Google",
+        "description": "A service for integrating with Google.",
         "appTemplates": [
           {
             "id": "google-cloud",
@@ -1381,7 +1381,7 @@
         "image": "public/img/cloud_plugins/netweaver.png",
         "category": "SaaS Connectors",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-sap-netweaver-cloud/master/README.md",
-        "description": "A service for integrating with SAP Netweaver",
+        "description": "A service for integrating with SAP Netweaver.",
         "appTemplates": [
           {
             "id": "sap_netweaver_cloud",
@@ -1432,7 +1432,7 @@
         "image": "public/img/cloud_plugins/paypal.png",
         "category": "eCommerce",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-paypal-cloud/master/README.md",
-        "description": "A service for integrating with Paypal",
+        "description": "A service for integrating with Paypal.",
         "appTemplates": [
           {
             "id": "paypal_cloud",
@@ -1471,7 +1471,7 @@
         "image": "public/img/cloud_plugins/sharepoint.png",
         "category": "SaaS Connectors",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-connector-sharepoint-cloud/master/README.md",
-        "description": "A service for integrating with Sharepoint",
+        "description": "A service for integrating with Sharepoint.",
         "appTemplates": [
           {
             "id": "sharepoint_cloud",
@@ -1527,7 +1527,7 @@
         "image": "public/img/cloud_plugins/fh.png",
         "category": "Data Sources",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/appforms-datasources-static/master/README.md",
-        "description": "A service for using a static file for serving Data Source data.",
+        "description": "A service that allows you use a static file for serving Data Source data.",
         "appTemplates": [
           {
             "id": "static_datasource_cloud",
@@ -1551,7 +1551,7 @@
         "image": "public/img/cloud_plugins/fh.png",
         "category": "Data Sources",
         "docs": "https://raw.githubusercontent.com/feedhenry-templates/appforms-datasources-mongodb/master/README.md",
-        "description": "A service for integrating with Data Sources backed by MongoDB and Data Browser",
+        "description": "A service for integrating with Data Sources backed by MongoDB and Data Browser.",
         "appTemplates": [
           {
             "id": "mongodb_datasource_cloud",
