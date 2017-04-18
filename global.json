@@ -338,7 +338,6 @@
           "hello_world_ionic_hybrid_app",
           "hello_world_angular_hybrid_app",
           "hello_world_backbone_hybrid_app",
-          "blank_appcelerator",
           "helloworld_native_windows_client",
           "native_ios_swift_helloworld_app",
           "native_ios_objectivec_helloworld_app",
@@ -743,24 +742,6 @@
         "screenshots": [
           {
             "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_native_windows_universal/1.png"
-          }
-        ]
-      },
-      {
-        "id": "blank_appcelerator",
-        "name": "Blank Appcelerator App",
-        "type": "client_appcelerator",
-        "description": "Hello World Appcelerator App",
-        "priority": 0.04,
-        "repoUrl": "git://github.com/feedhenry-training/fh-titanium-example.git",
-        "githubUrl": "https://github.com/feedhenry-training/fh-titanium-example.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-appcelerator",
-        "category": "Appcelerator",
-        "selected": false,
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_appcelerator/1.png"
           }
         ]
       },
