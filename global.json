@@ -477,7 +477,7 @@
             "type": "client_advanced_hybrid",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-mobile.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-mobile.git",
-            "repoBranch": "refs/tags/v2.8.0",
+            "repoBranch": "refs/tags/v2.9.0",
             "icon": "icon-cordova",
             "category": "Sample Apps",
             "screenshots": [
@@ -492,7 +492,7 @@
             "type": "webapp_advanced",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-portal.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-portal.git",
-            "repoBranch": "refs/tags/v2.6.2",
+            "repoBranch": "refs/tags/v2.7.1",
             "category": "Sample Apps",
             "screenshots": [
               {
@@ -506,7 +506,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
-            "repoBranch": "refs/tags/v2.7.3",
+            "repoBranch": "refs/tags/v3.0.0",
             "category": "Sample Apps",
             "forcedSelection": true
           }
