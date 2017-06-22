@@ -660,23 +660,6 @@
         ]
       },
       {
-        "id": "blank_advanced_hybrid_client",
-        "name": "Cordova App",
-        "type": "client_advanced_hybrid",
-        "priority": 0.5,
-        "description": "Cordova App App which echos your name via the Cloud",
-        "repoUrl": "git://github.com/feedhenry-templates/blank-cordova-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/blank-cordova-app.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-cordova",
-        "category": "Cordova",
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_advanced_hybrid_client/1.png"
-          }
-        ]
-      },
-      {
         "id": "blank_advanced_webapp",
         "name": "Blank Web App",
         "type": "webapp_advanced",
