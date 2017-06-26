@@ -1,7 +1,7 @@
-template-config
+fh-template-apps
 ===============
 
-Repo for configuration of project, app, form, theme and connector templates.
+Repo for configuration of project, app, form, theme and service templates.
 
 ### global.json
 
