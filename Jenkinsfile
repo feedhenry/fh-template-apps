@@ -1,7 +1,7 @@
 //https://github.com/feedhenry/fh-pipeline-library
 import org.feedhenry.Utils
 
-fhBuildNode {
+fhBuildNode(['label': 'nodejs']) {
 
     def utils = new Utils()
 
