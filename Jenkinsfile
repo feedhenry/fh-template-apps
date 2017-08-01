@@ -1,4 +1,8 @@
-//https://github.com/feedhenry/fh-pipeline-library
+#!groovy
+
+// https://github.com/feedhenry/fh-pipeline-library
+@Library('fh-pipeline-library') _
+
 import org.feedhenry.Utils
 
 fhBuildNode(['label': 'nodejs']) {
