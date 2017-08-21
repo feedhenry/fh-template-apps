@@ -492,7 +492,7 @@
             "type": "webapp_advanced",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-portal.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-portal.git",
-            "repoBranch": "refs/tags/v2.6.2",
+            "repoBranch": "refs/branch/rhmap",
             "category": "Sample Apps",
             "screenshots": [
               {
@@ -506,7 +506,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
-            "repoBranch": "refs/tags/v2.7.3",
+            "repoBranch": "refs/branch/rhmap",
             "category": "Sample Apps",
             "forcedSelection": true
           }
