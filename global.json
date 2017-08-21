@@ -492,7 +492,7 @@
             "type": "webapp_advanced",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-portal.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-portal.git",
-            "repoBranch": "refs/tags/release-3.18.2-rc1",
+            "repoBranch": "refs/branch/FH-v3.18",
             "category": "Sample Apps",
             "screenshots": [
               {
