@@ -477,7 +477,7 @@
             "type": "client_advanced_hybrid",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-mobile.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-mobile.git",
-            "repoBranch": "refs/tags/v2.8.0",
+            "repoBranch": "refs/branch/rhmap",
             "icon": "icon-cordova",
             "category": "Sample Apps",
             "screenshots": [
