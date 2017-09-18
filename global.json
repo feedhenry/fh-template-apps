@@ -460,8 +460,8 @@
       {
         "id": "wfm_project",
         "priority": 0.3,
-        "name": "WFM Demo Project",
-        "description": "A demo project showcasing the reusable WFM modules. Note: Using openshift.feedhenry.com access via your OpenShift account is limited to using the small OpenShift Gear. Due to WFM template's non-trivial functionality you may have stability issues using the small gear. Get Started: https://github.com/feedhenry-raincatcher/raincatcher-documentation/blob/master/Getting-Started.md",
+        "name": "WFM Project",
+        "description": "FeedHenry WFM project",
         "type": "default",
         "icon": "icon-globe",
         "category": "Tech Preview",
@@ -475,11 +475,11 @@
             "id": "wfm_mobile_demo_app",
             "name": "WFM Demo Mobile App",
             "type": "client_advanced_hybrid",
-            "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-mobile.git",
-            "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-mobile.git",
-            "repoBranch": "refs/heads/rhmap",
+            "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-mobile.git",
+            "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-mobile.git",
+            "repoBranch": "refs/heads/master",
             "icon": "icon-cordova",
-            "category": "Sample Apps",
+            "category": "WFM Apps",
             "screenshots": [
               {
                 "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-mobile.png"
@@ -490,10 +490,10 @@
             "id": "wfm_portal_demo_app",
             "name": "WFM Demo Portal App",
             "type": "webapp_advanced",
-            "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-portal.git",
-            "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-portal.git",
-            "repoBranch": "refs/heads/rhmap",
-            "category": "Sample Apps",
+            "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-portal.git",
+            "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-portal.git",
+            "repoBranch": "refs/heads/master",
+            "category": "WFM Apps",
             "screenshots": [
               {
                 "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-portal.png"
@@ -504,10 +504,10 @@
             "id": "wfm_cloud_demo_app",
             "name": "WFM Demo Cloud App",
             "type": "cloud_nodejs",
-            "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
-            "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-cloud.git",
-            "repoBranch": "refs/heads/rhmap",
-            "category": "Sample Apps",
+            "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-server.git",
+            "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-server.git",
+            "repoBranch": "refs/heads/master",
+            "category": "WFM Apps",
             "forcedSelection": true
           }
         ]
@@ -1551,27 +1551,6 @@
             "repoBranch": "refs/heads/master",
             "image": "public/img/cloud_plugins/fh.png",
             "category": "Data Sources",
-            "forcedSelection": true
-          }
-        ]
-      },
-      {
-        "id": "wfm_auth_service",
-        "priority": 0.896,
-        "name": "WFM Auth Service",
-        "type": "other",
-        "image": "public/img/cloud_plugins/fh.png",
-        "category": "Authentication",
-        "description": "A service providing authentication for WFM. (Tech Preview)",
-        "appTemplates": [
-          {
-            "id": "wfm_auth_service_app",
-            "name": "WFM Demo Custom Auth mBaaS Service",
-            "type": "cloud_nodejs",
-            "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-demo-auth.git",
-            "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-demo-auth.git",
-            "repoBranch": "refs/heads/rhmap",
-            "category": "Custom Service",
             "forcedSelection": true
           }
         ]
