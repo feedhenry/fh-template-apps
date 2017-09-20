@@ -3,6 +3,10 @@
 // https://github.com/feedhenry/fh-pipeline-library
 @Library('fh-pipeline-library') _
 
+stage('Trust') {
+    enforceTrustedApproval()
+}
+
 import org.feedhenry.Utils
 
 fhBuildNode(['label': 'nodejs']) {
