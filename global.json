@@ -477,7 +477,7 @@
             "type": "client_advanced_hybrid",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-mobile.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-mobile.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/heads/release-0.0.5",
             "icon": "icon-cordova",
             "category": "WFM Apps",
             "screenshots": [
@@ -492,7 +492,7 @@
             "type": "webapp_advanced",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-portal.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-portal.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/heads/release-0.0.5",
             "category": "WFM Apps",
             "screenshots": [
               {
@@ -506,7 +506,7 @@
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-server.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-server.git",
-            "repoBranch": "refs/heads/master",
+            "repoBranch": "refs/heads/release-0.0.5",
             "category": "WFM Apps",
             "forcedSelection": true
           }
