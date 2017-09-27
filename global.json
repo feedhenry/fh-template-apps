@@ -472,8 +472,8 @@
         ],
         "appTemplates": [
           {
-            "id": "wfm_mobile_demo_app",
-            "name": "WFM Demo Mobile App",
+            "id": "wfm_mobile_app",
+            "name": "WFM Mobile App",
             "type": "client_advanced_hybrid",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-mobile.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-mobile.git",
@@ -487,8 +487,8 @@
             ]
           },
           {
-            "id": "wfm_portal_demo_app",
-            "name": "WFM Demo Portal App",
+            "id": "wfm_portal_app",
+            "name": "WFM Portal App",
             "type": "webapp_advanced",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-portal.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-portal.git",
@@ -501,8 +501,8 @@
             ]
           },
           {
-            "id": "wfm_cloud_demo_app",
-            "name": "WFM Demo Cloud App",
+            "id": "wfm_cloud_app",
+            "name": "WFM Cloud App",
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-server.git",
             "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-server.git",
