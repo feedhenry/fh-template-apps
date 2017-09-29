@@ -9,7 +9,7 @@ stage('Trust') {
 
 import org.feedhenry.Utils
 
-fhBuildNode(['label': 'nodejs']) {
+fhBuildNode(['label': 'nodejs-ubuntu']) {
 
     def utils = new Utils()
 

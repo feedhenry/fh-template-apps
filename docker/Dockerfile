@@ -1,4 +1,4 @@
-FROM rhel7/rhel
+FROM rhel7/rhel:latest
 
 LABEL org.feedhenry.fh-template-apps-version="5.0.13" \
       org.feedhenry.fh-template-apps-build-number="747"
