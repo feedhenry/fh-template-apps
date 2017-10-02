@@ -461,7 +461,7 @@
         "id": "wfm_project",
         "priority": 0.3,
         "name": "WFM Project",
-        "description": "FeedHenry WFM project",
+        "description": "FeedHenry WFM project. Please follow WFM documentation before creating new project.",
         "type": "default",
         "icon": "icon-globe",
         "category": "Tech Preview",
