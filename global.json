@@ -464,7 +464,7 @@
         "description": "FeedHenry WFM project. Please follow WFM documentation before creating new project.",
         "type": "default",
         "icon": "icon-globe",
-        "category": "Tech Preview",
+        "category": "Samples",
         "screenshots": [
           {
             "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-mobile.png"
