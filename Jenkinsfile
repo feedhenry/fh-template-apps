@@ -9,7 +9,7 @@ stage('Trust') {
 
 import org.feedhenry.Utils
 
-fhBuildNode(['label': 'nodejs']) {
+fhBuildNode(['label': 'nodejs-ubuntu']) {
 
     def utils = new Utils()
 
@@ -32,4 +32,18 @@ fhBuildNode(['label': 'nodejs']) {
             distCmd = 'default'
         }
     }
+
+    stage('Build Image') {
+        final String version = getBaseVersionFromPackageJson()
+        final String tag = "${version}-${env.BUILD_NUMBER}"
+        final Map params = [
+                fromDir: './docker',
+                buildConfigName: 'fh-template-apps',
+                imageRepoSecret: 'dockerhub',
+                outputImage: "docker.io/rhmap/feedhenry-sdks:${tag}"
+        ]
+        sh 'cp dist/fh-template-apps-*.tar.gz docker/'
+        buildWithDockerStrategy params
+    }
+
 }

@@ -1,0 +1,19 @@
+#!/usr/bin/bash
+
+set -o errexit
+set -o nounset
+set -o pipefail
+
+if [[ -z "${FEEDHENRY_SDKS_DIR}" ]] || [[ ! -d ${FEEDHENRY_SDKS_DIR} ]]; then
+    echo "FEEDHENRY_SDKS_DIR is not a valid directory name"
+    exit 1
+fi
+
+cd ${FEEDHENRY_SDKS_DIR}
+
+# This one extracts multiple dirs, so we do it inside a new top-level dir
+mkdir -p fh-template-apps
+tar xfz /fh-template-apps-*.tar.gz -C fh-template-apps
+
+# This keeps the container running for the rest of the Pod lifetime
+/usr/bin/sleep infinity
