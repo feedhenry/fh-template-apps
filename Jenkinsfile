@@ -11,6 +11,11 @@ import org.feedhenry.Utils
 
 fhBuildNode(['label': 'nodejs']) {
 
+    final String COMPONENT = 'fh-template-apps'
+    final String VERSION = getBaseVersionFromPackageJson()
+    final String BUILD = env.BUILD_NUMBER
+    final String CHANGE_URL = env.CHANGE_URL
+
     def utils = new Utils()
 
     stage('Install Dependencies') {
@@ -28,8 +33,24 @@ fhBuildNode(['label': 'nodejs']) {
 
     stage('Build') {
         gruntBuild {
-            name = 'fh-template-apps'
+            name = COMPONENT
             distCmd = 'default'
         }
+        s3PublishArtifacts([
+                bucket: "fh-wendy-builds/${COMPONENT}/${BUILD}",
+                directory: "./dist"
+        ])
     }
+
+    stage('Platform Update') {
+        final Map updateParams = [
+                componentName: COMPONENT,
+                componentVersion: VERSION,
+                componentBuild: BUILD,
+                changeUrl: CHANGE_URL
+        ]
+        fhcapComponentUpdate(updateParams)
+        //ToDo This will also need to do something yet TBD for rhmap4
+    }
+
 }
