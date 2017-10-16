@@ -456,61 +456,6 @@
             "repoBranch": "refs/heads/master"
           }
         ]
-      },
-      {
-        "id": "wfm_project",
-        "priority": 0.3,
-        "name": "WFM Project",
-        "description": "FeedHenry WFM project. Please follow WFM documentation before creating new project.",
-        "type": "default",
-        "icon": "icon-globe",
-        "category": "Samples",
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-mobile.png"
-          }
-        ],
-        "appTemplates": [
-          {
-            "id": "wfm_mobile_app",
-            "name": "WFM Mobile App",
-            "type": "client_advanced_hybrid",
-            "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-mobile.git",
-            "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-mobile.git",
-            "repoBranch": "refs/heads/master",
-            "icon": "icon-cordova",
-            "category": "WFM Apps",
-            "screenshots": [
-              {
-                "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-mobile.png"
-              }
-            ]
-          },
-          {
-            "id": "wfm_portal_app",
-            "name": "WFM Portal App",
-            "type": "webapp_advanced",
-            "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-portal.git",
-            "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-portal.git",
-            "repoBranch": "refs/heads/master",
-            "category": "WFM Apps",
-            "screenshots": [
-              {
-                "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/wfm_project/wfm-portal.png"
-              }
-            ]
-          },
-          {
-            "id": "wfm_cloud_app",
-            "name": "WFM Cloud App",
-            "type": "cloud_nodejs",
-            "repoUrl": "git://github.com/feedhenry-raincatcher/raincatcher-server.git",
-            "githubUrl": "https://github.com/feedhenry-raincatcher/raincatcher-server.git",
-            "repoBranch": "refs/heads/master",
-            "category": "WFM Apps",
-            "forcedSelection": true
-          }
-        ]
       }
     ],
     "appTemplates": [
