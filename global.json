@@ -99,21 +99,6 @@
             ]
           },
           {
-            "id": "sync_windows_app",
-            "name": "Sync Windows App",
-            "type": "client_native_windowsuniversal",
-            "repoUrl": "git://github.com/feedhenry-templates/sync-windows-app.git",
-            "githubUrl": "https://github.com/feedhenry-templates/sync-windows-app.git",
-            "repoBranch": "refs/heads/FH-v3.20",
-            "icon": "icon-windows8",
-            "category": "Sample Apps",
-            "screenshots": [
-              {
-                "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/sync_app/windows-sync.png"
-              }
-            ]
-          },
-          {
             "id": "sync_xamarin_app",
             "name": "Sync Xamarin App",
             "type": "client_xamarin",
@@ -193,17 +178,6 @@
             "githubUrl": "https://github.com/feedhenry-templates/saml-ios-swift.git",
             "repoBranch": "refs/heads/FH-v3.20",
             "icon": "icon-apple",
-            "category": "Sample Apps",
-            "screenshots": []
-          },
-          {
-            "id": "saml_windows",
-            "name": "SAML Windows",
-            "type": "client_native_windowsuniversal",
-            "repoUrl": "git://github.com/feedhenry-templates/saml-windows-app.git",
-            "githubUrl": "https://github.com/feedhenry-templates/saml-windows-app.git",
-            "repoBranch": "refs/heads/FH-v3.20",
-            "icon": "icon-windows8",
             "category": "Sample Apps",
             "screenshots": []
           },
@@ -338,7 +312,6 @@
           "hello_world_ionic_hybrid_app",
           "hello_world_angular_hybrid_app",
           "hello_world_backbone_hybrid_app",
-          "helloworld_native_windows_client",
           "native_ios_swift_helloworld_app",
           "native_ios_objectivec_helloworld_app",
           "helloworld_native_xamarin_client",
@@ -429,14 +402,6 @@
             "type": "client_native_android",
             "repoUrl": "git://github.com/feedhenry-templates/welcome-android-gradle.git",
             "githubUrl": "https://github.com/feedhenry-templates/welcome-android-gradle.git",
-            "repoBranch": "refs/heads/FH-v3.20"
-          },
-          {
-            "id": "welcome_project_windows",
-            "name": "Welcome Project-windows",
-            "type": "client_native_windowsuniversal",
-            "repoUrl": "git://github.com/feedhenry-templates/welcome-windows.git",
-            "githubUrl": "https://github.com/feedhenry-templates/welcome-windows.git",
             "repoBranch": "refs/heads/FH-v3.20"
           },
           {
@@ -562,19 +527,6 @@
         "category": "Android"
       },
       {
-        "id": "helloworld_native_windows_client",
-        "name": "Helloworld Native Windows App",
-        "type": "client_native_windowsuniversal",
-        "priority": 0.445,
-        "description": "Native Windows Hello World App which echos your name via the Cloud",
-        "repoUrl": "git://github.com/feedhenry-templates/helloworld-windows.git",
-        "githubUrl": "https://github.com/feedhenry-templates/helloworld-windows.git",
-        "repoBranch": "refs/heads/FH-v3.20",
-        "icon": "icon-windows8",
-        "selected": false,
-        "category": "Windows"
-      },
-      {
         "id": "helloworld_native_xamarin_client",
         "name": "Helloworld Native Xamarin App",
         "type": "client_xamarin",
@@ -623,23 +575,6 @@
         ]
       },
       {
-        "id": "blank_native_windows10",
-        "name": "Blank Native Universal Windows 10 App",
-        "type": "client_native_windowsuniversal",
-        "priority": 0.44,
-        "description": "Blank Hello World Web App",
-        "repoUrl": "git://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-window-10-blank-app.git",
-        "repoBranch": "refs/heads/FH-v3.20",
-        "icon": "icon-windows8",
-        "category": "Windows",
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_native_windows_universal/2.png"
-          }
-        ]
-      },
-      {
         "id": "blank_xamarin",
         "name": "Blank Xamarin App",
         "type": "client_xamarin",
@@ -653,23 +588,6 @@
         "screenshots": [
           {
             "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_xamarin/1.png"
-          }
-        ]
-      },
-      {
-        "id": "blank_vs_universal",
-        "name": "Blank Visual Studio C# Universal App",
-        "type": "client_native_windowsuniversal",
-        "description": "Blank Universal C# Hello world app",
-        "priority": 0.03,
-        "repoUrl": "git://github.com/feedhenry-templates/fh-csharp-universal-sdk-blank-app.git",
-        "githubUrl": "https://github.com/feedhenry-templates/fh-csharp-universal-sdk-blank-app.git",
-        "repoBranch": "refs/heads/FH-v3.20",
-        "icon": "icon-windows8",
-        "category": "Windows",
-        "screenshots": [
-          {
-            "url": "https://raw.githubusercontent.com/feedhenry/fh-template-apps/master/screenshots/apps/blank_native_windows_universal/1.png"
           }
         ]
       },
