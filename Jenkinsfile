@@ -36,6 +36,10 @@ fhBuildNode(['label': 'nodejs']) {
             name = COMPONENT
             distCmd = 'default'
         }
+        s3PublishArtifacts([
+            bucket: "fh-wendy-builds/${COMPONENT}/${BUILD}",
+            directory: "./dist"
+        ])
     }
 
     stage('Platform Update') {
