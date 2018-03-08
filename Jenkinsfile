@@ -49,7 +49,7 @@ fhBuildNode(['label': 'nodejs']) {
                 componentBuild: BUILD,
                 changeUrl: CHANGE_URL
         ]
-        //ToDo This will also need to do something yet TBD for rhmap4
+        feedhenrySdksContainerComponentUpdate(updateParams)
     }
 
 }
