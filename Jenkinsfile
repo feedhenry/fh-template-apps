@@ -37,8 +37,8 @@ fhBuildNode(['label': 'nodejs']) {
             distCmd = 'default'
         }
         s3PublishArtifacts([
-                bucket: "fh-wendy-builds/${COMPONENT}/${BUILD}",
-                directory: "./dist"
+            bucket: "fh-wendy-builds/${COMPONENT}/${BUILD}",
+            directory: "./dist"
         ])
     }
 
@@ -49,8 +49,7 @@ fhBuildNode(['label': 'nodejs']) {
                 componentBuild: BUILD,
                 changeUrl: CHANGE_URL
         ]
-        fhcapComponentUpdate(updateParams)
-        //ToDo This will also need to do something yet TBD for rhmap4
+        feedhenrySdksContainerComponentUpdate(updateParams)
     }
 
 }
