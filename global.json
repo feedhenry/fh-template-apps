@@ -837,7 +837,7 @@
             "name": "API Mapper",
             "type": "cloud_nodejs",
             "repoUrl": "git://github.com/feedhenry-templates/fh-api-mapper.git",
-            "githubUrl": "git://github.com/feedhenry-templates/fh-api-mapper.git",
+            "githubUrl": "https://github.com/feedhenry-templates/fh-api-mapper.git",
             "repoBranch": "refs/heads/master",
             "image": "public/img/cloud_plugins/fh.png",
             "docs": "https://raw.githubusercontent.com/feedhenry-templates/fh-api-mapper/master/README.md",
