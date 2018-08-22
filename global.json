@@ -112,19 +112,6 @@
         "forcedSelection": true
       },
       {
-        "id": "blank_native_android_gradle_client",
-        "name": "Blank Native Android Gradle App",
-        "type": "client_native_android",
-        "priority": 0.45,
-        "description": "Native Android Gradle Blank App which echos your name via the Cloud",
-        "repoUrl": "git://github.com/feedhenry-templates/blank-android-gradle.git",
-        "githubUrl": "https://github.com/feedhenry-templates/blank-android-gradle.git",
-        "repoBranch": "refs/heads/master",
-        "icon": "icon-android",
-        "category": "Android",
-        "screenshots": []
-      },
-      {
         "id": "native_ios_swift_helloworld_app",
         "name": "Native iOS (Swift) hello world app",
         "type": "client_native_ios",
