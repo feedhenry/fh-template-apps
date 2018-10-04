@@ -9,7 +9,7 @@ stage('Trust') {
 
 import org.feedhenry.Utils
 
-fhBuildNode(['label': 'nodejs']) {
+fhBuildNode(['label': 'nodejs6']) {
 
     final String COMPONENT = 'fh-template-apps'
     final String VERSION = getBaseVersionFromPackageJson()
