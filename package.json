@@ -1,6 +1,6 @@
 {
   "name": "template-config",
-  "version": "7.0.2",
+  "version": "7.0.3",
   "description": "FeedHenry Template Applications",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,7 +22,7 @@
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-compress": "^0.13.0",
+    "grunt-contrib-compress": "^1.4.3",
     "grunt-contrib-copy": "^0.8.0",
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.4.1",
